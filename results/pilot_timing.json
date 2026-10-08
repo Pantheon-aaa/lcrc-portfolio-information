@@ -1,0 +1,7 @@
+{
+  "instances": 10,
+  "median_seconds": 0.4338494999997238,
+  "p95_seconds": 0.5825924850003957,
+  "process_peak_working_set_bytes": 170516480,
+  "note": "Whole Python process, including imports and all seven methods; one BLAS thread."
+}

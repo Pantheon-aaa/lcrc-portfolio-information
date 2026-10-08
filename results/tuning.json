@@ -1,0 +1,18 @@
+{
+  "em_shrinkage": 1.0,
+  "risk_unit": 0.03857531199973446,
+  "validation_costs": {
+    "0": 0.05090515356060615,
+    "0.1": 0.0462069704869346,
+    "0.25": 0.03978025362598248,
+    "0.5": 0.03328670000023356,
+    "0.75": 0.030086624032526266,
+    "1.0": 0.02871521825082443
+  },
+  "train_instances": 24,
+  "validation_instances": 24,
+  "seed": 20271008,
+  "future_label_rows": 21,
+  "label_mean": "known zero, uncentered second moment",
+  "source": "independent development instances"
+}

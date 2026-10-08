@@ -1,0 +1,45 @@
+{
+  "qp_bounds": {
+    "passed": true,
+    "max_gap": 3.308312916996456e-11,
+    "cases": 15
+  },
+  "l1_dual": {
+    "passed": true,
+    "gap": 1.8307132885156976e-11
+  },
+  "center_dual_qcqp": {
+    "passed": true,
+    "dual_lower": 0.0027083170462320755,
+    "primal_upper": 0.0027083170717434324,
+    "reference": 0.0027083170545878204,
+    "gap": 2.5511356915863814e-11
+  },
+  "observation_equivalence": {
+    "passed": true,
+    "marginal_difference": 0.0,
+    "joint_difference": 15.669429626589931
+  },
+  "mask_grouping": {
+    "passed": true,
+    "difference": 2.842170943040401e-14
+  },
+  "continuous_cover": {
+    "passed": true,
+    "max_sampled_likelihood_violation": 0.0,
+    "true_retained": true,
+    "off_grid": true
+  },
+  "sqrt_regret_stability": {
+    "passed": true,
+    "cases": 100,
+    "max_violation": 0.0
+  },
+  "finite_mode_coverage": {
+    "passed": true,
+    "n": 120,
+    "truth_retained": 120,
+    "regret_covered": 120,
+    "note": "Monte Carlo diagnostic, not a proof of 95% coverage"
+  }
+}
