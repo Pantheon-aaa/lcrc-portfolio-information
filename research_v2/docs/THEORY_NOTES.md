@@ -1,0 +1,303 @@
+# Information-dependent boundary response: research derivations
+
+Date: 2026-10-08. Status: independently derived finite-dimensional results under the explicit assumptions below; not an externally refereed proof or an exhaustive priority claim. Numerical tests are implementation evidence, not proofs. General continuous-model posterior optimality remains open.
+
+## 1. Model, conventions, and local expansion
+
+Let g be a fixed proper convex polyhedral function whose effective domain W is a nonempty compact polytope. It includes feasibility and may include a common piecewise-linear turnover penalty. Work on T = span(W-W), with Euclidean norm. There are finitely many fixed models j=1,...,M. Define
+
+$$f_{j,t}(w)=\tfrac12w^\top(Q_j+tE_j)w-(\mu_j+tm_j)^\top w+g(w).$$
+
+All Q_j are alpha-positive on T, alpha>0, and E_j are bounded. At t=0 all models have the same optimizer w0. Set q_j=mu_j-Q_j w0 in the subdifferential of g, e_j=m_j-E_j w0, and
+
+$$a_j(v)=g'(w_0;v)-q_j^\top v,\quad C_j=\{v:a_j(v)=0\},$$
+$$\varphi_j=\sup_{v\in C_j}(e_j^\top v-\tfrac12v^\top Q_jv),\qquad
+h_j(v)=\tfrac12v^\top Q_jv-e_j^\top v+\varphi_j.$$
+
+The tangent cone D of W contains every direction considered. On D, a_j is nonnegative, continuous and piecewise linear. Each C_j is a closed polyhedral cone containing zero. On bounded subsets of D, uniformly as t decreases to zero,
+
+$$R_{j,t}(w_0+tv)=t a_j(v)+t^2 h_j(v)+O(t^3).\tag{1}$$
+
+### Proof of the expansion and its scope
+
+Strong monotonicity gives ||w_j(t)-w0|| <= t||e_j||/(alpha-t||E_j||). Also, completing the strongly convex quadratic lower bound at w0 gives R_j,t(w0) <= t^2||e_j||^2/[2(alpha-t||E_j||)]. Therefore individual oracle displacements are O(t).
+
+Fix a bounded direction ball. The finitely many inactive affine pieces of g and inactive constraints at w0 have positive gaps. For all sufficiently small t, none enters on that ball. Hence g(w0+tv)-g(w0)=t g'(w0;v) exactly, and feasibility is equivalent there to v in D. Expansion of the smooth part is an exact quadratic polynomial plus t^3 v'E_jv/2.
+
+A polyhedral error bound gives dist(v,C_j) <= K_j a_j(v) on D. On the localized ball the remaining quadratic has a fixed Lipschitz constant. Projecting an individual direction onto C_j changes that quadratic by at most a constant times a_j(v), while its positive penalty is a_j(v)/t. For sufficiently small t this penalty is exact. The oracle improvement thus equals t^2 phi_j+O(t^3), proving (1). The projection claim is only for this individual exact-penalty argument; it does not assert that projecting a common action decreases every model's regret.
+
+Constants depend on the fixed finite family, its polyhedral error bounds and alpha. No uniformity is claimed as M grows, alpha vanishes, or the constraint description changes.
+
+## 2. Tail functionals and the implemented optimization
+
+For probability p and tail mass rho in (0,1], define
+
+$$T_\rho(x;p)=\min_z\{z+\rho^{-1}\sum_jp_j(x_j-z)_+\}
+=\max_{q\ge0,\,\sum q_j=1,\,q_j\le p_j/\rho}\sum_jq_jx_j.\tag{2}$$
+
+Introduce nonnegative hinge slacks in the minimization. Its LP dual has one nonnegative multiplier per scenario, bounded above by p_j/rho; stationarity in z forces their sum to one. Feasibility and boundedness give equality. This proves convexity, monotonicity, translation equivariance, and positive homogeneity. It also gives E_p x <= T_rho <= max on the support. Sorting x and filling caps p_j/rho gives an optimal dual weight, with fractional mass allowed at the threshold. Equal p and rho=k/M recover the average largest k values.
+
+Splitting an atom into identical copies and splitting its mass leaves (2) unchanged: aggregate dual copy weights for one direction; distribute an original weight proportionally for the reverse direction. Count-based filters need not have this invariance.
+
+For an explicit representation counterexample, take losses (0,1), probabilities (1/2,1/2), and tail fraction 1/2. Count Top-k gives 1 and Top-k of probability-times-loss gives 1/2. Split the zero-loss atom into two identical copies, each of mass 1/4. The new count k=ceil(3/2)=2 gives 1/2, and probability-times-loss Top-k gives 1/4. The genuine probability-tail value remains 1. A change of representation alone therefore changes both count objectives.
+
+For the discontinuous rank-then-reweight rule, use three quadratic losses ((x-sqrt(3))²,(x+1)²,(x-1)²), probabilities (0.1,0.8,0.1), and k=2. At x approaching zero from below it selects the first and third scenarios and tends to 2; from above it selects the first and second and tends to 11/9. Deterministic tie-breaking defines a value at zero but does not restore continuity. This example concerns an objective rule, not an assertion that every portfolio instance displays a jump.
+
+Filtering to 95% posterior mass creates a variable number K of retained atoms. An equal-count Top-k rule must then use k=ceil(rho K) and effective probability-tail fraction k/K. Keeping the original rho when K is odd implements a fractional boundary atom instead, a different objective. The implementation has an explicit odd-K regression check.
+
+For joint probabilities P_sj=alpha_s p_j|s, the conditional envelope fixes each row sum alpha_s and bounds its entries by P_sj/rho. It contains P and is contained in the global cap envelope. Consequently posterior mean <= conditional tail <= global tail <= maximum at each fixed action. This is not a ranking of the true risks of their respective optimizers.
+
+At rho=1 each conditional envelope is the singleton conditional posterior, so the law of total expectation proves A-Mean=B-Mean. If the full observation density satisfies p(D|phi,eta)=p(D|phi), Bayes' formula cancels the likelihood in the conditional ratio and gives p(eta|phi,D)=p0(eta|phi). Conditional posterior and conditional-reference tail objectives then coincide, provided the latter retains the same updated outer marginal. The conclusion is about the entire observation pattern; pairwise scores are not a substitute for its likelihood.
+
+Concavity of likelihood in covariance parameters is not needed for these convex holding problems. After scenarios and their data-dependent masses have been fixed, every regret is convex in w, and a supremum of nonnegative weighted sums is convex. This statement does not make scenario inference globally convex, justify a local likelihood optimizer as a global one, or apply to the discontinuous rank-then-reweight rule.
+
+For any nonempty compact convex envelope U contained in the simplex, convex minimax gives
+
+$$\min_w\max_{q\in U}\sum_jq_jR_j(w)
+=\max_{q\in U}\{V(\sum_jq_jQ_j,\sum_jq_j\mu_j)-\sum_jq_jV_j\}.\tag{3}$$
+
+The common g is unchanged because weights sum to one. For exact QP solutions, a supergradient is the regret vector of the weighted-QP optimizer. With QP bounds, a feasible action gives U= sup_q sum q_j(f_j(w)-V_j,L), and a feasible dual weight gives L=V_q,L-sum q_j V_j,U. Evidence penalties add the same linear term to both expressions. Entropic penalties add -tau KL(q||p). These are optimization bounds, not frequentist confidence certificates.
+
+The support function of a reverse-KL ball has, for positive b, a maximizing distribution q_j proportional to b_j/(nu-x_j). Its divergence equation determines nu>max x. This follows by differentiating the Lagrangian for KL(b||q)<=r. It is a finite-model adaptation of likelihood robustness, not a calibration theorem for synthetic scenario counts.
+
+## 3. The probability-scale theorem
+
+**Theorem 1 (deterministic changing probabilities).** Assume the conditions of Section 1. Fix rho in (0,1]. Suppose p(t) is a probability vector, p_j(t) converges to p_j^0, and every p_j(t)/t has an extended nonnegative limit. Define
+
+$$B=\{j:p_j^0>0\},\quad H=\{j:p_j(t)/t\to\infty\},\quad
+S=\{j:p_j(t)/t\to c_j\in(0,\infty)\}.$$
+
+Then B is nonempty, sum over B of p_j^0 is one, and B is a subset of H. Write C_H=intersection over H of C_j. The optimal value satisfies
+
+$$t^{-2}\min_{w\in W}T_\rho(R_t(w);p(t))\longrightarrow
+\min_{v\in C_H}\left[T_\rho(\{h_j(v)\}_{j\in B};p_B^0)
++\rho^{-1}\sum_{j\in S}c_j a_j(v)\right].\tag{4}$$
+
+The rescaled unique optimizing action converges to the unique minimizer on the right. No O(t^3) remainder follows without additional rate assumptions on p(t).
+
+### Full proof
+
+**Localization.** The feasible action w0 has every regret bounded by K t^2, so its tail risk is at most K t^2. Since the tail risk dominates the probability mean, choose any b in B. Its probability is bounded below, and every minimizing action w_t has R_b,t(w_t)<=K t^2/p_b(t). Strong convexity implies ||w_t-w_b(t)||=O(t). The individual oracle localization above gives ||w_t-w0||=O(t). Thus v_t=(w_t-w0)/t stays in a common compact ball.
+
+**Hard directions.** Take any convergent subsequence v_t->v. For j in H, positivity of regret and domination of the mean imply p_j(t)R_j,t(w_t)/t^2<=K. By (1), if a_j(v)>0 then this quantity diverges because p_j(t)/t tends to infinity. Hence v belongs to C_H.
+
+**Bounded thresholds, 0<rho<1.** Set x_j,t=R_j,t(w_t)/t^2>=0. For b in B, x_b,t is bounded by the mean-risk argument. The total probability outside B goes to zero and is eventually smaller than rho. The convex threshold objective has a minimizer z_t between zero and max over B of x_b,t: below zero its slope is negative; above that maximum the mass that can remain above threshold is at most the mass outside B, smaller than rho, so its slope is positive. Take a subsequence with z_t->z. These assertions also cover ties by one-sided derivatives.
+
+**Lower bound.** For b in B, the term a_b(v_t)/t is nonnegative, so liminf x_b,t >= h_b(v). Continuity and nonnegativity of the hinge give the B contribution at least sum p_b^0(h_b(v)-z)_+/rho. For j in S,
+
+$$p_j(t)(x_{j,t}-z_t)_+
+=\left[\frac{p_j(t)}t a_j(v_t)+p_j(t)(h_j(v_t)-z_t+O(t))\right]_+
+\longrightarrow c_j a_j(v).$$
+
+Every remaining hinge contribution is nonnegative and can be discarded. Adding z and minimizing over z yields the lower bound in (4).
+
+For rho=1, T_1 is exactly the mean; use its weighted sum directly. The B terms have the same nonnegative first-order residual, S terms converge to c_j a_j(v), and terms outside B union S have liminf at least zero because they are weighted regrets. This avoids an incorrect quantile argument at the endpoint.
+
+**Recovery.** Fix v in C_H. The path w0+tv is feasible for all small t. For j in H, a_j(v)=0. For j in B the normalized losses converge to h_j(v). For H outside B, their losses are bounded and their probabilities vanish. For S, the hinge contribution converges to c_j a_j(v), independently of any bounded z. For the remaining indices p_j(t)=o(t), multiplication of (1) makes their normalized hinge contribution vanish. Evaluating at a minimizer of the limiting B-threshold objective proves the matching upper bound. At rho=1 use the sum. Coercivity ensures the limiting minimizer is finite, so this path supplies a valid recovery action.
+
+**Values and optimizers.** Every sequence of minimizers is bounded after rescaling. The lower bound and recovery construction identify each accumulation point as a limiting minimizer and give value convergence. Each h_b is alpha-strongly convex on T. A probability-weighted tail supremum of these quadratics is alpha-strongly convex, and adding convex a_j terms and restricting to C_H preserves uniqueness. Therefore every subsequence has the same limit. This also establishes uniqueness of the original tail minimizer for small t.
+
+**Fixed-probability corollary.** If all supported probabilities are fixed positive, H=B and S is empty. The local domain is the intersection of all supported critical cones even for rho=1. Replacing max by mean or CVaR does not in itself remove this boundary obstruction.
+
+## 4. Conditional versions: what changes when outer groups disappear
+
+**Corollary 2 (positive limiting outer masses).** Suppose there are finitely many groups, alpha_s(t)->alpha_s^0>0, and every conditional probability sequence satisfies Theorem 1 with a fixed group tail mass rho_s>0. Let H_s, S_s and B_s be its conditional sets. Then the scaled conditional objective converges, in minimum and optimizer, to
+
+$$\min_{v\in\cap_s\cap_{j\in H_s}C_{sj}}
+\sum_s\alpha_s^0\left[T_{\rho_s}(h_{s,B_s}(v);p^0_{B_s|s})
++\rho_s^{-1}\sum_{j\in S_s}c_{sj}a_{sj}(v)\right].\tag{5}$$
+
+**Proof.** The conditional criterion dominates the joint posterior mean, so localization holds using any joint atom with positive limiting mass. Bounded total nonnegative risk implies bounded risk in each positive-mass group. Apply the threshold lower argument group by group to a common convergent v_t. Add finitely many lower bounds. A common recovery direction in all hard cones gives the upper bound simultaneously. At least one positive group contributes uniform strong convexity, proving optimizer convergence.
+
+**Proposition 3 (vanishing outer groups with fixed conditional distributions).** Allow alpha_s(t) to vanish, but assume each conditional vector p_s is fixed and positive on its support. Classify groups by alpha_s(t)/t. Groups with that ratio tending to infinity impose every supported C_sj. Groups with alpha_s(t)/t->c_s in (0,infinity) contribute the soft term
+
+$$c_s T_{\rho_s}(\{a_{sj}(v)\}_j;p_s),\tag{6}$$
+
+and groups with alpha_s=o(t) disappear. The quadratic part comes from groups with alpha_s^0>0, using their conditional tail of h. The limiting domain intersects the hard-group cones.
+
+**Proof.** On bounded directions use homogeneity to write the group's normalized contribution as (alpha_s/t) T_rho(a_s+t h_s+O(t^2);p_s). For a critical group this converges uniformly to (6), since a tail functional is one-Lipschitz in the maximum norm. For a hard group, a nonzero supported a makes its nonnegative tail diverge. On its cone every a vanishes; its surviving second-order contribution is alpha_s^0 T_rho(h_s;p_s). Disappearing groups contribute zero. Localization, lower bounds and recovery then follow as above.
+
+This is a material qualification: a vanishing group's soft term is a **conditional tail of first-order penalties**, not blindly sum_j c_sj a_sj/rho. Simultaneously vanishing outer masses and arbitrary changing conditional masses require a more general limiting envelope; that extension remains open here.
+
+## 5. The exactly interpretable boundary example
+
+For x>=0, h,a,s>0, let
+
+$$f_{1,t}(x)=\tfrac h2x^2-ta x,\qquad f_{2,t}(x)=\tfrac h2x^2+s x.$$
+
+At t=0 their common optimizer is zero. Their regrets are R_1,t=h(x-ta/h)^2/2 and R_2,t=h x^2/2+s x. If model 2 has probability p_t with p_t/t->c, Theorem 1 gives the limiting function
+
+$$\tfrac h2(v-a/h)^2+(cs/\rho)v,\qquad v\ge0.$$
+
+Completing the square yields
+
+$$x_t^*/t\to[a-cs/\rho]_+/h,\qquad
+T_\rho^*/t^2\to a^2/(2h)-[a-cs/\rho]_+^2/(2h).\tag{7}$$
+
+For p_t/t->infinity the cone is {0}; for p_t=o(t) the scaled optimal regret tends to zero. A fixed probability floor prevents that last regime. This example establishes neither the statistical probability rate nor a generic multiasset information lower bound; those are separate questions.
+
+There is also an exact finite-t distinction between a blocked first-order movement and literally zero trading. In this equal-curvature example, the regret curves intersect at
+
+$$x_c=\frac{a^2t^2}{2h(at+s)}.$$
+
+For fixed rho<1 and sufficiently small p_t so that p_t<rho and 1-p_t>=rho, the optimal action is exactly
+
+$$x_t^*=\max\left\{x_c,\frac{at-(p_t/\rho)(at+s)}h\right\}.\tag{7a}$$
+
+Below x_c the higher regret is model 1's, which alone fills the upper tail, and that regret decreases up to x_c. Above x_c the adverse model receives mass p_t/rho; differentiating the resulting weighted quadratic gives the second expression. Convexity proves the formula. Thus the optimizer leaves the O(t²) kink exactly when
+
+$$p_t<\rho\left[\frac{at}{at+s}-\frac{a^2t^2}{2(at+s)^2}\right].\tag{7b}$$
+
+At rho=1 the criterion is a smooth mean instead, and the exact optimum is [at-p_t(at+s)]_+/h. Equations (7a)--(7b) explain why a hard limiting cone can coexist with a tiny, nonzero finite-sample holding. A finite numerical kink should not be described as exact zero trading unless the computed rule actually sets it to zero. The log posterior-odds threshold in (7b) is log t plus a geometry-dependent constant to first order; this motivates the log(1/t) evidence scale proved in the embedded subclass below.
+
+## 6. Entropy has a different rare-model threshold
+
+Let F_tau=tau log sum_j p_j exp(R_j/tau). Its variational form is sup_q[E_q R-tau KL(q||p)]. Jensen gives F_tau>=E_p R, providing the same basic localization when a model has nonvanishing probability.
+
+**Proposition 4 (fixed temperature).** Under Theorem 1, if tau is a fixed positive constant, the scaled entropic minimum has the same limit as (4) with rho=1.
+
+**Proof.** The mean lower bound and Theorem 1 imply the lower limit. For its recovery direction v in C_H, supported H losses are O(t^2); S probabilities are O(t), with losses O(t); all remaining probabilities are o(t). Thus E R^2=O(t^4)+O(t^3)+o(t^3)=o(t^2). All losses are O(t), so a uniform Taylor expansion of exp(R/tau) and log gives F_tau=E R+o(t^2) on this recovery path. The value and optimizer claims follow by strong convexity and localization.
+
+**Proposition 5 (quadratic temperature, subexponentially rare models).** Suppose tau=kappa t^2 with kappa>0, all model probabilities are positive, p(t)->p0, and t log(1/p_j(t))->0 for every j. Then every limiting minimizing direction belongs to the intersection of **all** C_j, including those with p_j=o(t). On that intersection the limiting objective is
+
+$$\kappa\log\sum_{j\in B}p_j^0\exp(h_j(v)/\kappa).\tag{8}$$
+
+**Proof.** The log-sum-exp dominates any one term: F_tau >= R_j+tau log p_j. If a_j(v)>0 along a convergent rescaled direction, division by t gives liminf F_tau/t >= a_j(v)>0, contradicting the O(t^2) value at w0. On the common cone all first-order penalties vanish. Evaluating a fixed feasible direction gives (8) by continuity of a finite sum. For the lower bound discard nonnegative first-order residuals and retain only B terms. Strong convexity again yields convergence of minimizers.
+
+Polynomially small masses satisfy the premise. Hence CVaR can release an o(t) model while entropy at tau proportional to t^2 still enforces its cone. More generally, the relevant release scale is tau log(1/p_j) compared with t a_j. If p_j is approximately exp(-d_j/t) and tau=kappa t^2, a necessary limiting inequality is a_j(v)<=kappa d_j. The exact second-order behavior on equality requires prefactor information and is not asserted here.
+
+**Warning about an insufficient scaling rule.** tau/t^2->infinity alone does not imply an average-risk limit. For example tau=t^(3/2) and p_t=t^2 still have tau log(1/p_t)=o(t), so an adverse first-order boundary can remain hard. Temperature relative to the quadratic scale is not enough; rare probabilities and first-order losses must be considered jointly.
+
+## 7. Complete-mask evidence and a finite-model sufficient bound
+
+Let model 0 generate independent observations under fixed or parameter-independent masks S_i. Assume all prior masses b_j>0. Put L_j=sum_i log[p_j(Y_i,S_i)/p_0(Y_i,S_i)]. The posterior probability obeys p_j(D)<= (b_j/b_0) exp(L_j). For any lambda in (0,1), let
+
+$$I_{j,\lambda}=-\sum_i\log\int p_0(y|S_i)^{1-\lambda}p_j(y|S_i)^\lambda\,dy.$$
+
+By independence and Markov's inequality,
+
+$$\Pr_0\{p_j(D)>\epsilon_j\}
+\leq (b_j/(b_0\epsilon_j))^\lambda\exp(-I_{j,\lambda}).\tag{9}$$
+
+Indeed the event implies exp(lambda L_j)>(epsilon_j b_0/b_j)^lambda, and the expectation of that random variable is exp(-I). A union bound over adverse models supplies a simultaneous statement. Choosing epsilon_j=c_j t or t^(1+gamma) links (9) to Theorem 1 in probability when the corresponding probabilities tend to zero. Stronger failure probabilities, e.g. o(t^2) when unscaled regrets are bounded on W, are sufficient to control bad-event contributions to expected regret. Without such control one cannot simply interchange the local limit and expectation.
+
+For zero-mean Gaussians with observed covariance S0,Sj, the affinity is
+
+$$|S_0|^{-(1-\lambda)/2}|S_j|^{-\lambda/2}
+|(1-\lambda)S_0^{-1}+\lambda S_j^{-1}|^{-1/2}.$$
+
+This follows by multiplying Gaussian densities and integrating the resulting quadratic exponential. Masks where S0=Sj contribute zero information. If only m joint blocks distinguish models, I=m times the joint-block information. The bound explicitly includes prior odds and log(1/t); it does not replace a random likelihood ratio by its expectation.
+
+Finite nuisance models can be included in the finite union with their prior odds. For a continuous nuisance parameter, the probability and integral bounds require additional local prior-mass and concentration conditions; they are not supplied by merely discretizing a nuisance grid.
+
+## 8. A matching-order testing subproblem, and its boundary
+
+An information lower bound requires conflicting demands under two observation laws, not merely a small posterior under one truth. Consider the two loss functions in Section 5 with observation laws P1,P2. Assume a rule has E1 R1,t=o(t^2) and E2 R2,t=O(t^2). Let A_t={x>=a t/(2h)}. Then under model 1, on A_t^c the regret is at least a^2t^2/(8h), so P1(A_t)->1. Under model 2, on A_t the regret is at least sa t/(2h), so P2(A_t)=O(t).
+
+Data processing for KL through this event gives
+
+$$\mathrm{KL}(P_1\|P_2)\geq
+\operatorname{kl}(P_1(A_t),P_2(A_t))
+\geq P_1(A_t)\log\frac1{P_2(A_t)}-\log2
+\geq (1-o(1))\log(1/t)-O(1).\tag{10}$$
+
+If each informative independent block has KL K, mK must therefore be at least this order. For fixed distinct, mutually absolutely continuous Gaussian block laws with positive Chernoff information, a likelihood-ratio test with m proportional to log(1/t) can make both testing errors O(t^(2+gamma)); choosing each model's oracle action then attains the stated regret requirements. Under model 1 a wrong action costs O(t^2); under model 2 it costs O(t), so these error rates suffice. This proves matching **logarithmic order for this specified statistical decision subproblem**, not a matching constant, general portfolio minimax rate, or optimality of conditional CVaR.
+
+In a portfolio experiment, observation laws and loss matrices may themselves depend on t; K and Chernoff information can then vanish. Their t-dependence must be retained. The following explicit subclass supplies an embedding with uniformly positive informative-block separation. It is stronger than the abstract testing illustration above but still does not give a general sharp constant.
+
+### Theorem 6: a multiasset Gaussian subclass with matching logarithmic information order
+
+Let d=2k, k>=5, and take a long-only budget simplex with cap u>=1/k. Fix delta in (0,k), a>0 and s in (0,1). Write J=11' for the k-by-k all-ones matrix and define
+
+$$A=(1-\delta/k)J+\delta I,\quad B=(4-\delta/k)J+\delta I,$$
+$$\Sigma_{1,t}=\begin{pmatrix}A&(1-at)J\\(1-at)J&B\end{pmatrix},\qquad
+\Sigma_{2,t}=\begin{pmatrix}A&(1+s)J\\(1+s)J&B\end{pmatrix}.\tag{11}$$
+
+The objective is half variance, with zero mean. Consider independent, exogenous masks that observe either whole group alone or both groups jointly, with exactly m=m(t) joint observations. Priors b1,b2 are fixed and strictly positive. Let rho in (0,1] be fixed. The true model is one of these two stated candidates; t indexes a family of decision problems, not an unknown parameter supplied by an evaluation oracle.
+
+(i) For all sufficiently small positive t, both covariance matrices are uniformly positive definite. Their within-group observation laws are identical. At t=0 both have the same optimal portfolio w0=(1/k,...,1/k,0,...,0).
+
+(ii) Any decision rules satisfying
+
+$$\mathbb E_1 R_{1,t}(\widehat w_t)=o(t^2),\qquad
+\mathbb E_2 R_{2,t}(\widehat w_t)=O(t^2)$$
+
+must obey
+
+$$m(t)K(t)\ge(1-o(1))\log(1/t)-O(1),\quad
+K(t)=\mathrm{KL}\bigl(N(0,\Sigma_{1,t})\Vert N(0,\Sigma_{2,t})\bigr),\tag{12}$$
+
+where K(t) converges to a strictly positive finite constant.
+
+(iii) A posterior model-regret CVaR decision, computed from the complete-mask likelihood, satisfies both requirements when m(t)>=C log(1/t) for a sufficiently large fixed C. Thus the required order is logarithmic in this subclass. The constant C is a sufficient Chernoff/affinity constant and is not claimed to match 1/K(0).
+
+**Proof of (i) and the loss reduction.** Orthogonal directions within either group have eigenvalue delta. On the span of the two normalized group indicators, the covariance is k times the two-by-two matrix with diagonals (1,4) and cross entry c. Its determinant is k²(4-c²)>0, uniformly for c=1-at or c=1+s and small t. This also proves positive definiteness of A and B. Any within-group mask sees the same marginal in the two models.
+
+Let x be total weight in group two. At a fixed x, uniform weights inside each group simultaneously minimize both objectives. Every departure adds the same nonnegative term delta times the squared distance from the uniform-within-group vector, divided by two. Uniformization respects the cap u>=1/k. Therefore posterior mean, CVaR and regret minimization all reduce exactly to x in [0,1]. After discarding a common constant 1/2, the two risks are
+
+$$f_{1,t}(x)=\tfrac12(3+2at)x^2-atx,\qquad
+f_{2,t}(x)=\tfrac12(3-2s)x^2+sx.$$
+
+Their oracles are x1,t=at/(3+2at) and x2,t=0, and their exact regrets are
+
+$$R_{1,t}(x)=\tfrac12(3+2at)(x-x_{1,t})^2,\quad
+R_{2,t}(x)=\tfrac12(3-2s)x^2+sx.\tag{13}$$
+
+General nonuniform portfolios have at least these regrets at their group-two mass x. This establishes the boundary behavior and reduction without assuming the decision rule is itself symmetric.
+
+**Proof of (ii).** Define E_t={x>=at/6}. For small t, x1,t-at/6>=at/12. Hence on E_t complement, R1,t is at least c1 t² for a fixed c1>0. The first requirement gives P1(E_t)->1. On E_t, R2,t>=sat/6, so the second requirement gives P2(E_t)=O(t). Applying binary KL data processing yields (12), exactly as in (10). All nonjoint masks contribute zero KL, while each independent joint record contributes K(t). Continuity and the strictly distinct, uniformly nonsingular limits of the two Gaussian covariances imply K(t)->K(0) in (0,infinity).
+
+**Proof of (iii).** Let p_i(D) be the complete-mask posterior. Uniform positive definiteness on a compact small-t interval and distinct limiting Gaussian laws imply their order-1/2 affinity is at most exp(-I0) for some I0>0. Equation (9), including its fixed prior-odds factor, gives
+
+$$P_1\{p_2>t^{1+\gamma}\}\le C_0 t^{-(1+\gamma)/2}e^{-m I_0},\qquad
+P_2\{p_1>\rho/2\}\le C_1 e^{-m I_0}.$$
+
+Choose gamma>0 and gamma'>0, and C so large that both bounds are O(t^{2+gamma'}). On the first good event, evaluate the CVaR objective at model 1's oracle x1,t. Model 1's regret is zero, model 2's regret is O(t), and p2<=t^{1+gamma}<rho. The resulting tail value is (p2/rho)O(t)=O(t^{2+gamma}). The optimized tail is no larger and dominates p1 R1,t; eventually p1>=1/2. Consequently the selected action has R1,t=O(t^{2+gamma}) on that event.
+
+On the second good event, p1<=rho/2. At x=0 model 1 has positive regret and model 2 has zero regret. The right derivative of the posterior CVaR objective is
+
+$$-(p_1/\rho)at+(1-p_1/\rho)s\ge (s-at)/2>0.$$
+
+Convexity then makes x=0 optimal. Uniformization is optimal as already proved, so R2,t is exactly zero on that event. Regrets are uniformly bounded over the compact portfolio set and small-t parameter interval. Bad events of probability O(t^{2+gamma'}) therefore contribute o(t²) to both expected regrets. This proves the assertions, including the required expectation control. No replacement of a random log likelihood by its mean has been used.
+
+**Interpretation and limits.** This theorem couples the same covariance matrices to both returns and decision losses, supplies an arbitrary multiasset dimension 2k, and respects a cap of 0.2 for k>=5. It is an adaptive boundary-accuracy requirement under two truths, not a lower bound for every tolerance epsilon. The two candidate covariance matrices and their t-indexed decision problem are given to the rule; only the true model identity is unknown. Unknown covariance families, simultaneous estimation of t, continuous nuisance parameters, or a common optimizer that itself changes with the data are outside this theorem. Conditional CVaR with only one outer group reduces to the rule in (iii); a general advantage of conditional over global tail is not implied.
+
+### Proposition 7: very small entropy temperature
+
+Under the local model assumptions, suppose tau(t)/t²->0, all probabilities are positive, p(t)->p0, and
+
+$$\tau(t)\log(1/p_j(t))/t^2\to D_j<\infty$$
+
+for every model. Then the scaled entropic minimum and optimizer converge to the minimum and minimizer of
+
+$$\max_j\{h_j(v)-D_j\}\quad\text{over }\bigcap_j C_j.\tag{14}$$
+
+**Proof.** Nonvanishing probabilities and the mean lower bound localize minimizing directions. The one-term inequality F_tau>=R_j-tau log(1/p_j) makes every a_j(v)>0 impossible at a limiting optimizer because the compensating term is only O(t²). On the common cone, write the normalized objective as a log-sum-exp with temperature tau/t² and arguments R_j/t²-tau log(1/p_j)/t². Its distance from the maximum argument lies between zero and (tau/t²)log M. This vanishes. Nonnegative first-order residuals give the lower bound along varying directions, and a fixed cone direction gives recovery. Strong convexity gives uniqueness. At least one D_j is zero, because a limiting positive-probability model has D_j=0.
+
+In particular, tau=t³ and polynomial probabilities yield the common-cone minimax quadratic limit. Exponentially tiny probabilities may instead leave finite D_j penalties or fall outside this proposition. The temperature ratio alone is insufficient.
+
+The fixed-temperature conclusion in Proposition 4 also extends to tau(t)/t->infinity: on its mean-limit recovery path, the exponential expansion error is O(E R²/tau)=o(t²), since E R²=O(t³) and max R/tau->0. This supplies a sufficient average-like regime without incorrectly inferring it from tau/t²->infinity.
+
+## 9. Approximation and unresolved claims
+
+**Proposition 8 (joint-mass stability, including empty conditional groups).** Fix the same finite scenarios and group labels for two joint probability vectors P and P'. Suppose 0<=R_sj(w)<=L for every feasible w, and fix rho>0. Both the global and conditional tail objectives differ uniformly in w by at most
+
+$$\epsilon=(L/\rho)\operatorname{TV}(P,P'),\qquad
+\operatorname{TV}(P,P')=\tfrac12\sum_{s,j}|P_{sj}-P'_{sj}|.\tag{15}$$
+
+This needs no lower bound on individual outer group masses. If each regret is beta-strongly convex on the feasible affine hull and w,w' minimize the two objectives, then their optimization-objective excess is at most 2 epsilon and
+
+$$\|w-w'\|\le 2\sqrt{\epsilon/\beta}.\tag{16}$$
+
+**Proof.** For the conditional functional, write its threshold form directly in joint masses:
+
+$$F_P(w)=\min_{z_s\in[0,L]}\sum_{s,j}P_{sj}
+\left[z_s+\rho^{-1}(R_{sj}(w)-z_s)_+\right].$$
+
+Every bracket lies in [0,L/rho]. The difference between its expectation under P and P' is therefore at most (L/rho)TV(P,P'), uniformly in w and all thresholds. Taking minima gives (15). A zero-mass group contributes zero and requires no division by its mass. A single threshold proves the global case. Evaluating each optimum in the other objective gives F_P(w')-F_P(w)<=2 epsilon. Strong convexity over the convex feasible set yields beta ||w-w'||²/2<=2 epsilon, proving (16).
+
+This corrects a potentially loose approach that divides conditional-posterior errors by tiny group masses. It applies to common atoms and fixed group definitions. A discrete quadrature and a continuous distribution are mutually singular, so their total variation is generally one; (15) alone cannot certify a continuous quadrature. Scenario refinement and the separate continuous-posterior sampling diagnostic address approximation empirically. A uniform integration error bound over the displayed joint-threshold function class would imply the same 2 epsilon objective-excess argument, but is not established by a high ESS alone.
+
+QP gaps, integration error, and sampling uncertainty are separate. The public implementation reports first-order and weak-duality diagnostics in float64; it is not formally verified interval arithmetic. Scenario refinement can test stability but does not prove that every posterior mode was found. No theorem here gives a frequentist 95% guarantee to a tail objective.
+
+Still open: unrestricted simultaneous outer/inner probability decay; random continuous posterior local limits with nuisance parameters; sharp statistical constants beyond the matching-order multiasset subclass of Theorem 6; data-adaptive strong/weak grouping; growing-dimensional scenario approximation; and a priority analysis against general variational perturbation results. Empirical usefulness of each implemented method is determined separately by the frozen experiments.

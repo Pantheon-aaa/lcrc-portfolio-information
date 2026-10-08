@@ -1,0 +1,28 @@
+{
+  "t": [
+    0.04,
+    0.02,
+    0.01,
+    0.005
+  ],
+  "log_multipliers": [
+    0,
+    20,
+    80,
+    320
+  ],
+  "repetitions": 100,
+  "rho": [
+    1.0,
+    0.5,
+    0.25
+  ],
+  "a": 1.0,
+  "s": 0.7,
+  "dimension": 20,
+  "prior": [
+    0.5,
+    0.5
+  ],
+  "interpretation": "mechanism diagnostic with public two-candidate family; projected observations have exactly the full-block likelihood ratio"
+}

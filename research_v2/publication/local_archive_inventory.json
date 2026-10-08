@@ -1,0 +1,268 @@
+[
+  {
+    "path": "results/parallel_shards/confirm-shard-0of5.jsonl",
+    "bytes": 90012720,
+    "sha256": "7e5ee9aaac9e930de98b1bea2e05e74c1263a16cd55957000ba7d313e2d74bee",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/parallel_shards/confirm-shard-1of5.jsonl",
+    "bytes": 89904806,
+    "sha256": "f9b5549c18ba43dc28c8975201c0c831ee9ecb84f82c00abc826752fa23b526e",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/parallel_shards/confirm-shard-2of5.jsonl",
+    "bytes": 89872106,
+    "sha256": "ef87e62fc86133139a8a6cd46aa0a860c40f4ae1e6e6cbdc11251ceed58e1959",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/parallel_shards/confirm-shard-3of5.jsonl",
+    "bytes": 89898097,
+    "sha256": "3704f69d1496df5d8f7059198a8350f8e64718d44713726af5ce57600882620d",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/parallel_shards/confirm-shard-4of5.jsonl",
+    "bytes": 89849588,
+    "sha256": "4b862300e469341f3a269a44d295e51e1b9a6c9d7a99e05d6ffc0cc566a47c24",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/parallel_shards/G2-shard-0of3.jsonl",
+    "bytes": 108157340,
+    "sha256": "5b99d8a7ae2c9970dd5980bc463fdab57e84e13d8f6befdcb87382e54e0b260d",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/parallel_shards/G2-shard-1of3.jsonl",
+    "bytes": 108281972,
+    "sha256": "eb3bc8c53a73827d9eaee2fe9e009552166a6fd30ca2e3bd5870ad9a37f44d1d",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/parallel_shards/G2-shard-2of3.jsonl",
+    "bytes": 108363591,
+    "sha256": "5a522504ccc53de7358a31b041bd067eed81f5de0335407cd5f6a22e3bc76a52",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_bootstrap_initialization_fix/G3_d20.jsonl",
+    "bytes": 1866335,
+    "sha256": "0fd264075d2ff28051a6aa170072a8881e81ccfeaae707262163664f2cdc509d",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_budget_support_bound/development.jsonl",
+    "bytes": 547740,
+    "sha256": "d0730bb972a77a05fe6f25b58417f2915d1de4f2b6772554508c63828d9be547",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_budget_support_bound/G1.jsonl",
+    "bytes": 1159873,
+    "sha256": "0ef755b0091613b3ef154d794a328ac6993f11b0d4b09d5fb0f8633ff7dd4f8b",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_budget_support_bound/G2.jsonl",
+    "bytes": 20207737,
+    "sha256": "031c17f7d278f3266f6df58896af8325fe3ce2a74241c0f74398873e86b762cf",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_importance_revision/development.jsonl",
+    "bytes": 4419307,
+    "sha256": "4bde863e17948dc75237c7967617d22f1f0097eae78d1524cbf5ec88596aa504",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_importance_revision/development_selection.csv",
+    "bytes": 3444,
+    "sha256": "f3b99426ce75c29006da7f13d2aa571c5e6ef51406cbba4a237edd4c37548b36",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_importance_revision/development_setup.json",
+    "bytes": 1031,
+    "sha256": "f6107a90b9c1e7968ff365f2101c54abc9e040e1edf30ca39cabaea3dadb28a5",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_importance_revision/G1.jsonl",
+    "bytes": 19670256,
+    "sha256": "db1b3a00ae4429332f0a83a272beec819c26a6b90483d69be23984616359e1c2",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_importance_revision/selection.json",
+    "bytes": 14144,
+    "sha256": "f2469a2988114f7d6d32336f775cc53f322ca2c5f17936fe3bc288e9238334ef",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/confirm-shard-0of5.jsonl",
+    "bytes": 3705334,
+    "sha256": "6b93c946e1ce4e1291f500c883ff6207bc7c349b98596f13f8bdb5044e573077",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/confirm-shard-1of5.jsonl",
+    "bytes": 3855383,
+    "sha256": "a27dd7c7a04345d79f2a99d262fc16bf170520738cd00a5d9c74894795b5492f",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/confirm-shard-2of5.jsonl",
+    "bytes": 3822448,
+    "sha256": "4f78439d4dd92f3856570518cf7ac233d24959b718457bc0370710ced30a4a94",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/confirm-shard-3of5.jsonl",
+    "bytes": 3847397,
+    "sha256": "43bd308436974206b0313ccea5fe9eca7d3e3a8d7441f88a5c536607771ea072",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/confirm-shard-4of5.jsonl",
+    "bytes": 3808480,
+    "sha256": "312752a7db65be9a51dc3405a1bd80e8a697369fb9dfcaae43f15afe12d7fa95",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/confirm.jsonl",
+    "bytes": 40414481,
+    "sha256": "61b9953dacfd5118c0f9aa35bf9e3f8aa4a61c7fd1a0d4c8d72798f286778948",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/development.jsonl",
+    "bytes": 7502626,
+    "sha256": "a098fb4effe5c795327f08659ffd39276c179fb32f480ded07c150bb9bf2f389",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/development_selection.csv",
+    "bytes": 3754,
+    "sha256": "684dbb81d676c0108ad61f35c76f87c8299dad49cb2111a6f2b496e693f9f290",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/G1.jsonl",
+    "bytes": 20636038,
+    "sha256": "38306a9e883226620e7907c60ea8f48d98470d764c3a47c5906e0dafca18577a",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/G1_additional.jsonl",
+    "bytes": 19507537,
+    "sha256": "93c2a34dd8f13191cfd2a840151dacccff5b197094c111170b2158c2defcd85e",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/G2-shard-0of3.jsonl",
+    "bytes": 4336085,
+    "sha256": "b4b712336c7d48ffbea1ba00a51c4b40a5f33beeb70b83164eb03e6ab1c718c7",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/G2-shard-1of3.jsonl",
+    "bytes": 4356105,
+    "sha256": "334713ca0792f499ed290c2098ca610241bb7db5556b2551d841adea15a57e15",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/G2-shard-2of3.jsonl",
+    "bytes": 4298658,
+    "sha256": "41bb15de4780fd5ded894cac33a8dc82f82fbf1b4e81478beaefefcb1fb9240a",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/G2.jsonl",
+    "bytes": 15432005,
+    "sha256": "61bc93841319fdaf387e8961e6717111bb97f639095da395be80c62b1f4a5e70",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/G2_additional.jsonl",
+    "bytes": 14611878,
+    "sha256": "ebeaa9debc6b1caf7ae64fd6d41facb907a2947bcbebaa248ae30ec667baab4c",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/G3_d20_additional.jsonl",
+    "bytes": 6617695,
+    "sha256": "9932c8d90ff221e7ff71bc5219a99106471bee67ce6e934a9d88015eefb1c628",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/G3_d50_additional.jsonl",
+    "bytes": 6593663,
+    "sha256": "2f65ba701776a74428a297ccd9b46f7596f742a6a8752161c96722d7cfe7723b",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/resolution_additional.jsonl",
+    "bytes": 494600,
+    "sha256": "acedf440230446dcbd5c6bec9c4b323512b1b8f1342a611e39affb0492b47aab",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_integer_filter_fix/selection.json",
+    "bytes": 15081,
+    "sha256": "d3f0bb6223d836c8ceffb9b870beacd0649eee273994773dbb39b8f00691cdf2",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_polyhedral_solver_refinement/development.jsonl",
+    "bytes": 4415796,
+    "sha256": "a28b64e3ecec2899d383bce9af926c2b34d85f727a1bcb22bfcfb88c8ba4a635",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  },
+  {
+    "path": "results/pre_polyhedral_solver_refinement/development_original.jsonl",
+    "bytes": 4415796,
+    "sha256": "a28b64e3ecec2899d383bce9af926c2b34d85f727a1bcb22bfcfb88c8ba4a635",
+    "published": false,
+    "reason": "superseded run or duplicate worker partition; retained locally"
+  }
+]

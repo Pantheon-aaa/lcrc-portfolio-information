@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "scope": "importance-density correction and exact no-information identity; final precision is audited separately",
+  "reason": "fixed-grid ESS/scramble trigger activated planned nested importance fallback",
+  "G1_scenarios": 128,
+  "G2_scenarios": 256,
+  "uniform_proposal_fraction": 0.25,
+  "no_probability_floor": true,
+  "count_topk_now_separate": "nonuniform importance masses break the earlier count/reference-tail alias",
+  "prior_screen_retained_in": "results/pre_importance_revision"
+}

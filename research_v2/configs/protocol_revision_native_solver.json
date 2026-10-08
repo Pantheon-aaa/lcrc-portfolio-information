@@ -1,0 +1,7 @@
+{
+  "change": "direct Clarabel epigraph for polyhedral risk envelopes, M>=128, zero common cost",
+  "acceptance": "existing independent QP weak-duality gap <=1e-6u",
+  "fallback": "weighted QP dual then retained CVXPY reference",
+  "gate": "results/native_conic_gate.json",
+  "candidates_and_seeds_changed": false
+}

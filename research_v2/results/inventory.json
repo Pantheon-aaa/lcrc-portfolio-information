@@ -1,0 +1,98 @@
+[
+  {
+    "stage": "pilot",
+    "rows": 60,
+    "instances": 10,
+    "expected_instances": 10,
+    "failures": 0,
+    "state": "completed manifest instances"
+  },
+  {
+    "stage": "development",
+    "rows": 1056,
+    "instances": 24,
+    "expected_instances": 24,
+    "failures": 0,
+    "state": "completed manifest instances"
+  },
+  {
+    "stage": "G1",
+    "rows": 4320,
+    "instances": 240,
+    "expected_instances": 240,
+    "failures": 0,
+    "state": "completed manifest instances"
+  },
+  {
+    "stage": "G2",
+    "rows": 34560,
+    "instances": 1920,
+    "expected_instances": 1920,
+    "failures": 0,
+    "state": "completed manifest instances"
+  },
+  {
+    "stage": "confirm",
+    "rows": 51840,
+    "instances": 6480,
+    "expected_instances": 6480,
+    "failures": 0,
+    "state": "completed manifest instances"
+  },
+  {
+    "stage": "G3_d20",
+    "rows": 1944,
+    "instances": 216,
+    "expected_instances": null,
+    "failures": 0,
+    "state": "completed manifest instances"
+  },
+  {
+    "stage": "G3_d50",
+    "rows": 1944,
+    "instances": 216,
+    "expected_instances": null,
+    "failures": 0,
+    "state": "completed manifest instances"
+  },
+  {
+    "stage": "baseline_audit",
+    "rows": 1704,
+    "instances": 240,
+    "expected_instances": null,
+    "failures": 0,
+    "state": "completed manifest instances"
+  },
+  {
+    "stage": "resolution",
+    "rows": 432,
+    "instances": 6,
+    "expected_instances": null,
+    "failures": 0,
+    "state": "completed manifest instances"
+  },
+  {
+    "stage": "blend_development",
+    "rows": 48,
+    "instances": 24,
+    "expected_instances": 24,
+    "failures": 0,
+    "state": "completed manifest instances"
+  },
+  {
+    "stage": "repair_screen",
+    "rows": 8640,
+    "instances": 2160,
+    "expected_instances": 2160,
+    "failures": 0,
+    "state": "completed manifest instances"
+  },
+  {
+    "stage": "repair_confirmation",
+    "rows": 12960,
+    "instances": 6480,
+    "expected_instances": 6480,
+    "failures": 0,
+    "state": "completed manifest instances"
+  }
+]

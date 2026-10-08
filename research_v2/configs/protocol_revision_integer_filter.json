@@ -1,0 +1,6 @@
+{
+  "reason": "ceil(rho*K) integer count after posterior filtering; exact odd-K regression added",
+  "candidate_names_unchanged": true,
+  "retained_rows": "unaffected algorithms only; same frozen manifest; changed algorithms recomputed",
+  "solver_stopping": "same required primal-dual tolerance; stop as soon as certified"
+}

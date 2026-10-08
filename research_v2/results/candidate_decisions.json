@@ -1,0 +1,16 @@
+{
+  "average_confirmed": [],
+  "tradeoff_confirmed": [],
+  "tradeoff_exploratory": [
+    "H-PostSampleK",
+    "C-LP-Max:0.01"
+  ],
+  "mechanism_followup": [
+    "B-Tail-P:0.5"
+  ],
+  "mechanism_scope": "probability-boundary-information response supported; unique conditional performance advantage unconfirmed",
+  "selection_repair_evidence": "exploratory reused test panel, not independent confirmation",
+  "next_step": "prioritize boundary information theory and conditional quadrature accuracy; require new frozen families for performance claims",
+  "real_market_validation": false,
+  "public_push": false
+}
