@@ -1,0 +1,146 @@
+{
+  "information_geometry": [
+    {
+      "seed": 31,
+      "m": 0,
+      "fisher_eigenvalues": [
+        0.0,
+        0.0,
+        8.931534603941968
+      ],
+      "efficient_eigenvalues": [
+        0.0,
+        0.0
+      ],
+      "conditional_global_distance": 0.0006816040735459305,
+      "fisher_group_distance": 8.239626080841324e-16,
+      "fisher_grouping_interpretation": "data-derived binned approximation, not exact conditional integration"
+    },
+    {
+      "seed": 31,
+      "m": 4,
+      "fisher_eigenvalues": [
+        0.0799880391316895,
+        0.1395600398823403,
+        8.90209341999571
+      ],
+      "efficient_eigenvalues": [
+        0.07998803913170731,
+        0.13956003988234167
+      ],
+      "conditional_global_distance": 0.0006191499191678392,
+      "fisher_group_distance": 7.937909627179825e-16,
+      "fisher_grouping_interpretation": "data-derived binned approximation, not exact conditional integration"
+    },
+    {
+      "seed": 31,
+      "m": 16,
+      "fisher_eigenvalues": [
+        0.32021681335709723,
+        0.55892955107929,
+        8.90794618827226
+      ],
+      "efficient_eigenvalues": [
+        0.32021681369307425,
+        0.5589295511302571
+      ],
+      "conditional_global_distance": 0.0007872952595695973,
+      "fisher_group_distance": 2.2384709338347535e-15,
+      "fisher_grouping_interpretation": "data-derived binned approximation, not exact conditional integration"
+    },
+    {
+      "seed": 31,
+      "m": 64,
+      "fisher_eigenvalues": [
+        1.2889147424786271,
+        2.315419597070803,
+        8.922352949032472
+      ],
+      "efficient_eigenvalues": [
+        1.2889148734027718,
+        2.315419677714855
+      ],
+      "conditional_global_distance": 0.0006332246196252059,
+      "fisher_group_distance": 7.138044577121914e-16,
+      "fisher_grouping_interpretation": "data-derived binned approximation, not exact conditional integration"
+    },
+    {
+      "seed": 32,
+      "m": 0,
+      "fisher_eigenvalues": [
+        0.0,
+        0.0,
+        13.42829149693766
+      ],
+      "efficient_eigenvalues": [
+        0.0,
+        0.0
+      ],
+      "conditional_global_distance": 0.00023300263263304732,
+      "fisher_group_distance": 2.889239104453528e-16,
+      "fisher_grouping_interpretation": "data-derived binned approximation, not exact conditional integration"
+    },
+    {
+      "seed": 32,
+      "m": 4,
+      "fisher_eigenvalues": [
+        0.0709608498440459,
+        0.14745640031644033,
+        13.68542474334631
+      ],
+      "efficient_eigenvalues": [
+        0.07096084985722201,
+        0.14745640125939607
+      ],
+      "conditional_global_distance": 0.0004214779117969569,
+      "fisher_group_distance": 3.3705458399870796e-16,
+      "fisher_grouping_interpretation": "data-derived binned approximation, not exact conditional integration"
+    },
+    {
+      "seed": 32,
+      "m": 16,
+      "fisher_eigenvalues": [
+        0.2814241152263388,
+        0.584752322539845,
+        13.443773744559955
+      ],
+      "efficient_eigenvalues": [
+        0.28142411679794704,
+        0.5847523321931181
+      ],
+      "conditional_global_distance": 0.0002206079298962381,
+      "fisher_group_distance": 3.063150330592928e-16,
+      "fisher_grouping_interpretation": "data-derived binned approximation, not exact conditional integration"
+    },
+    {
+      "seed": 32,
+      "m": 64,
+      "fisher_eigenvalues": [
+        1.1378402786272444,
+        2.3617302842133117,
+        13.769095992498496
+      ],
+      "efficient_eigenvalues": [
+        1.1378402932495162,
+        2.3617314402818836
+      ],
+      "conditional_global_distance": 0.000336098123174595,
+      "fisher_group_distance": 1.492729299084489e-15,
+      "fisher_grouping_interpretation": "data-derived binned approximation, not exact conditional integration"
+    }
+  ],
+  "gaussian_affinity": {
+    "analytic": 0.9638822748592394,
+    "monte_carlo": 0.9671704758345088,
+    "mc_se": 0.0018785059892779702
+  },
+  "turnover": {
+    "gap": 1.4707128683302817e-09,
+    "status": "converged"
+  },
+  "five_parameter": {
+    "gap": 2.1355421662809515e-11,
+    "status": "converged",
+    "min_eigenvalue": 0.10345070626173435
+  }
+}

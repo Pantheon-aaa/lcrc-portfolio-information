@@ -1,0 +1,5042 @@
+[
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 578951045,
+    "instance_id": "466f189d6da18e57",
+    "method": "A-Mean",
+    "high_size": 4096,
+    "gap": 1.938763190788284e-11,
+    "status": "converged",
+    "objective": 0.001395878498542827,
+    "weights": [
+      0.053031942770031086,
+      0.01581930914774401,
+      0.014044302284902556,
+      0.060256212984467705,
+      0.12493741605374259,
+      0.04206181696320938,
+      0.11112170583374614,
+      0.01807848302933606,
+      0.03319977908060358,
+      0.09899500232139295,
+      0.047886455287274615,
+      0.023103838529534227,
+      0.012582532033291923,
+      0.07735072606570348,
+      0.06839688742300666,
+      0.08699291149596364,
+      0.025842426147342865,
+      0.02911460467194928,
+      0.03702549793792964,
+      0.02015814993882771
+    ],
+    "seconds": 0.08689959999901475,
+    "posterior": {
+      "ess": 2333.6860615045725,
+      "max_mass": 0.0004931434327794276,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 3.9923284539172474e-08,
+        "weight_distance": 0.0003330876081395098
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 3.6823134130867935e-08,
+        "weight_distance": 0.0003072475792063229
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 3.413955837710918e-08,
+        "weight_distance": 0.0002985281872825235
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 6.258280218053927e-09,
+        "weight_distance": 0.00011978815678326673
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 3.969866697742588e-09,
+        "weight_distance": 0.0001002795084392464
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 4.109009145740125e-09,
+        "weight_distance": 0.00010279144052176121
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 3.6571395842233123e-09,
+        "weight_distance": 9.85435076118724e-05
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 3.654336509176931e-09,
+        "weight_distance": 9.846112218569614e-05
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 3.654336524138921e-09,
+        "weight_distance": 9.846112218511342e-05
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 578951045,
+    "instance_id": "466f189d6da18e57",
+    "method": "REF-EB",
+    "high_size": 4096,
+    "gap": 1.9250892438309186e-11,
+    "status": "converged",
+    "objective": 0.0006696623044186473,
+    "weights": [
+      0.053943811483475386,
+      0.0154557055445086,
+      0.014763696832177238,
+      0.06064838317954168,
+      0.12317991701629906,
+      0.04063718423070303,
+      0.11424403498640581,
+      0.018524293034012245,
+      0.03229670589648628,
+      0.09959173903459338,
+      0.0480376906550429,
+      0.02270018722828766,
+      0.013047715320100925,
+      0.07811390772096018,
+      0.06631227716550904,
+      0.08599347802747714,
+      0.026602723366810636,
+      0.03053419482241045,
+      0.035727863111192006,
+      0.019644491344006334
+    ],
+    "seconds": 0.10349049999786075,
+    "posterior": {
+      "ess": 2333.6860615045725,
+      "max_mass": 0.0004931434327794276,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 6.963676673580471e-07,
+        "weight_distance": 0.0012618386550686705
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 5.26602026438075e-07,
+        "weight_distance": 0.0011773233306180987
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 6.20112236012914e-07,
+        "weight_distance": 0.001196728635249555
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 2.578585559328281e-06,
+        "weight_distance": 0.0025181835242835834
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 2.2334816750289952e-07,
+        "weight_distance": 0.0006226772855170642
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 1.9969293264084564e-06,
+        "weight_distance": 0.0022886373773723587
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 9.046000583032071e-07,
+        "weight_distance": 0.0014396511299696651
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 1.9151366611493137e-08,
+        "weight_distance": 0.00020154593806861353
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 2.044816973701129e-06,
+        "weight_distance": 0.002316064087353903
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 578951045,
+    "instance_id": "466f189d6da18e57",
+    "method": "H-Conditional-FilterThenK",
+    "high_size": 4096,
+    "gap": 1.077648933631159e-10,
+    "status": "converged",
+    "objective": 0.002375860883353393,
+    "weights": [
+      0.052745758917151976,
+      0.01595246173968158,
+      0.01379818757159681,
+      0.060115052784220725,
+      0.1255748032233387,
+      0.042555530660545425,
+      0.11000321070902647,
+      0.01789374467630115,
+      0.0335314839875052,
+      0.09877467219321881,
+      0.0475316774967292,
+      0.023252789001988405,
+      0.01230742212039086,
+      0.0771786645286736,
+      0.06912313390824541,
+      0.08765028486677354,
+      0.025509341801037276,
+      0.02896772947442768,
+      0.03730646287977974,
+      0.020227587459367515
+    ],
+    "seconds": 4.31127639999977,
+    "posterior": {
+      "ess": 2333.6860615045725,
+      "max_mass": 0.0004931434327794276,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 5.0560214867258375e-06,
+        "weight_distance": 0.0026049204375554027
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 8.639209800196702e-06,
+        "weight_distance": 0.0034737137833421097
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 1.1243821533872371e-05,
+        "weight_distance": 0.003906009621121179
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 4.814849319895349e-06,
+        "weight_distance": 0.002501910931482448
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 8.351024327247006e-06,
+        "weight_distance": 0.0033720099538396093
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 1.1080425171889133e-05,
+        "weight_distance": 0.003864779074774522
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 3.4468129578328274e-06,
+        "weight_distance": 0.0019707372284910106
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 1.2926543505491824e-05,
+        "weight_distance": 0.003990367601620475
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 2.8728898297507993e-06,
+        "weight_distance": 0.0020243239667693974
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 578951045,
+    "instance_id": "466f189d6da18e57",
+    "method": "A-Absolute:0.5",
+    "high_size": 4096,
+    "gap": 7.600313087219313e-11,
+    "status": "converged",
+    "objective": 0.025848806966447774,
+    "weights": [
+      0.05933616119153199,
+      0.013104881010632072,
+      0.01927254964750964,
+      0.06341541009810105,
+      0.11230801456126177,
+      0.03195251439518895,
+      0.1348690315309109,
+      0.021867509984834964,
+      0.026620632907670683,
+      0.10420524287489291,
+      0.05310340680075482,
+      0.01983548830660553,
+      0.017672181458845814,
+      0.08163504874459132,
+      0.05203250705861288,
+      0.07456198108724357,
+      0.03250402949683741,
+      0.03507833079784582,
+      0.02908655005559101,
+      0.017538527990536807
+    ],
+    "seconds": 5.272374099997251,
+    "posterior": {
+      "ess": 2333.6860615045725,
+      "max_mass": 0.0004931434327794276,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 1.2385880420809348e-06,
+        "weight_distance": 0.0014683754838389913
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 1.216729536849398e-06,
+        "weight_distance": 0.0014319337359259808
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 1.8567757913423577e-06,
+        "weight_distance": 0.001785908207766123
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 1.0982153298630393e-06,
+        "weight_distance": 0.0013545825331986003
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 1.270277815840909e-06,
+        "weight_distance": 0.0014554636103140132
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 1.697805989173129e-06,
+        "weight_distance": 0.0016828282348569127
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 4.566619606766187e-09,
+        "weight_distance": 0.00010200145290955166
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 7.756914971457363e-09,
+        "weight_distance": 0.00013889618470100564
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 5.525086305135929e-08,
+        "weight_distance": 0.0002956159655501637
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 578951045,
+    "instance_id": "466f189d6da18e57",
+    "method": "B-Tail-P:0.25",
+    "high_size": 4096,
+    "gap": 8.892582330222165e-11,
+    "status": "converged",
+    "objective": 0.0031740269632415676,
+    "weights": [
+      0.05216009697396505,
+      0.016223783096081926,
+      0.013298369688050132,
+      0.05984574528693505,
+      0.12686393773157614,
+      0.04356070866753573,
+      0.10776530500019693,
+      0.017543980642946762,
+      0.03418128752737822,
+      0.09831749620249312,
+      0.047167694827032945,
+      0.023533379907895946,
+      0.011888432557299416,
+      0.07669800952147739,
+      0.07058268403371241,
+      0.08859497181192053,
+      0.024920935218497635,
+      0.028244633553131393,
+      0.03809750497557348,
+      0.020511042776299872
+    ],
+    "seconds": 5.12921809999898,
+    "posterior": {
+      "ess": 2333.6860615045725,
+      "max_mass": 0.0004931434327794276,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 5.270080671815076e-06,
+        "weight_distance": 0.001614218708636155
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 1.6651701711689094e-06,
+        "weight_distance": 0.0009794769813328164
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 4.52932143864878e-07,
+        "weight_distance": 0.0007012467365267536
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 5.375112668347913e-06,
+        "weight_distance": 0.001553824395906936
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 2.5793759615031983e-06,
+        "weight_distance": 0.0011068103262254372
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 5.097881906170401e-07,
+        "weight_distance": 0.0007727100872133934
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 5.184361924816163e-06,
+        "weight_distance": 0.0028054844487934725
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 1.136734164768798e-05,
+        "weight_distance": 0.003483824684063114
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 3.563414024414409e-07,
+        "weight_distance": 0.0006083594242637118
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 578951045,
+    "instance_id": "466f189d6da18e57",
+    "method": "B-Tail-P:0.5",
+    "high_size": 4096,
+    "gap": 5.172261013583479e-11,
+    "status": "converged",
+    "objective": 0.002368523919503849,
+    "weights": [
+      0.052759526948649556,
+      0.015944599009492248,
+      0.013812012179056013,
+      0.06012718029255567,
+      0.12553552917734345,
+      0.042528260654630105,
+      0.11007463066040367,
+      0.01791145050334089,
+      0.033506401545564994,
+      0.09878434747197912,
+      0.047653443239357135,
+      0.02323924146671704,
+      0.012362208287236833,
+      0.07715154222369723,
+      0.06908053975354692,
+      0.08750371058341605,
+      0.025552872564894084,
+      0.02885428183927281,
+      0.037353872854411815,
+      0.020264348744434346
+    ],
+    "seconds": 4.4617086999969615,
+    "posterior": {
+      "ess": 2333.6860615045725,
+      "max_mass": 0.0004931434327794276,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 4.440379469177087e-06,
+        "weight_distance": 0.002345522759677673
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 8.18234931354014e-06,
+        "weight_distance": 0.0032150239770946483
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 9.772050346617406e-06,
+        "weight_distance": 0.0037090912515029264
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 4.191420710317022e-06,
+        "weight_distance": 0.002240165761324565
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 7.881478002907168e-06,
+        "weight_distance": 0.003111768451678244
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 9.626393647954937e-06,
+        "weight_distance": 0.0036714205286369037
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 3.148369291592658e-06,
+        "weight_distance": 0.0017340616535096811
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 3.4622077366938155e-06,
+        "weight_distance": 0.001710211585661053
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 2.388462427331539e-06,
+        "weight_distance": 0.001818027033829836
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 578951045,
+    "instance_id": "466f189d6da18e57",
+    "method": "B-Max",
+    "high_size": 128,
+    "gap": 2.0193112806876634e-11,
+    "status": "converged",
+    "objective": 0.004692035575020193,
+    "weights": [
+      0.05108885965176342,
+      0.01656231913419564,
+      0.01248426074266062,
+      0.05920906435681593,
+      0.12895997123350125,
+      0.04530024271488246,
+      0.1037114076907998,
+      0.01679044874672858,
+      0.03567643756947491,
+      0.09791145730178501,
+      0.04746585507878341,
+      0.024167710283516906,
+      0.011392251067572103,
+      0.07558692763563858,
+      0.07336985084366054,
+      0.08941532697670194,
+      0.02403126318705493,
+      0.026014051127858893,
+      0.039711397288280846,
+      0.02115089736832419
+    ],
+    "seconds": 0.10562819999904605,
+    "posterior": {
+      "ess": 2333.6860615045725,
+      "max_mass": 0.0004931434327794276,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 0.00017046573034495277,
+        "weight_distance": 0.005275202617615158
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 0.000680340212309412,
+        "weight_distance": 0.018817299387989844
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 0.00035167858767486213,
+        "weight_distance": 0.013031605107682283
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 0.0001685941217329425,
+        "weight_distance": 0.005320317446018151
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 0.0006887038231022467,
+        "weight_distance": 0.018915776285391917
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 0.0003417606272436702,
+        "weight_distance": 0.012645453420028655
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 0.0008122087532303887,
+        "weight_distance": 0.02216449100278161
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 5.458889171938968e-05,
+        "weight_distance": 0.0034055831337665857
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 0.0007887371958341218,
+        "weight_distance": 0.01088553178851612
+      }
+    ],
+    "scope": "exact hidden maximization, approximate outer integration"
+  },
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 578951045,
+    "instance_id": "466f189d6da18e57",
+    "method": "A-Tail-P:0.5",
+    "high_size": 4096,
+    "gap": 1.6243081402481097e-10,
+    "status": "converged",
+    "objective": 0.0023685966855624897,
+    "weights": [
+      0.0527599812167556,
+      0.01594651942955352,
+      0.01381033626638006,
+      0.0601273561327543,
+      0.12554363884482855,
+      0.04253301367488292,
+      0.11006309931756157,
+      0.0179089896560433,
+      0.03350874896802295,
+      0.09877760154030359,
+      0.04763804360907333,
+      0.023240110514180633,
+      0.012355755046853155,
+      0.0771522285861517,
+      0.06908698424119865,
+      0.08752024270929289,
+      0.025548215506883586,
+      0.028864808713109567,
+      0.03735206291917764,
+      0.020262263106992383
+    ],
+    "seconds": 5.927242300000216,
+    "posterior": {
+      "ess": 2333.6860615045725,
+      "max_mass": 0.0004931434327794276,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 4.386548295670471e-06,
+        "weight_distance": 0.002377110107616108
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 8.138418591259293e-06,
+        "weight_distance": 0.0032465662862357727
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 9.805797628862148e-06,
+        "weight_distance": 0.003727577572421403
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 4.136980733732143e-06,
+        "weight_distance": 0.002270727302781543
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 7.839732459558654e-06,
+        "weight_distance": 0.0031425434652550656
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 9.653576933265143e-06,
+        "weight_distance": 0.0036885718338097897
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 3.1611407658397456e-06,
+        "weight_distance": 0.001773460849594716
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 2.9086141698276592e-06,
+        "weight_distance": 0.0015711017862472282
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 2.500605083346173e-06,
+        "weight_distance": 0.0018363616899698953
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 1217838525,
+    "instance_id": "e6b82b7a295325ce",
+    "method": "A-Mean",
+    "high_size": 4096,
+    "gap": 1.9358611339382464e-11,
+    "status": "converged",
+    "objective": 0.00028835331507495976,
+    "weights": [
+      0.061725425922824366,
+      0.014590188388228778,
+      0.018681634662597715,
+      0.06420885753004167,
+      0.11719581799067501,
+      0.03438027895198759,
+      0.12753433590030866,
+      0.020216382174993885,
+      0.027264694195066597,
+      0.09807039013826996,
+      0.05111518375699248,
+      0.019737110631034033,
+      0.016647550624524343,
+      0.07826952829895052,
+      0.0562195199165408,
+      0.07623159771370056,
+      0.03171187527939533,
+      0.03174803943699881,
+      0.03419289183811983,
+      0.020258696648748985
+    ],
+    "seconds": 0.08818569999857573,
+    "posterior": {
+      "ess": 1686.3658774720072,
+      "max_mass": 0.0011964261660590263,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 3.3871261181630456e-06,
+        "weight_distance": 0.002783135503496915
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 3.7509028688979275e-06,
+        "weight_distance": 0.0027688736768590318
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 2.4127342332886737e-06,
+        "weight_distance": 0.002344287842483844
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 3.357560833748693e-06,
+        "weight_distance": 0.0028633921970104455
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 3.6646358011309388e-06,
+        "weight_distance": 0.002786591592443268
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 2.40318466821404e-06,
+        "weight_distance": 0.002427481094011827
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 2.0627619601820105e-06,
+        "weight_distance": 0.002040461347135835
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 3.532090099980854e-07,
+        "weight_distance": 0.0007998855404806265
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 2.376689258298283e-06,
+        "weight_distance": 0.002281478893508644
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 1217838525,
+    "instance_id": "e6b82b7a295325ce",
+    "method": "REF-EB",
+    "high_size": 4096,
+    "gap": 1.9316946832251616e-11,
+    "status": "converged",
+    "objective": 0.00024209900314141789,
+    "weights": [
+      0.060591457114818045,
+      0.01495654351176057,
+      0.017882919973553953,
+      0.06384237095273496,
+      0.11884435692349474,
+      0.035878376821837185,
+      0.12431835650763284,
+      0.01993689793166633,
+      0.02799796701994795,
+      0.09724730706024573,
+      0.04920835747915561,
+      0.0202336429342971,
+      0.015503314173817784,
+      0.07825287607717687,
+      0.05838663651926632,
+      0.07933320192184579,
+      0.03052270734524248,
+      0.032603806375847234,
+      0.034400338083763686,
+      0.020058565271894875
+    ],
+    "seconds": 0.09277529999963008,
+    "posterior": {
+      "ess": 1686.3658774720072,
+      "max_mass": 0.0011964261660590263,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 1.5408105473974727e-06,
+        "weight_distance": 0.0018554254140878545
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 2.2911127587736137e-06,
+        "weight_distance": 0.0020458251641298996
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 2.547117684134425e-06,
+        "weight_distance": 0.00229455886821959
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 1.1798029203299106e-06,
+        "weight_distance": 0.0017218681430944923
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 3.543947485571151e-06,
+        "weight_distance": 0.0025044743839114877
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 3.0369684839116277e-06,
+        "weight_distance": 0.0023766640792034946
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 1.8798612885189802e-06,
+        "weight_distance": 0.002005148196004843
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 5.991029441727164e-08,
+        "weight_distance": 0.00035105706869984296
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 2.2174037651778364e-06,
+        "weight_distance": 0.0022530313848027166
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 1217838525,
+    "instance_id": "e6b82b7a295325ce",
+    "method": "H-Conditional-FilterThenK",
+    "high_size": 4096,
+    "gap": 1.9707007293395806e-11,
+    "status": "converged",
+    "objective": 0.00043530247123298816,
+    "weights": [
+      0.06195568662198859,
+      0.014523555435040119,
+      0.018834102062042512,
+      0.06426074609833264,
+      0.11690625086732934,
+      0.0340952199424972,
+      0.12810983721499042,
+      0.020235012392967558,
+      0.027157533193201914,
+      0.09824463438854435,
+      0.05146980036255804,
+      0.019648259675926795,
+      0.016856511803249322,
+      0.07826043637927019,
+      0.05583173938072661,
+      0.07565261166848297,
+      0.03192588067133137,
+      0.031568099526141834,
+      0.03416414342053205,
+      0.020299938894846013
+    ],
+    "seconds": 5.937580900001194,
+    "posterior": {
+      "ess": 1686.3658774720072,
+      "max_mass": 0.0011964261660590263,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 9.46602086464662e-06,
+        "weight_distance": 0.003477239217538781
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 1.2295339344755261e-05,
+        "weight_distance": 0.004021309827462934
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 7.616776127788885e-06,
+        "weight_distance": 0.003269781643967995
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 8.885886840127736e-06,
+        "weight_distance": 0.003350988341399536
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 1.1747258009278054e-05,
+        "weight_distance": 0.003771615378559828
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 9.314980529059218e-06,
+        "weight_distance": 0.003635203985378305
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 6.297194897288843e-06,
+        "weight_distance": 0.0028544115955825905
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 6.232341673540864e-06,
+        "weight_distance": 0.0029724306251653434
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 3.6255418369128957e-06,
+        "weight_distance": 0.0020011522255388744
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 1217838525,
+    "instance_id": "e6b82b7a295325ce",
+    "method": "A-Absolute:0.5",
+    "high_size": 4096,
+    "gap": 9.132881950701943e-11,
+    "status": "converged",
+    "objective": 0.02648266001732701,
+    "weights": [
+      0.0645629729050951,
+      0.013606940445248617,
+      0.020810594294971056,
+      0.06574736774088244,
+      0.1128048490325046,
+      0.030639521751136576,
+      0.13702387126119128,
+      0.021739813485485437,
+      0.02481986081955869,
+      0.10018489429664676,
+      0.052995607535647964,
+      0.01826725466464827,
+      0.018712841873080786,
+      0.07978354361028119,
+      0.04904917133628792,
+      0.07070586488986748,
+      0.03449473961696988,
+      0.03429753055038899,
+      0.030671480277641765,
+      0.019081279612465248
+    ],
+    "seconds": 10.457447500000853,
+    "posterior": {
+      "ess": 1686.3658774720072,
+      "max_mass": 0.0011964261660590263,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 1.0947382456518578e-05,
+        "weight_distance": 0.0044382608027727566
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 2.9951425323249126e-06,
+        "weight_distance": 0.0025752886421749597
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 5.4857577457025075e-06,
+        "weight_distance": 0.003498633922542094
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 1.0248933720542752e-05,
+        "weight_distance": 0.004223566181756783
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 2.9415331327664607e-06,
+        "weight_distance": 0.0026241955667212686
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 5.507180984288401e-06,
+        "weight_distance": 0.0035815219922435363
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 2.2597230069885954e-06,
+        "weight_distance": 0.0022347312033953533
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 3.676321857319642e-07,
+        "weight_distance": 0.0008114416165811812
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 5.202790313244693e-06,
+        "weight_distance": 0.002991177699276104
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 1217838525,
+    "instance_id": "e6b82b7a295325ce",
+    "method": "B-Tail-P:0.25",
+    "high_size": 4096,
+    "gap": 2.811456297803494e-11,
+    "status": "converged",
+    "objective": 0.0007239278154092406,
+    "weights": [
+      0.06116181007227668,
+      0.014828061789041324,
+      0.018216223359784164,
+      0.0638647183354468,
+      0.11830653715135281,
+      0.0352404174425552,
+      0.12539618936874639,
+      0.019809759170913037,
+      0.027897765139750747,
+      0.09768277932269881,
+      0.05088032096767754,
+      0.020036750362343463,
+      0.016266399404670555,
+      0.07780658805589032,
+      0.05774870198985898,
+      0.0771496179672211,
+      0.03113731882576627,
+      0.03090047561456175,
+      0.03507726791924933,
+      0.02059229774019458
+    ],
+    "seconds": 11.344140099998185,
+    "posterior": {
+      "ess": 1686.3658774720072,
+      "max_mass": 0.0011964261660590263,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 8.158808562389367e-05,
+        "weight_distance": 0.008756263947481802
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 2.3678481686334983e-06,
+        "weight_distance": 0.0019270233268699306
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 3.2708271506111213e-06,
+        "weight_distance": 0.0017991367708455341
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 8.082517771593645e-05,
+        "weight_distance": 0.008821517290690641
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 1.9413542930968005e-06,
+        "weight_distance": 0.0016568386956748876
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 3.1618327270872696e-06,
+        "weight_distance": 0.0017005828162227113
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 1.5083303827020879e-05,
+        "weight_distance": 0.004013357210789901
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 5.974435127592548e-06,
+        "weight_distance": 0.002935499873920437
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 9.584853060504595e-07,
+        "weight_distance": 0.0012045135176572306
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 1217838525,
+    "instance_id": "e6b82b7a295325ce",
+    "method": "B-Tail-P:0.5",
+    "high_size": 4096,
+    "gap": 3.174087967287853e-11,
+    "status": "converged",
+    "objective": 0.0004909108174476033,
+    "weights": [
+      0.061623936630356015,
+      0.014632560725999099,
+      0.01859778095687831,
+      0.0641441949494205,
+      0.1173955338656731,
+      0.03453486428280288,
+      0.1271443390731958,
+      0.02014015286616553,
+      0.0273818327196244,
+      0.09800172927691339,
+      0.05108459361823647,
+      0.0197926338775395,
+      0.016582122357803347,
+      0.07818079626650512,
+      0.05650206526828879,
+      0.07638642865034621,
+      0.031609837681642654,
+      0.031574873085852925,
+      0.03436402237340574,
+      0.020325701473350187
+    ],
+    "seconds": 9.326080599999841,
+    "posterior": {
+      "ess": 1686.3658774720072,
+      "max_mass": 0.0011964261660590263,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 1.8088621231576577e-05,
+        "weight_distance": 0.004735178699954183
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 4.763327867358773e-06,
+        "weight_distance": 0.0026048218110770946
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 5.229430964072629e-07,
+        "weight_distance": 0.001065154328458197
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 1.850107548414463e-05,
+        "weight_distance": 0.0048409932881836966
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 4.5272346181178405e-06,
+        "weight_distance": 0.0024046850138486073
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 3.40105126836205e-07,
+        "weight_distance": 0.0006550792473622655
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 1.6670796315014893e-06,
+        "weight_distance": 0.0014407448624498627
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 6.716221354590617e-06,
+        "weight_distance": 0.0029176457202361775
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 3.477305116509309e-06,
+        "weight_distance": 0.0023655026246501257
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 1217838525,
+    "instance_id": "e6b82b7a295325ce",
+    "method": "B-Max",
+    "high_size": 128,
+    "gap": 2.517194612472462e-11,
+    "status": "converged",
+    "objective": 0.004718280093745496,
+    "weights": [
+      0.054488676293026846,
+      0.017446993829796233,
+      0.013005566996397547,
+      0.06089632073752334,
+      0.1307682432215978,
+      0.04532622171109902,
+      0.10294393172115424,
+      0.016514526740107248,
+      0.03430488879546177,
+      0.09339050844996229,
+      0.04501590294353659,
+      0.023120572596175726,
+      0.01111263245619685,
+      0.07427632589271528,
+      0.07268498548069828,
+      0.0897761131942119,
+      0.024499086140265837,
+      0.026838029282281326,
+      0.041309758071723525,
+      0.022280715446068213
+    ],
+    "seconds": 0.0765151000014157,
+    "posterior": {
+      "ess": 1686.3658774720072,
+      "max_mass": 0.0011964261660590263,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 5.759043223719021e-06,
+        "weight_distance": 0.0006764228771753318
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 0.001371619371879569,
+        "weight_distance": 0.019382086197789587
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 0.00020193726240298922,
+        "weight_distance": 0.009483561667647617
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 1.1255340656760558e-05,
+        "weight_distance": 0.0006780116369657729
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 0.0013676876957112605,
+        "weight_distance": 0.019447500958168613
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 0.00020715410499067693,
+        "weight_distance": 0.0095045321086976
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 0.0005063327460951604,
+        "weight_distance": 0.012018030450344627
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 0.0006172617942090527,
+        "weight_distance": 0.008884007259045248
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 0.00037684845020709117,
+        "weight_distance": 0.005854394903139165
+      }
+    ],
+    "scope": "exact hidden maximization, approximate outer integration"
+  },
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 1217838525,
+    "instance_id": "e6b82b7a295325ce",
+    "method": "A-Tail-P:0.5",
+    "high_size": 4096,
+    "gap": 2.5911387402030583e-11,
+    "status": "converged",
+    "objective": 0.0004912891014777706,
+    "weights": [
+      0.0616452685678528,
+      0.014637623154073038,
+      0.01860137822226712,
+      0.06415217573827423,
+      0.11740994909332031,
+      0.034535305621033616,
+      0.12713471458342152,
+      0.020133492213915367,
+      0.02737864445877616,
+      0.09797471581258409,
+      0.051079317895807684,
+      0.019787166436930213,
+      0.01658317534087775,
+      0.07816691835403945,
+      0.05650409389905833,
+      0.07637921881719692,
+      0.0316139364421938,
+      0.031562986584579476,
+      0.034382539768374076,
+      0.020337378995424017
+    ],
+    "seconds": 10.575326599999244,
+    "posterior": {
+      "ess": 1686.3658774720072,
+      "max_mass": 0.0011964261660590263,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 2.0175504867208575e-05,
+        "weight_distance": 0.004997635697020616
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 4.2016386238286334e-06,
+        "weight_distance": 0.002438358033364831
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 6.783981076137653e-07,
+        "weight_distance": 0.0011991307029432742
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 1.9443950550478454e-05,
+        "weight_distance": 0.004951416386119247
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 4.178476276266879e-06,
+        "weight_distance": 0.0023142167151225185
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 2.967053733595468e-07,
+        "weight_distance": 0.0006336332446909686
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 2.2120110919547457e-06,
+        "weight_distance": 0.0016657820848542076
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 5.750201365102223e-06,
+        "weight_distance": 0.002688157623092973
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 3.0516583027395856e-06,
+        "weight_distance": 0.002266488442566503
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 3010570667,
+    "instance_id": "9bb99adfc1d75a6e",
+    "method": "A-Mean",
+    "high_size": 4096,
+    "gap": 1.937974000026932e-11,
+    "status": "converged",
+    "objective": 0.00141760148358086,
+    "weights": [
+      0.03496358379618235,
+      0.019325136995134103,
+      0.01734340489025489,
+      0.12214109740744757,
+      0.013966719884035148,
+      0.025931771378480965,
+      0.04264982083443009,
+      0.012856980435411182,
+      0.04938587683494518,
+      0.024171776736557866,
+      0.030996413579323027,
+      0.056142259826998914,
+      0.09007782730746856,
+      0.0698453639160931,
+      0.11205413255785043,
+      0.03295013515934968,
+      0.09688747801207512,
+      0.05894523469134312,
+      0.07419939181776532,
+      0.01516559393885323
+    ],
+    "seconds": 0.09601420000035432,
+    "posterior": {
+      "ess": 2351.617931972827,
+      "max_mass": 0.000489219357054168,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 3.1773788498109384e-07,
+        "weight_distance": 0.0009188251567079757
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 3.1279636364929878e-06,
+        "weight_distance": 0.002752983270653807
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 3.336668006586295e-06,
+        "weight_distance": 0.0026752728033376813
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 1.2498826088263443e-08,
+        "weight_distance": 0.0001537451447799928
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 2.4484338333563387e-06,
+        "weight_distance": 0.0025261737072412487
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 2.9757683145891466e-06,
+        "weight_distance": 0.0026750127479184503
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 1.2498843911896637e-08,
+        "weight_distance": 0.00015374516297206442
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 1.2801934253566655e-08,
+        "weight_distance": 0.0001804637563346127
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 1.500697414990107e-08,
+        "weight_distance": 0.00020050607738672478
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 3010570667,
+    "instance_id": "9bb99adfc1d75a6e",
+    "method": "REF-EB",
+    "high_size": 4096,
+    "gap": 1.917596496089219e-11,
+    "status": "converged",
+    "objective": 0.0006311930320190483,
+    "weights": [
+      0.0349312269496853,
+      0.01944603304585261,
+      0.017513878240725332,
+      0.12156593466630519,
+      0.013968917560791405,
+      0.025949864365300643,
+      0.04279531486187149,
+      0.012985731490276221,
+      0.04908003843479165,
+      0.024149106642922396,
+      0.030116678075318884,
+      0.05668913217177885,
+      0.0899753800173608,
+      0.06820731670946913,
+      0.11245427145695006,
+      0.032166372180261325,
+      0.09715808811271276,
+      0.059471421422295154,
+      0.07623662582853655,
+      0.015138667766794288
+    ],
+    "seconds": 0.10111529999994673,
+    "posterior": {
+      "ess": 2351.617931972827,
+      "max_mass": 0.000489219357054168,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 2.0791331450782332e-05,
+        "weight_distance": 0.007298228110483505
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 2.7709167333973394e-07,
+        "weight_distance": 0.0008718633160142175
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 6.010556379797138e-07,
+        "weight_distance": 0.001286783220694101
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 1.642520512406436e-05,
+        "weight_distance": 0.006538097428831666
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 2.2849584791926822e-07,
+        "weight_distance": 0.0007562396032946478
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 7.250371872431164e-07,
+        "weight_distance": 0.0013088018769572766
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 8.676429847412977e-06,
+        "weight_distance": 0.004717473127228537
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 2.66789486994619e-07,
+        "weight_distance": 0.0007981032225493013
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 4.440168921997136e-07,
+        "weight_distance": 0.0010232872417169374
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 3010570667,
+    "instance_id": "9bb99adfc1d75a6e",
+    "method": "H-Conditional-FilterThenK",
+    "high_size": 4096,
+    "gap": 2.1173823111508838e-11,
+    "status": "converged",
+    "objective": 0.0024013375633071543,
+    "weights": [
+      0.035025290481655064,
+      0.019265868900585313,
+      0.01724585519035759,
+      0.12256709814012733,
+      0.013965769763385243,
+      0.02592661922130716,
+      0.042550171185954916,
+      0.012770637192044207,
+      0.04955605300480344,
+      0.02417101581936655,
+      0.03152651020836936,
+      0.055646514208257974,
+      0.09002523098247457,
+      0.07073409172432873,
+      0.11181033879167394,
+      0.033330371700696006,
+      0.09674343763311476,
+      0.05877994812073735,
+      0.07320946845918294,
+      0.015149709271577575
+    ],
+    "seconds": 5.056529900000896,
+    "posterior": {
+      "ess": 2351.617931972827,
+      "max_mass": 0.000489219357054168,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 8.433747687930631e-06,
+        "weight_distance": 0.003671773443646954
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 9.434467145057017e-06,
+        "weight_distance": 0.0043060919836702015
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 1.4800996367397151e-06,
+        "weight_distance": 0.0014960439712612004
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 1.017171296864832e-05,
+        "weight_distance": 0.003876914354828461
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 8.52642557022578e-06,
+        "weight_distance": 0.004172261389963946
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 1.570490737630003e-06,
+        "weight_distance": 0.0017301915974351535
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 1.2354752685087012e-05,
+        "weight_distance": 0.004283692088056148
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 1.1762869182082442e-07,
+        "weight_distance": 0.0005264586581363355
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 2.839837774195643e-06,
+        "weight_distance": 0.0020620341179812254
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 3010570667,
+    "instance_id": "9bb99adfc1d75a6e",
+    "method": "A-Absolute:0.5",
+    "high_size": 4096,
+    "gap": 7.86443132838599e-12,
+    "status": "converged",
+    "objective": 0.02250506395019779,
+    "weights": [
+      0.035450389559819315,
+      0.019731705265024314,
+      0.017780035172054023,
+      0.12410004729899844,
+      0.014251330798962984,
+      0.026565561104036618,
+      0.04381379256286037,
+      0.013294831720954404,
+      0.05057163780984276,
+      0.02489573096360788,
+      0.016659712365765918,
+      0.07028030884438291,
+      0.09113114243541579,
+      0.04810808906614748,
+      0.11511616394225929,
+      0.024988564745048018,
+      0.09783568302169753,
+      0.0581781867491981,
+      0.09110990310670826,
+      0.016137183467215557
+    ],
+    "seconds": 6.29167530000268,
+    "posterior": {
+      "ess": 2351.617931972827,
+      "max_mass": 0.000489219357054168,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 6.948885898777624e-07,
+        "weight_distance": 0.0010229300628133773
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 2.3392210953508685e-06,
+        "weight_distance": 0.0014426000747315014
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 5.054873210705996e-06,
+        "weight_distance": 0.001996103635593315
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 1.2609774531144313e-07,
+        "weight_distance": 0.0002922798323413891
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 1.275955109601018e-06,
+        "weight_distance": 0.0010491456034119903
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 5.426770685004745e-06,
+        "weight_distance": 0.0021466061874209326
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 9.657685236252878e-08,
+        "weight_distance": 0.00028841940411731567
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 1.1967829131181995e-07,
+        "weight_distance": 0.0003846641255314842
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 4.2557595676673277e-08,
+        "weight_distance": 0.0002451493903308798
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 3010570667,
+    "instance_id": "9bb99adfc1d75a6e",
+    "method": "B-Tail-P:0.25",
+    "high_size": 4096,
+    "gap": 2.024980183534808e-11,
+    "status": "converged",
+    "objective": 0.0032634753035477855,
+    "weights": [
+      0.03522275354884582,
+      0.01910670335066909,
+      0.016972224524123204,
+      0.12381497419310104,
+      0.013957437206791636,
+      0.02592788732949476,
+      0.04226757238247734,
+      0.01252442099379081,
+      0.05005145431435624,
+      0.024175383688092324,
+      0.03304680048436523,
+      0.05383194612843488,
+      0.08961079032607522,
+      0.07283955572532609,
+      0.11118751643631895,
+      0.033996837254066194,
+      0.09634696194725406,
+      0.05883879772080396,
+      0.07134484918673734,
+      0.014935133258875901
+    ],
+    "seconds": 6.398786400000972,
+    "posterior": {
+      "ess": 2351.617931972827,
+      "max_mass": 0.000489219357054168,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 1.1633060216473777e-05,
+        "weight_distance": 0.0031305363576825335
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 1.291315944131153e-06,
+        "weight_distance": 0.001461136522869367
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 6.171404063401833e-05,
+        "weight_distance": 0.008241547176026718
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 1.0254158833742071e-05,
+        "weight_distance": 0.0028302082719031535
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 1.5646563981319347e-06,
+        "weight_distance": 0.0014370420435661903
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 6.125007090045142e-05,
+        "weight_distance": 0.00858249455186191
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 1.330487377744537e-05,
+        "weight_distance": 0.0031830753632651806
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 3.26354246175508e-07,
+        "weight_distance": 0.0008334886900222253
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 4.942108025009911e-06,
+        "weight_distance": 0.0025515681464438984
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 3010570667,
+    "instance_id": "9bb99adfc1d75a6e",
+    "method": "B-Tail-P:0.5",
+    "high_size": 4096,
+    "gap": 2.022225789599652e-11,
+    "status": "converged",
+    "objective": 0.0023846314218552407,
+    "weights": [
+      0.03501905844817812,
+      0.019269259357856037,
+      0.017252863237808745,
+      0.1225375831175424,
+      0.013967762678369623,
+      0.02592529101561054,
+      0.042559524943109495,
+      0.012777713241189205,
+      0.04954397623140758,
+      0.024171012868958987,
+      0.0314669965143946,
+      0.055749172106436706,
+      0.0900614198560277,
+      0.0706929187368641,
+      0.11182250150089691,
+      0.03334307395458032,
+      0.0967532299059827,
+      0.058727711532782785,
+      0.07318672909500624,
+      0.015172201656997297
+    ],
+    "seconds": 5.567976299997099,
+    "posterior": {
+      "ess": 2351.617931972827,
+      "max_mass": 0.000489219357054168,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 7.724740338590965e-06,
+        "weight_distance": 0.0035879813186742732
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 1.1289720962740293e-05,
+        "weight_distance": 0.004369964455399142
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 1.9838166561356174e-06,
+        "weight_distance": 0.0016302914454376246
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 9.551530627353692e-06,
+        "weight_distance": 0.0038274163829964685
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 1.00657197606999e-05,
+        "weight_distance": 0.004203273186366162
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 2.070720583718412e-06,
+        "weight_distance": 0.0018768273776258936
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 6.2324768975935765e-06,
+        "weight_distance": 0.0031432202227018586
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 8.630770842220706e-07,
+        "weight_distance": 0.0012951469043831
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 2.1633176885676314e-06,
+        "weight_distance": 0.0019230311087504218
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 3010570667,
+    "instance_id": "9bb99adfc1d75a6e",
+    "method": "B-Max",
+    "high_size": 128,
+    "gap": 2.1627274623958748e-11,
+    "status": "converged",
+    "objective": 0.0051818624224105134,
+    "weights": [
+      0.035838167641528015,
+      0.018787226202649377,
+      0.016366304158300014,
+      0.12684670042381674,
+      0.013910792335898392,
+      0.02599893696148986,
+      0.041638645518441084,
+      0.01200132362583525,
+      0.051006961027692574,
+      0.024170017691806347,
+      0.03543394202085766,
+      0.0513773220545815,
+      0.08924868481610054,
+      0.0771450381976968,
+      0.10992814617768046,
+      0.035941023977071614,
+      0.09560718054078614,
+      0.05797970608756324,
+      0.06590825538083261,
+      0.014865625159371738
+    ],
+    "seconds": 0.07818620000034571,
+    "posterior": {
+      "ess": 2351.617931972827,
+      "max_mass": 0.000489219357054168,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 0.0005922916038567094,
+        "weight_distance": 0.01060634386348685
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 0.0006933440220415633,
+        "weight_distance": 0.009851357384993865
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 0.0007310757460868384,
+        "weight_distance": 0.010179405363446508
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 0.0006110166617815521,
+        "weight_distance": 0.010623568050479487
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 0.0007000892917734787,
+        "weight_distance": 0.010202025291344603
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 0.0007458404766071802,
+        "weight_distance": 0.010589677969522706
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 0.0005399905241939649,
+        "weight_distance": 0.014328545834939439
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 0.0007049062881830884,
+        "weight_distance": 0.01393753885235482
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 0.0009529847615507344,
+        "weight_distance": 0.017033091681919965
+      }
+    ],
+    "scope": "exact hidden maximization, approximate outer integration"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 3010570667,
+    "instance_id": "9bb99adfc1d75a6e",
+    "method": "A-Tail-P:0.5",
+    "high_size": 4096,
+    "gap": 2.3556864792162457e-11,
+    "status": "converged",
+    "objective": 0.0023847340524068327,
+    "weights": [
+      0.03501278504233725,
+      0.01927126426843822,
+      0.017257305807845753,
+      0.12250943179876232,
+      0.013967284535513026,
+      0.025925755817898376,
+      0.04256538709507307,
+      0.012782778197592918,
+      0.04953711861455456,
+      0.024172732078158343,
+      0.03144216317171199,
+      0.055776165652795875,
+      0.09006700923050205,
+      0.0706461424966713,
+      0.11183752134126326,
+      0.033320588238131055,
+      0.0967592092280634,
+      0.05873750285141299,
+      0.0732407831826887,
+      0.015171071350585713
+    ],
+    "seconds": 6.207620899996982,
+    "posterior": {
+      "ess": 2351.617931972827,
+      "max_mass": 0.000489219357054168,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 7.744154132426073e-06,
+        "weight_distance": 0.003498372049343337
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 1.15798291182574e-05,
+        "weight_distance": 0.004516345200984649
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 1.9492890261114254e-06,
+        "weight_distance": 0.0016664917484260197
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 9.613356263884175e-06,
+        "weight_distance": 0.0037373295182821786
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 9.96864595054301e-06,
+        "weight_distance": 0.004277425487986779
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 2.0386777809097353e-06,
+        "weight_distance": 0.001901292884597126
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 7.0203625621156895e-06,
+        "weight_distance": 0.00321912597942872
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 8.014018623467116e-07,
+        "weight_distance": 0.0011939332779273277
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 2.0116625482845783e-06,
+        "weight_distance": 0.0018007760419782946
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 3359409897,
+    "instance_id": "7d93d09fd3c0f95a",
+    "method": "A-Mean",
+    "high_size": 4096,
+    "gap": 1.9435822146574716e-11,
+    "status": "converged",
+    "objective": 0.0004209420555842568,
+    "weights": [
+      0.04121235629283703,
+      0.017631888608803523,
+      0.01332281039360007,
+      0.14999568750025044,
+      0.014455683590785988,
+      0.02617978501443745,
+      0.03803082225661089,
+      0.008467854933006726,
+      0.05719138579916525,
+      0.02345994234182549,
+      0.046995667062213003,
+      0.02962161895360185,
+      0.07974227136670158,
+      0.09147279570298458,
+      0.1016064928382841,
+      0.039396641073729144,
+      0.09169583829152521,
+      0.06172592714222125,
+      0.05530265265497986,
+      0.012491878182436548
+    ],
+    "seconds": 0.09598349999942002,
+    "posterior": {
+      "ess": 1670.8481961340012,
+      "max_mass": 0.0011929580625055065,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 8.099782628586902e-06,
+        "weight_distance": 0.005904125497491182
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 2.437348437553296e-05,
+        "weight_distance": 0.010234546785127835
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 1.9208151569547437e-05,
+        "weight_distance": 0.008578704033277191
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 8.08751173326784e-06,
+        "weight_distance": 0.005888185919416414
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 2.435479370035238e-05,
+        "weight_distance": 0.010217506183477446
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 1.9161927300519318e-05,
+        "weight_distance": 0.008555013499816364
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 5.052052555298836e-06,
+        "weight_distance": 0.004617514833009567
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 2.0470780136161047e-06,
+        "weight_distance": 0.002913103164645083
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 1.9560040569485226e-06,
+        "weight_distance": 0.0028727274367494884
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 3359409897,
+    "instance_id": "7d93d09fd3c0f95a",
+    "method": "REF-EB",
+    "high_size": 4096,
+    "gap": 1.928967803630638e-11,
+    "status": "converged",
+    "objective": 0.000300019063012002,
+    "weights": [
+      0.03981578291248817,
+      0.018565789023543385,
+      0.014937039862203343,
+      0.14104504379026894,
+      0.014271891716131784,
+      0.02606829049021573,
+      0.0393067551519589,
+      0.009844612406851297,
+      0.053643555771233295,
+      0.023215956271618172,
+      0.04200662699922754,
+      0.03670175211059158,
+      0.08215918771490939,
+      0.0851238246735036,
+      0.10468134140732047,
+      0.037730757698940055,
+      0.09396044569237105,
+      0.06157715480227823,
+      0.061780390055608696,
+      0.013563801448736526
+    ],
+    "seconds": 0.08287639999980456,
+    "posterior": {
+      "ess": 1670.8481961340012,
+      "max_mass": 0.0011929580625055065,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 5.967837097722498e-05,
+        "weight_distance": 0.015105575160225322
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 1.3554090639256232e-05,
+        "weight_distance": 0.007166331281884036
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 3.3339184888664885e-05,
+        "weight_distance": 0.011056394239711519
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 6.0010171801794894e-05,
+        "weight_distance": 0.015136745508200822
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 1.3645693519486802e-05,
+        "weight_distance": 0.0071753814149120325
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 3.4353955705302916e-05,
+        "weight_distance": 0.01122068790154492
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 4.842008950279447e-06,
+        "weight_distance": 0.004249155074968751
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 1.2649309301748703e-05,
+        "weight_distance": 0.006798185379807319
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 6.7989201494184906e-06,
+        "weight_distance": 0.005008044606855557
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 3359409897,
+    "instance_id": "7d93d09fd3c0f95a",
+    "method": "H-Conditional-FilterThenK",
+    "high_size": 4096,
+    "gap": 2.1292613288856344e-11,
+    "status": "converged",
+    "objective": 0.0006803704662509378,
+    "weights": [
+      0.041488877480395085,
+      0.017457620035465273,
+      0.013014873613337868,
+      0.1517105563394788,
+      0.014484108772435977,
+      0.026209358201919882,
+      0.03778138531370332,
+      0.008202464849088592,
+      0.057871635853581314,
+      0.02350851660843746,
+      0.047877003117048095,
+      0.028388266235339542,
+      0.07931875293055379,
+      0.0926267455076177,
+      0.10102802765623285,
+      0.0397250206449895,
+      0.09126858953436938,
+      0.06168502763040322,
+      0.05403857517217865,
+      0.012314594503423605
+    ],
+    "seconds": 4.31687040000179,
+    "posterior": {
+      "ess": 1670.8481961340012,
+      "max_mass": 0.0011929580625055065,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 7.682410148226104e-06,
+        "weight_distance": 0.004067151305760138
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 0.0001145417730584879,
+        "weight_distance": 0.016608292443114073
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 5.4554334839405395e-05,
+        "weight_distance": 0.010622322264880532
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 7.671914168842515e-06,
+        "weight_distance": 0.004047982226087915
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 0.00011385749152471175,
+        "weight_distance": 0.01654246172291639
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 5.47555056195886e-05,
+        "weight_distance": 0.010626297262741186
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 1.2038239550267774e-05,
+        "weight_distance": 0.005287953176806138
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 2.6504537445630645e-07,
+        "weight_distance": 0.0009384595809855998
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 8.182968592721244e-06,
+        "weight_distance": 0.004172377761987661
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 3359409897,
+    "instance_id": "7d93d09fd3c0f95a",
+    "method": "A-Absolute:0.5",
+    "high_size": 4096,
+    "gap": 1.5306929335157093e-10,
+    "status": "converged",
+    "objective": 0.02097445020463936,
+    "weights": [
+      0.038923316208532,
+      0.018984695337887728,
+      0.01578285994218949,
+      0.13654556397574727,
+      0.014340421889056421,
+      0.025902591595082996,
+      0.04018604624250431,
+      0.010632545255419625,
+      0.051947940417124715,
+      0.023136447346869933,
+      0.03960102915076381,
+      0.039421518852247796,
+      0.0828624615835823,
+      0.08118200597825044,
+      0.10633666923539742,
+      0.03609086647227202,
+      0.09507129223820013,
+      0.06250601710655995,
+      0.06679615408823712,
+      0.013749557084074548
+    ],
+    "seconds": 7.208696900001087,
+    "posterior": {
+      "ess": 1670.8481961340012,
+      "max_mass": 0.0011929580625055065,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 4.595539927737535e-05,
+        "weight_distance": 0.012623126230551328
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 3.5892790818073395e-05,
+        "weight_distance": 0.010981782202366189
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 3.494299172585036e-05,
+        "weight_distance": 0.010404390566796443
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 4.577087504794436e-05,
+        "weight_distance": 0.012591936404569933
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 3.6044972768004e-05,
+        "weight_distance": 0.010991968673376203
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 3.451482000457751e-05,
+        "weight_distance": 0.01035332587009382
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 4.4615432493073925e-06,
+        "weight_distance": 0.003917745476269337
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 6.395152390283737e-06,
+        "weight_distance": 0.00467655984675563
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 2.735591796632769e-06,
+        "weight_distance": 0.0030375599471967924
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 3359409897,
+    "instance_id": "7d93d09fd3c0f95a",
+    "method": "B-Tail-P:0.25",
+    "high_size": 4096,
+    "gap": 2.7915163670205745e-11,
+    "status": "converged",
+    "objective": 0.001027351859395531,
+    "weights": [
+      0.04118676586737984,
+      0.017739741710706514,
+      0.013444659375395483,
+      0.1492081294331436,
+      0.014349575025501967,
+      0.02623848417990726,
+      0.03802197743925663,
+      0.008540188953935147,
+      0.05685360668233252,
+      0.02342830550584952,
+      0.04639995187098106,
+      0.030812416771492983,
+      0.08025009937490568,
+      0.09113951469238292,
+      0.10185242068009173,
+      0.03960486051623034,
+      0.09190982040775131,
+      0.061168935949516286,
+      0.0550747145185332,
+      0.012775831044705836
+    ],
+    "seconds": 7.765073400001711,
+    "posterior": {
+      "ess": 1670.8481961340012,
+      "max_mass": 0.0011929580625055065,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 3.334822820116011e-05,
+        "weight_distance": 0.007054512300613259
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 0.00011421408662292917,
+        "weight_distance": 0.01319530232332801
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 0.00012019843074468663,
+        "weight_distance": 0.014320499673492689
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 3.418984370177512e-05,
+        "weight_distance": 0.007120555262557173
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 0.00011395679665573023,
+        "weight_distance": 0.013163668378089428
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 0.00011951829589999493,
+        "weight_distance": 0.014274017235630869
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 5.511919157927692e-05,
+        "weight_distance": 0.008485230695407133
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 4.366027774885695e-06,
+        "weight_distance": 0.002260916259474518
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 3.3959187092983106e-06,
+        "weight_distance": 0.0022136377985808044
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 3359409897,
+    "instance_id": "7d93d09fd3c0f95a",
+    "method": "B-Tail-P:0.5",
+    "high_size": 4096,
+    "gap": 3.164434838297259e-11,
+    "status": "converged",
+    "objective": 0.0007243406757735456,
+    "weights": [
+      0.04128932518830127,
+      0.017641869590214403,
+      0.013296581181305422,
+      0.15007072825113862,
+      0.014397300715292547,
+      0.026227194931286057,
+      0.037940580863941246,
+      0.008424396976238846,
+      0.05720458686861168,
+      0.023455915765813025,
+      0.04692396064192202,
+      0.02993746648297014,
+      0.07991124639630738,
+      0.09164727652554723,
+      0.10156924137480036,
+      0.03962778474614245,
+      0.09168803094354866,
+      0.06138147744374326,
+      0.05476052162605993,
+      0.012604513486815683
+    ],
+    "seconds": 7.119177399999899,
+    "posterior": {
+      "ess": 1670.8481961340012,
+      "max_mass": 0.0011929580625055065,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 1.5079774620909499e-05,
+        "weight_distance": 0.005439716447408325
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 3.89273031349437e-05,
+        "weight_distance": 0.009002945704308356
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 7.356752567441054e-05,
+        "weight_distance": 0.012118737038871416
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 1.5616727860097153e-05,
+        "weight_distance": 0.005522406942323984
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 3.884109690032735e-05,
+        "weight_distance": 0.008968437671486475
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 7.006827010986097e-05,
+        "weight_distance": 0.01180290345787762
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 2.610968868512701e-05,
+        "weight_distance": 0.008313326632387288
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 3.283856745434988e-06,
+        "weight_distance": 0.0031653124885223914
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 1.4760320286841917e-05,
+        "weight_distance": 0.006388746001899379
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 3359409897,
+    "instance_id": "7d93d09fd3c0f95a",
+    "method": "B-Max",
+    "high_size": 128,
+    "gap": 2.4556837466271908e-11,
+    "status": "converged",
+    "objective": 0.00518592021086348,
+    "weights": [
+      0.03810971089160963,
+      0.019844789925108016,
+      0.017129466868315246,
+      0.12965067540905506,
+      0.014122101570321892,
+      0.025948151524168874,
+      0.0411881532384001,
+      0.011762703377120815,
+      0.0488846229408667,
+      0.022913610759487738,
+      0.03306179048203228,
+      0.0497878555711068,
+      0.08653921463191613,
+      0.07529135102568058,
+      0.1089426447497695,
+      0.036207197093501356,
+      0.09715840031132598,
+      0.05910808810892539,
+      0.06846212944434972,
+      0.015887342076938184
+    ],
+    "seconds": 0.08118850000028033,
+    "posterior": {
+      "ess": 1670.8481961340012,
+      "max_mass": 0.0011929580625055065,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 0.0006465461587163478,
+        "weight_distance": 0.011908413507140017
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 0.0003939415562871692,
+        "weight_distance": 0.012176298007673128
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 0.0005572922008195893,
+        "weight_distance": 0.01517716646225727
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 0.0006595920657741549,
+        "weight_distance": 0.012030147903626635
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 0.00040637170460377375,
+        "weight_distance": 0.01222929735007339
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 0.0005380709899380359,
+        "weight_distance": 0.015017021323024128
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 0.0014712258699855069,
+        "weight_distance": 0.02239081678750388
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 0.0006941388911483595,
+        "weight_distance": 0.01938759269884599
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 0.000894924438225404,
+        "weight_distance": 0.017825313384595
+      }
+    ],
+    "scope": "exact hidden maximization, approximate outer integration"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 3359409897,
+    "instance_id": "7d93d09fd3c0f95a",
+    "method": "A-Tail-P:0.5",
+    "high_size": 4096,
+    "gap": 2.6694184297910983e-11,
+    "status": "converged",
+    "objective": 0.0007244508889785834,
+    "weights": [
+      0.0412947499620842,
+      0.0176504691392939,
+      0.013305098487598132,
+      0.1500392224670436,
+      0.01439264967861099,
+      0.026229978065556773,
+      0.03793900962892949,
+      0.008427577101953946,
+      0.05718011366860899,
+      0.023450287469809858,
+      0.04688509826001661,
+      0.02999457183537016,
+      0.07992922914739967,
+      0.09162455731132607,
+      0.10157908777013434,
+      0.0396394494587991,
+      0.0917038864328601,
+      0.061356844063054694,
+      0.054756265969695364,
+      0.01262185408185402
+    ],
+    "seconds": 8.600167199998396,
+    "posterior": {
+      "ess": 1670.8481961340012,
+      "max_mass": 0.0011929580625055065,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 1.457153178086707e-05,
+        "weight_distance": 0.005450336099940066
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 3.9626494093030016e-05,
+        "weight_distance": 0.009090323295577877
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 7.006268801638038e-05,
+        "weight_distance": 0.011898129797373166
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 1.544412745369786e-05,
+        "weight_distance": 0.005601733819775462
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 3.9691493532113624e-05,
+        "weight_distance": 0.009053383741925637
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 6.864954000658854e-05,
+        "weight_distance": 0.011725487572416864
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 2.5985642144612945e-05,
+        "weight_distance": 0.00824941307384484
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 3.368829638677323e-06,
+        "weight_distance": 0.003211127451462235
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 1.4831771161272949e-05,
+        "weight_distance": 0.00634415650522647
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 3394672196,
+    "instance_id": "d6a4e2ef22328d7a",
+    "method": "A-Mean",
+    "high_size": 4096,
+    "gap": 1.9330836410758057e-11,
+    "status": "converged",
+    "objective": 0.0007065807547902622,
+    "weights": [
+      0.10313690003062873,
+      0.030406296427153593,
+      0.01854732589855027,
+      0.01441587725484703,
+      0.054148969786915066,
+      0.020338462999282977,
+      0.109880238194133,
+      0.0670087341782435,
+      0.012162033998420552,
+      0.08371574241846057,
+      0.04025849321177458,
+      0.07448884142898005,
+      0.059004469730763745,
+      0.02549774431629671,
+      0.037018214352483016,
+      0.03309664184321663,
+      0.0232204335723288,
+      0.1278423252179853,
+      0.016439218293784027,
+      0.049373036845751624
+    ],
+    "seconds": 0.08892200000263983,
+    "posterior": {
+      "ess": 2347.61519498685,
+      "max_mass": 0.0004899002119772756,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 4.014528510879259e-07,
+        "weight_distance": 0.001131767574362366
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 3.525734361810393e-07,
+        "weight_distance": 0.0010996308153653448
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 4.3307818925887413e-07,
+        "weight_distance": 0.0010632767201868257
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 1.1001718733195855e-07,
+        "weight_distance": 0.00047071241226316293
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 2.8696624504616353e-08,
+        "weight_distance": 0.0003142765588202232
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 1.7548208880381784e-07,
+        "weight_distance": 0.0007621649545372849
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 1.100149713626885e-07,
+        "weight_distance": 0.0004706969685060787
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 2.8696624499629023e-08,
+        "weight_distance": 0.00031427655882598445
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 2.92531319250576e-08,
+        "weight_distance": 0.00032058048524607265
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 3394672196,
+    "instance_id": "d6a4e2ef22328d7a",
+    "method": "REF-EB",
+    "high_size": 4096,
+    "gap": 1.9307741278180857e-11,
+    "status": "converged",
+    "objective": 0.00028285412512470945,
+    "weights": [
+      0.10420153144618889,
+      0.03002654429329307,
+      0.016468348723860226,
+      0.014248866738329573,
+      0.0545506668594722,
+      0.020173525601426816,
+      0.10968589376804702,
+      0.06701580702485214,
+      0.011636010984882428,
+      0.08570159498310366,
+      0.04055813378795417,
+      0.07447593113115533,
+      0.05749560358770843,
+      0.025478379962591995,
+      0.03728202450937814,
+      0.033077048788586284,
+      0.023198085903672633,
+      0.12832628180621042,
+      0.016210589357620615,
+      0.05018913074166565
+    ],
+    "seconds": 0.08386869999958435,
+    "posterior": {
+      "ess": 2347.61519498685,
+      "max_mass": 0.0004899002119772756,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 4.800296369561604e-07,
+        "weight_distance": 0.0012286633496887238
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 1.6033444690221861e-06,
+        "weight_distance": 0.0016244534858096441
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 1.8060786457351906e-06,
+        "weight_distance": 0.002462762059750066
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 1.5858036569360492e-06,
+        "weight_distance": 0.001536017125231454
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 1.2573431511334358e-06,
+        "weight_distance": 0.0018796571210414564
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 1.0170199815358154e-06,
+        "weight_distance": 0.0014635860847697464
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 3.519945992508833e-07,
+        "weight_distance": 0.001000297833601537
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 6.599834096127164e-08,
+        "weight_distance": 0.000485500939339778
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 3.201096812350656e-08,
+        "weight_distance": 0.0003431861622014596
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 3394672196,
+    "instance_id": "d6a4e2ef22328d7a",
+    "method": "H-Conditional-FilterThenK",
+    "high_size": 4096,
+    "gap": 3.0446980006648694e-11,
+    "status": "converged",
+    "objective": 0.0012237172946422984,
+    "weights": [
+      0.10249720072167086,
+      0.03062365687461777,
+      0.019510442580413,
+      0.014498841031614567,
+      0.05405388206762841,
+      0.020347840458230824,
+      0.11002837012746595,
+      0.06701723914864882,
+      0.012393276436771114,
+      0.08272739760464774,
+      0.04005117217634932,
+      0.07452988207528273,
+      0.05981466995517735,
+      0.02551530317082365,
+      0.03692465484841405,
+      0.03307089523194416,
+      0.02325752728667087,
+      0.12763849356109427,
+      0.01656057121967305,
+      0.048938683422861506
+    ],
+    "seconds": 6.522780299997976,
+    "posterior": {
+      "ess": 2347.61519498685,
+      "max_mass": 0.0004899002119772756,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 3.63092057471771e-06,
+        "weight_distance": 0.0021286570827607518
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 4.052185121031834e-06,
+        "weight_distance": 0.0026070006721402427
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 2.6403267524696336e-06,
+        "weight_distance": 0.0017609245066949571
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 3.7984772964540486e-06,
+        "weight_distance": 0.0018933559200808375
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 3.789444496265235e-06,
+        "weight_distance": 0.0021337825713458633
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 2.6558178420400293e-06,
+        "weight_distance": 0.0015030917239108957
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 3.0689448506744307e-06,
+        "weight_distance": 0.0016892594940828925
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 3.1880620733346424e-06,
+        "weight_distance": 0.0019088158782073563
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 5.134708572175281e-07,
+        "weight_distance": 0.0009562648180125129
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 3394672196,
+    "instance_id": "d6a4e2ef22328d7a",
+    "method": "A-Absolute:0.5",
+    "high_size": 4096,
+    "gap": 1.8294921133588105e-11,
+    "status": "converged",
+    "objective": 0.02233706258370876,
+    "weights": [
+      0.10408480248639597,
+      0.029129283164076605,
+      0.006963123244479897,
+      0.013553968545369766,
+      0.058510525380004494,
+      0.017568042670169697,
+      0.11012630644527749,
+      0.06730814395684112,
+      0.008943239629097158,
+      0.09292204771481359,
+      0.04103002195976984,
+      0.07528646232620555,
+      0.05664414437661148,
+      0.025715422310456138,
+      0.038034756774492265,
+      0.03320175924584823,
+      0.02346862941611338,
+      0.13003691260006406,
+      0.016125134449534027,
+      0.05134727330437941
+    ],
+    "seconds": 6.161340899998322,
+    "posterior": {
+      "ess": 2347.61519498685,
+      "max_mass": 0.0004899002119772756,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 6.463635683975899e-07,
+        "weight_distance": 0.001260923474732488
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 2.645409489500372e-06,
+        "weight_distance": 0.0025357323177125873
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 1.8111321757677268e-06,
+        "weight_distance": 0.0022142632915298226
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 4.7066491336289484e-08,
+        "weight_distance": 0.0003408532219588743
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 1.4847015420219045e-06,
+        "weight_distance": 0.0015060821503342973
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 9.483424069887947e-07,
+        "weight_distance": 0.0013214614119746624
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 4.5573136049636975e-08,
+        "weight_distance": 0.00026175074978396104
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 4.615261580548369e-08,
+        "weight_distance": 0.0002480044840293487
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 4.34910493521401e-08,
+        "weight_distance": 0.0002581234512596361
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 3394672196,
+    "instance_id": "d6a4e2ef22328d7a",
+    "method": "B-Tail-P:0.25",
+    "high_size": 4096,
+    "gap": 1.9937220277488343e-11,
+    "status": "converged",
+    "objective": 0.001783463033257744,
+    "weights": [
+      0.10270539525524444,
+      0.030625487564123307,
+      0.021764622769734045,
+      0.014605445958946502,
+      0.05262644044786384,
+      0.02112697349839365,
+      0.10934936727443618,
+      0.06666324326915898,
+      0.013044940682411146,
+      0.08085250989455374,
+      0.040090586225154136,
+      0.07427729117139188,
+      0.062027340786416606,
+      0.025520343744217504,
+      0.036177153604630786,
+      0.03353883644200345,
+      0.023128217982021873,
+      0.12691682046558703,
+      0.016968210295437828,
+      0.047990772668272966
+    ],
+    "seconds": 8.336925100000371,
+    "posterior": {
+      "ess": 2347.61519498685,
+      "max_mass": 0.0004899002119772756,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 5.343751787561298e-05,
+        "weight_distance": 0.007193563348892195
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 1.4419720706672834e-05,
+        "weight_distance": 0.004784568858572704
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 1.3534878006061894e-05,
+        "weight_distance": 0.0049914585934187315
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 5.2776617338074145e-05,
+        "weight_distance": 0.007442790531496517
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 1.3303478747767224e-05,
+        "weight_distance": 0.00424856392951426
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 1.4024076887144505e-05,
+        "weight_distance": 0.005329872214600896
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 6.097887143264279e-07,
+        "weight_distance": 0.0006687983076150521
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 1.0583933155764239e-05,
+        "weight_distance": 0.004008930417895503
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 2.891739953050313e-06,
+        "weight_distance": 0.0018831058111039012
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 3394672196,
+    "instance_id": "d6a4e2ef22328d7a",
+    "method": "B-Tail-P:0.5",
+    "high_size": 4096,
+    "gap": 2.1319916752166046e-11,
+    "status": "converged",
+    "objective": 0.0012325647778051473,
+    "weights": [
+      0.10236094529389139,
+      0.03066744921554614,
+      0.01966431272978193,
+      0.01451348905761197,
+      0.054060619258992415,
+      0.020334372235624502,
+      0.11006946268076838,
+      0.06702440847259321,
+      0.012427559366491151,
+      0.08256014389694197,
+      0.040005165125006605,
+      0.07454528089556853,
+      0.05995052725388216,
+      0.0255195337932185,
+      0.036919460117031636,
+      0.03305659907384633,
+      0.023268699680551053,
+      0.12761006256345228,
+      0.016579782519780175,
+      0.04886212676941977
+    ],
+    "seconds": 7.599877000000561,
+    "posterior": {
+      "ess": 2347.61519498685,
+      "max_mass": 0.0004899002119772756,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 5.034592794670237e-06,
+        "weight_distance": 0.002462066502447176
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 5.574171602946206e-06,
+        "weight_distance": 0.002900269284347192
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 4.035617074108714e-06,
+        "weight_distance": 0.0020851695797647436
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 5.16406476446787e-06,
+        "weight_distance": 0.002161961865504249
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 5.343045061178414e-06,
+        "weight_distance": 0.002452620337530149
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 3.7399172987456417e-06,
+        "weight_distance": 0.0017228744575013295
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 3.805440872003355e-07,
+        "weight_distance": 0.0008333549002710238
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 1.167876964686251e-06,
+        "weight_distance": 0.0009401392108531381
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 3.3806511001235624e-06,
+        "weight_distance": 0.0016960031452181925
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 3394672196,
+    "instance_id": "d6a4e2ef22328d7a",
+    "method": "B-Max",
+    "high_size": 128,
+    "gap": 2.1856348328408437e-11,
+    "status": "converged",
+    "objective": 0.0032855163810862147,
+    "weights": [
+      0.09886955234739941,
+      0.03175093185519471,
+      0.02970353642871394,
+      0.015149125686133972,
+      0.050192512460803466,
+      0.022090933091980666,
+      0.10898274125596982,
+      0.06606007579485366,
+      0.015175138849005612,
+      0.07261727686471532,
+      0.03895833795419382,
+      0.0743403278455404,
+      0.07175033608181088,
+      0.025731476508616288,
+      0.034334277325534596,
+      0.034275907808368,
+      0.023225201497927565,
+      0.12466837270405834,
+      0.01849418644582046,
+      0.04362975119335897
+    ],
+    "seconds": 0.07487620000028983,
+    "posterior": {
+      "ess": 2347.61519498685,
+      "max_mass": 0.0004899002119772756,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 0.0011601561250977658,
+        "weight_distance": 0.025918786916198696
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 0.0001902820043582585,
+        "weight_distance": 0.011085582243612797
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 0.00022620720224027615,
+        "weight_distance": 0.0032248206386322996
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 0.0011526721079940139,
+        "weight_distance": 0.026057900985186847
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 0.00018969778586195403,
+        "weight_distance": 0.01054852581780907
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 0.00021947713223351454,
+        "weight_distance": 0.0028409432262176933
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 0.00034018102437164983,
+        "weight_distance": 0.009048989709471655
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 0.00013924746574844318,
+        "weight_distance": 0.00708115100893782
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 0.00023699326239414158,
+        "weight_distance": 0.005385419259716835
+      }
+    ],
+    "scope": "exact hidden maximization, approximate outer integration"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 0,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 3394672196,
+    "instance_id": "d6a4e2ef22328d7a",
+    "method": "A-Tail-P:0.5",
+    "high_size": 4096,
+    "gap": 3.027956834919521e-11,
+    "status": "converged",
+    "objective": 0.0012328384490645399,
+    "weights": [
+      0.10228471879979319,
+      0.030653264906211477,
+      0.019686312937592168,
+      0.014511536078575868,
+      0.054040291039644806,
+      0.020342022909939736,
+      0.11008161253786931,
+      0.06704060908034132,
+      0.012441397551830165,
+      0.08257877742368618,
+      0.040028913819923205,
+      0.07457969503823994,
+      0.059997952477052856,
+      0.025525723975576026,
+      0.036916186211625526,
+      0.03305967055252758,
+      0.02326433698915225,
+      0.12756601497516692,
+      0.016577128639194753,
+      0.04882383405605655
+    ],
+    "seconds": 5.9585850999974355,
+    "posterior": {
+      "ess": 2347.61519498685,
+      "max_mass": 0.0004899002119772756,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 4.328030109024706e-06,
+        "weight_distance": 0.002429152521939476
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 5.663078307431221e-06,
+        "weight_distance": 0.0029967457505696046
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 2.7896172974774605e-06,
+        "weight_distance": 0.0017496046906619626
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 3.6289872949926e-06,
+        "weight_distance": 0.0017742619931785297
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 5.338592606627963e-06,
+        "weight_distance": 0.002506165552616509
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 2.7514026107644442e-06,
+        "weight_distance": 0.0014938263660813416
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 3.6561025482258723e-07,
+        "weight_distance": 0.0008016924351988214
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 1.3346704164675371e-06,
+        "weight_distance": 0.0010881407798134387
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 2.9330263708834438e-06,
+        "weight_distance": 0.001563073737063634
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 1650962520,
+    "instance_id": "0d03b2a93a5542c3",
+    "method": "A-Mean",
+    "high_size": 4096,
+    "gap": 1.9092586656089226e-11,
+    "status": "converged",
+    "objective": 9.477817580047945e-05,
+    "weights": [
+      0.09057893549420387,
+      0.0285496781994108,
+      0.013086876939941306,
+      0.01368902178643818,
+      0.05707835290508145,
+      0.017776191236916577,
+      0.11416002583022002,
+      0.07055857753030295,
+      0.011384035024946943,
+      0.09345073632732764,
+      0.04296874628977118,
+      0.08101310000207368,
+      0.059834631483915955,
+      0.026480052886880392,
+      0.03929009569744966,
+      0.03160929570259758,
+      0.023271063302784778,
+      0.12394228754043767,
+      0.014963590554898992,
+      0.046314705264400485
+    ],
+    "seconds": 0.08911400000215508,
+    "posterior": {
+      "ess": 1787.9782740798626,
+      "max_mass": 0.0007437069743721318,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 1.3720049358026615e-06,
+        "weight_distance": 0.0016952827483973129
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 6.936712844334101e-07,
+        "weight_distance": 0.001316901752138747
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 3.4667377368575623e-07,
+        "weight_distance": 0.001080332118064459
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 9.694096248595959e-07,
+        "weight_distance": 0.0014130846943605098
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 4.5378889472129467e-07,
+        "weight_distance": 0.000836274747700721
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 3.166081178049881e-08,
+        "weight_distance": 0.0003387876678185842
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 2.956285805971016e-07,
+        "weight_distance": 0.0007362536021718649
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 1.2606199420864066e-07,
+        "weight_distance": 0.0004967058360432227
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 6.889843190667022e-08,
+        "weight_distance": 0.0003367945945130704
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 1650962520,
+    "instance_id": "0d03b2a93a5542c3",
+    "method": "REF-EB",
+    "high_size": 4096,
+    "gap": 1.9075745296510613e-11,
+    "status": "converged",
+    "objective": 7.957625912262452e-05,
+    "weights": [
+      0.09137536511195811,
+      0.028454998141469245,
+      0.013905659875183628,
+      0.013721569025793945,
+      0.056265393531994494,
+      0.018318277882520537,
+      0.113684917531359,
+      0.07035330102272315,
+      0.01166721307588363,
+      0.0929092455854384,
+      0.04320798942866836,
+      0.08066442823418794,
+      0.05999488076520698,
+      0.02642610051403855,
+      0.03892169168678246,
+      0.03189992654119991,
+      0.0231292706253712,
+      0.12373166412254548,
+      0.015039826656513128,
+      0.046328280641161866
+    ],
+    "seconds": 0.09758669999791891,
+    "posterior": {
+      "ess": 1787.9782740798626,
+      "max_mass": 0.0007437069743721318,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 1.640775320869807e-06,
+        "weight_distance": 0.0017160547156748755
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 9.253664613648432e-07,
+        "weight_distance": 0.0013750836542326874
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 2.6053410272683613e-06,
+        "weight_distance": 0.002048344434267529
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 1.1591427165649998e-06,
+        "weight_distance": 0.0013030041634629393
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 7.948541258439245e-07,
+        "weight_distance": 0.0010669836587375468
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 2.025477566946853e-06,
+        "weight_distance": 0.0015482232502523193
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 2.8669771129325805e-07,
+        "weight_distance": 0.0006679913156639161
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 2.425984509883656e-07,
+        "weight_distance": 0.0006130354755682111
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 8.708880325942472e-07,
+        "weight_distance": 0.0010644492143407007
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 1650962520,
+    "instance_id": "0d03b2a93a5542c3",
+    "method": "H-Conditional-FilterThenK",
+    "high_size": 4096,
+    "gap": 1.9242720318644185e-11,
+    "status": "converged",
+    "objective": 0.0001525530281788149,
+    "weights": [
+      0.09030154048969287,
+      0.028647050352193462,
+      0.013322592465137485,
+      0.01371837289766171,
+      0.057161068234163094,
+      0.017717968970870124,
+      0.11429616096656472,
+      0.07059972324569902,
+      0.0114365910453322,
+      0.09316112068543562,
+      0.04282374489046571,
+      0.08108149356366216,
+      0.05992723545739345,
+      0.02648839730570493,
+      0.039368435183199275,
+      0.031504723463168474,
+      0.02331638412908255,
+      0.12394290641869143,
+      0.014962544327934018,
+      0.046221945907947676
+    ],
+    "seconds": 5.1351997000019765,
+    "posterior": {
+      "ess": 1787.9782740798626,
+      "max_mass": 0.0007437069743721318,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 8.006032116827282e-06,
+        "weight_distance": 0.00292626446525751
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 3.194370105299906e-06,
+        "weight_distance": 0.0016521974222821656
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 2.3385501197361805e-05,
+        "weight_distance": 0.0039352480031055554
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 7.120088056265621e-06,
+        "weight_distance": 0.002795595082498682
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 3.3571221173860294e-06,
+        "weight_distance": 0.0014499432546622914
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 2.3350142556573044e-05,
+        "weight_distance": 0.004055839225088183
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 2.0555677365232056e-06,
+        "weight_distance": 0.001157123561248778
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 1.0229700051579476e-06,
+        "weight_distance": 0.0007774076399282597
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 1.850238133656773e-06,
+        "weight_distance": 0.0013657722880488093
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 1650962520,
+    "instance_id": "0d03b2a93a5542c3",
+    "method": "A-Absolute:0.5",
+    "high_size": 4096,
+    "gap": 1.5903386246796103e-11,
+    "status": "converged",
+    "objective": 0.022228546994277433,
+    "weights": [
+      0.09180666180602398,
+      0.027966977166801462,
+      0.008497137162520822,
+      0.013326372817121686,
+      0.0584597086009719,
+      0.016862573644455384,
+      0.11369897210440862,
+      0.07034997181562723,
+      0.010019678447978733,
+      0.09704085908533093,
+      0.04344043267463293,
+      0.08086141506425149,
+      0.05958617809428762,
+      0.02652952812626851,
+      0.03920398375102302,
+      0.03210264306131432,
+      0.023263767739712452,
+      0.12483373131877276,
+      0.01507725921402535,
+      0.04707214830447086
+    ],
+    "seconds": 9.82030130000203,
+    "posterior": {
+      "ess": 1787.9782740798626,
+      "max_mass": 0.0007437069743721318,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 4.846793130973415e-07,
+        "weight_distance": 0.0011313194538534012
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 1.0960092350770223e-06,
+        "weight_distance": 0.0018383247862820543
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 1.2290789391349033e-06,
+        "weight_distance": 0.0014620471856862222
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 1.3330827410007462e-07,
+        "weight_distance": 0.0006419374646697287
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 7.972402370839959e-07,
+        "weight_distance": 0.0013033937367407924
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 1.035785904251324e-06,
+        "weight_distance": 0.0012672395278455156
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 1.8394685338124495e-07,
+        "weight_distance": 0.0007261702588630282
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 4.6673201838098866e-08,
+        "weight_distance": 0.00036038338433657204
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 1.9279596331217563e-07,
+        "weight_distance": 0.0005536409438680508
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 1650962520,
+    "instance_id": "0d03b2a93a5542c3",
+    "method": "B-Tail-P:0.25",
+    "high_size": 4096,
+    "gap": 2.423758237298998e-11,
+    "status": "converged",
+    "objective": 0.0002326802905906019,
+    "weights": [
+      0.09064920480403968,
+      0.028563158528608492,
+      0.013447694647522289,
+      0.01371206385919696,
+      0.0568719224439798,
+      0.01791167652524136,
+      0.11409462341571097,
+      0.07052776484794943,
+      0.011500863987006388,
+      0.0931610471552739,
+      0.04298471913232314,
+      0.08095738060932117,
+      0.059926663093392764,
+      0.026469827763355398,
+      0.03921990470956556,
+      0.0316440785057218,
+      0.02324784516573234,
+      0.12386213697783732,
+      0.014980063253465925,
+      0.04626736057475547
+    ],
+    "seconds": 10.31308160000117,
+    "posterior": {
+      "ess": 1787.9782740798626,
+      "max_mass": 0.0007437069743721318,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 7.628885431820286e-07,
+        "weight_distance": 0.0012384450747515046
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 4.0132753515315913e-07,
+        "weight_distance": 0.0010451952460105555
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 3.9900283425620695e-06,
+        "weight_distance": 0.0019283624347980414
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 5.107507668053934e-07,
+        "weight_distance": 0.0010049571257247387
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 2.67365787499197e-07,
+        "weight_distance": 0.0006337205555686765
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 4.203838223335157e-06,
+        "weight_distance": 0.0016092586419239993
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 4.41924995961125e-06,
+        "weight_distance": 0.001302111107168121
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 1.2378712684289197e-06,
+        "weight_distance": 0.0013119974190244192
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 1.3392761555981129e-06,
+        "weight_distance": 0.0015572857697133816
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 1650962520,
+    "instance_id": "0d03b2a93a5542c3",
+    "method": "B-Tail-P:0.5",
+    "high_size": 4096,
+    "gap": 2.4198845591195603e-11,
+    "status": "converged",
+    "objective": 0.00015921515299529957,
+    "weights": [
+      0.09039771096866082,
+      0.028615614053326372,
+      0.013265568832620388,
+      0.013710064855751986,
+      0.0571217882774474,
+      0.01774528990206324,
+      0.11424797280994686,
+      0.0705847022448259,
+      0.011426546078938518,
+      0.09323873007627648,
+      0.042872579852329416,
+      0.08105571272626243,
+      0.059900533909710243,
+      0.026484988179537476,
+      0.03933878656233653,
+      0.031541050230266036,
+      0.023299985234868367,
+      0.12393816088692083,
+      0.014963416285119935,
+      0.04625079803279097
+    ],
+    "seconds": 10.304325199998857,
+    "posterior": {
+      "ess": 1787.9782740798626,
+      "max_mass": 0.0007437069743721318,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 4.489094112180604e-06,
+        "weight_distance": 0.0024019472203898624
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 4.057152179663367e-06,
+        "weight_distance": 0.001783721825700901
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 4.763834663786188e-07,
+        "weight_distance": 0.0010468895136073694
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 3.842067362621281e-06,
+        "weight_distance": 0.0023183395855956215
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 4.4268920295729844e-06,
+        "weight_distance": 0.0016544069392869032
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 3.6191815675152075e-07,
+        "weight_distance": 0.0006215301682033874
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 1.1929035679897825e-06,
+        "weight_distance": 0.000886780290062262
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 8.913653341770158e-08,
+        "weight_distance": 0.000413810723429003
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 2.86772382160187e-07,
+        "weight_distance": 0.0006213263192688878
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 1650962520,
+    "instance_id": "0d03b2a93a5542c3",
+    "method": "B-Max",
+    "high_size": 128,
+    "gap": 1.9759744188108108e-11,
+    "status": "converged",
+    "objective": 0.0033332533238168384,
+    "weights": [
+      0.08956105933642709,
+      0.029432465893512574,
+      0.028218140987343553,
+      0.014581931142777909,
+      0.049261151169061726,
+      0.02205510975465828,
+      0.11115312032002,
+      0.06870370085792737,
+      0.015961501440764074,
+      0.0790068475130466,
+      0.04247209003570376,
+      0.07962120544842526,
+      0.07440850361307247,
+      0.02653505767918752,
+      0.03501630561282475,
+      0.033932497164073996,
+      0.022720062874165843,
+      0.11964979512897098,
+      0.01735300646563315,
+      0.04035644756240312
+    ],
+    "seconds": 0.08826939999926253,
+    "posterior": {
+      "ess": 1787.9782740798626,
+      "max_mass": 0.0007437069743721318,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 0.0013141573550108565,
+        "weight_distance": 0.023676612679746786
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 0.001645034186691944,
+        "weight_distance": 0.02746889530102573
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 0.0011065241586161595,
+        "weight_distance": 0.02312866451331342
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 0.0013056945398396925,
+        "weight_distance": 0.023534366709096956
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 0.0016439649508453794,
+        "weight_distance": 0.027363777242721567
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 0.0011053793515146248,
+        "weight_distance": 0.023310966654616082
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 0.00046565871235686694,
+        "weight_distance": 0.01143293302962904
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 0.0006349687540622142,
+        "weight_distance": 0.015104285350203134
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 0.00037080408785100834,
+        "weight_distance": 0.009980999897431267
+      }
+    ],
+    "scope": "exact hidden maximization, approximate outer integration"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 0,
+    "rep": 0,
+    "n": 256,
+    "m": 16,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 1650962520,
+    "instance_id": "0d03b2a93a5542c3",
+    "method": "A-Tail-P:0.5",
+    "high_size": 4096,
+    "gap": 2.4102343059752285e-11,
+    "status": "converged",
+    "objective": 0.00016032635293942814,
+    "weights": [
+      0.09033065364023214,
+      0.028571743434758753,
+      0.013257070702949243,
+      0.013701113930801548,
+      0.05707124938604583,
+      0.017770648596662567,
+      0.1142448635989216,
+      0.07060652394340648,
+      0.011438982157827782,
+      0.09333430176977699,
+      0.04293978540791838,
+      0.08110185104541635,
+      0.059936767896789894,
+      0.02649310843108495,
+      0.03932432929913214,
+      0.031561502065298105,
+      0.02328384975575569,
+      0.12386539669201992,
+      0.014954731596991296,
+      0.04621152664821038
+    ],
+    "seconds": 12.65090820000114,
+    "posterior": {
+      "ess": 1787.9782740798626,
+      "max_mass": 0.0007437069743721318,
+      "power": 1.0,
+      "underflow_nodes": 0,
+      "requires_resolution_audit": false,
+      "interpretation": "approximate posterior"
+    },
+    "comparison": [
+      {
+        "size": 128,
+        "scramble": 0,
+        "high_reference_excess": 5.344906091401787e-06,
+        "weight_distance": 0.002699745345499797
+      },
+      {
+        "size": 128,
+        "scramble": 1,
+        "high_reference_excess": 2.926884150425066e-06,
+        "weight_distance": 0.0017273659354086791
+      },
+      {
+        "size": 128,
+        "scramble": 2,
+        "high_reference_excess": 1.5718607901524435e-06,
+        "weight_distance": 0.0016926113242744824
+      },
+      {
+        "size": 256,
+        "scramble": 0,
+        "high_reference_excess": 4.054766110807143e-06,
+        "weight_distance": 0.002400806961195225
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "high_reference_excess": 2.9344431453803995e-06,
+        "weight_distance": 0.0015069021763490407
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "high_reference_excess": 8.278532422609816e-07,
+        "weight_distance": 0.0009053626730816242
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "high_reference_excess": 1.1501448377570773e-06,
+        "weight_distance": 0.0009659465114776976
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "high_reference_excess": 1.808213900958205e-07,
+        "weight_distance": 0.0006468958662445062
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "high_reference_excess": 3.421524238588446e-07,
+        "weight_distance": 0.000743932980955936
+      }
+    ],
+    "scope": "4096-node approximate integration; no formal global accuracy bound"
+  }
+]

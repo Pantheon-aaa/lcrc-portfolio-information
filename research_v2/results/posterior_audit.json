@@ -1,0 +1,434 @@
+[
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 1,
+    "rep": 0,
+    "n": 256,
+    "m": 64,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 1577319201,
+    "instance_id": "66b20fd3a95abc64",
+    "posterior_mean": [
+      -0.06506505312763416,
+      0.8695052384227979,
+      0.8875674597297678
+    ],
+    "rhat": [
+      0.9995343613084042,
+      1.0010835620295089,
+      1.0011265398306397
+    ],
+    "ess": [
+      1752.0337486057729,
+      1880.3404881304764,
+      1742.2095652955406
+    ],
+    "acceptance": [
+      0.30525,
+      0.31216666666666665
+    ],
+    "passed_chain_diagnostic": true,
+    "comparison": [
+      {
+        "size": 256,
+        "scramble": 0,
+        "posterior_mean": [
+          -0.06414212094512829,
+          0.8712202929137959,
+          0.8941623190451452
+        ],
+        "weight_distance": 0.000616012273762562,
+        "mc_reference_excess": 1.0687342110946019e-07,
+        "reference_integral": 0.950798123730009
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "posterior_mean": [
+          -0.0639981808082829,
+          0.8590391335494499,
+          0.8842913217766242
+        ],
+        "weight_distance": 0.0018506972811406818,
+        "mc_reference_excess": 6.805904880190228e-07,
+        "reference_integral": 0.8232945711188083
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "posterior_mean": [
+          -0.06419534759913695,
+          0.8759989476880018,
+          0.890092982554693
+        ],
+        "weight_distance": 0.0012343896239754733,
+        "mc_reference_excess": 3.1144195150947795e-07,
+        "reference_integral": 0.9600416004086436
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "posterior_mean": [
+          -0.06414205005469273,
+          0.8714167518300686,
+          0.8885313945010346
+        ],
+        "weight_distance": 0.00038238371775335846,
+        "mc_reference_excess": 3.195646432543886e-08,
+        "reference_integral": 0.9501522950697484
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "posterior_mean": [
+          -0.06415266778996241,
+          0.873738514938601,
+          0.8899408679609035
+        ],
+        "weight_distance": 0.0008242908523892233,
+        "mc_reference_excess": 1.4265749671837913e-07,
+        "reference_integral": 0.9521125516122725
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "posterior_mean": [
+          -0.06404984785358822,
+          0.860196384339493,
+          0.8917961779580417
+        ],
+        "weight_distance": 0.0015915648967628265,
+        "mc_reference_excess": 5.0198922524336e-07,
+        "reference_integral": 0.8555427616675039
+      },
+      {
+        "size": 1024,
+        "scramble": 0,
+        "posterior_mean": [
+          -0.0662655405537552,
+          0.8715276890527205,
+          0.888498092558424
+        ],
+        "weight_distance": 0.0003756664606212121,
+        "mc_reference_excess": 2.8882974831279107e-08,
+        "reference_integral": 1.0181634611520127
+      },
+      {
+        "size": 1024,
+        "scramble": 1,
+        "posterior_mean": [
+          -0.0662756388560018,
+          0.8738494432665743,
+          0.8899076805221192
+        ],
+        "weight_distance": 0.0008147587984582684,
+        "mc_reference_excess": 1.3402539497664456e-07,
+        "reference_integral": 1.0202495543358192
+      },
+      {
+        "size": 1024,
+        "scramble": 2,
+        "posterior_mean": [
+          -0.06617869416046188,
+          0.8603134628381333,
+          0.8917638065494282
+        ],
+        "weight_distance": 0.0016108456132088423,
+        "mc_reference_excess": 5.244808598085793e-07,
+        "reference_integral": 0.9164832343081041
+      }
+    ],
+    "target": "uniform continuous prior times full-mask likelihood; no true parameter in sampler",
+    "scope": "classical split Rhat and autocorrelation ESS; two chains are diagnostics, not proof of global mixing"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 1,
+    "rep": 0,
+    "n": 256,
+    "m": 64,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 2894566640,
+    "instance_id": "2eb3607f9c96afc7",
+    "posterior_mean": [
+      0.09062522601927721,
+      0.916442034181038,
+      0.9511929357019379
+    ],
+    "rhat": [
+      1.0000134988955192,
+      0.9998935007510555,
+      1.0008941146716999
+    ],
+    "ess": [
+      1315.5553542260473,
+      1777.0351801354839,
+      1943.6356212570724
+    ],
+    "acceptance": [
+      0.30591666666666667,
+      0.30883333333333335
+    ],
+    "passed_chain_diagnostic": true,
+    "comparison": [
+      {
+        "size": 256,
+        "scramble": 0,
+        "posterior_mean": [
+          0.08751858117100451,
+          0.923381067692169,
+          0.9504792680293371
+        ],
+        "weight_distance": 0.0011910576112775853,
+        "mc_reference_excess": 2.7872006461496235e-07,
+        "reference_integral": 0.9649205690421904
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "posterior_mean": [
+          0.08750674909181658,
+          0.9159524850862086,
+          0.9505226707426276
+        ],
+        "weight_distance": 0.0002828825644602671,
+        "mc_reference_excess": 2.300634079077657e-08,
+        "reference_integral": 0.9656433707080351
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "posterior_mean": [
+          0.08750605199623844,
+          0.9182207011925907,
+          0.9544746689175668
+        ],
+        "weight_distance": 0.00031037960770468286,
+        "mc_reference_excess": 3.692506886018854e-08,
+        "reference_integral": 0.9600082741995034
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "posterior_mean": [
+          0.0875080707629011,
+          0.917518627680713,
+          0.9516551455030838
+        ],
+        "weight_distance": 0.00019204223802784105,
+        "mc_reference_excess": 1.9730012054686163e-08,
+        "reference_integral": 0.9719063037503001
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "posterior_mean": [
+          0.08751308439069097,
+          0.9196199128912131,
+          0.9522229770508032
+        ],
+        "weight_distance": 0.0004670109109554712,
+        "mc_reference_excess": 5.6361910583113684e-08,
+        "reference_integral": 0.9687441241947491
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "posterior_mean": [
+          0.0875027060626859,
+          0.916538098093038,
+          0.9524354657552212
+        ],
+        "weight_distance": 0.00022216425898235995,
+        "mc_reference_excess": 2.1121630829762372e-08,
+        "reference_integral": 0.9673361236739199
+      },
+      {
+        "size": 1024,
+        "scramble": 0,
+        "posterior_mean": [
+          0.09010290589098603,
+          0.9175378800707327,
+          0.9516639927332572
+        ],
+        "weight_distance": 0.00016969943490228374,
+        "mc_reference_excess": 5.81641170643854e-09,
+        "reference_integral": 1.0130996924618692
+      },
+      {
+        "size": 1024,
+        "scramble": 1,
+        "posterior_mean": [
+          0.09010683946528113,
+          0.9196385855684066,
+          0.9522315140541375
+        ],
+        "weight_distance": 0.0005330124333517755,
+        "mc_reference_excess": 5.118733921102847e-08,
+        "reference_integral": 1.0096773786897901
+      },
+      {
+        "size": 1024,
+        "scramble": 2,
+        "posterior_mean": [
+          0.09009756674758483,
+          0.916558845310153,
+          0.9524443466176105
+        ],
+        "weight_distance": 0.00011339269594943121,
+        "mc_reference_excess": 3.4764525563835136e-09,
+        "reference_integral": 1.0082048757801132
+      }
+    ],
+    "target": "uniform continuous prior times full-mask likelihood; no true parameter in sampler",
+    "scope": "classical split Rhat and autocorrelation ESS; two chains are diagnostics, not proof of global mixing"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 1,
+    "rep": 0,
+    "n": 256,
+    "m": 64,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 2404243541,
+    "instance_id": "b99ac20adfb067a7",
+    "posterior_mean": [
+      -0.036713874162569854,
+      0.9432306196892093,
+      0.9762933367127015
+    ],
+    "rhat": [
+      1.0045593864067182,
+      1.0007052380913728,
+      1.0007789347974758
+    ],
+    "ess": [
+      695.7871340443097,
+      1247.527532848501,
+      1678.0740293268168
+    ],
+    "acceptance": [
+      0.30766666666666664,
+      0.29625
+    ],
+    "passed_chain_diagnostic": true,
+    "comparison": [
+      {
+        "size": 256,
+        "scramble": 0,
+        "posterior_mean": [
+          -0.03802591263069097,
+          0.9513217778295759,
+          0.9810737243214351
+        ],
+        "weight_distance": 0.0003932618886661469,
+        "mc_reference_excess": 4.137240157062183e-08,
+        "reference_integral": 0.93883945079628
+      },
+      {
+        "size": 256,
+        "scramble": 1,
+        "posterior_mean": [
+          -0.03779908072083549,
+          0.9395615482921023,
+          0.9680575556213422
+        ],
+        "weight_distance": 0.0006692958125127819,
+        "mc_reference_excess": 4.421288679612445e-08,
+        "reference_integral": 0.9326137451330144
+      },
+      {
+        "size": 256,
+        "scramble": 2,
+        "posterior_mean": [
+          -0.03798861142114578,
+          0.9497541960079747,
+          0.978727949285275
+        ],
+        "weight_distance": 0.0003145925490678079,
+        "mc_reference_excess": 2.843433477908719e-08,
+        "reference_integral": 0.9341349517941769
+      },
+      {
+        "size": 512,
+        "scramble": 0,
+        "posterior_mean": [
+          -0.037925018987807764,
+          0.9486465371130991,
+          0.9775202797629351
+        ],
+        "weight_distance": 0.0002902651622632901,
+        "mc_reference_excess": 2.211857635936454e-08,
+        "reference_integral": 0.937430830232468
+      },
+      {
+        "size": 512,
+        "scramble": 1,
+        "posterior_mean": [
+          -0.03786021346523178,
+          0.9431491517115403,
+          0.9769427915560965
+        ],
+        "weight_distance": 0.00011685608715075156,
+        "mc_reference_excess": 3.899230251180885e-09,
+        "reference_integral": 0.9173025545053405
+      },
+      {
+        "size": 512,
+        "scramble": 2,
+        "posterior_mean": [
+          -0.037927722988302305,
+          0.949046858655522,
+          0.977360621475539
+        ],
+        "weight_distance": 0.00031201714810175286,
+        "mc_reference_excess": 2.50068100983436e-08,
+        "reference_integral": 0.9338664733145131
+      },
+      {
+        "size": 1024,
+        "scramble": 0,
+        "posterior_mean": [
+          -0.03911381910623452,
+          0.9486724819180503,
+          0.9775249579970952
+        ],
+        "weight_distance": 0.0004056738198204643,
+        "mc_reference_excess": 3.9714769455717613e-08,
+        "reference_integral": 1.025474737063041
+      },
+      {
+        "size": 1024,
+        "scramble": 1,
+        "posterior_mean": [
+          -0.03905640498940959,
+          0.9431755703005605,
+          0.9769465400704874
+        ],
+        "weight_distance": 0.0002418893077929556,
+        "mc_reference_excess": 1.6019245777099123e-08,
+        "reference_integral": 1.004449383212514
+      },
+      {
+        "size": 1024,
+        "scramble": 2,
+        "posterior_mean": [
+          -0.03911645393048822,
+          0.9490731661203609,
+          0.977365577694885
+        ],
+        "weight_distance": 0.00042650086016312704,
+        "mc_reference_excess": 4.3101531517486524e-08,
+        "reference_integral": 1.021571694458528
+      }
+    ],
+    "target": "uniform continuous prior times full-mask likelihood; no true parameter in sampler",
+    "scope": "classical split Rhat and autocorrelation ESS; two chains are diagnostics, not proof of global mixing"
+  }
+]

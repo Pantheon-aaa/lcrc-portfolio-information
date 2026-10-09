@@ -1,0 +1,7 @@
+tmp/
+output/pdf/*.aux
+output/pdf/*.out
+/results/*.jsonl
+/results/pre_*/
+/results/parallel_shards/
+/manifest.json

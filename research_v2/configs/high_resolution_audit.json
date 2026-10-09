@@ -1,0 +1,83 @@
+{
+  "panel": [
+    {
+      "kind": "G2",
+      "family_id": 0,
+      "point_id": 0,
+      "rep": 0,
+      "n": 256,
+      "m": 0,
+      "family_seed": 745004606,
+      "point_seed": 2635802092,
+      "data_seed": 578951045,
+      "instance_id": "466f189d6da18e57"
+    },
+    {
+      "kind": "G2",
+      "family_id": 0,
+      "point_id": 0,
+      "rep": 0,
+      "n": 256,
+      "m": 16,
+      "family_seed": 745004606,
+      "point_seed": 2635802092,
+      "data_seed": 1217838525,
+      "instance_id": "e6b82b7a295325ce"
+    },
+    {
+      "kind": "G2",
+      "family_id": 1,
+      "point_id": 0,
+      "rep": 0,
+      "n": 256,
+      "m": 0,
+      "family_seed": 3581341289,
+      "point_seed": 4179026636,
+      "data_seed": 3010570667,
+      "instance_id": "9bb99adfc1d75a6e"
+    },
+    {
+      "kind": "G2",
+      "family_id": 1,
+      "point_id": 0,
+      "rep": 0,
+      "n": 256,
+      "m": 16,
+      "family_seed": 3581341289,
+      "point_seed": 4179026636,
+      "data_seed": 3359409897,
+      "instance_id": "7d93d09fd3c0f95a"
+    },
+    {
+      "kind": "G2",
+      "family_id": 2,
+      "point_id": 0,
+      "rep": 0,
+      "n": 256,
+      "m": 0,
+      "family_seed": 1198341160,
+      "point_seed": 3805279623,
+      "data_seed": 3394672196,
+      "instance_id": "d6a4e2ef22328d7a"
+    },
+    {
+      "kind": "G2",
+      "family_id": 2,
+      "point_id": 0,
+      "rep": 0,
+      "n": 256,
+      "m": 16,
+      "family_seed": 1198341160,
+      "point_seed": 3805279623,
+      "data_seed": 1650962520,
+      "instance_id": "0d03b2a93a5542c3"
+    }
+  ],
+  "size": 4096,
+  "shape": [
+    32,
+    128
+  ],
+  "purpose": "triggered by initial scramble sensitivity, never fed back into candidate selection",
+  "B_Max_reference": "exact eta-box corners for each sampled phi; phi integration remains approximate"
+}

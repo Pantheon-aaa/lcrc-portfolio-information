@@ -1,0 +1,213 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "seed": 981,
+      "method": "tail",
+      "gap": 3.8409842363987257e-11,
+      "reference_difference": 5.541371181361221e-12,
+      "weight_distance": 4.76264655817781e-11,
+      "status": "AlmostSolved",
+      "fallback": null
+    },
+    {
+      "seed": 981,
+      "method": "ctail",
+      "gap": 4.1235260865579715e-11,
+      "reference_difference": 2.3327284114776914e-12,
+      "weight_distance": 8.954380126798319e-11,
+      "status": "AlmostSolved",
+      "fallback": null
+    },
+    {
+      "seed": 981,
+      "method": "max",
+      "gap": 3.762867795131797e-11,
+      "reference_difference": -3.0773994463828558e-15,
+      "weight_distance": 8.255545890892848e-08,
+      "status": "AlmostSolved",
+      "fallback": null
+    },
+    {
+      "seed": 981,
+      "method": "cmax",
+      "gap": 3.363584064053349e-11,
+      "reference_difference": -1.9115552890580645e-11,
+      "weight_distance": 2.999018734879568e-08,
+      "status": "AlmostSolved",
+      "fallback": null
+    },
+    {
+      "seed": 981,
+      "method": "filter",
+      "gap": 2.959335467650481e-11,
+      "reference_difference": -1.615500268281611e-13,
+      "weight_distance": 1.1041306539247787e-07,
+      "status": "AlmostSolved",
+      "fallback": null
+    },
+    {
+      "seed": 981,
+      "method": "cf",
+      "gap": 3.29130954261625e-11,
+      "reference_difference": 8.735480437963017e-12,
+      "weight_distance": 4.179574216758289e-08,
+      "status": "AlmostSolved",
+      "fallback": null
+    },
+    {
+      "seed": 981,
+      "method": "budget",
+      "gap": 3.718821604825617e-11,
+      "reference_difference": 3.547023785799297e-13,
+      "weight_distance": 5.5622003081965675e-08,
+      "status": "AlmostSolved",
+      "fallback": null
+    },
+    {
+      "seed": 981,
+      "method": "absolute",
+      "gap": 5.248922824163671e-11,
+      "reference_difference": 1.483470984942059e-11,
+      "weight_distance": 6.57180352803838e-11,
+      "status": "AlmostSolved",
+      "fallback": null
+    },
+    {
+      "seed": 981,
+      "method": "lp",
+      "gap": 1.5454559159130208e-06,
+      "reference_difference": 9.992143482022074e-10,
+      "weight_distance": 8.395161999316349e-08,
+      "status": "Solved",
+      "fallback": {
+        "status": "converged",
+        "gap": 2.9673670467041934e-11,
+        "diagnostics": {
+          "method": "lp",
+          "confidence_level": null,
+          "target": "model-regret",
+          "probability_source": "uniform-prior nested scrambled Sobol quadrature",
+          "numerical_certificate": "float64 weak-duality, not interval arithmetic",
+          "native_conic_status": "Solved",
+          "native_conic_value": -1.5023629673625583e-14,
+          "dual_status": "stopped at requested primal-dual gap",
+          "elapsed_over_limit": false
+        }
+      }
+    },
+    {
+      "seed": 981,
+      "method": "blend",
+      "gap": 3.5779007144173813e-11,
+      "reference_difference": -1.326436942054865e-11,
+      "weight_distance": 5.399259000011858e-11,
+      "status": "AlmostSolved",
+      "fallback": null
+    },
+    {
+      "seed": 982,
+      "method": "tail",
+      "gap": 3.4533908718770157e-11,
+      "reference_difference": -1.2949450539645468e-12,
+      "weight_distance": 1.7662729248557963e-11,
+      "status": "AlmostSolved",
+      "fallback": null
+    },
+    {
+      "seed": 982,
+      "method": "ctail",
+      "gap": 3.345400215529204e-11,
+      "reference_difference": 1.0320386038820129e-12,
+      "weight_distance": 9.445386917644481e-12,
+      "status": "AlmostSolved",
+      "fallback": null
+    },
+    {
+      "seed": 982,
+      "method": "max",
+      "gap": 4.923966789860401e-11,
+      "reference_difference": -2.154706968404696e-12,
+      "weight_distance": 1.1432925106243615e-07,
+      "status": "Solved",
+      "fallback": null
+    },
+    {
+      "seed": 982,
+      "method": "cmax",
+      "gap": 2.5050904545187436e-09,
+      "reference_difference": -1.853812301583213e-09,
+      "weight_distance": 4.844328619923438e-07,
+      "status": "AlmostSolved",
+      "fallback": null
+    },
+    {
+      "seed": 982,
+      "method": "filter",
+      "gap": 3.2715399399946277e-11,
+      "reference_difference": -4.24196094916951e-12,
+      "weight_distance": 1.3656510768760678e-07,
+      "status": "Solved",
+      "fallback": null
+    },
+    {
+      "seed": 982,
+      "method": "cf",
+      "gap": 3.913687598826321e-10,
+      "reference_difference": 4.0136630820135355e-09,
+      "weight_distance": 2.1382849425635592e-07,
+      "status": "AlmostSolved",
+      "fallback": null
+    },
+    {
+      "seed": 982,
+      "method": "budget",
+      "gap": 4.393038884054068e-11,
+      "reference_difference": 8.17367007410752e-13,
+      "weight_distance": 1.309350407656847e-07,
+      "status": "Solved",
+      "fallback": null
+    },
+    {
+      "seed": 982,
+      "method": "absolute",
+      "gap": 2.7256974455269756e-11,
+      "reference_difference": 2.5945065540433632e-11,
+      "weight_distance": 1.5854675792730747e-11,
+      "status": "AlmostSolved",
+      "fallback": null
+    },
+    {
+      "seed": 982,
+      "method": "lp",
+      "gap": 0.0020202885660754377,
+      "reference_difference": 8.785174574926403e-10,
+      "weight_distance": 9.477135575822873e-07,
+      "status": "AlmostSolved",
+      "fallback": {
+        "status": "converged",
+        "gap": 3.187101702311501e-11,
+        "diagnostics": {
+          "method": "lp",
+          "confidence_level": null,
+          "target": "model-regret",
+          "probability_source": "uniform-prior nested scrambled Sobol quadrature",
+          "numerical_certificate": "float64 weak-duality, not interval arithmetic",
+          "native_conic_status": "AlmostSolved",
+          "native_conic_value": -5.908651590500198e-11,
+          "dual_status": "stopped at requested primal-dual gap",
+          "elapsed_over_limit": false
+        }
+      }
+    },
+    {
+      "seed": 982,
+      "method": "blend",
+      "gap": 3.370023747908957e-11,
+      "reference_difference": -3.2878994665752614e-13,
+      "weight_distance": 2.0154535313439466e-11,
+      "status": "AlmostSolved",
+      "fallback": null
+    }
+  ]
+}

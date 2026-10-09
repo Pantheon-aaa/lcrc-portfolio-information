@@ -1,0 +1,8 @@
+{
+  "rows": 2232,
+  "holdings_changed": false,
+  "max_gap": 3.827676228510229e-08,
+  "min_gap": 2.44852992048461e-11,
+  "open_gaps": 0,
+  "reason": "LP primal maximizer is not an upper support certificate; use repaired LP dual objective"
+}

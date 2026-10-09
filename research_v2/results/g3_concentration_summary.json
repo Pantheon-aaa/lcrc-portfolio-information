@@ -1,0 +1,14 @@
+[
+  {
+    "stage": "G3_d20",
+    "instances": 216,
+    "median_ess": 1.9939876468044364,
+    "median_max_mass": 0.6458089648621659
+  },
+  {
+    "stage": "G3_d50",
+    "instances": 216,
+    "median_ess": 1.0007304730357318,
+    "median_max_mass": 0.9996349011697996
+  }
+]

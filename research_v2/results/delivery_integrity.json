@@ -1,0 +1,232 @@
+[
+  {
+    "stage": "development",
+    "rows": 1056,
+    "instances": 24,
+    "methods": [
+      "A-ATK:0.25",
+      "A-ATK:0.5",
+      "A-Absolute:0.25",
+      "A-Absolute:0.5",
+      "A-Max",
+      "A-Mean",
+      "A-Tail-P:0.25",
+      "A-Tail-P:0.5",
+      "A-Tail-U:0.25",
+      "A-Tail-U:0.5",
+      "B-ATK:0.25",
+      "B-ATK:0.5",
+      "B-Max",
+      "B-Mean",
+      "B-Tail-P:0.25",
+      "B-Tail-P:0.5",
+      "B-Tail-U:0.25",
+      "B-Tail-U:0.5",
+      "C-Budget:0.25",
+      "C-Budget:0.5",
+      "C-Budget:1.0",
+      "C-LP-Max:0.01",
+      "C-LP-Max:0.1",
+      "C-LP-Max:1.0",
+      "C-LP-Tail:0.01",
+      "C-LP-Tail:0.1",
+      "C-LP-Tail:1.0",
+      "C-LR:0.01",
+      "C-LR:0.1",
+      "C-LR:1.0",
+      "C-Soft-Cond:0.01",
+      "C-Soft-Cond:0.1",
+      "C-Soft-Cond:1.0",
+      "C-Soft:0.01",
+      "C-Soft:0.1",
+      "C-Soft:1.0",
+      "H-Conditional-FilterThenK",
+      "H-Conditional-PostSampleK",
+      "H-Conditional-RankThenP",
+      "H-Conditional-pR",
+      "H-FilterThenK",
+      "H-PostSampleK",
+      "H-RankThenP",
+      "H-pR"
+    ],
+    "failures": 0,
+    "statuses": {
+      "converged": 1004,
+      "heuristic": 48,
+      "gap_open": 4
+    },
+    "max_conditional_mass_residual": 1.1102230246251565e-16,
+    "min_rows_per_instance": 44
+  },
+  {
+    "stage": "G1",
+    "rows": 4320,
+    "instances": 240,
+    "methods": [
+      "A-Max",
+      "A-Mean",
+      "A-Tail-P:0.25",
+      "A-Tail-P:0.5",
+      "A-Tail-U:0.5",
+      "B-Max",
+      "B-Plugin",
+      "B-Tail-P:0.25",
+      "B-Tail-P:0.5",
+      "B-Tail-U:0.5",
+      "C-Budget:0.25",
+      "C-LP-Max:0.01",
+      "C-LP-Tail:0.1",
+      "C-LR:1.0",
+      "C-Soft-Cond:0.1",
+      "C-Soft:0.1",
+      "H-Conditional-FilterThenK",
+      "REF-EB"
+    ],
+    "failures": 0,
+    "statuses": {
+      "converged": 4320
+    },
+    "max_conditional_mass_residual": 2.220446049250313e-16,
+    "min_rows_per_instance": 18
+  },
+  {
+    "stage": "G2",
+    "rows": 34560,
+    "instances": 1920,
+    "methods": [
+      "A-Max",
+      "A-Mean",
+      "A-Tail-P:0.25",
+      "A-Tail-P:0.5",
+      "A-Tail-U:0.5",
+      "B-Max",
+      "B-Plugin",
+      "B-Tail-P:0.25",
+      "B-Tail-P:0.5",
+      "B-Tail-U:0.5",
+      "C-Budget:0.25",
+      "C-LP-Max:0.01",
+      "C-LP-Tail:0.1",
+      "C-LR:1.0",
+      "C-Soft-Cond:0.1",
+      "C-Soft:0.1",
+      "H-Conditional-FilterThenK",
+      "REF-EB"
+    ],
+    "failures": 0,
+    "statuses": {
+      "converged": 34560
+    },
+    "max_conditional_mass_residual": 9.747217946159718e-17,
+    "min_rows_per_instance": 18
+  },
+  {
+    "stage": "confirm",
+    "rows": 51840,
+    "instances": 6480,
+    "methods": [
+      "A-Absolute:0.5",
+      "A-Mean",
+      "A-Tail-P:0.5",
+      "B-Max",
+      "B-Tail-P:0.25",
+      "B-Tail-P:0.5",
+      "H-Conditional-FilterThenK",
+      "REF-EB"
+    ],
+    "failures": 0,
+    "statuses": {
+      "converged": 51840
+    },
+    "max_conditional_mass_residual": 1.1102230246251565e-16,
+    "min_rows_per_instance": 8
+  },
+  {
+    "stage": "G3_d20",
+    "rows": 1944,
+    "instances": 216,
+    "methods": [
+      "A-Absolute:0.5",
+      "A-Mean",
+      "A-Tail-P:0.5",
+      "B-Max",
+      "B-Tail-P:0.25",
+      "B-Tail-P:0.5",
+      "EM-shrink",
+      "Equal-Weight",
+      "H-Conditional-FilterThenK"
+    ],
+    "failures": 0,
+    "statuses": {
+      "converged": 1512,
+      "baseline": 432
+    },
+    "max_conditional_mass_residual": 2.220446049250313e-16,
+    "min_rows_per_instance": 9
+  },
+  {
+    "stage": "G3_d50",
+    "rows": 1944,
+    "instances": 216,
+    "methods": [
+      "A-Absolute:0.5",
+      "A-Mean",
+      "A-Tail-P:0.5",
+      "B-Max",
+      "B-Tail-P:0.25",
+      "B-Tail-P:0.5",
+      "EM-shrink",
+      "Equal-Weight",
+      "H-Conditional-FilterThenK"
+    ],
+    "failures": 0,
+    "statuses": {
+      "converged": 1512,
+      "baseline": 432
+    },
+    "max_conditional_mass_residual": 2.220446049250313e-16,
+    "min_rows_per_instance": 9
+  },
+  {
+    "stage": "resolution",
+    "rows": 432,
+    "instances": 6,
+    "methods": [
+      "A-Absolute:0.5",
+      "A-Mean",
+      "A-Tail-P:0.5",
+      "B-Max",
+      "B-Tail-P:0.25",
+      "B-Tail-P:0.5",
+      "H-Conditional-FilterThenK",
+      "REF-EB"
+    ],
+    "failures": 0,
+    "statuses": {
+      "converged": 432
+    },
+    "max_conditional_mass_residual": 0,
+    "min_rows_per_instance": 72
+  },
+  {
+    "stage": "baseline_audit",
+    "rows": 1704,
+    "instances": 240,
+    "methods": [
+      "Affine-MLE",
+      "EM-shrink",
+      "Equal-Weight",
+      "OracleGridPrior-0",
+      "OracleGridPrior-1",
+      "OracleGridPrior-2",
+      "OracleGridPrior-3",
+      "REF-LCRC"
+    ],
+    "failures": 0,
+    "statuses": {
+      "baseline": 1704
+    },
+    "max_conditional_mass_residual": 0,
+    "min_rows_per_instance": 7
+  }
+]

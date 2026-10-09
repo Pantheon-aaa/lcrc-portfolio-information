@@ -1,0 +1,48 @@
+{
+  "jobs": [
+    [
+      "G2",
+      0,
+      3
+    ],
+    [
+      "G2",
+      1,
+      3
+    ],
+    [
+      "G2",
+      2,
+      3
+    ],
+    [
+      "confirm",
+      0,
+      5
+    ],
+    [
+      "confirm",
+      1,
+      5
+    ],
+    [
+      "confirm",
+      2,
+      5
+    ],
+    [
+      "confirm",
+      3,
+      5
+    ],
+    [
+      "confirm",
+      4,
+      5
+    ]
+  ],
+  "blas_threads_per_process": 1,
+  "reason": "timing-based repartition; frozen datasets and candidates unchanged",
+  "solver_revision": "stop dual iterations only after already required numerical gap",
+  "maximum_concurrent_experiment_processes": 8
+}

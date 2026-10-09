@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "stage": "development",
+      "instances": 24,
+      "methods": 44,
+      "rows": 1056,
+      "failures": [],
+      "open_gaps": [
+        [
+          "8074e9d5c23cf049",
+          "C-LP-Tail:1.0",
+          4.055153524085142e-08
+        ],
+        [
+          "1b216e92f0dcd57c",
+          "C-LP-Tail:1.0",
+          1.4176540696908546e-07
+        ],
+        [
+          "fbe2d751d80dcf20",
+          "C-LP-Tail:1.0",
+          1.0992907328866153e-07
+        ],
+        [
+          "f41231f9cd1427b5",
+          "C-LP-Tail:1.0",
+          6.303680377683918e-08
+        ]
+      ],
+      "max_feasibility_residual": 2.220446049250313e-16
+    },
+    {
+      "stage": "G1",
+      "instances": 240,
+      "methods": 18,
+      "rows": 4320,
+      "failures": [],
+      "open_gaps": [],
+      "max_feasibility_residual": 2.220446049250313e-16
+    },
+    {
+      "stage": "G2",
+      "instances": 1920,
+      "methods": 18,
+      "rows": 34560,
+      "failures": [],
+      "open_gaps": [],
+      "max_feasibility_residual": 2.220446049250313e-16
+    },
+    {
+      "stage": "confirm",
+      "instances": 6480,
+      "methods": 8,
+      "rows": 51840,
+      "failures": [],
+      "open_gaps": [],
+      "max_feasibility_residual": 2.220446049250313e-16
+    },
+    {
+      "stage": "G3_d20",
+      "instances": 216,
+      "methods": 9,
+      "rows": 1944,
+      "failures": [],
+      "open_gaps": [],
+      "max_feasibility_residual": 2.220446049250313e-16
+    },
+    {
+      "stage": "G3_d50",
+      "instances": 216,
+      "methods": 9,
+      "rows": 1944,
+      "failures": [],
+      "open_gaps": [],
+      "max_feasibility_residual": 2.220446049250313e-16
+    },
+    {
+      "stage": "blend_development",
+      "instances": 24,
+      "methods": 2,
+      "rows": 48,
+      "failures": [],
+      "open_gaps": [],
+      "max_feasibility_residual": 2.220446049250313e-16
+    },
+    {
+      "stage": "repair_screen",
+      "instances": 2160,
+      "methods": 4,
+      "rows": 8640,
+      "failures": [],
+      "open_gaps": [],
+      "max_feasibility_residual": 2.220446049250313e-16
+    },
+    {
+      "stage": "repair_confirmation",
+      "instances": 6480,
+      "methods": 2,
+      "rows": 12960,
+      "failures": [],
+      "open_gaps": [
+        [
+          "a375313361ba8ecd",
+          "C-LP-Max:0.01",
+          2.678442473182142e-07
+        ],
+        [
+          "88fb91e51cb48d76",
+          "C-LP-Max:0.01",
+          3.6613982105487805e-07
+        ]
+      ],
+      "max_feasibility_residual": 2.220446049250313e-16
+    }
+  ],
+  "gates": {
+    "gate_v2": true,
+    "native_conic_gate": true,
+    "embedded_boundary_gate": true,
+    "theory_formula_checks": true
+  },
+  "recorded_experiment_process_wall_hours": 13.442482539585006,
+  "interpretation": "complete scheduled rows; does not assert every solver converged or any algorithm won"
+}

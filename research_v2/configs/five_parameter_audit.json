@@ -1,0 +1,25 @@
+{
+  "family_seeds": [
+    91031,
+    91032,
+    91033
+  ],
+  "n": 64,
+  "m": [
+    0,
+    16
+  ],
+  "sizes": [
+    128,
+    256,
+    512
+  ],
+  "theta": [
+    0,
+    0.6,
+    -0.6,
+    0.3,
+    -0.3
+  ],
+  "scope": "six fixed datasets; diagnostic only, not independent confirmation"
+}

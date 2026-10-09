@@ -1,5 +1,13 @@
 # LCRC: Portfolio Decisions from Incomplete Risk Information
 
+## New: conditional-tail research v2
+
+The second research round is available in [the detailed Chinese review report](research_v2/REVIEW_REPORT_ZH.md), with [core-code review guidance](research_v2/docs/CODE_REVIEW_GUIDE.md), [complete English proofs](research_v2/docs/THEORY_NOTES.md), and [lossless experimental records](research_v2/publication/README.md).
+
+V2 evaluates 46 method/parameter specifications across fixed-parameter, incomplete-information and unknown-structure synthetic experiments. It does **not** establish a stable average-regret winner over same-information model averaging. Its main theoretical development links disappearing model probabilities, portfolio boundary constraints and informative joint observations. Experimental elapsed time was about **2.56 hours** from frozen protocol to the last experiment; **13.44 hours** is summed concurrent task time, not elapsed time.
+
+The original v1 description, code and findings below remain available and should not be confused with the v2 protocol.
+
 Research code, algorithm derivations, and CPU synthetic experiments for **When Is Incomplete Risk Information Enough for Near-Optimal Portfolio Decisions?**
 
 The central quantity is decision ambiguity: the smallest worst-case regret of one portfolio across the risk models that observations have not excluded. LCRC (likelihood-calibrated regret center) combines a calibrated likelihood set, a conservative continuous-parameter cover, and a finite-scenario regret center.

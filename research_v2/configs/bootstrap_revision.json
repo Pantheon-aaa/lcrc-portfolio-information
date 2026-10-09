@@ -1,0 +1,5 @@
+{
+  "reason": "bootstrap draws can contain entirely unobserved columns; initialize EM from past-only nominal covariance rather than NaN diagonal",
+  "posterior_underflow": "zero-representable group masses skipped without a probability floor",
+  "same_manifest": true
+}

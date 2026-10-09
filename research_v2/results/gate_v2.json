@@ -1,0 +1,115 @@
+{
+  "unidentified_conditional_update": true,
+  "primal_dual_checks": [
+    {
+      "method": "mean",
+      "gap": 3.048338155248881e-11,
+      "reference": 0.0005609262572434135,
+      "status": "converged"
+    },
+    {
+      "method": "bmean",
+      "gap": 3.048339402081379e-11,
+      "reference": 0.000560926257803356,
+      "status": "converged"
+    },
+    {
+      "method": "tail",
+      "gap": 3.054770965262715e-11,
+      "reference": 0.0008354214891248198,
+      "status": "converged"
+    },
+    {
+      "method": "ctail",
+      "gap": 5.575551792176905e-10,
+      "reference": 0.0006940613073245731,
+      "status": "converged"
+    },
+    {
+      "method": "max",
+      "gap": 7.843349650316078e-10,
+      "reference": 0.027307057992411572,
+      "status": "converged"
+    },
+    {
+      "method": "cmax",
+      "gap": 6.87261116072424e-10,
+      "reference": 0.012310788988598623,
+      "status": "converged"
+    },
+    {
+      "method": "lp",
+      "gap": 1.8680403205015522e-08,
+      "reference": 5.654799764281064e-06,
+      "status": "converged"
+    },
+    {
+      "method": "lpt",
+      "gap": 3.138116155820825e-11,
+      "reference": -0.05664175970326105,
+      "status": "converged"
+    },
+    {
+      "method": "blend",
+      "gap": 3.051563429029569e-11,
+      "reference": 0.0007138430830145872,
+      "status": "converged"
+    },
+    {
+      "method": "soft",
+      "gap": 3.048298668605759e-11,
+      "reference": 0.0005768224976773252,
+      "status": "converged"
+    },
+    {
+      "method": "csoft",
+      "gap": 3.0490940718455595e-11,
+      "reference": 0.0005691327173601749,
+      "status": "converged"
+    },
+    {
+      "method": "lr",
+      "gap": 3.204778803445052e-11,
+      "reference": 0.011968651252799382,
+      "status": "converged"
+    },
+    {
+      "method": "budget",
+      "gap": 8.157539930532531e-08,
+      "reference": 0.009168208353138528,
+      "status": "converged"
+    },
+    {
+      "method": "filter",
+      "gap": 1.9492543366526546e-08,
+      "reference": 0.0008862870806336895,
+      "status": "converged"
+    },
+    {
+      "method": "sample",
+      "gap": 1.6469991627032082e-08,
+      "reference": 0.0008002326197948444,
+      "status": "converged"
+    },
+    {
+      "method": "pr",
+      "gap": 6.592800456495067e-12,
+      "reference": 3.505567054703888e-05,
+      "status": "converged"
+    }
+  ],
+  "mean_identities": true,
+  "ordering_replication_topk_group_mass": {
+    "passed": true,
+    "max_error": 2.220446049250313e-16
+  },
+  "rotated_observation_kernel": true,
+  "naive_discontinuity": {
+    "left": 2.0000000027320506,
+    "right": 1.2222222236151
+  },
+  "filtered_integer_topk": true,
+  "public_input_signature": true,
+  "oracle_cache_problem_signature": true,
+  "passed": true
+}

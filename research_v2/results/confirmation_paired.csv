@@ -1,0 +1,25 @@
+kind,method,baseline,difference,low,high,p,families,paired_instances,interval,p_holm
+G1,A-Absolute:0.5,A-Mean,0.0008923039495801994,-0.00024820220685228594,0.0020328101060126847,0.07805426524675171,3,720,t interval on family means; only three independent families; exploratory approximation,1.0
+G1,A-Tail-P:0.5,A-Mean,5.722241765328863e-05,-0.00014099388509441007,0.0002554387204009873,0.34008775146150855,3,720,t interval on family means; only three independent families; exploratory approximation,1.0
+G1,B-Max,A-Mean,0.0008779365615706374,0.00029293637152350796,0.001462936751617767,0.023153819117221197,3,720,t interval on family means; only three independent families; exploratory approximation,0.5556916588133087
+G1,B-Tail-P:0.25,A-Mean,0.00019607215112646477,-0.00026926975582940214,0.0006614140580823316,0.21152540749146914,3,720,t interval on family means; only three independent families; exploratory approximation,1.0
+G1,B-Tail-P:0.5,A-Mean,5.8829958529152096e-05,-0.0001011850434188885,0.00021884496047719267,0.25448832492138035,3,720,t interval on family means; only three independent families; exploratory approximation,1.0
+G1,H-Conditional-FilterThenK,A-Mean,0.00030229309069023145,-2.3383085545980974e-05,0.0006279692669264439,0.05735555040670853,3,720,t interval on family means; only three independent families; exploratory approximation,1.0
+G1,A-Absolute:0.5,REF-EB,0.000313710887069887,-0.0018305731515514516,0.0024579949256912257,0.5933528936379231,3,720,t interval on family means; only three independent families; exploratory approximation,1.0
+G1,A-Tail-P:0.5,REF-EB,-0.0005213706448570238,-0.0017265349771281853,0.0006837936874141376,0.2037470767253368,3,720,t interval on family means; only three independent families; exploratory approximation,1.0
+G1,B-Max,REF-EB,0.000299343499060325,-0.0008663188972551821,0.0014650058953758322,0.38433103597444374,3,720,t interval on family means; only three independent families; exploratory approximation,1.0
+G1,B-Tail-P:0.25,REF-EB,-0.0003825209113838478,-0.0018087245806435266,0.0010436827578758309,0.367771172828647,3,720,t interval on family means; only three independent families; exploratory approximation,1.0
+G1,B-Tail-P:0.5,REF-EB,-0.0005197631039811604,-0.00168755187695901,0.0006480256689966892,0.19557305395004168,3,720,t interval on family means; only three independent families; exploratory approximation,1.0
+G1,H-Conditional-FilterThenK,REF-EB,-0.0002762999718200811,-0.0016004188927123293,0.0010478189490721673,0.46403082566407367,3,720,t interval on family means; only three independent families; exploratory approximation,1.0
+G2,A-Absolute:0.5,A-Mean,0.00287372339745124,-0.003029249247700637,0.008776696042603116,0.17121151102886387,3,5760,t interval on family means; only three independent families; exploratory approximation,1.0
+G2,A-Tail-P:0.5,A-Mean,0.0001561107454437107,-0.00027202238862834133,0.0005842438795157628,0.2572286606062443,3,5760,t interval on family means; only three independent families; exploratory approximation,1.0
+G2,B-Max,A-Mean,0.016884769863076455,-0.017340613750215988,0.051110153476368894,0.16778655376987317,3,5760,t interval on family means; only three independent families; exploratory approximation,1.0
+G2,B-Tail-P:0.25,A-Mean,0.0005702861217250875,-0.0008434786943761643,0.0019840509378263394,0.22476797200019613,3,5760,t interval on family means; only three independent families; exploratory approximation,1.0
+G2,B-Tail-P:0.5,A-Mean,0.000165402782824552,-0.0002714857193954649,0.0006022912850445688,0.24487433034737122,3,5760,t interval on family means; only three independent families; exploratory approximation,1.0
+G2,H-Conditional-FilterThenK,A-Mean,0.00015169909839263037,-0.00031009944077492967,0.0006134976375601905,0.29309535099422285,3,5760,t interval on family means; only three independent families; exploratory approximation,1.0
+G2,A-Absolute:0.5,REF-EB,-0.0009104145002323425,-0.003966129504852349,0.0021453005043876637,0.3283960229942475,3,5760,t interval on family means; only three independent families; exploratory approximation,1.0
+G2,A-Tail-P:0.5,REF-EB,-0.003628027152239872,-0.011753917083191862,0.004497862778712117,0.19468640550903565,3,5760,t interval on family means; only three independent families; exploratory approximation,1.0
+G2,B-Max,REF-EB,0.013100631965392873,-0.015415396089111013,0.04161666001989676,0.18671221858848008,3,5760,t interval on family means; only three independent families; exploratory approximation,1.0
+G2,B-Tail-P:0.25,REF-EB,-0.0032138517759584943,-0.010880119915432215,0.004452416363515226,0.21304105603961748,3,5760,t interval on family means; only three independent families; exploratory approximation,1.0
+G2,B-Tail-P:0.5,REF-EB,-0.0036187351148590304,-0.01171914191895455,0.00448167168923649,0.1945232748769907,3,5760,t interval on family means; only three independent families; exploratory approximation,1.0
+G2,H-Conditional-FilterThenK,REF-EB,-0.0036324387992909524,-0.01190357020073632,0.004638692602154415,0.19939318476717824,3,5760,t interval on family means; only three independent families; exploratory approximation,1.0

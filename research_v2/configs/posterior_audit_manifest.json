@@ -1,0 +1,38 @@
+[
+  {
+    "kind": "G2",
+    "family_id": 0,
+    "point_id": 1,
+    "rep": 0,
+    "n": 256,
+    "m": 64,
+    "family_seed": 745004606,
+    "point_seed": 2635802092,
+    "data_seed": 1577319201,
+    "instance_id": "66b20fd3a95abc64"
+  },
+  {
+    "kind": "G2",
+    "family_id": 1,
+    "point_id": 1,
+    "rep": 0,
+    "n": 256,
+    "m": 64,
+    "family_seed": 3581341289,
+    "point_seed": 4179026636,
+    "data_seed": 2894566640,
+    "instance_id": "2eb3607f9c96afc7"
+  },
+  {
+    "kind": "G2",
+    "family_id": 2,
+    "point_id": 1,
+    "rep": 0,
+    "n": 256,
+    "m": 64,
+    "family_seed": 1198341160,
+    "point_seed": 3805279623,
+    "data_seed": 2404243541,
+    "instance_id": "b99ac20adfb067a7"
+  }
+]
