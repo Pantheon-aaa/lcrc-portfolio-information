@@ -1,0 +1,402 @@
+{
+  "passed": true,
+  "counts": {
+    "E1.jsonl": {
+      "rows": 43200,
+      "expected": 43200,
+      "complete": true,
+      "failures": 0,
+      "success_indeterminate": 2965,
+      "max_feasibility_residual": 3.3306690738754696e-16,
+      "max_recorded_gap": 4.365768158228964e-11,
+      "gaps_above_1e-6": 0
+    },
+    "E2_development.jsonl": {
+      "rows": 204800,
+      "expected": 204800,
+      "complete": true,
+      "failures": 0,
+      "success_indeterminate": 14934,
+      "max_feasibility_residual": 4.440892098500626e-16,
+      "max_recorded_gap": 1.8800304648768258e-07,
+      "gaps_above_1e-6": 0
+    },
+    "E2_confirmation.jsonl": {
+      "rows": 204800,
+      "expected": 204800,
+      "complete": true,
+      "failures": 0,
+      "success_indeterminate": 14477,
+      "max_feasibility_residual": 4.440892098500626e-16,
+      "max_recorded_gap": 4.5174278091006154e-10,
+      "gaps_above_1e-6": 0
+    },
+    "E3.jsonl": {
+      "rows": 134400,
+      "expected": 134400,
+      "complete": true,
+      "failures": 0,
+      "success_indeterminate": 0,
+      "max_feasibility_residual": 2.220446049250313e-16,
+      "max_recorded_gap": null,
+      "gaps_above_1e-6": 0
+    },
+    "E4_development.jsonl": {
+      "rows": 20800,
+      "expected": 20800,
+      "complete": true,
+      "failures": 0,
+      "success_indeterminate": 1400,
+      "max_feasibility_residual": 3.3306690738754696e-16,
+      "max_recorded_gap": 1.1701648539030884e-09,
+      "gaps_above_1e-6": 0
+    },
+    "E4_confirmation.jsonl": {
+      "rows": 5200,
+      "expected": 5200,
+      "complete": true,
+      "failures": 0,
+      "success_indeterminate": 344,
+      "max_feasibility_residual": 2.220446049250313e-16,
+      "max_recorded_gap": 3.3691138729066877e-10,
+      "gaps_above_1e-6": 0
+    },
+    "E4_development_safe_reference.jsonl": {
+      "rows": 1600,
+      "expected": 1600,
+      "complete": true,
+      "failures": 0,
+      "success_indeterminate": 0,
+      "max_feasibility_residual": 3.3306690738754696e-16,
+      "max_recorded_gap": 1.1701648539030884e-09,
+      "gaps_above_1e-6": 0
+    },
+    "E4_confirmation_safe_reference.jsonl": {
+      "rows": 400,
+      "expected": 400,
+      "complete": true,
+      "failures": 0,
+      "success_indeterminate": 0,
+      "max_feasibility_residual": 2.220446049250313e-16,
+      "max_recorded_gap": 0.0,
+      "gaps_above_1e-6": 0
+    }
+  },
+  "checks": {
+    "six_model_enumeration": [
+      {
+        "kind": "asymmetric",
+        "ratio": 0.25,
+        "case": 0,
+        "status": "optimal",
+        "A1_lower": 0.4682664131915988,
+        "A1_upper": 0.4682664132915988,
+        "enumeration_lower": 0.4682664131915988,
+        "enumeration_upper": 0.4682664131915988,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "asymmetric",
+        "ratio": 0.25,
+        "case": 1,
+        "status": "optimal",
+        "A1_lower": 0.48279586802744345,
+        "A1_upper": 0.4827958681274435,
+        "enumeration_lower": 0.48279586802744345,
+        "enumeration_upper": 0.48279586802744345,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "asymmetric",
+        "ratio": 0.25,
+        "case": 2,
+        "status": "optimal",
+        "A1_lower": 0.31429437489700696,
+        "A1_upper": 0.31429437499700696,
+        "enumeration_lower": 0.31429437489700696,
+        "enumeration_upper": 0.31429437489700696,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "asymmetric",
+        "ratio": 0.5,
+        "case": 0,
+        "status": "optimal",
+        "A1_lower": 0.48329591449684994,
+        "A1_upper": 0.48329591459684995,
+        "enumeration_lower": 0.48329591449684994,
+        "enumeration_upper": 0.48329591449684994,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "asymmetric",
+        "ratio": 0.5,
+        "case": 1,
+        "status": "optimal",
+        "A1_lower": 0.516075340543502,
+        "A1_upper": 0.5160753406435021,
+        "enumeration_lower": 0.516075340543502,
+        "enumeration_upper": 0.516075340543502,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "asymmetric",
+        "ratio": 0.5,
+        "case": 2,
+        "status": "optimal",
+        "A1_lower": 0.5652978270375376,
+        "A1_upper": 0.5652978271375376,
+        "enumeration_lower": 0.5652978270375376,
+        "enumeration_upper": 0.5652978270375376,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "asymmetric",
+        "ratio": 0.75,
+        "case": 0,
+        "status": "optimal",
+        "A1_lower": 0.7908073474366225,
+        "A1_upper": 0.7908073475366225,
+        "enumeration_lower": 0.7908073474366225,
+        "enumeration_upper": 0.7908073474366225,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "asymmetric",
+        "ratio": 0.75,
+        "case": 1,
+        "status": "optimal",
+        "A1_lower": 0.9812682136233495,
+        "A1_upper": 0.9812682137233495,
+        "enumeration_lower": 0.9812682136233495,
+        "enumeration_upper": 0.9812682136233495,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "asymmetric",
+        "ratio": 0.75,
+        "case": 2,
+        "status": "optimal",
+        "A1_lower": 0.8494903320033989,
+        "A1_upper": 0.8494903321033989,
+        "enumeration_lower": 0.8494903320033989,
+        "enumeration_upper": 0.8494903320033989,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "asymmetric",
+        "ratio": 1.0,
+        "case": 0,
+        "status": "indeterminate",
+        "A1_lower": 0.7908073474366225,
+        "A1_upper": 1.0,
+        "enumeration_lower": 0.9121175147749367,
+        "enumeration_upper": 1.0,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "asymmetric",
+        "ratio": 1.0,
+        "case": 1,
+        "status": "indeterminate",
+        "A1_lower": 0.9490525153545692,
+        "A1_upper": 1.0,
+        "enumeration_lower": 0.9812682136233495,
+        "enumeration_upper": 1.0,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "asymmetric",
+        "ratio": 1.0,
+        "case": 2,
+        "status": "indeterminate",
+        "A1_lower": 0.8494903320033989,
+        "A1_upper": 1.0,
+        "enumeration_lower": 0.8494903320033989,
+        "enumeration_upper": 0.9999999999999998,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "hidden_curvature",
+        "ratio": 0.25,
+        "case": 0,
+        "status": "optimal",
+        "A1_lower": 0.49243884674628774,
+        "A1_upper": 0.49243884684628775,
+        "enumeration_lower": 0.49243884674628774,
+        "enumeration_upper": 0.49243884674628774,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "hidden_curvature",
+        "ratio": 0.25,
+        "case": 1,
+        "status": "optimal",
+        "A1_lower": 0.5794603580263439,
+        "A1_upper": 0.5794603581263439,
+        "enumeration_lower": 0.5794603580263439,
+        "enumeration_upper": 0.5794603580263439,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "hidden_curvature",
+        "ratio": 0.25,
+        "case": 2,
+        "status": "optimal",
+        "A1_lower": 0.5013233892554887,
+        "A1_upper": 0.5013233893554887,
+        "enumeration_lower": 0.5013233892554887,
+        "enumeration_upper": 0.5013233892554887,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "hidden_curvature",
+        "ratio": 0.5,
+        "case": 0,
+        "status": "optimal",
+        "A1_lower": 0.7088722889198729,
+        "A1_upper": 0.7088722890198729,
+        "enumeration_lower": 0.7088722889198729,
+        "enumeration_upper": 0.7088722889198729,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "hidden_curvature",
+        "ratio": 0.5,
+        "case": 1,
+        "status": "optimal",
+        "A1_lower": 0.6256570660991255,
+        "A1_upper": 0.6256570661991255,
+        "enumeration_lower": 0.6256570660991255,
+        "enumeration_upper": 0.6256570660991255,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "hidden_curvature",
+        "ratio": 0.5,
+        "case": 2,
+        "status": "optimal",
+        "A1_lower": 0.5846216584145743,
+        "A1_upper": 0.5846216585145743,
+        "enumeration_lower": 0.5846216584145743,
+        "enumeration_upper": 0.5846216584145743,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "hidden_curvature",
+        "ratio": 0.75,
+        "case": 0,
+        "status": "optimal",
+        "A1_lower": 0.8562831050282906,
+        "A1_upper": 0.8562831051282906,
+        "enumeration_lower": 0.8562831050282906,
+        "enumeration_upper": 0.8562831050282906,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "hidden_curvature",
+        "ratio": 0.75,
+        "case": 1,
+        "status": "optimal",
+        "A1_lower": 0.7619633715021359,
+        "A1_upper": 0.7619633716021359,
+        "enumeration_lower": 0.7619633715021359,
+        "enumeration_upper": 0.7619633715021359,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "hidden_curvature",
+        "ratio": 0.75,
+        "case": 2,
+        "status": "optimal",
+        "A1_lower": 0.7548490151585571,
+        "A1_upper": 0.7548490152585571,
+        "enumeration_lower": 0.7548490151585571,
+        "enumeration_upper": 0.7548490151585571,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "hidden_curvature",
+        "ratio": 1.0,
+        "case": 0,
+        "status": "indeterminate",
+        "A1_lower": 0.8562831050282906,
+        "A1_upper": 1.0,
+        "enumeration_lower": 0.9130615438824855,
+        "enumeration_upper": 1.0,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "hidden_curvature",
+        "ratio": 1.0,
+        "case": 1,
+        "status": "indeterminate",
+        "A1_lower": 0.6256570660991255,
+        "A1_upper": 1.0,
+        "enumeration_lower": 0.9783080730078496,
+        "enumeration_upper": 1.0,
+        "intervals_consistent": true
+      },
+      {
+        "kind": "hidden_curvature",
+        "ratio": 1.0,
+        "case": 2,
+        "status": "indeterminate",
+        "A1_lower": 0.7645810584390754,
+        "A1_upper": 1.0,
+        "enumeration_lower": 0.8297726432560172,
+        "enumeration_upper": 1.0,
+        "intervals_consistent": true
+      }
+    ],
+    "regenerated_observation_evidence": {
+      "passed": true,
+      "datasets": 17600,
+      "counts": {
+        "E1.jsonl": 4800,
+        "E2_development.jsonl": 6400,
+        "E2_confirmation.jsonl": 6400
+      },
+      "max_MA_objective_error_this_run": 0.0,
+      "provenance": "Exact regeneration from the original frozen seeds and unchanged likelihood/generator modules. No experimental decision was recomputed or replaced."
+    },
+    "raw_scatter_likelihood_error": 5.684341886080802e-14,
+    "cpu_seconds_before_finalization": 1606.125,
+    "stage_cpu": {
+      "gate_e1": 73.5,
+      "E2": 596.859375,
+      "confirmation": 787.4375,
+      "E3": 65.03125,
+      "E4": 72.0
+    },
+    "source_sha256": {
+      "__init__.py": "bbee2193f55be33a4bd5542e9a1640b499c6609ce84556ce299a4d8e61193b06",
+      "archive.py": "84a7ea99ed568f1001eed8d5896f0d28080266f0e42dd84f4cfb0ea77a8f95ac",
+      "audit.py": "08686b32d62b2dcfd2825f9c3b947ea976598b39bec6e248186661a9f3030bb5",
+      "baselines.py": "c235c007c2d371afeb1e7cdf8a12e5f7f9edf565f637184de784bbd16e1ad3a8",
+      "common.py": "4c5f42a666ed761f15301fdee4e5491cf7ec8b9fa9136c8c7ede95ec2a7f372c",
+      "compat_models.py": "d905b758b509474486db72f2180979326b50609836593845bbd7519c678649cc",
+      "compatible_qcqp.py": "b12bd30668bf0e0c4761ef177ab2f0a3d2d423ab74d64d6f35815b909d537ca4",
+      "dcl_master.py": "3b4cd4cf998f064cf0acb36ae1fb00669bff398a9aa07357fe1ff2c293f7aaaa",
+      "evidence_gate.py": "f43c8a07be0c6219ad4df3620f5020a5757a23e9535bafa860ec130a5745f66d",
+      "experiments.py": "68708d189bc79f025869e1011954436e47c43c0e32ac5ec7db74ce0cc8d8d434",
+      "finalize.py": "0106e695f94c28b1c313ca093abca4a0c072874383aba53fd9205dc8b0f1efdb",
+      "metadata_correction.py": "d4ede734dc2e5d55c4fd7638a7234e70fda53d5e3a24cab9c32ca2ead4d8cfaf",
+      "observation_evidence.py": "24be34b2c353fbc3e53fcb0c01c88a070050302c79aa749c3d6d713a70f0dbdf",
+      "rare_precision.py": "27093c29b9defc6c162228ecf52f1cc20e5437846512e11e8f057b74990a8fe5",
+      "report.py": "ad05cb827740bb6c4b782fb9cab4dfcec2848efb1b205ca96f1cf7455bbe944e",
+      "run_gates.py": "5e1cee479b146d852159c1acf0e449ccf25cd80161265138f015bdad4f10b109",
+      "safety_reference.py": "4b24fe23bed142cc1ab5b2fe61b725b7fc39781af2e4e9732f5d4760f6c1330d",
+      "verify_delivery.py": "3b25ee7f3091f230a3a3bc4ac73f12f784e2e066ee57c14c82aa777dd0b661f6"
+    },
+    "frozen_algorithm_consistency_excluding_documented_metadata_fix": {
+      "compat_models.py": true,
+      "compatible_qcqp.py": true,
+      "dcl_master.py": true,
+      "evidence_gate.py": true,
+      "baselines.py": true,
+      "experiments.py": true
+    }
+  },
+  "errors": []
+}

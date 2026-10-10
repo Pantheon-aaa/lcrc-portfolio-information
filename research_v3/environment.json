@@ -1,0 +1,28 @@
+{
+  "python": "3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.5.3",
+  "scipy": "1.17.1",
+  "cvxpy": "1.9.3",
+  "clarabel": "0.11.1",
+  "solvers": [
+    "CLARABEL",
+    "SCS",
+    "GLPK",
+    "GLPK_MI",
+    "CVXOPT",
+    "DIFFCP",
+    "SCIPY",
+    "HIGHS",
+    "OSQP"
+  ],
+  "algorithm_sha256": {
+    "compat_models.py": "d905b758b509474486db72f2180979326b50609836593845bbd7519c678649cc",
+    "compatible_qcqp.py": "b12bd30668bf0e0c4761ef177ab2f0a3d2d423ab74d64d6f35815b909d537ca4",
+    "dcl_master.py": "3b4cd4cf998f064cf0acb36ae1fb00669bff398a9aa07357fe1ff2c293f7aaaa",
+    "evidence_gate.py": "f43c8a07be0c6219ad4df3620f5020a5757a23e9535bafa860ec130a5745f66d",
+    "baselines.py": "c235c007c2d371afeb1e7cdf8a12e5f7f9edf565f637184de784bbd16e1ad3a8",
+    "experiments.py": "960951349d26b7c5afee13b35807ec2b9a7a9e99cc9507bf632127aa68ea58e3"
+  },
+  "baseline_commit": "5f3bf8c45b8e0e3d8fa706c57006e45e01e6f147"
+}

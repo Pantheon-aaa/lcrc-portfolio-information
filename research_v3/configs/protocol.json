@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "baseline_commit": "5f3bf8c45b8e0e3d8fa706c57006e45e01e6f147",
+  "seed_namespace": "v3-frozen-20261010",
+  "pairs": [
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      10,
+      10
+    ],
+    [
+      10,
+      12
+    ]
+  ],
+  "kinds": [
+    "simplex",
+    "asymmetric",
+    "hidden_curvature"
+  ],
+  "ratios": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "information_nats": [
+    0,
+    1,
+    3,
+    6
+  ],
+  "singleton_per_asset": [
+    32,
+    256
+  ],
+  "e1_repetitions": 200,
+  "e2_repetitions": 50,
+  "e3_repetitions": 200,
+  "e4_repetitions": 200,
+  "confirmation_repetitions": 50,
+  "e4_models": 8,
+  "e4_pilot_joint": 16,
+  "e4_t": 0.1,
+  "delta": 0.05,
+  "e3_t": [
+    0.1,
+    0.03,
+    0.01
+  ],
+  "e3_dimensions": [
+    10,
+    20
+  ],
+  "e3_multipliers": [
+    0,
+    0.25,
+    0.5,
+    1,
+    2,
+    4,
+    8
+  ],
+  "master_timeout": 30,
+  "max_joint_rows": 100000,
+  "cpu_limits": {
+    "gate_e1": 2700,
+    "E2": 6300,
+    "E3": 3600,
+    "E4": 5400,
+    "confirmation": 3600
+  },
+  "freeze_hash": "12cb1e06c360bbe0297b12d85e153fa72aa6e4c03cedebd52884c364a7fe3fb6",
+  "timing_max_seconds": 1.109375,
+  "timing4_max_seconds": 0.296875,
+  "primary_comparisons": [
+    "A1 vs MA true success",
+    "A1 vs CVaR true success",
+    "B2 vs LCRC harmful change and improvement",
+    "B2 vs pilot MA harmful change and improvement"
+  ],
+  "note": "Equal-mass finite prior. Parameter t is public family index. Numerical boundary ratio=1 excluded from rankings."
+}

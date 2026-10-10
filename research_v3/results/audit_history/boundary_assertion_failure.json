@@ -1,0 +1,164 @@
+{
+  "passed": false,
+  "counts": {
+    "E1.jsonl": {
+      "rows": 43200,
+      "expected": 43200,
+      "complete": true,
+      "failures": 0,
+      "success_indeterminate": 2965,
+      "max_feasibility_residual": 3.3306690738754696e-16,
+      "max_recorded_gap": 4.365768158228964e-11,
+      "gaps_above_1e-6": 0
+    },
+    "E2_development.jsonl": {
+      "rows": 204800,
+      "expected": 204800,
+      "complete": true,
+      "failures": 0,
+      "success_indeterminate": 14934,
+      "max_feasibility_residual": 4.440892098500626e-16,
+      "max_recorded_gap": 1.8800304648768258e-07,
+      "gaps_above_1e-6": 0
+    },
+    "E2_confirmation.jsonl": {
+      "rows": 204800,
+      "expected": 204800,
+      "complete": true,
+      "failures": 0,
+      "success_indeterminate": 14477,
+      "max_feasibility_residual": 4.440892098500626e-16,
+      "max_recorded_gap": 4.5174278091006154e-10,
+      "gaps_above_1e-6": 0
+    },
+    "E3.jsonl": {
+      "rows": 134400,
+      "expected": 134400,
+      "complete": true,
+      "failures": 0,
+      "success_indeterminate": 0,
+      "max_feasibility_residual": 2.220446049250313e-16,
+      "max_recorded_gap": null,
+      "gaps_above_1e-6": 0
+    },
+    "E4_development.jsonl": {
+      "rows": 20800,
+      "expected": 20800,
+      "complete": true,
+      "failures": 0,
+      "success_indeterminate": 1400,
+      "max_feasibility_residual": 3.3306690738754696e-16,
+      "max_recorded_gap": 1.1701648539030884e-09,
+      "gaps_above_1e-6": 0
+    },
+    "E4_confirmation.jsonl": {
+      "rows": 5200,
+      "expected": 5200,
+      "complete": true,
+      "failures": 0,
+      "success_indeterminate": 344,
+      "max_feasibility_residual": 2.220446049250313e-16,
+      "max_recorded_gap": 3.3691138729066877e-10,
+      "gaps_above_1e-6": 0
+    },
+    "E4_development_safe_reference.jsonl": {
+      "rows": 1600,
+      "expected": 1600,
+      "complete": true,
+      "failures": 0,
+      "success_indeterminate": 0,
+      "max_feasibility_residual": 3.3306690738754696e-16,
+      "max_recorded_gap": 1.1701648539030884e-09,
+      "gaps_above_1e-6": 0
+    },
+    "E4_confirmation_safe_reference.jsonl": {
+      "rows": 400,
+      "expected": 400,
+      "complete": true,
+      "failures": 0,
+      "success_indeterminate": 0,
+      "max_feasibility_residual": 2.220446049250313e-16,
+      "max_recorded_gap": 0.0,
+      "gaps_above_1e-6": 0
+    }
+  },
+  "checks": {
+    "six_model_enumeration": [
+      {
+        "kind": "asymmetric",
+        "case": 0,
+        "A1": 0.7908073474366225,
+        "enumeration": 0.9121175147749367,
+        "upper": 1.0
+      },
+      {
+        "kind": "asymmetric",
+        "case": 1,
+        "A1": 0.9490525153545692,
+        "enumeration": 0.9812682136233495,
+        "upper": 1.0
+      },
+      {
+        "kind": "asymmetric",
+        "case": 2,
+        "A1": 0.8494903320033989,
+        "enumeration": 0.8494903320033989,
+        "upper": 0.9999999999999998
+      },
+      {
+        "kind": "hidden_curvature",
+        "case": 0,
+        "A1": 0.8562831050282906,
+        "enumeration": 0.9130615438824855,
+        "upper": 1.0
+      },
+      {
+        "kind": "hidden_curvature",
+        "case": 1,
+        "A1": 0.6256570660991255,
+        "enumeration": 0.9783080730078496,
+        "upper": 1.0
+      },
+      {
+        "kind": "hidden_curvature",
+        "case": 2,
+        "A1": 0.7645810584390754,
+        "enumeration": 0.8297726432560172,
+        "upper": 1.0
+      }
+    ],
+    "raw_scatter_likelihood_error": 5.684341886080802e-14,
+    "cpu_seconds_before_finalization": 1486.8125,
+    "stage_cpu": {
+      "E4": 72.0,
+      "E2": 596.859375,
+      "confirmation": 670.015625,
+      "gate_e1": 73.5,
+      "E3": 65.03125
+    },
+    "source_sha256": {
+      "__init__.py": "bbee2193f55be33a4bd5542e9a1640b499c6609ce84556ce299a4d8e61193b06",
+      "archive.py": "84a7ea99ed568f1001eed8d5896f0d28080266f0e42dd84f4cfb0ea77a8f95ac",
+      "audit.py": "66549d8494ec2f3c4094c369dbcac3f07e561d4db4cb40f5c7137b3b3fe7ddb8",
+      "baselines.py": "c235c007c2d371afeb1e7cdf8a12e5f7f9edf565f637184de784bbd16e1ad3a8",
+      "common.py": "4c5f42a666ed761f15301fdee4e5491cf7ec8b9fa9136c8c7ede95ec2a7f372c",
+      "compat_models.py": "d905b758b509474486db72f2180979326b50609836593845bbd7519c678649cc",
+      "compatible_qcqp.py": "b12bd30668bf0e0c4761ef177ab2f0a3d2d423ab74d64d6f35815b909d537ca4",
+      "dcl_master.py": "3b4cd4cf998f064cf0acb36ae1fb00669bff398a9aa07357fe1ff2c293f7aaaa",
+      "evidence_gate.py": "f43c8a07be0c6219ad4df3620f5020a5757a23e9535bafa860ec130a5745f66d",
+      "experiments.py": "960951349d26b7c5afee13b35807ec2b9a7a9e99cc9507bf632127aa68ea58e3",
+      "rare_precision.py": "27093c29b9defc6c162228ecf52f1cc20e5437846512e11e8f057b74990a8fe5",
+      "report.py": "c3bc0bdc776326587fe5717e1ca6fd2e708a56720e550be39100abf796ff3738",
+      "run_gates.py": "5e1cee479b146d852159c1acf0e449ccf25cd80161265138f015bdad4f10b109",
+      "safety_reference.py": "4b24fe23bed142cc1ab5b2fe61b725b7fc39781af2e4e9732f5d4760f6c1330d",
+      "verify_delivery.py": "b1d7b4e2af463921910192093292c11486c904c3cb3177fd2f1d7de2962e022e"
+    }
+  },
+  "errors": [
+    "enumeration mismatch asymmetric-0",
+    "enumeration mismatch asymmetric-1",
+    "enumeration mismatch hidden_curvature-0",
+    "enumeration mismatch hidden_curvature-1",
+    "enumeration mismatch hidden_curvature-2"
+  ]
+}

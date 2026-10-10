@@ -1,0 +1,4 @@
+kind,candidate,baseline,metric,difference,ci95_lower,ci95_upper,p_one_sided,datasets,design_truth_strata,inference
+asymmetric,A1,Greedy,true_success,0.03747363602651462,0.033613762337710434,0.04133350971531881,4.934775523331575e-81,2400,376,conditional on fixed generated families
+hidden_curvature,A1,Greedy,true_success,0.05669164230019494,0.0518018672908434,0.06158141730954648,1.2951090891261401e-114,1600,304,conditional on fixed generated families
+simplex,A1,Greedy,true_success,0.022695035460992906,0.02079160245973382,0.024598468462251992,4.366390659510019e-121,2400,376,conditional on fixed generated families

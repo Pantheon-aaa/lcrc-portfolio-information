@@ -1,0 +1,165 @@
+{
+  "protocol": "same public family and posterior; family construction/oracle preparation excluded; warm repeats exactly same query",
+  "records": [
+    {
+      "d": 3,
+      "M": 3,
+      "method": "A1",
+      "warm_geometry_cache": false,
+      "cpu_seconds": 0.0,
+      "wall_seconds": 0.009161999999378168,
+      "new_gamma_calls": 3,
+      "certified_mass": 0.9621655166144201
+    },
+    {
+      "d": 3,
+      "M": 3,
+      "method": "A1",
+      "warm_geometry_cache": true,
+      "cpu_seconds": 0.015625,
+      "wall_seconds": 0.005439699999442382,
+      "new_gamma_calls": 1,
+      "certified_mass": 0.9621655166144201
+    },
+    {
+      "d": 3,
+      "M": 3,
+      "method": "Greedy",
+      "warm_geometry_cache": false,
+      "cpu_seconds": 0.0,
+      "wall_seconds": 0.0061673999998674844,
+      "new_gamma_calls": 3,
+      "certified_mass": 0.9622947772022893
+    },
+    {
+      "d": 3,
+      "M": 3,
+      "method": "Greedy",
+      "warm_geometry_cache": true,
+      "cpu_seconds": 0.0,
+      "wall_seconds": 0.0031928000007610535,
+      "new_gamma_calls": 1,
+      "certified_mass": 0.9622947772022893
+    },
+    {
+      "d": 3,
+      "M": 3,
+      "method": "Enumeration",
+      "warm_geometry_cache": false,
+      "cpu_seconds": 0.015625,
+      "wall_seconds": 0.006297699999777251,
+      "new_gamma_calls": 8,
+      "certified_mass": 0.9622947772022893
+    },
+    {
+      "d": 3,
+      "M": 3,
+      "method": "Enumeration",
+      "warm_geometry_cache": true,
+      "cpu_seconds": 0.0,
+      "wall_seconds": 0.0013439000003927504,
+      "new_gamma_calls": 1,
+      "certified_mass": 0.9622947772022893
+    },
+    {
+      "d": 6,
+      "M": 6,
+      "method": "A1",
+      "warm_geometry_cache": false,
+      "cpu_seconds": 0.0,
+      "wall_seconds": 0.00672749999921507,
+      "new_gamma_calls": 3,
+      "certified_mass": 0.6682949438735206
+    },
+    {
+      "d": 6,
+      "M": 6,
+      "method": "A1",
+      "warm_geometry_cache": true,
+      "cpu_seconds": 0.015625,
+      "wall_seconds": 0.004771799999616633,
+      "new_gamma_calls": 1,
+      "certified_mass": 0.6682949438735206
+    },
+    {
+      "d": 6,
+      "M": 6,
+      "method": "Greedy",
+      "warm_geometry_cache": false,
+      "cpu_seconds": 0.0,
+      "wall_seconds": 0.01007949999984703,
+      "new_gamma_calls": 5,
+      "certified_mass": 0.9657000859661204
+    },
+    {
+      "d": 6,
+      "M": 6,
+      "method": "Greedy",
+      "warm_geometry_cache": true,
+      "cpu_seconds": 0.015625,
+      "wall_seconds": 0.005122599999594968,
+      "new_gamma_calls": 2,
+      "certified_mass": 0.9657000859661204
+    },
+    {
+      "d": 6,
+      "M": 6,
+      "method": "Enumeration",
+      "warm_geometry_cache": false,
+      "cpu_seconds": 0.09375,
+      "wall_seconds": 0.0970260000003691,
+      "new_gamma_calls": 71,
+      "certified_mass": 0.9657000859661204
+    },
+    {
+      "d": 6,
+      "M": 6,
+      "method": "Enumeration",
+      "warm_geometry_cache": true,
+      "cpu_seconds": 0.015625,
+      "wall_seconds": 0.012457099999664933,
+      "new_gamma_calls": 8,
+      "certified_mass": 0.9657000859661204
+    },
+    {
+      "d": 10,
+      "M": 12,
+      "method": "A1",
+      "warm_geometry_cache": false,
+      "cpu_seconds": 0.015625,
+      "wall_seconds": 0.011113100000329723,
+      "new_gamma_calls": 3,
+      "certified_mass": 0.9499142089976832
+    },
+    {
+      "d": 10,
+      "M": 12,
+      "method": "A1",
+      "warm_geometry_cache": true,
+      "cpu_seconds": 0.0,
+      "wall_seconds": 0.006754000000000815,
+      "new_gamma_calls": 1,
+      "certified_mass": 0.9499142089976832
+    },
+    {
+      "d": 10,
+      "M": 12,
+      "method": "Greedy",
+      "warm_geometry_cache": false,
+      "cpu_seconds": 0.015625,
+      "wall_seconds": 0.013049700000010489,
+      "new_gamma_calls": 3,
+      "certified_mass": 0.9969226275675557
+    },
+    {
+      "d": 10,
+      "M": 12,
+      "method": "Greedy",
+      "warm_geometry_cache": true,
+      "cpu_seconds": 0.015625,
+      "wall_seconds": 0.0069251999993866775,
+      "new_gamma_calls": 1,
+      "certified_mass": 0.9969226275675557
+    }
+  ]
+}

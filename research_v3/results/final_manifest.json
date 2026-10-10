@@ -1,0 +1,39 @@
+{
+  "recorded_cpu_seconds": 1614.453125,
+  "recorded_cpu_hours": 0.4484592013888889,
+  "sum_process_wall_seconds": 1469.6206145000006,
+  "observed_wall_span_seconds": 2225.259409427643,
+  "union_active_wall_seconds": 1297.933758020401,
+  "stage_cpu_seconds": {
+    "E2": 596.859375,
+    "E3": 65.03125,
+    "E4": 72.0,
+    "confirmation": 807.0625,
+    "gate_e1": 73.5
+  },
+  "all_main_rows": 615200,
+  "verification_passed": true,
+  "lossless_archives_verified": true,
+  "compressed_bytes": 46296498,
+  "accounting_limit": "Ledger covers timed experiment, calibration, audit, report and packaging processes. Initial environment checks, interactive debugging, Python import startup, and this short snapshot are not fully metered. Observed wall span includes idle gaps, excludes work before the first ledger event.",
+  "source_sha256": {
+    "__init__.py": "bbee2193f55be33a4bd5542e9a1640b499c6609ce84556ce299a4d8e61193b06",
+    "archive.py": "84a7ea99ed568f1001eed8d5896f0d28080266f0e42dd84f4cfb0ea77a8f95ac",
+    "audit.py": "08686b32d62b2dcfd2825f9c3b947ea976598b39bec6e248186661a9f3030bb5",
+    "baselines.py": "c235c007c2d371afeb1e7cdf8a12e5f7f9edf565f637184de784bbd16e1ad3a8",
+    "common.py": "4c5f42a666ed761f15301fdee4e5491cf7ec8b9fa9136c8c7ede95ec2a7f372c",
+    "compat_models.py": "d905b758b509474486db72f2180979326b50609836593845bbd7519c678649cc",
+    "compatible_qcqp.py": "b12bd30668bf0e0c4761ef177ab2f0a3d2d423ab74d64d6f35815b909d537ca4",
+    "dcl_master.py": "3b4cd4cf998f064cf0acb36ae1fb00669bff398a9aa07357fe1ff2c293f7aaaa",
+    "evidence_gate.py": "f43c8a07be0c6219ad4df3620f5020a5757a23e9535bafa860ec130a5745f66d",
+    "experiments.py": "68708d189bc79f025869e1011954436e47c43c0e32ac5ec7db74ce0cc8d8d434",
+    "finalize.py": "0106e695f94c28b1c313ca093abca4a0c072874383aba53fd9205dc8b0f1efdb",
+    "metadata_correction.py": "d4ede734dc2e5d55c4fd7638a7234e70fda53d5e3a24cab9c32ca2ead4d8cfaf",
+    "observation_evidence.py": "24be34b2c353fbc3e53fcb0c01c88a070050302c79aa749c3d6d713a70f0dbdf",
+    "rare_precision.py": "27093c29b9defc6c162228ecf52f1cc20e5437846512e11e8f057b74990a8fe5",
+    "report.py": "ad05cb827740bb6c4b782fb9cab4dfcec2848efb1b205ca96f1cf7455bbe944e",
+    "run_gates.py": "5e1cee479b146d852159c1acf0e449ccf25cd80161265138f015bdad4f10b109",
+    "safety_reference.py": "4b24fe23bed142cc1ab5b2fe61b725b7fc39781af2e4e9732f5d4760f6c1330d",
+    "verify_delivery.py": "3b25ee7f3091f230a3a3bc4ac73f12f784e2e066ee57c14c82aa777dd0b661f6"
+  }
+}

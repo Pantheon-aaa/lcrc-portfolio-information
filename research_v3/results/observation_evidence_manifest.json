@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "datasets": 17600,
+  "counts": {
+    "E1.jsonl": 4800,
+    "E2_development.jsonl": 6400,
+    "E2_confirmation.jsonl": 6400
+  },
+  "max_MA_objective_error_this_run": 0.0,
+  "provenance": "Exact regeneration from the original frozen seeds and unchanged likelihood/generator modules. No experimental decision was recomputed or replaced."
+}
