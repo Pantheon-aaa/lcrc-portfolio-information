@@ -1,6 +1,6 @@
 # Conditional-tail portfolio research v2
 
-This research branch implements the approved 2026-10-08 plan. The experiment was completed locally and is now being published at the user's request, with v1 research code/results preserved. No A-share backtest is run.
+This directory implements the approved 2026-10-08 synthetic research plan, with v1 research code/results preserved. That original round did not run an A-share backtest. The subsequent [A-share study](ashare/README.md) and its [detailed report](ashare/REPORT_ZH.md) now test whether conditional treatment of incomplete risk information improves future realized portfolio risk; its results and timing are reported separately below that directory.
 
 **For GPT or human review, start with [the detailed report](REVIEW_REPORT_ZH.md) and [core-code guide](docs/CODE_REVIEW_GUIDE.md).** Elapsed time between protocol freezing and the last experiment was 2.556 hours; 13.442 hours denotes summed concurrent experiment-task time. Recorded process CPU time was 13.268 hours. These exclude unrecorded checks and document preparation.
 

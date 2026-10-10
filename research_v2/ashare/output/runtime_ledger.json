@@ -1,0 +1,95 @@
+[
+  {
+    "task": "evaluate_test",
+    "finished_unix": 1791624291.6536527,
+    "wall_seconds": 11.218696699999782,
+    "cpu_seconds": 11.140625
+  },
+  {
+    "task": "evaluate_test_actions_1791624875531217600",
+    "finished_unix": 1791624875.5312176,
+    "wall_seconds": 12.131665400000202,
+    "cpu_seconds": 11.90625
+  },
+  {
+    "task": "manifest",
+    "finished_unix": 1791622414.2354605,
+    "wall_seconds": 50.130537000000004,
+    "cpu_seconds": 34.328125,
+    "entries": 1054,
+    "skipped": 0
+  },
+  {
+    "task": "prepare",
+    "finished_unix": 1791622364.07023,
+    "wall_seconds": 20.273501099999976,
+    "cpu_seconds": 16.453125
+  },
+  {
+    "task": "repair_lp",
+    "finished_unix": 1791623547.2608933,
+    "wall_seconds": 143.33406430000014,
+    "cpu_seconds": 117.328125,
+    "windows": 198
+  },
+  {
+    "task": "run_audit_4853",
+    "finished_unix": 1791623972.786154,
+    "wall_seconds": 40.62648850000005,
+    "cpu_seconds": 150.875,
+    "completed": 72,
+    "planned": 72,
+    "budget_stopped": false,
+    "workers": 4
+  },
+  {
+    "task": "run_fifty_4908",
+    "finished_unix": 1791624106.1874766,
+    "wall_seconds": 119.00933760000044,
+    "cpu_seconds": 452.90625,
+    "completed": 50,
+    "planned": 50,
+    "budget_stopped": false,
+    "workers": 4
+  },
+  {
+    "task": "run_scores_3679",
+    "finished_unix": 1791622899.0130327,
+    "wall_seconds": 140.22584209999968,
+    "cpu_seconds": 481.953125,
+    "completed": 210,
+    "planned": 210,
+    "budget_stopped": false,
+    "workers": 4
+  },
+  {
+    "task": "run_test_4522",
+    "finished_unix": 1791623901.6820307,
+    "wall_seconds": 300.3748411000006,
+    "cpu_seconds": 1172.34375,
+    "completed": 456,
+    "planned": 456,
+    "budget_stopped": false,
+    "workers": 4
+  },
+  {
+    "task": "run_timing_3567",
+    "finished_unix": 1791622692.1178112,
+    "wall_seconds": 45.957272699999976,
+    "cpu_seconds": 36.90625,
+    "completed": 10,
+    "planned": 10,
+    "budget_stopped": false,
+    "workers": 1
+  },
+  {
+    "task": "run_tune_3870",
+    "finished_unix": 1791623359.555404,
+    "wall_seconds": 409.8169302000001,
+    "cpu_seconds": 1255.9375,
+    "completed": 198,
+    "planned": 198,
+    "budget_stopped": false,
+    "workers": 4
+  }
+]

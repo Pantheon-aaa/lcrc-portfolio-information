@@ -1,0 +1,6 @@
+{
+  "annotated_baseline_rows": 3741,
+  "weights_changed": false,
+  "evaluation_changed": false,
+  "meaning": "An original zero timer placeholder is not a measured zero runtime. Exported method times are null for these baselines."
+}

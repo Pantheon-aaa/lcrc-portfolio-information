@@ -1,5 +1,13 @@
 # LCRC: Portfolio Decisions from Incomplete Risk Information
 
+## Research question and real-data evidence
+
+**When asset return histories are incomplete and joint observations are uneven, can preserving the probability weights of better-informed risk components while applying tail reweighting only to uncertain components improve out-of-sample portfolio risk over model averaging and covariance shrinkage?** The broader question is what information is enough for a good portfolio decision, without recovering the entire risk model.
+
+The [A-share research report (中文)](research_v2/ashare/REPORT_ZH.md) explains the completed real-data study, its assumptions, implementation, numerical checks and negative results. Start with the [code and reproduction guide](research_v2/ashare/README.md) to review the experiment. It contains 456 main test/extension decision windows, plus scenario-precision and 50-asset checks. Conditional-tail decisions remain close to same-information model averaging, do not show a stable improvement, and incur approximately 9.8%–19% higher second-moment loss than tuned EM plus shrinkage in the main test. Scenario reconstruction variability exceeds the small differences between these decision rules.
+
+This is evidence about the tested estimation and decision pipeline, not a universal ranking or a measurement of population covariance regret. Public files include code, frozen configurations and aggregate diagnostics; licensed quotes, security-level returns and holdings remain local. The report distinguishes elapsed time, recorded CPU time and incomplete timing coverage.
+
 ## New: conditional-tail research v2
 
 The second research round is available in [the detailed Chinese review report](research_v2/REVIEW_REPORT_ZH.md), with [core-code review guidance](research_v2/docs/CODE_REVIEW_GUIDE.md), [complete English proofs](research_v2/docs/THEORY_NOTES.md), and [lossless experimental records](research_v2/publication/README.md).

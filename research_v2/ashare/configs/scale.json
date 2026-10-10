@@ -1,0 +1,12 @@
+{
+  "panels": 3,
+  "timing_cpu_p90": 4.328125,
+  "estimated_validation_cpu": 2272.265625,
+  "estimated_test_cpu": 2565.7125,
+  "selection_basis": "ten-window CPU timing only; no risk/rank input",
+  "counts_one_panel": {
+    "validation": 70,
+    "test": 138,
+    "extension": 14
+  }
+}

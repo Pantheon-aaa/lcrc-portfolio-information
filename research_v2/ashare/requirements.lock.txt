@@ -1,0 +1,9 @@
+numpy==2.5.3
+scipy==1.17.1
+pandas==2.3.3
+pyarrow==23.0.1
+cvxpy==1.9.3
+clarabel==0.11.1
+scikit-learn==1.8.0
+psutil==7.2.2
+matplotlib==3.10.8

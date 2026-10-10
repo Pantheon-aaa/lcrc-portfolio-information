@@ -1,0 +1,28 @@
+{
+  "frozen_unix": 1791623595.8824549,
+  "parameters": {
+    "power": 0.1,
+    "shrink": 0.25,
+    "lam": 1.0,
+    "tau": 0.01
+  },
+  "validation_keys_sha256": "17ac18b23f19301ca547c05ed4eb1c4ed7a5b6f4b45d9d95b12671f54c510cd0",
+  "source_hashes": {
+    "audit.py": "d454a8214914d7bb6619660bca3929fe5ff51d80e66537c359f34bcfdf08477a",
+    "book.py": "53a72db69db489c3747598fa29c103e469852a2e794085963c6f9fdb765e0306",
+    "common.py": "d256cb60ff5100bb5c6beade5712237254a288932d3a726890baa84d8e141caf",
+    "data.py": "56138b92de8dfda381e1f38c75514c72c7a563980da26dcf91cd927884b68023",
+    "evaluate.py": "b50a44869f8d97c87a20a4e262a6b22117e175615765898dcd1de59df0c7bf86",
+    "figures.py": "5a9478c0e010f2a7a675b2650134228a73a7ba648afe6bc8953ac007a6ab3d6b",
+    "gates.py": "bf62dcfa3ba0c67fff257f1fe88c14a7750949d6f6a88620129fb2c1585d2b8f",
+    "model.py": "6cadf42005f0fec43755ca984ce0545cfa85e9fb07e884f8cc6e5153469bec69",
+    "repair_lp.py": "150edc7ba31cd132b000b3a9c56e83f49a2a20ab709873673ecb6c86b704eca0",
+    "run.py": "3b64b98585b2b0939872a24db51d7a6ffa35b41716c3ad1ca2b2cad9a6891135",
+    "verify.py": "bbaa492eeefd5ee62cc94011a08b4662e7943830563737fc25c59e40a3e111f2",
+    "__init__.py": "ebb26945ad572803902a78d86fbc73a8e16f4a7d05cc703e7b1632f7cd330954"
+  },
+  "test_windows": 456,
+  "audit_tasks": 72,
+  "fifty_tasks": 50,
+  "selection_rule": "validation only; no test performance loaded"
+}

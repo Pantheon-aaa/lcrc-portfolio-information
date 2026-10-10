@@ -1,0 +1,17 @@
+{
+  "python": "3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.17.1",
+    "pandas": "2.3.3",
+    "pyarrow": "23.0.1",
+    "cvxpy": "1.9.3",
+    "clarabel": "0.11.1",
+    "scikit-learn": "1.8.0",
+    "psutil": "7.2.2",
+    "matplotlib": "3.10.8"
+  },
+  "blas_threads": 1,
+  "max_workers": 4
+}

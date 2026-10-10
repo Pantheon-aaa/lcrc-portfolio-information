@@ -1,0 +1,58 @@
+{
+  "scores": {
+    "expected": 198,
+    "missing": [],
+    "failures": [],
+    "method_rows": 0,
+    "open_gap": []
+  },
+  "tune": {
+    "expected": 198,
+    "missing": [],
+    "failures": [],
+    "method_rows": 4653,
+    "open_gap": []
+  },
+  "test": {
+    "expected": 456,
+    "missing": [],
+    "failures": [],
+    "method_rows": 6612,
+    "open_gap": []
+  },
+  "audit": {
+    "expected": 72,
+    "missing": [],
+    "failures": [],
+    "method_rows": 684,
+    "open_gap": []
+  },
+  "fifty": {
+    "expected": 50,
+    "missing": [],
+    "failures": [],
+    "method_rows": 375,
+    "open_gap": []
+  },
+  "decision_sources_modified_after_freeze": [],
+  "timing": {
+    "measured_cpu_seconds": 3742.078125,
+    "sequential_stage_wall_seconds": 1293.099176700001,
+    "wall_span_seconds": 2531.7344887256622,
+    "task_wall_seconds": 3883.990476199988,
+    "scope": "retained ingest, manifest, experiment-stage, LP-repair and execution-evaluation ledgers; excludes editing, short unmetered checks/reporting, and the first evaluation ledger overwritten by its diagnostic rerun",
+    "completeness": "measured retained CPU is a lower bound, not complete machine-wide CPU accounting",
+    "ledger_overwrite_fix": "new evaluation runs use unique time_ns names; the overwritten first evaluation duration cannot be recovered"
+  },
+  "corporate_action_gate": {
+    "passed": true,
+    "consolidated_nav": 1.108,
+    "no_double_mark": true,
+    "no_conversion_fee": true
+  },
+  "corrected_ledger_present": true,
+  "corrected_terminal_unresolved_max": 0.0,
+  "private_inventory_sha256": "3f696084a33147b5191cc7981fac3036ece5325a5d4b265c1a761dba3a91afa4",
+  "private_files": 1006,
+  "complete": true
+}

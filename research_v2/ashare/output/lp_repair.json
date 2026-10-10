@@ -1,0 +1,6 @@
+{
+  "windows": 198,
+  "max_gap_unit": 9.82591643909553e-07,
+  "reason": "Exact redundant-atom elimination fixes large evidence-offset scaling; original records archived privately",
+  "performance_selection_used": false
+}

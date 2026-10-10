@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "data_scale": 0.0008771668382587548,
+  "risk_unit_raw": 0.00013815586417504985,
+  "development_windows": 94,
+  "cpu_limit_seconds": 43200,
+  "workers": 4,
+  "lookback": 252,
+  "fit": 189,
+  "score": 63,
+  "horizon": 21,
+  "size": 256,
+  "upper": 0.2,
+  "hyperparameters": {
+    "powers": [
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "shrink": [
+      0.0,
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "lambda_grid": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "tau_grid": [
+      0.01,
+      0.1,
+      1.0
+    ]
+  },
+  "started_unix": 1791622623.4853313,
+  "date_splits": [
+    "2013-2016",
+    "2017-2019",
+    "2020-2025",
+    "2026 extension"
+  ],
+  "risk_unit": 0.15750237942111459
+}

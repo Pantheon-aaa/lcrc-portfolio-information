@@ -1,0 +1,15 @@
+{
+  "old": "600837",
+  "new": "601211",
+  "ratio": 0.62,
+  "announcement": "2025-03-14",
+  "effective": "2025-03-17",
+  "last_old_open": "2025-02-05",
+  "issuer_announcement": "2025-028",
+  "source": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=10783319&stockid=",
+  "exchange_source": "https://www.sse.com.cn/disclosure/announcement/listing/stock/c/c_20250226_10773005.shtml",
+  "original_pdf": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-03-14/601211_20250314_HTR8.pdf",
+  "accounting": "Fractional shares as in base backtest. Convert before the first tradable opening, consolidate successor position, no conversion trade fee.",
+  "scope": "One identified absorption merger; not a complete corporate-action database",
+  "changes_target_weights": false
+}

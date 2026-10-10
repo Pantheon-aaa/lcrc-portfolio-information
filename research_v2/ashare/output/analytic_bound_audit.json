@@ -1,0 +1,5007 @@
+{
+  "proof": "ML atom has zero evidence penalty and nonnegative true regret for every feasible decision",
+  "modifies_weights": false,
+  "modifies_evaluations": false,
+  "changes": [
+    {
+      "stage": "timing",
+      "key": "20_limited_0_2017-01-25",
+      "old_gap_unit": 2.620398620624276e-10,
+      "new_gap_unit": 8.588070953609395e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "timing",
+      "key": "20_limited_0_2018-01-05",
+      "old_gap_unit": 2.4855426408932105e-10,
+      "new_gap_unit": 8.280891862583502e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "timing",
+      "key": "20_limited_0_2019-01-18",
+      "old_gap_unit": 2.0031426350997423e-10,
+      "new_gap_unit": 6.681838007325721e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "timing",
+      "key": "20_long_0_2013-01-04",
+      "old_gap_unit": 2.1060595102241495e-10,
+      "new_gap_unit": 6.990316744559611e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "timing",
+      "key": "20_long_0_2015-01-05",
+      "old_gap_unit": 1.5065780800254586e-10,
+      "new_gap_unit": 5.033794098396976e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "timing",
+      "key": "20_long_0_2017-01-25",
+      "old_gap_unit": 3.0645371279122533e-10,
+      "new_gap_unit": 1.0214813881468077e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "timing",
+      "key": "20_long_0_2018-01-05",
+      "old_gap_unit": 1.3556619832478928e-10,
+      "new_gap_unit": 4.430106231991871e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2017-01-25",
+      "old_gap_unit": 2.575342118762586e-10,
+      "new_gap_unit": 8.588062142448662e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2017-03-02",
+      "old_gap_unit": 3.9727344881865444e-10,
+      "new_gap_unit": 1.209023419867129e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2017-05-04",
+      "old_gap_unit": 1.9528565273390703e-10,
+      "new_gap_unit": 6.209299862838864e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2017-06-06",
+      "old_gap_unit": 1.61076602189982e-10,
+      "new_gap_unit": 5.3688032405954834e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2017-07-05",
+      "old_gap_unit": 2.1396651429783212e-10,
+      "new_gap_unit": 5.0712943984731666e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2017-08-03",
+      "old_gap_unit": 1.31707462776754e-10,
+      "new_gap_unit": 4.407465954490515e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2017-09-01",
+      "old_gap_unit": 2.563278620214728e-10,
+      "new_gap_unit": 8.534177488990969e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2017-11-07",
+      "old_gap_unit": 4.0430297867542026e-10,
+      "new_gap_unit": 1.348687366400889e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2017-12-06",
+      "old_gap_unit": 3.807751025700091e-10,
+      "new_gap_unit": 1.2416335257369554e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2018-01-05",
+      "old_gap_unit": 2.494689552865856e-10,
+      "new_gap_unit": 8.280887457003136e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2018-02-05",
+      "old_gap_unit": 2.0492007714105264e-10,
+      "new_gap_unit": 6.832995672476583e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2018-03-13",
+      "old_gap_unit": 1.718621624169654e-10,
+      "new_gap_unit": 5.7277038451193166e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2018-04-13",
+      "old_gap_unit": 2.6388101840089916e-10,
+      "new_gap_unit": 8.754742870019456e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2018-05-16",
+      "old_gap_unit": 2.1694271754534267e-10,
+      "new_gap_unit": 7.247435225885578e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2018-06-14",
+      "old_gap_unit": 3.4892408465178785e-10,
+      "new_gap_unit": 1.1618088150837014e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2018-08-14",
+      "old_gap_unit": 2.4581386766770995e-10,
+      "new_gap_unit": 8.164492023730938e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2018-09-12",
+      "old_gap_unit": 3.3039546301801464e-10,
+      "new_gap_unit": 1.1013505951617592e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2018-10-19",
+      "old_gap_unit": 2.2386302712396525e-10,
+      "new_gap_unit": 7.435500640553392e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2018-11-19",
+      "old_gap_unit": 2.4554988188935013e-10,
+      "new_gap_unit": 8.17911855054637e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2018-12-18",
+      "old_gap_unit": 2.0132357309397896e-10,
+      "new_gap_unit": 6.71107343863512e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2019-01-18",
+      "old_gap_unit": 2.0073013628851694e-10,
+      "new_gap_unit": 6.68182919616499e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2019-02-25",
+      "old_gap_unit": 9.82591643909553e-07,
+      "new_gap_unit": 8.633703955041394e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2019-03-26",
+      "old_gap_unit": 2.545253607006406e-10,
+      "new_gap_unit": 8.47777284356387e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2019-04-25",
+      "old_gap_unit": 2.6683983834280195e-08,
+      "new_gap_unit": 9.061150984481282e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2019-05-29",
+      "old_gap_unit": 2.441796047145672e-10,
+      "new_gap_unit": 6.949503448048118e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2019-07-29",
+      "old_gap_unit": 2.9342975028132274e-10,
+      "new_gap_unit": 9.769533062706241e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_0_2019-11-01",
+      "old_gap_unit": 3.359212994871818e-10,
+      "new_gap_unit": 1.1189892172734891e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2017-01-25",
+      "old_gap_unit": 3.3739717078586516e-10,
+      "new_gap_unit": 1.1248098700531722e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2017-05-04",
+      "old_gap_unit": 1.5061603395434e-10,
+      "new_gap_unit": 4.9594851743620716e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2017-06-06",
+      "old_gap_unit": 2.478072709813314e-10,
+      "new_gap_unit": 5.458884142341004e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2017-07-05",
+      "old_gap_unit": 2.6505102735357156e-10,
+      "new_gap_unit": 8.79640203796124e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2017-08-03",
+      "old_gap_unit": 1.646466022023063e-10,
+      "new_gap_unit": 5.486394788937077e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2017-09-01",
+      "old_gap_unit": 1.79834521814848e-10,
+      "new_gap_unit": 6.008674138547317e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2017-10-09",
+      "old_gap_unit": 1.7574688930024828e-10,
+      "new_gap_unit": 5.769653781365262e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2017-11-07",
+      "old_gap_unit": 2.1849359688541386e-10,
+      "new_gap_unit": 7.144419540185207e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2017-12-06",
+      "old_gap_unit": 1.7344226365079447e-10,
+      "new_gap_unit": 5.7831634935578886e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2018-01-05",
+      "old_gap_unit": 2.1844819379362936e-10,
+      "new_gap_unit": 7.296561852547892e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2018-02-05",
+      "old_gap_unit": 1.524506877611219e-10,
+      "new_gap_unit": 5.064007568547648e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2018-03-13",
+      "old_gap_unit": 1.5200550982559148e-10,
+      "new_gap_unit": 5.0216633328589366e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2018-04-13",
+      "old_gap_unit": 3.0231637794015075e-10,
+      "new_gap_unit": 8.13358687746279e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2018-05-16",
+      "old_gap_unit": 2.096446885661227e-10,
+      "new_gap_unit": 6.812639688395047e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2018-07-16",
+      "old_gap_unit": 4.0979685129451067e-10,
+      "new_gap_unit": 1.3672308947198146e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2018-08-14",
+      "old_gap_unit": 3.026699670544845e-10,
+      "new_gap_unit": 8.719436548965581e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2018-09-12",
+      "old_gap_unit": 2.562688499119032e-10,
+      "new_gap_unit": 8.555328680328586e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2018-10-19",
+      "old_gap_unit": 2.3680827237156526e-10,
+      "new_gap_unit": 7.892478275187207e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2018-11-19",
+      "old_gap_unit": 2.1175003539938306e-10,
+      "new_gap_unit": 6.822693222790473e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2019-01-18",
+      "old_gap_unit": 2.5309544252057203e-10,
+      "new_gap_unit": 8.424659166670243e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2019-02-25",
+      "old_gap_unit": 2.1738761396627775e-10,
+      "new_gap_unit": 7.247100401777755e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2019-03-26",
+      "old_gap_unit": 2.0814771675e-10,
+      "new_gap_unit": 6.934841676589757e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2019-04-25",
+      "old_gap_unit": 2.3188741492255488e-10,
+      "new_gap_unit": 7.729766975526263e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2019-07-29",
+      "old_gap_unit": 2.3711535427866325e-07,
+      "new_gap_unit": 8.905722109165491e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2019-08-27",
+      "old_gap_unit": 2.413045752668204e-10,
+      "new_gap_unit": 8.044343035986827e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2019-09-26",
+      "old_gap_unit": 2.5608058417979756e-10,
+      "new_gap_unit": 8.533609169123743e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_1_2019-11-01",
+      "old_gap_unit": 1.9429548680829244e-10,
+      "new_gap_unit": 6.48786030380661e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2017-01-25",
+      "old_gap_unit": 2.674010017620687e-10,
+      "new_gap_unit": 8.881509039473441e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2017-03-02",
+      "old_gap_unit": 2.478142886610538e-10,
+      "new_gap_unit": 8.263723315896836e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2017-05-04",
+      "old_gap_unit": 1.7022895600167502e-10,
+      "new_gap_unit": 5.6534257601469745e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2017-06-06",
+      "old_gap_unit": 2.0998269934023642e-10,
+      "new_gap_unit": 7.014309535233357e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2017-07-05",
+      "old_gap_unit": 2.395800694301412e-10,
+      "new_gap_unit": 7.96676517132028e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2017-08-03",
+      "old_gap_unit": 2.20715272879591e-10,
+      "new_gap_unit": 7.338676998057565e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2017-09-01",
+      "old_gap_unit": 2.2230212670791316e-10,
+      "new_gap_unit": 7.418922441635782e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2017-10-09",
+      "old_gap_unit": 2.037962660070857e-10,
+      "new_gap_unit": 6.531726667511806e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2017-11-07",
+      "old_gap_unit": 3.4833094313741006e-10,
+      "new_gap_unit": 1.1585753393740069e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2017-12-06",
+      "old_gap_unit": 1.8288052751012636e-10,
+      "new_gap_unit": 6.096649172877844e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2018-01-05",
+      "old_gap_unit": 1.9397756895492522e-10,
+      "new_gap_unit": 6.469918577765693e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2018-02-05",
+      "old_gap_unit": 1.7605439518165136e-10,
+      "new_gap_unit": 5.811949555669946e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2018-03-13",
+      "old_gap_unit": 2.520121951863102e-10,
+      "new_gap_unit": 8.080409319653854e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2018-04-13",
+      "old_gap_unit": 3.293047421537621e-10,
+      "new_gap_unit": 1.0932408028238537e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2018-05-16",
+      "old_gap_unit": 3.7522048469782954e-10,
+      "new_gap_unit": 1.2472092282482838e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2018-06-14",
+      "old_gap_unit": 2.4228160019820086e-10,
+      "new_gap_unit": 8.078552367529546e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2018-08-14",
+      "old_gap_unit": 4.3809752113988987e-07,
+      "new_gap_unit": 7.151503713413885e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2018-09-12",
+      "old_gap_unit": 1.904611137939054e-10,
+      "new_gap_unit": 6.348983193926234e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2018-10-19",
+      "old_gap_unit": 3.762811514095441e-07,
+      "new_gap_unit": 6.884278830728099e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2018-11-19",
+      "old_gap_unit": 1.7324990960977107e-10,
+      "new_gap_unit": 5.749454195386722e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2018-12-18",
+      "old_gap_unit": 2.452410642613815e-07,
+      "new_gap_unit": 6.071876594479298e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2019-02-25",
+      "old_gap_unit": 2.538611209029413e-10,
+      "new_gap_unit": 8.473393696679973e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2019-03-26",
+      "old_gap_unit": 2.557725951874897e-10,
+      "new_gap_unit": 8.500637805663897e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2019-04-25",
+      "old_gap_unit": 2.780515284335341e-10,
+      "new_gap_unit": 9.089963480075536e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2019-05-29",
+      "old_gap_unit": 2.8284088764864715e-10,
+      "new_gap_unit": 9.426990378081713e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2019-06-28",
+      "old_gap_unit": 3.0558747110174665e-10,
+      "new_gap_unit": 9.794204312756367e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2019-07-29",
+      "old_gap_unit": 2.627913401004601e-10,
+      "new_gap_unit": 8.74033662222233e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_limited_2_2019-08-27",
+      "old_gap_unit": 2.3605176703367366e-10,
+      "new_gap_unit": 7.854321543636468e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2017-01-25",
+      "old_gap_unit": 3.0824165818430357e-10,
+      "new_gap_unit": 1.0214769825664415e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2017-03-02",
+      "old_gap_unit": 2.362810194711377e-10,
+      "new_gap_unit": 7.869476740095831e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2017-03-31",
+      "old_gap_unit": 1.7828572175535718e-10,
+      "new_gap_unit": 5.945987135518168e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2017-05-04",
+      "old_gap_unit": 1.5828972735318018e-10,
+      "new_gap_unit": 5.243239794581443e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2017-06-06",
+      "old_gap_unit": 1.4566200489962557e-10,
+      "new_gap_unit": 4.8170813973986376e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2017-07-05",
+      "old_gap_unit": 1.4221362208822528e-10,
+      "new_gap_unit": 4.750537308758974e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2017-08-03",
+      "old_gap_unit": 1.3329598364254724e-10,
+      "new_gap_unit": 4.444089544073853e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2017-09-01",
+      "old_gap_unit": 1.338255298204661e-10,
+      "new_gap_unit": 4.462203087749048e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2017-10-09",
+      "old_gap_unit": 1.2965418353892728e-10,
+      "new_gap_unit": 4.3286897719643913e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2017-11-07",
+      "old_gap_unit": 1.4024249175272533e-10,
+      "new_gap_unit": 4.665965585261254e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2017-12-06",
+      "old_gap_unit": 1.2635531389337268e-10,
+      "new_gap_unit": 4.2220637131540054e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2018-01-05",
+      "old_gap_unit": 3.8064345525780357e-07,
+      "new_gap_unit": 4.41255219702317e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2018-02-05",
+      "old_gap_unit": 1.2529070088030797e-10,
+      "new_gap_unit": 4.1711197845906796e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2018-03-13",
+      "old_gap_unit": 1.4341844340704027e-10,
+      "new_gap_unit": 4.772347134361321e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2018-04-13",
+      "old_gap_unit": 1.5583070653999969e-10,
+      "new_gap_unit": 5.165124449110233e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2018-07-16",
+      "old_gap_unit": 1.889191903246662e-10,
+      "new_gap_unit": 6.291362608318093e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2018-08-14",
+      "old_gap_unit": 1.854506630700313e-10,
+      "new_gap_unit": 6.181835474836635e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2018-09-12",
+      "old_gap_unit": 1.9163035527035746e-10,
+      "new_gap_unit": 6.377584221662916e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2018-10-19",
+      "old_gap_unit": 1.9747021780238162e-10,
+      "new_gap_unit": 6.5856113209695e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2018-12-18",
+      "old_gap_unit": 1.738405787457027e-10,
+      "new_gap_unit": 5.7727641211037245e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2019-03-26",
+      "old_gap_unit": 2.2266742376090908e-10,
+      "new_gap_unit": 7.409798484697601e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2019-04-25",
+      "old_gap_unit": 3.8128200776150047e-07,
+      "new_gap_unit": 6.970932190948798e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2019-05-29",
+      "old_gap_unit": 2.0484364793679045e-10,
+      "new_gap_unit": 6.761006286504427e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2019-06-28",
+      "old_gap_unit": 2.1353143829916416e-10,
+      "new_gap_unit": 7.122845413132446e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2019-07-29",
+      "old_gap_unit": 2.205939356440224e-10,
+      "new_gap_unit": 7.252175630359496e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_0_2019-11-01",
+      "old_gap_unit": 2.169853313645587e-10,
+      "new_gap_unit": 7.242712443733127e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2017-01-25",
+      "old_gap_unit": 2.372432531754581e-10,
+      "new_gap_unit": 7.89947874238893e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2017-03-02",
+      "old_gap_unit": 1.866939621298907e-10,
+      "new_gap_unit": 6.224406597914199e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2017-03-31",
+      "old_gap_unit": 1.4848083261714873e-10,
+      "new_gap_unit": 4.960018249586369e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2017-05-04",
+      "old_gap_unit": 1.497084908264213e-10,
+      "new_gap_unit": 4.9858613840138756e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2017-06-06",
+      "old_gap_unit": 1.516023553260191e-10,
+      "new_gap_unit": 5.065774206274451e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2017-07-05",
+      "old_gap_unit": 1.461217203644801e-10,
+      "new_gap_unit": 4.875968587362031e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2017-08-03",
+      "old_gap_unit": 1.3804885703635814e-10,
+      "new_gap_unit": 4.6083516080236614e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2017-09-01",
+      "old_gap_unit": 1.6213001152289724e-10,
+      "new_gap_unit": 5.4142820467146696e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2017-10-09",
+      "old_gap_unit": 1.3576061856879703e-10,
+      "new_gap_unit": 4.528773609870909e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2017-11-07",
+      "old_gap_unit": 1.29715018666071e-10,
+      "new_gap_unit": 4.3302934032176494e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2017-12-06",
+      "old_gap_unit": 1.1788623998722393e-10,
+      "new_gap_unit": 3.9419613190581264e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2018-01-05",
+      "old_gap_unit": 1.2534966606199045e-10,
+      "new_gap_unit": 4.205256424057358e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2018-02-05",
+      "old_gap_unit": 1.208290748632655e-10,
+      "new_gap_unit": 4.0470123828876336e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2018-03-13",
+      "old_gap_unit": 1.2938294882426311e-10,
+      "new_gap_unit": 4.3217069270841326e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2018-04-13",
+      "old_gap_unit": 1.3282170445779046e-10,
+      "new_gap_unit": 4.428674418372891e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2018-05-16",
+      "old_gap_unit": 1.3635285720992863e-10,
+      "new_gap_unit": 4.562311090407798e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2018-06-14",
+      "old_gap_unit": 1.5041897074256008e-10,
+      "new_gap_unit": 5.015378772466704e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2018-07-16",
+      "old_gap_unit": 7.010336211781406e-07,
+      "new_gap_unit": 5.203096146285596e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2018-09-12",
+      "old_gap_unit": 1.5893759212466623e-10,
+      "new_gap_unit": 5.310592307218285e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2018-10-19",
+      "old_gap_unit": 8.175743969813147e-07,
+      "new_gap_unit": 5.261857777208555e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2018-12-18",
+      "old_gap_unit": 1.8094840977694708e-10,
+      "new_gap_unit": 6.037671668516946e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2019-01-18",
+      "old_gap_unit": 1.917882868398887e-10,
+      "new_gap_unit": 6.389783273696629e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2019-02-25",
+      "old_gap_unit": 4.886395111265551e-07,
+      "new_gap_unit": 6.940419141333233e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2019-04-25",
+      "old_gap_unit": 2.2742715619077949e-10,
+      "new_gap_unit": 7.563870441260633e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2019-05-29",
+      "old_gap_unit": 2.0408373025091583e-10,
+      "new_gap_unit": 6.781633213778479e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2019-06-28",
+      "old_gap_unit": 2.1069017447804904e-10,
+      "new_gap_unit": 7.02531467498786e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2019-07-29",
+      "old_gap_unit": 2.2035869761978694e-10,
+      "new_gap_unit": 7.335758301065027e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_1_2019-08-27",
+      "old_gap_unit": 2.0658878899940275e-10,
+      "new_gap_unit": 6.885516798810972e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2017-01-25",
+      "old_gap_unit": 2.597806345208169e-10,
+      "new_gap_unit": 8.64448000461686e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2017-03-02",
+      "old_gap_unit": 7.267027024975963e-08,
+      "new_gap_unit": 6.180372822155091e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2017-03-31",
+      "old_gap_unit": 1.5256793681582683e-10,
+      "new_gap_unit": 5.09275398043641e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2017-05-04",
+      "old_gap_unit": 1.5015132261365918e-10,
+      "new_gap_unit": 5.003750243090399e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2017-06-06",
+      "old_gap_unit": 1.3220864964912628e-10,
+      "new_gap_unit": 4.414940021581593e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2017-07-05",
+      "old_gap_unit": 1.2525305108665422e-10,
+      "new_gap_unit": 4.196396801941143e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2017-08-03",
+      "old_gap_unit": 1.6490034846199352e-10,
+      "new_gap_unit": 5.494219099667259e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2017-09-01",
+      "old_gap_unit": 1.3451420610162063e-10,
+      "new_gap_unit": 4.4604166249105966e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2017-10-09",
+      "old_gap_unit": 1.3267907324082402e-10,
+      "new_gap_unit": 4.438551729553673e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2017-11-07",
+      "old_gap_unit": 1.2203993845581043e-10,
+      "new_gap_unit": 4.0752433418735625e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2017-12-06",
+      "old_gap_unit": 9.737135449454477e-07,
+      "new_gap_unit": 4.5131888693258515e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2018-01-05",
+      "old_gap_unit": 1.2023154536129537e-10,
+      "new_gap_unit": 4.011928543642245e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2018-02-05",
+      "old_gap_unit": 1.2747928317729757e-10,
+      "new_gap_unit": 4.253396200717665e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2018-03-13",
+      "old_gap_unit": 1.303392367312873e-10,
+      "new_gap_unit": 4.346981741644413e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2018-04-13",
+      "old_gap_unit": 1.356478939761717e-10,
+      "new_gap_unit": 4.5129774014682794e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2018-05-16",
+      "old_gap_unit": 1.5726422236048904e-10,
+      "new_gap_unit": 5.1947211380096514e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2018-07-16",
+      "old_gap_unit": 1.566903171049139e-10,
+      "new_gap_unit": 5.2206083282408186e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2018-08-14",
+      "old_gap_unit": 1.5745235719918038e-10,
+      "new_gap_unit": 5.257513874967587e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2018-09-12",
+      "old_gap_unit": 1.6260795187775152e-10,
+      "new_gap_unit": 5.4118765998347824e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2018-12-18",
+      "old_gap_unit": 1.6920461277306182e-10,
+      "new_gap_unit": 5.640623143603106e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2019-01-18",
+      "old_gap_unit": 2.0126287930718376e-10,
+      "new_gap_unit": 6.675071035883401e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2019-02-25",
+      "old_gap_unit": 2.3134315969038075e-10,
+      "new_gap_unit": 7.715193315675225e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2019-03-26",
+      "old_gap_unit": 2.2283128502670708e-10,
+      "new_gap_unit": 7.427103604375617e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2019-04-25",
+      "old_gap_unit": 2.409396704792504e-10,
+      "new_gap_unit": 7.964381752342225e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2019-05-29",
+      "old_gap_unit": 2.162057619647718e-10,
+      "new_gap_unit": 7.212974776261993e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2019-06-28",
+      "old_gap_unit": 2.642258262009462e-10,
+      "new_gap_unit": 8.540940054852923e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2019-08-27",
+      "old_gap_unit": 2.346487221571973e-10,
+      "new_gap_unit": 7.811543358281696e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "tune",
+      "key": "20_long_2_2019-09-26",
+      "old_gap_unit": 2.979614816416507e-10,
+      "new_gap_unit": 9.931429329999457e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2020-02-07",
+      "old_gap_unit": 5.435161303918046e-09,
+      "new_gap_unit": 1.4249946616898536e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2020-03-09",
+      "old_gap_unit": 6.057639166230885e-07,
+      "new_gap_unit": 7.740934240638238e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2020-04-08",
+      "old_gap_unit": 0.00018127230631045536,
+      "new_gap_unit": 6.903896880098314e-11,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2020-05-12",
+      "old_gap_unit": 7.921070231459965e-07,
+      "new_gap_unit": 6.638047419602821e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2020-06-10",
+      "old_gap_unit": 7.312137542095159e-10,
+      "new_gap_unit": 9.658856072749232e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2020-07-13",
+      "old_gap_unit": 2.5125911041401417e-10,
+      "new_gap_unit": 8.370770107632183e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2020-08-11",
+      "old_gap_unit": 1.1461153107273852e-07,
+      "new_gap_unit": 7.157814266730278e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2020-09-09",
+      "old_gap_unit": 7.19532972509804e-07,
+      "new_gap_unit": 7.614534615470713e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2020-10-16",
+      "old_gap_unit": 3.880212168704426e-07,
+      "new_gap_unit": 9.61998123159882e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2020-11-16",
+      "old_gap_unit": 6.100762417084544e-10,
+      "new_gap_unit": 1.1669280994691025e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2020-12-15",
+      "old_gap_unit": 1.0712902944095394e-09,
+      "new_gap_unit": 3.5590287141952873e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2021-01-14",
+      "old_gap_unit": 3.9601341176223105e-08,
+      "new_gap_unit": 6.977752029355511e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2021-02-19",
+      "old_gap_unit": 1.2655144285618166e-09,
+      "new_gap_unit": 4.1785132295610585e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2021-03-22",
+      "old_gap_unit": 1.0369670422975207e-09,
+      "new_gap_unit": 3.3230288229122266e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2021-04-21",
+      "old_gap_unit": 2.834445026124662e-06,
+      "new_gap_unit": 4.223133211843678e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2021-05-25",
+      "old_gap_unit": 4.6987780860252583e-07,
+      "new_gap_unit": 1.0025917574343218e-09,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2021-06-24",
+      "old_gap_unit": 5.881988338184414e-07,
+      "new_gap_unit": 3.258647433674278e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2021-07-23",
+      "old_gap_unit": 6.605622492111216e-07,
+      "new_gap_unit": 3.176026941720701e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2021-08-23",
+      "old_gap_unit": 1.3493511074244016e-06,
+      "new_gap_unit": 5.865235490755887e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2021-09-23",
+      "old_gap_unit": 1.7334853294721862e-07,
+      "new_gap_unit": 5.351024961586148e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2021-10-29",
+      "old_gap_unit": 1.716537286669126e-05,
+      "new_gap_unit": 1.6268507764660433e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2021-11-29",
+      "old_gap_unit": 3.7023358575692837e-07,
+      "new_gap_unit": 1.2987571618798013e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2021-12-28",
+      "old_gap_unit": 2.962616009822863e-07,
+      "new_gap_unit": 3.4883076948105293e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2022-01-27",
+      "old_gap_unit": 4.55448744760695e-06,
+      "new_gap_unit": 1.2619595518720025e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2022-03-04",
+      "old_gap_unit": 3.2393818891964864e-05,
+      "new_gap_unit": 6.815135890230476e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2022-04-06",
+      "old_gap_unit": 2.254393981219373e-08,
+      "new_gap_unit": 6.332167974784927e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2022-05-10",
+      "old_gap_unit": 8.042559920730287e-06,
+      "new_gap_unit": 2.2031568154449798e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2022-06-09",
+      "old_gap_unit": 2.8389904155840063e-06,
+      "new_gap_unit": 4.797699927694081e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2022-07-08",
+      "old_gap_unit": 2.415129331648532e-07,
+      "new_gap_unit": 3.587853545414566e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2022-08-08",
+      "old_gap_unit": 2.215080871152242e-10,
+      "new_gap_unit": 7.385329891344316e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2022-09-06",
+      "old_gap_unit": 1.9388800590285753e-10,
+      "new_gap_unit": 6.463303598846002e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2022-10-13",
+      "old_gap_unit": 6.828443374129453e-10,
+      "new_gap_unit": 2.271762187026332e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2022-11-11",
+      "old_gap_unit": 2.2004825400511536e-10,
+      "new_gap_unit": 7.340155070270389e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2022-12-12",
+      "old_gap_unit": 2.6869379129145016e-10,
+      "new_gap_unit": 8.960316061062127e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2023-01-11",
+      "old_gap_unit": 3.3119038513717666e-10,
+      "new_gap_unit": 1.1044789977797224e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2023-02-16",
+      "old_gap_unit": 5.280869378220158e-10,
+      "new_gap_unit": 1.755354154369985e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2023-03-17",
+      "old_gap_unit": 2.0530232485252717e-05,
+      "new_gap_unit": 1.6004943038142796e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2023-04-18",
+      "old_gap_unit": 6.831079517580197e-07,
+      "new_gap_unit": 4.336269308649434e-09,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2023-05-22",
+      "old_gap_unit": 4.014103846262779e-07,
+      "new_gap_unit": 7.206225427141138e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2023-06-20",
+      "old_gap_unit": 2.490537140194039e-10,
+      "new_gap_unit": 8.307770308397041e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2023-07-21",
+      "old_gap_unit": 2.62132634277664e-08,
+      "new_gap_unit": 7.444505646821688e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2023-08-21",
+      "old_gap_unit": 1.9704724758338342e-10,
+      "new_gap_unit": 6.56881724861395e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2023-09-19",
+      "old_gap_unit": 3.100018149048189e-10,
+      "new_gap_unit": 1.0335918880151629e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2023-10-26",
+      "old_gap_unit": 4.830345803239388e-10,
+      "new_gap_unit": 1.5778092656164039e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2023-11-24",
+      "old_gap_unit": 3.106524416049061e-10,
+      "new_gap_unit": 1.0349329466786018e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2023-12-25",
+      "old_gap_unit": 2.2398671068499224e-10,
+      "new_gap_unit": 7.470921506696787e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2024-01-24",
+      "old_gap_unit": 2.595528987376175e-10,
+      "new_gap_unit": 8.659489816924142e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2024-03-01",
+      "old_gap_unit": 2.3424413268397625e-10,
+      "new_gap_unit": 7.726480412573158e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2024-04-01",
+      "old_gap_unit": 1.7507229909108002e-10,
+      "new_gap_unit": 5.845927594243444e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2024-05-07",
+      "old_gap_unit": 2.648571475738337e-10,
+      "new_gap_unit": 8.829835987359525e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2024-06-05",
+      "old_gap_unit": 5.505229966676237e-10,
+      "new_gap_unit": 1.8357092968993168e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2024-07-05",
+      "old_gap_unit": 2.4927542643911305e-09,
+      "new_gap_unit": 4.3036616699046126e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2024-08-05",
+      "old_gap_unit": 3.9976650093854114e-07,
+      "new_gap_unit": 3.1255989066182445e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2024-09-03",
+      "old_gap_unit": 3.4248232817351177e-10,
+      "new_gap_unit": 1.1417453615384735e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2024-10-11",
+      "old_gap_unit": 7.562149720427767e-08,
+      "new_gap_unit": 4.018278747181933e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2024-11-11",
+      "old_gap_unit": 4.552631234595192e-08,
+      "new_gap_unit": 1.5536298545583493e-09,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2024-12-10",
+      "old_gap_unit": 5.719518799545327e-09,
+      "new_gap_unit": 7.143882940496617e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2025-01-09",
+      "old_gap_unit": 1.6982934299147672e-09,
+      "new_gap_unit": 5.660981330474826e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2025-02-17",
+      "old_gap_unit": 2.0093578673366277e-08,
+      "new_gap_unit": 5.322082060813058e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2025-03-18",
+      "old_gap_unit": 2.171155288237941e-06,
+      "new_gap_unit": 4.5692582500870913e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2025-04-17",
+      "old_gap_unit": 0.0002376967199508333,
+      "new_gap_unit": 2.4020219640883067e-08,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2025-05-21",
+      "old_gap_unit": 0.012854335494503889,
+      "new_gap_unit": 1.7858817952677235e-08,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2025-06-20",
+      "old_gap_unit": 0.0076205276372688984,
+      "new_gap_unit": 1.4503376746342012e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2025-07-21",
+      "old_gap_unit": 2.329937174802583e-06,
+      "new_gap_unit": 2.440476882940544e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2025-08-19",
+      "old_gap_unit": 0.00020416567683648196,
+      "new_gap_unit": 2.6407502489144107e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2025-09-17",
+      "old_gap_unit": 3.855028721485549e-05,
+      "new_gap_unit": 8.152792564510739e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2025-10-24",
+      "old_gap_unit": 1.0557503844102393e-07,
+      "new_gap_unit": 5.311784016707314e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2025-11-24",
+      "old_gap_unit": 7.516273446207987e-07,
+      "new_gap_unit": 6.713982883908888e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2025-12-23",
+      "old_gap_unit": 3.807959612972362e-09,
+      "new_gap_unit": 2.706194704694698e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2026-01-23",
+      "old_gap_unit": 1.0518930215053184e-09,
+      "new_gap_unit": 3.4973021276859465e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2026-03-03",
+      "old_gap_unit": 2.3795852568205844e-08,
+      "new_gap_unit": 5.883223475390648e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2026-04-01",
+      "old_gap_unit": 1.2649126089672655e-07,
+      "new_gap_unit": 4.3390622703783227e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2026-05-06",
+      "old_gap_unit": 9.028156642309142e-07,
+      "new_gap_unit": 4.3629026279714027e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2026-06-04",
+      "old_gap_unit": 1.9234733859052048e-05,
+      "new_gap_unit": 7.246508291776552e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2026-07-06",
+      "old_gap_unit": 6.442327484686204e-07,
+      "new_gap_unit": 9.472460813598205e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_0_2026-08-04",
+      "old_gap_unit": 2.4504506199221345e-06,
+      "new_gap_unit": 1.351492399419981e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2020-02-07",
+      "old_gap_unit": 2.975104281312479e-10,
+      "new_gap_unit": 9.917005459880866e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2020-03-09",
+      "old_gap_unit": 5.2895115712870835e-08,
+      "new_gap_unit": 9.289781220927941e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2020-04-08",
+      "old_gap_unit": 3.267226707384381e-07,
+      "new_gap_unit": 3.1697181506364546e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2020-05-12",
+      "old_gap_unit": 7.038234158085819e-09,
+      "new_gap_unit": 1.0839795680014658e-09,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2020-06-10",
+      "old_gap_unit": 3.9598260841566577e-10,
+      "new_gap_unit": 8.578449166089845e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2020-07-13",
+      "old_gap_unit": 4.4364488237094385e-08,
+      "new_gap_unit": 3.121424178663334e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2020-08-11",
+      "old_gap_unit": 2.567324079242218e-10,
+      "new_gap_unit": 8.558042517834099e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2020-09-09",
+      "old_gap_unit": 7.923491158793012e-07,
+      "new_gap_unit": 2.7015811809353245e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2020-10-16",
+      "old_gap_unit": 5.94549627021823e-07,
+      "new_gap_unit": 1.91179983763427e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2020-11-16",
+      "old_gap_unit": 2.1009581609499442e-10,
+      "new_gap_unit": 7.005524807983367e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2020-12-15",
+      "old_gap_unit": 1.3073781212207507e-09,
+      "new_gap_unit": 1.707424083335104e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2021-01-14",
+      "old_gap_unit": 4.079229333579291e-08,
+      "new_gap_unit": 4.5755106497426514e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2021-02-19",
+      "old_gap_unit": 1.4883331733163614e-07,
+      "new_gap_unit": 5.726216521187723e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2021-03-22",
+      "old_gap_unit": 5.164330727714211e-07,
+      "new_gap_unit": 4.770110421209456e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2021-04-21",
+      "old_gap_unit": 1.5550532541605173e-08,
+      "new_gap_unit": 1.4098280988331465e-09,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2021-05-25",
+      "old_gap_unit": 2.372304284063896e-10,
+      "new_gap_unit": 7.908448504014297e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2021-06-24",
+      "old_gap_unit": 2.8976983454692193e-05,
+      "new_gap_unit": 9.341475419827614e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2021-07-23",
+      "old_gap_unit": 2.4900077000612093e-07,
+      "new_gap_unit": 1.309385183954966e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2021-08-23",
+      "old_gap_unit": 9.517000034238876e-06,
+      "new_gap_unit": 8.360926278862183e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2021-09-23",
+      "old_gap_unit": 4.9239072096002034e-05,
+      "new_gap_unit": 1.2513027173012436e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2021-10-29",
+      "old_gap_unit": 9.209371850150844e-07,
+      "new_gap_unit": 8.21010916507362e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2021-11-29",
+      "old_gap_unit": 2.170278235426072e-08,
+      "new_gap_unit": 6.672062905609433e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2021-12-28",
+      "old_gap_unit": 2.447274428467413e-07,
+      "new_gap_unit": 9.002626373782019e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2022-01-27",
+      "old_gap_unit": 5.672975689159717e-09,
+      "new_gap_unit": 1.8229984926502777e-09,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2022-03-04",
+      "old_gap_unit": 7.672429542021494e-10,
+      "new_gap_unit": 2.5589813556455995e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2022-05-10",
+      "old_gap_unit": 1.261811253440214e-06,
+      "new_gap_unit": 7.236315100483521e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2022-06-09",
+      "old_gap_unit": 2.64703945600535e-07,
+      "new_gap_unit": 2.0854734988643605e-09,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2022-07-08",
+      "old_gap_unit": 1.9967975807533912e-10,
+      "new_gap_unit": 6.657298924686578e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2022-08-08",
+      "old_gap_unit": 6.483339630548674e-07,
+      "new_gap_unit": 6.151820255802437e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2022-09-06",
+      "old_gap_unit": 2.2612011297727318e-10,
+      "new_gap_unit": 7.540979045678411e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2022-10-13",
+      "old_gap_unit": 1.7058512911444085e-10,
+      "new_gap_unit": 5.687348728965897e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2022-11-11",
+      "old_gap_unit": 2.163319534397617e-10,
+      "new_gap_unit": 7.21666665260878e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2022-12-12",
+      "old_gap_unit": 2.920863255497899e-10,
+      "new_gap_unit": 9.723547614844953e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2023-01-11",
+      "old_gap_unit": 4.0596276823993e-10,
+      "new_gap_unit": 1.2710064111537761e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2023-02-16",
+      "old_gap_unit": 1.1699010970758524e-09,
+      "new_gap_unit": 2.78900816106831e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2023-03-17",
+      "old_gap_unit": 2.493514080375505e-10,
+      "new_gap_unit": 8.313048193675622e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2023-04-18",
+      "old_gap_unit": 3.2359727926460664e-10,
+      "new_gap_unit": 1.0787786041560775e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2023-05-22",
+      "old_gap_unit": 2.6191576184241117e-10,
+      "new_gap_unit": 8.73405426462028e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2023-06-20",
+      "old_gap_unit": 2.4084867303398343e-10,
+      "new_gap_unit": 8.035263134852308e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2023-07-21",
+      "old_gap_unit": 1.8279087763031111e-10,
+      "new_gap_unit": 6.102081253469238e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2023-08-21",
+      "old_gap_unit": 2.3501541497413755e-10,
+      "new_gap_unit": 7.841140047181115e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2023-09-19",
+      "old_gap_unit": 2.0847243993978827e-10,
+      "new_gap_unit": 6.952080712562282e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2023-10-26",
+      "old_gap_unit": 1.968769719022339e-10,
+      "new_gap_unit": 6.563138455522055e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2023-11-24",
+      "old_gap_unit": 3.6044741804519775e-10,
+      "new_gap_unit": 1.0760400954005136e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2023-12-25",
+      "old_gap_unit": 1.1793510876003019e-09,
+      "new_gap_unit": 2.6125201710445546e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2024-01-24",
+      "old_gap_unit": 4.102802890411699e-10,
+      "new_gap_unit": 1.3690477560627917e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2024-03-01",
+      "old_gap_unit": 2.8131900550557153e-10,
+      "new_gap_unit": 9.357739060307084e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2024-04-01",
+      "old_gap_unit": 2.5469389874585746e-09,
+      "new_gap_unit": 4.392900224684136e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2024-05-07",
+      "old_gap_unit": 1.6917332132592028e-07,
+      "new_gap_unit": 2.429188993038146e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2024-06-05",
+      "old_gap_unit": 1.2534166004503674e-07,
+      "new_gap_unit": 2.5551481482806683e-09,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2024-07-05",
+      "old_gap_unit": 1.2505892294816332e-06,
+      "new_gap_unit": 2.5827130716268516e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2024-08-05",
+      "old_gap_unit": 2.9291739598826757e-07,
+      "new_gap_unit": 1.0775621264942309e-08,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2024-09-03",
+      "old_gap_unit": 7.111466861930218e-07,
+      "new_gap_unit": 2.0157580091423602e-09,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2024-10-11",
+      "old_gap_unit": 2.0146409645761426e-06,
+      "new_gap_unit": 1.8918597403392925e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2024-11-11",
+      "old_gap_unit": 1.666702628088843e-07,
+      "new_gap_unit": 1.9080325377516158e-09,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2024-12-10",
+      "old_gap_unit": 2.950229076260922e-05,
+      "new_gap_unit": 8.619367315414052e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2025-01-09",
+      "old_gap_unit": 0.00014985207169967106,
+      "new_gap_unit": 5.768047506763784e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2025-02-17",
+      "old_gap_unit": 1.3988495534622324e-06,
+      "new_gap_unit": 1.4451919567666036e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2025-03-18",
+      "old_gap_unit": 7.792000969149446e-06,
+      "new_gap_unit": 1.3200191976194287e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2025-05-21",
+      "old_gap_unit": 1.0975883962302775e-06,
+      "new_gap_unit": 4.524140701557924e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2025-06-20",
+      "old_gap_unit": 1.5891271307111495e-06,
+      "new_gap_unit": 1.287040838097961e-08,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2025-07-21",
+      "old_gap_unit": 3.2365411323559497e-07,
+      "new_gap_unit": 3.8414299401261946e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2025-08-19",
+      "old_gap_unit": 7.2201922573725515e-06,
+      "new_gap_unit": 1.0526131222243447e-08,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2025-09-17",
+      "old_gap_unit": 1.6239298616182544e-05,
+      "new_gap_unit": 1.87130885338236e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2025-10-24",
+      "old_gap_unit": 7.0629894764691626e-06,
+      "new_gap_unit": 1.1098895791389296e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2025-11-24",
+      "old_gap_unit": 2.9329103827331684e-07,
+      "new_gap_unit": 1.4134855235414701e-09,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2025-12-23",
+      "old_gap_unit": 6.637097928471425e-07,
+      "new_gap_unit": 1.5100434214296146e-09,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2026-01-23",
+      "old_gap_unit": 2.1876351883438107e-07,
+      "new_gap_unit": 4.1021944797631415e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2026-03-03",
+      "old_gap_unit": 7.795886367026052e-07,
+      "new_gap_unit": 1.0716706407934218e-09,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2026-04-01",
+      "old_gap_unit": 7.006818533623885e-05,
+      "new_gap_unit": 1.1858594510276552e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2026-05-06",
+      "old_gap_unit": 6.803953519316343e-09,
+      "new_gap_unit": 7.779387027189578e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2026-06-04",
+      "old_gap_unit": 6.70650494186542e-08,
+      "new_gap_unit": 7.549278718530095e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2026-07-06",
+      "old_gap_unit": 1.366416690871679e-06,
+      "new_gap_unit": 2.2633145747859545e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_1_2026-08-04",
+      "old_gap_unit": 9.267266464608305e-09,
+      "new_gap_unit": 3.2602246314453395e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2020-02-07",
+      "old_gap_unit": 3.0528684251371603e-10,
+      "new_gap_unit": 1.0170617099235422e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2020-03-09",
+      "old_gap_unit": 3.5942152034632055e-10,
+      "new_gap_unit": 1.1982394402470045e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2020-04-08",
+      "old_gap_unit": 2.572066810448971e-10,
+      "new_gap_unit": 8.57605253037069e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2020-05-12",
+      "old_gap_unit": 4.742326653038755e-10,
+      "new_gap_unit": 1.5815143587042887e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2020-06-10",
+      "old_gap_unit": 2.1694223173541188e-10,
+      "new_gap_unit": 7.236632742827917e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2020-07-13",
+      "old_gap_unit": 2.7225525124270413e-10,
+      "new_gap_unit": 9.076940584513362e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2020-08-11",
+      "old_gap_unit": 3.8105300351417785e-10,
+      "new_gap_unit": 1.2701746375806578e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2020-09-09",
+      "old_gap_unit": 6.487085234566884e-08,
+      "new_gap_unit": 1.832781348188011e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2020-10-16",
+      "old_gap_unit": 1.7983209823648964e-09,
+      "new_gap_unit": 1.2900508539603265e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2020-11-16",
+      "old_gap_unit": 2.353154403173842e-10,
+      "new_gap_unit": 7.846206464602123e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2020-12-15",
+      "old_gap_unit": 2.757584037433036e-10,
+      "new_gap_unit": 9.194472657520013e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2021-01-14",
+      "old_gap_unit": 1.6677188748947342e-05,
+      "new_gap_unit": 3.809089455774773e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2021-02-19",
+      "old_gap_unit": 4.3665243665809444e-07,
+      "new_gap_unit": 3.4779008328697426e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2021-03-22",
+      "old_gap_unit": 3.1959275151006975e-06,
+      "new_gap_unit": 9.517216663979315e-11,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2021-04-21",
+      "old_gap_unit": 3.006615141386314e-07,
+      "new_gap_unit": 1.0233290885523474e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2021-05-25",
+      "old_gap_unit": 1.309959265461121e-06,
+      "new_gap_unit": 9.805988359119594e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2021-06-24",
+      "old_gap_unit": 1.8181996921982516e-06,
+      "new_gap_unit": 1.1517085815363947e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2021-07-23",
+      "old_gap_unit": 1.597218442341862e-06,
+      "new_gap_unit": 1.6858429073537567e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2021-08-23",
+      "old_gap_unit": 1.367238318265768e-06,
+      "new_gap_unit": 2.6675419047947373e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2021-09-23",
+      "old_gap_unit": 2.0328443517820295e-07,
+      "new_gap_unit": 3.876145913411014e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2021-10-29",
+      "old_gap_unit": 4.2192100181221935e-08,
+      "new_gap_unit": 4.5751308887150946e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2021-11-29",
+      "old_gap_unit": 7.046777351701361e-08,
+      "new_gap_unit": 4.807186023338354e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2021-12-28",
+      "old_gap_unit": 4.935364131184679e-06,
+      "new_gap_unit": 9.428069745271407e-11,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2022-01-27",
+      "old_gap_unit": 0.000257104463413566,
+      "new_gap_unit": 2.822136935914637e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2022-03-04",
+      "old_gap_unit": 7.77049488449936e-07,
+      "new_gap_unit": 3.417568700657878e-09,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2022-04-06",
+      "old_gap_unit": 9.026161936989867e-06,
+      "new_gap_unit": 6.924272248733461e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2022-05-10",
+      "old_gap_unit": 1.3533260092132973e-06,
+      "new_gap_unit": 2.7751297017990413e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2022-06-09",
+      "old_gap_unit": 2.0642766750084645e-06,
+      "new_gap_unit": 6.332980363804435e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2022-07-08",
+      "old_gap_unit": 1.9086349492831723e-06,
+      "new_gap_unit": 1.9757944169160756e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2022-08-08",
+      "old_gap_unit": 1.0288302975161278e-08,
+      "new_gap_unit": 2.3829837067165905e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2022-09-06",
+      "old_gap_unit": 2.230457958221632e-10,
+      "new_gap_unit": 7.443536419141147e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2022-10-13",
+      "old_gap_unit": 2.477277861642049e-10,
+      "new_gap_unit": 8.218266537679479e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2022-11-11",
+      "old_gap_unit": 2.3878800655057964e-10,
+      "new_gap_unit": 7.95721387308659e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2022-12-12",
+      "old_gap_unit": 2.857502470244024e-10,
+      "new_gap_unit": 9.536803874286968e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2023-01-11",
+      "old_gap_unit": 2.3524199440534813e-10,
+      "new_gap_unit": 7.83850551012219e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2023-02-16",
+      "old_gap_unit": 1.9008079146208656e-10,
+      "new_gap_unit": 6.340705108418344e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2023-03-17",
+      "old_gap_unit": 3.204883163986347e-10,
+      "new_gap_unit": 1.0672553681505224e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2023-04-18",
+      "old_gap_unit": 3.766728478880671e-10,
+      "new_gap_unit": 1.2562807587801075e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2023-05-22",
+      "old_gap_unit": 2.8441109574972287e-10,
+      "new_gap_unit": 9.480676780422933e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2023-06-20",
+      "old_gap_unit": 2.4021545896796476e-10,
+      "new_gap_unit": 8.013358589272089e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2023-07-21",
+      "old_gap_unit": 1.8177080955234575e-10,
+      "new_gap_unit": 6.061585158744104e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2023-08-21",
+      "old_gap_unit": 1.6452063898986035e-10,
+      "new_gap_unit": 5.4911990743263016e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2023-09-19",
+      "old_gap_unit": 1.6572493691036978e-10,
+      "new_gap_unit": 5.524351066581158e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2023-10-26",
+      "old_gap_unit": 1.5410861099167921e-10,
+      "new_gap_unit": 5.137717333652764e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2023-11-24",
+      "old_gap_unit": 1.92755694183396e-10,
+      "new_gap_unit": 6.426895882700603e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2023-12-25",
+      "old_gap_unit": 1.9869543743083738e-10,
+      "new_gap_unit": 6.62731895029531e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2024-01-24",
+      "old_gap_unit": 1.6048949939861672e-10,
+      "new_gap_unit": 5.3652060842265676e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2024-03-01",
+      "old_gap_unit": 2.605434574363342e-10,
+      "new_gap_unit": 8.697655359635612e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2024-04-01",
+      "old_gap_unit": 2.0698139075088838e-10,
+      "new_gap_unit": 6.900147731206769e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2024-05-07",
+      "old_gap_unit": 6.546547710107981e-08,
+      "new_gap_unit": 2.1018781619713514e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2024-06-05",
+      "old_gap_unit": 6.49383314877335e-09,
+      "new_gap_unit": 3.9181531222017183e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2024-07-05",
+      "old_gap_unit": 4.158127723459349e-10,
+      "new_gap_unit": 1.3860581424143166e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2024-08-05",
+      "old_gap_unit": 5.673022722512442e-10,
+      "new_gap_unit": 1.8811550611657577e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2024-09-03",
+      "old_gap_unit": 3.2028130652654567e-10,
+      "new_gap_unit": 1.0675756538431375e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2024-10-11",
+      "old_gap_unit": 2.872152476527416e-10,
+      "new_gap_unit": 9.575308646686629e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2024-11-11",
+      "old_gap_unit": 2.7422169838130854e-10,
+      "new_gap_unit": 9.141922894913246e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2024-12-10",
+      "old_gap_unit": 0.00015517400252548614,
+      "new_gap_unit": 1.7266060683606837e-08,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2025-01-09",
+      "old_gap_unit": 3.767814065229276e-05,
+      "new_gap_unit": 4.434863730117609e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2025-02-17",
+      "old_gap_unit": 7.469569162672226e-05,
+      "new_gap_unit": 3.9650822453774233e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2025-03-18",
+      "old_gap_unit": 1.6703363722410096e-05,
+      "new_gap_unit": 1.162652924281845e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2025-04-17",
+      "old_gap_unit": 8.62952422393993e-08,
+      "new_gap_unit": 1.119486078627177e-09,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2025-05-21",
+      "old_gap_unit": 3.617719539322325e-08,
+      "new_gap_unit": 7.018653173139504e-09,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2025-06-20",
+      "old_gap_unit": 2.2467582540493572e-06,
+      "new_gap_unit": 5.725441403378113e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2025-07-21",
+      "old_gap_unit": 6.184774530441234e-06,
+      "new_gap_unit": 5.163718628415413e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2025-08-19",
+      "old_gap_unit": 2.7644768285798124e-05,
+      "new_gap_unit": 1.5581856652149267e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2025-09-17",
+      "old_gap_unit": 7.682111184441633e-06,
+      "new_gap_unit": 1.1654722137590015e-08,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2025-10-24",
+      "old_gap_unit": 0.00011592573923913377,
+      "new_gap_unit": 2.7653414714532612e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2025-11-24",
+      "old_gap_unit": 7.7366498780075e-06,
+      "new_gap_unit": 9.141066009532041e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2025-12-23",
+      "old_gap_unit": 2.5806042416834354e-05,
+      "new_gap_unit": 2.4347192740158997e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2026-01-23",
+      "old_gap_unit": 2.9613156725299672e-05,
+      "new_gap_unit": 2.070808423220726e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2026-03-03",
+      "old_gap_unit": 5.068330790453737e-06,
+      "new_gap_unit": 7.560653706756331e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2026-04-01",
+      "old_gap_unit": 3.4167925135411475e-05,
+      "new_gap_unit": 1.545092016032074e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2026-05-06",
+      "old_gap_unit": 0.0016328302663351447,
+      "new_gap_unit": 4.539473575073452e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2026-06-04",
+      "old_gap_unit": 4.290353241469451e-06,
+      "new_gap_unit": 9.638772794092355e-10,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2026-07-06",
+      "old_gap_unit": 4.0684257052423723e-07,
+      "new_gap_unit": 1.5620001048074983e-09,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_limited_2_2026-08-04",
+      "old_gap_unit": 4.775931443774001e-06,
+      "new_gap_unit": 6.294117505832619e-09,
+      "old_status": "gap_open",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2020-02-07",
+      "old_gap_unit": 2.225245169634156e-10,
+      "new_gap_unit": 7.420653834719656e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2020-03-09",
+      "old_gap_unit": 2.1583766462602484e-10,
+      "new_gap_unit": 7.198348249446562e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2020-04-08",
+      "old_gap_unit": 1.7289021687358845e-10,
+      "new_gap_unit": 5.769944549669424e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2020-05-12",
+      "old_gap_unit": 1.9549560217844517e-10,
+      "new_gap_unit": 6.530805901215293e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2020-06-10",
+      "old_gap_unit": 2.0573143948942023e-10,
+      "new_gap_unit": 6.865964833146247e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2020-07-13",
+      "old_gap_unit": 1.8383755541368768e-10,
+      "new_gap_unit": 6.14063889283329e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2020-08-11",
+      "old_gap_unit": 2.0340502872130074e-10,
+      "new_gap_unit": 6.78977472629502e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2020-09-09",
+      "old_gap_unit": 1.9370367642034017e-10,
+      "new_gap_unit": 6.462678006434018e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2020-10-16",
+      "old_gap_unit": 2.1462736153666946e-10,
+      "new_gap_unit": 7.158839004723432e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2020-11-16",
+      "old_gap_unit": 2.1320612336174968e-10,
+      "new_gap_unit": 7.110994401947653e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2020-12-15",
+      "old_gap_unit": 2.5727250041556655e-10,
+      "new_gap_unit": 8.578722312072543e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2021-01-14",
+      "old_gap_unit": 2.5882132624907054e-10,
+      "new_gap_unit": 8.632452770217424e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2021-02-19",
+      "old_gap_unit": 2.2155108501541027e-10,
+      "new_gap_unit": 7.400106207892194e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2021-03-22",
+      "old_gap_unit": 1.8540373923383403e-10,
+      "new_gap_unit": 6.184016237117851e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2021-04-21",
+      "old_gap_unit": 2.0159694849163084e-10,
+      "new_gap_unit": 6.723365007856521e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2021-05-25",
+      "old_gap_unit": 1.906191018980293e-10,
+      "new_gap_unit": 6.36183427185413e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2021-06-24",
+      "old_gap_unit": 1.939770171875674e-10,
+      "new_gap_unit": 6.466079114476641e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2021-07-23",
+      "old_gap_unit": 1.7567524855781832e-10,
+      "new_gap_unit": 5.857783011008602e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2021-08-23",
+      "old_gap_unit": 1.7969767454296813e-10,
+      "new_gap_unit": 5.99588033316418e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2021-09-23",
+      "old_gap_unit": 1.6626008275743922e-10,
+      "new_gap_unit": 5.5541239786952196e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2021-10-29",
+      "old_gap_unit": 1.6379771577922205e-10,
+      "new_gap_unit": 5.4672811785187785e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2021-11-29",
+      "old_gap_unit": 1.9798871260300708e-10,
+      "new_gap_unit": 6.609189987088834e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2021-12-28",
+      "old_gap_unit": 1.8749838998216259e-10,
+      "new_gap_unit": 6.2505493118066e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2022-01-27",
+      "old_gap_unit": 1.8223932567124096e-10,
+      "new_gap_unit": 6.078916711904316e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2022-03-04",
+      "old_gap_unit": 1.794776168601866e-10,
+      "new_gap_unit": 5.984831137606017e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2022-04-06",
+      "old_gap_unit": 2.0451526496042042e-10,
+      "new_gap_unit": 6.818930857157829e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2022-05-10",
+      "old_gap_unit": 1.9070506219996206e-10,
+      "new_gap_unit": 6.358970644616169e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2022-06-09",
+      "old_gap_unit": 1.9529140352847672e-10,
+      "new_gap_unit": 6.512663721267719e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2022-07-08",
+      "old_gap_unit": 1.9886436095628506e-10,
+      "new_gap_unit": 6.641306667957658e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2022-08-08",
+      "old_gap_unit": 1.8840450388611683e-10,
+      "new_gap_unit": 6.29195295608715e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2022-09-06",
+      "old_gap_unit": 1.9547405679284855e-10,
+      "new_gap_unit": 6.507227235095958e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2022-10-13",
+      "old_gap_unit": 1.790495706718169e-10,
+      "new_gap_unit": 5.980346256793333e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2022-11-11",
+      "old_gap_unit": 1.966537449546954e-10,
+      "new_gap_unit": 6.556732741669755e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2022-12-12",
+      "old_gap_unit": 1.894207474116384e-10,
+      "new_gap_unit": 6.322862507935664e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2023-01-11",
+      "old_gap_unit": 2.424282118475261e-10,
+      "new_gap_unit": 8.081596623562516e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2023-02-16",
+      "old_gap_unit": 1.9762525972741493e-10,
+      "new_gap_unit": 6.587999145527922e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2023-03-17",
+      "old_gap_unit": 1.7322232378097984e-10,
+      "new_gap_unit": 5.7745615978930905e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2023-04-18",
+      "old_gap_unit": 2.0031433787127127e-10,
+      "new_gap_unit": 6.688067497963378e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2023-05-22",
+      "old_gap_unit": 1.5625454716010168e-10,
+      "new_gap_unit": 5.2186346282368087e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2023-06-20",
+      "old_gap_unit": 1.4482160352414977e-10,
+      "new_gap_unit": 4.8387502444292704e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2023-07-21",
+      "old_gap_unit": 1.600237634702151e-10,
+      "new_gap_unit": 5.337047817316679e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2023-08-21",
+      "old_gap_unit": 1.5953910557414112e-10,
+      "new_gap_unit": 5.3209674489804365e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2023-09-19",
+      "old_gap_unit": 1.5093518334237452e-10,
+      "new_gap_unit": 5.047160629227705e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2023-10-26",
+      "old_gap_unit": 1.4963569132968965e-10,
+      "new_gap_unit": 4.989028996297097e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2023-11-24",
+      "old_gap_unit": 1.5312227729816824e-10,
+      "new_gap_unit": 5.11572247367504e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2023-12-25",
+      "old_gap_unit": 1.6950858149618216e-10,
+      "new_gap_unit": 5.654881804457969e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2024-01-24",
+      "old_gap_unit": 1.562451304679793e-10,
+      "new_gap_unit": 5.2116231470841705e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2024-03-01",
+      "old_gap_unit": 1.6950572524293405e-10,
+      "new_gap_unit": 5.6525710775559524e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2024-04-01",
+      "old_gap_unit": 2.0852783757099465e-10,
+      "new_gap_unit": 6.960244252980654e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2024-05-07",
+      "old_gap_unit": 1.6082090918165612e-10,
+      "new_gap_unit": 5.366164297956193e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2024-06-05",
+      "old_gap_unit": 2.050832023943532e-10,
+      "new_gap_unit": 6.837592895588603e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2024-07-05",
+      "old_gap_unit": 2.371498358702184e-10,
+      "new_gap_unit": 7.91041779843794e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2024-08-05",
+      "old_gap_unit": 2.439863714265191e-10,
+      "new_gap_unit": 8.146349843783364e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2024-09-03",
+      "old_gap_unit": 2.3156759142126193e-10,
+      "new_gap_unit": 7.718541556753457e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2024-10-11",
+      "old_gap_unit": 2.2096623904557666e-10,
+      "new_gap_unit": 7.368086449791424e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2024-11-11",
+      "old_gap_unit": 3.34279534034078e-10,
+      "new_gap_unit": 1.1142778896299883e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2024-12-10",
+      "old_gap_unit": 2.7295768819297045e-10,
+      "new_gap_unit": 9.098708557102232e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2025-01-09",
+      "old_gap_unit": 5.148156796888259e-10,
+      "new_gap_unit": 1.7165885716126523e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2025-02-17",
+      "old_gap_unit": 5.490867470181387e-10,
+      "new_gap_unit": 1.8258240556738755e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2025-03-18",
+      "old_gap_unit": 3.83159316028478e-10,
+      "new_gap_unit": 1.2773980271489053e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2025-04-17",
+      "old_gap_unit": 3.6196640934972284e-10,
+      "new_gap_unit": 1.2068664477198895e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2025-05-21",
+      "old_gap_unit": 2.8383823813471965e-10,
+      "new_gap_unit": 9.471292894243153e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2025-06-20",
+      "old_gap_unit": 3.2704305989214327e-10,
+      "new_gap_unit": 1.0904481054297868e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2025-07-21",
+      "old_gap_unit": 2.2643057029211996e-10,
+      "new_gap_unit": 7.486358660299579e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2025-08-19",
+      "old_gap_unit": 2.6215835384245107e-10,
+      "new_gap_unit": 8.742953536959789e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2025-09-17",
+      "old_gap_unit": 3.423963298270278e-10,
+      "new_gap_unit": 1.1408250357999964e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2025-10-24",
+      "old_gap_unit": 1.9952322780493181e-10,
+      "new_gap_unit": 6.652457191864241e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2025-11-24",
+      "old_gap_unit": 1.927553311907348e-10,
+      "new_gap_unit": 6.42712497287964e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2025-12-23",
+      "old_gap_unit": 2.426702042921486e-10,
+      "new_gap_unit": 8.090249183401524e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2026-01-23",
+      "old_gap_unit": 2.3029282764471977e-10,
+      "new_gap_unit": 7.67787804997441e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2026-03-03",
+      "old_gap_unit": 2.355795989161352e-10,
+      "new_gap_unit": 7.859819707933353e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2026-04-01",
+      "old_gap_unit": 2.0731885820693116e-10,
+      "new_gap_unit": 6.921109482588643e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2026-05-06",
+      "old_gap_unit": 1.6334971231179397e-10,
+      "new_gap_unit": 5.4459978197701794e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2026-06-04",
+      "old_gap_unit": 2.2421214423232527e-10,
+      "new_gap_unit": 7.476551838404654e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2026-07-06",
+      "old_gap_unit": 2.3052710312908416e-10,
+      "new_gap_unit": 7.68726193615419e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_0_2026-08-04",
+      "old_gap_unit": 2.3636605697210563e-10,
+      "new_gap_unit": 7.877847342791409e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2020-02-07",
+      "old_gap_unit": 1.8326747331431515e-10,
+      "new_gap_unit": 6.111086259737534e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2020-03-09",
+      "old_gap_unit": 2.0506372972913506e-10,
+      "new_gap_unit": 6.84189274202591e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2020-04-08",
+      "old_gap_unit": 1.703917241363693e-10,
+      "new_gap_unit": 5.6812954615428846e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2020-05-12",
+      "old_gap_unit": 1.9629583179614246e-10,
+      "new_gap_unit": 6.560781470026195e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2020-06-10",
+      "old_gap_unit": 2.0451285596015868e-10,
+      "new_gap_unit": 6.818076174566806e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2020-07-13",
+      "old_gap_unit": 1.8895305099997388e-10,
+      "new_gap_unit": 6.307954023976803e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2020-08-11",
+      "old_gap_unit": 2.1258740365513547e-10,
+      "new_gap_unit": 7.094535153699927e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2020-09-09",
+      "old_gap_unit": 2.436034824369019e-10,
+      "new_gap_unit": 8.121317336143219e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2020-10-16",
+      "old_gap_unit": 2.2634426890630005e-10,
+      "new_gap_unit": 7.549464193463507e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2020-11-16",
+      "old_gap_unit": 2.542951395986642e-10,
+      "new_gap_unit": 8.489941056535021e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2020-12-15",
+      "old_gap_unit": 1.7326302366654283e-10,
+      "new_gap_unit": 5.781346191656875e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2021-01-14",
+      "old_gap_unit": 2.1088614474096467e-10,
+      "new_gap_unit": 7.029685010711026e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2021-02-19",
+      "old_gap_unit": 1.7740981365955678e-10,
+      "new_gap_unit": 5.91415681737314e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2021-03-22",
+      "old_gap_unit": 1.475079942639828e-10,
+      "new_gap_unit": 4.933122181451366e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2021-04-21",
+      "old_gap_unit": 1.9148449747833138e-10,
+      "new_gap_unit": 6.39123711521744e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2021-05-25",
+      "old_gap_unit": 1.9516574957089512e-10,
+      "new_gap_unit": 6.501200401155142e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2021-06-24",
+      "old_gap_unit": 1.8656425721387046e-10,
+      "new_gap_unit": 6.227939873367806e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2021-07-23",
+      "old_gap_unit": 1.8768177672953384e-10,
+      "new_gap_unit": 6.259845086379057e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2021-08-23",
+      "old_gap_unit": 1.7684448958697962e-10,
+      "new_gap_unit": 5.895600512871152e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2021-09-23",
+      "old_gap_unit": 1.8787892645091654e-10,
+      "new_gap_unit": 6.265761780810722e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2021-10-29",
+      "old_gap_unit": 2.2482007026704255e-10,
+      "new_gap_unit": 7.494231432413789e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2021-11-29",
+      "old_gap_unit": 2.1109773465625614e-10,
+      "new_gap_unit": 7.036637016528721e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2021-12-28",
+      "old_gap_unit": 1.8129057874028672e-10,
+      "new_gap_unit": 6.047751636394569e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2022-01-27",
+      "old_gap_unit": 1.7627423126439246e-10,
+      "new_gap_unit": 5.88105328650231e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2022-03-04",
+      "old_gap_unit": 1.7008316641103926e-10,
+      "new_gap_unit": 5.6821016827498795e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2022-04-06",
+      "old_gap_unit": 1.473505388216986e-10,
+      "new_gap_unit": 4.9147376945836567e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2022-05-10",
+      "old_gap_unit": 1.369997158631685e-10,
+      "new_gap_unit": 4.575829613761157e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2022-06-09",
+      "old_gap_unit": 1.399942212646965e-10,
+      "new_gap_unit": 4.703261025850421e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2022-07-08",
+      "old_gap_unit": 1.6969446251219793e-10,
+      "new_gap_unit": 5.6573467266727984e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2022-08-08",
+      "old_gap_unit": 2.0392294259488884e-10,
+      "new_gap_unit": 6.797599037025202e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2022-09-06",
+      "old_gap_unit": 1.7334042888430592e-10,
+      "new_gap_unit": 5.7842450635377646e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2022-10-13",
+      "old_gap_unit": 1.494904173171177e-10,
+      "new_gap_unit": 4.9853591478521405e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2022-11-11",
+      "old_gap_unit": 2.074252326689093e-10,
+      "new_gap_unit": 6.91588005869409e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2022-12-12",
+      "old_gap_unit": 1.965264198725038e-10,
+      "new_gap_unit": 6.553758974922641e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2023-01-11",
+      "old_gap_unit": 2.281110828563183e-10,
+      "new_gap_unit": 7.604710171254324e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2023-02-16",
+      "old_gap_unit": 2.1632985606452486e-10,
+      "new_gap_unit": 7.222367473602505e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2023-03-17",
+      "old_gap_unit": 1.7972452436288302e-10,
+      "new_gap_unit": 5.99116636217246e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2023-04-18",
+      "old_gap_unit": 1.932172122363161e-10,
+      "new_gap_unit": 6.44394107313702e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2023-05-22",
+      "old_gap_unit": 1.7663804409102448e-10,
+      "new_gap_unit": 5.88938864455496e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2023-06-20",
+      "old_gap_unit": 1.8192192095890277e-10,
+      "new_gap_unit": 6.06664276500438e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2023-07-21",
+      "old_gap_unit": 1.570517589552482e-10,
+      "new_gap_unit": 5.2448258035132364e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2023-08-21",
+      "old_gap_unit": 1.4766844550091594e-10,
+      "new_gap_unit": 4.931567011582135e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2023-09-19",
+      "old_gap_unit": 1.5374144992396897e-10,
+      "new_gap_unit": 5.131668471810117e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2023-10-26",
+      "old_gap_unit": 1.4642624806089214e-10,
+      "new_gap_unit": 4.884837020638978e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2023-11-24",
+      "old_gap_unit": 1.5498748021891127e-10,
+      "new_gap_unit": 5.174596446897335e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2023-12-25",
+      "old_gap_unit": 1.5345017497806467e-10,
+      "new_gap_unit": 5.136135730301336e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2024-01-24",
+      "old_gap_unit": 1.4880733208135485e-10,
+      "new_gap_unit": 4.971675415235053e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2024-03-01",
+      "old_gap_unit": 1.8119376663599478e-10,
+      "new_gap_unit": 6.066979791902385e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2024-04-01",
+      "old_gap_unit": 1.7849393887604515e-10,
+      "new_gap_unit": 5.954846757634382e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2024-05-07",
+      "old_gap_unit": 1.6930874437077614e-10,
+      "new_gap_unit": 5.6451036188354234e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2024-06-05",
+      "old_gap_unit": 1.7480346993027918e-10,
+      "new_gap_unit": 5.836358673688288e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2024-07-05",
+      "old_gap_unit": 1.698437401924777e-10,
+      "new_gap_unit": 5.671471017326495e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2024-08-05",
+      "old_gap_unit": 1.639322181477989e-10,
+      "new_gap_unit": 5.468492713119454e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2024-09-03",
+      "old_gap_unit": 1.6342095054631372e-10,
+      "new_gap_unit": 5.4543023387602657e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2024-10-11",
+      "old_gap_unit": 1.6934180825142368e-10,
+      "new_gap_unit": 5.665034464411632e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2024-11-11",
+      "old_gap_unit": 2.371230939973962e-10,
+      "new_gap_unit": 7.904190510590467e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2024-12-10",
+      "old_gap_unit": 2.0185768003571825e-10,
+      "new_gap_unit": 6.729449114342098e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2025-01-09",
+      "old_gap_unit": 4.478149967000198e-10,
+      "new_gap_unit": 1.493925253213831e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2025-02-17",
+      "old_gap_unit": 5.09375316606344e-10,
+      "new_gap_unit": 1.6986578595226505e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2025-03-18",
+      "old_gap_unit": 3.9980713569413197e-10,
+      "new_gap_unit": 1.333244926101657e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2025-04-17",
+      "old_gap_unit": 2.896539566643928e-10,
+      "new_gap_unit": 9.671182886613563e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2025-05-21",
+      "old_gap_unit": 2.0180368836983294e-10,
+      "new_gap_unit": 6.734533154084569e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2025-06-20",
+      "old_gap_unit": 3.054364212460964e-10,
+      "new_gap_unit": 1.0198874491703548e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2025-07-21",
+      "old_gap_unit": 3.378832547177391e-10,
+      "new_gap_unit": 1.1263342008598407e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2025-08-19",
+      "old_gap_unit": 2.4471809426952363e-10,
+      "new_gap_unit": 8.164214472167874e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2025-09-17",
+      "old_gap_unit": 3.542022778738547e-10,
+      "new_gap_unit": 1.18135373181984e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2025-10-24",
+      "old_gap_unit": 2.474427030140778e-10,
+      "new_gap_unit": 8.253110272794915e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2025-11-24",
+      "old_gap_unit": 2.229367287163411e-10,
+      "new_gap_unit": 7.434769314212621e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2025-12-23",
+      "old_gap_unit": 2.4275426276553364e-10,
+      "new_gap_unit": 8.10549249146821e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2026-01-23",
+      "old_gap_unit": 1.7331227147266025e-10,
+      "new_gap_unit": 5.778200607275484e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2026-03-03",
+      "old_gap_unit": 2.025117091904679e-10,
+      "new_gap_unit": 6.750600305679714e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2026-04-01",
+      "old_gap_unit": 2.6253699272983404e-10,
+      "new_gap_unit": 8.752355045461034e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2026-05-06",
+      "old_gap_unit": 2.0088468430546578e-10,
+      "new_gap_unit": 6.70281738102906e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2026-06-04",
+      "old_gap_unit": 1.9780130671884404e-10,
+      "new_gap_unit": 6.594025979468739e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2026-07-06",
+      "old_gap_unit": 2.520310111556384e-10,
+      "new_gap_unit": 8.401106934033105e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_1_2026-08-04",
+      "old_gap_unit": 2.3516210946872405e-10,
+      "new_gap_unit": 7.850136242288679e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2020-02-07",
+      "old_gap_unit": 2.1973404801340553e-10,
+      "new_gap_unit": 7.324735538989061e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2020-03-09",
+      "old_gap_unit": 2.605945723464233e-10,
+      "new_gap_unit": 8.693126423019268e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2020-04-08",
+      "old_gap_unit": 2.5373702217177625e-10,
+      "new_gap_unit": 8.465939454700542e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2020-05-12",
+      "old_gap_unit": 1.8026612763411007e-10,
+      "new_gap_unit": 6.011780072705413e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2020-06-10",
+      "old_gap_unit": 2.1687993237219123e-10,
+      "new_gap_unit": 7.237588753767359e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2020-07-13",
+      "old_gap_unit": 2.2879821563062793e-10,
+      "new_gap_unit": 7.627301987371653e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2020-08-11",
+      "old_gap_unit": 2.1368122114842924e-10,
+      "new_gap_unit": 7.125973375192372e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2020-09-09",
+      "old_gap_unit": 1.963604176043094e-10,
+      "new_gap_unit": 6.545555784280975e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2020-10-16",
+      "old_gap_unit": 2.3139711713978037e-10,
+      "new_gap_unit": 7.720189243810375e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2020-11-16",
+      "old_gap_unit": 2.325454757180064e-10,
+      "new_gap_unit": 7.764579871579136e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2020-12-15",
+      "old_gap_unit": 2.4512790135517766e-10,
+      "new_gap_unit": 8.176298979112069e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2021-01-14",
+      "old_gap_unit": 2.559890667433161e-10,
+      "new_gap_unit": 8.545574725398054e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2021-02-19",
+      "old_gap_unit": 2.327006402585002e-10,
+      "new_gap_unit": 7.760879184071618e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2021-03-22",
+      "old_gap_unit": 1.7419074419765934e-10,
+      "new_gap_unit": 5.816872791729056e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2021-04-21",
+      "old_gap_unit": 1.7327270936097272e-10,
+      "new_gap_unit": 5.776350263521725e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2021-05-25",
+      "old_gap_unit": 1.602558205212958e-10,
+      "new_gap_unit": 5.3423036746934286e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2021-06-24",
+      "old_gap_unit": 1.9297314308403449e-10,
+      "new_gap_unit": 6.441284508176266e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2021-07-23",
+      "old_gap_unit": 1.7036888761644605e-10,
+      "new_gap_unit": 5.682705247260034e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2021-08-23",
+      "old_gap_unit": 1.9228787118495775e-10,
+      "new_gap_unit": 6.413370750976696e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2021-09-23",
+      "old_gap_unit": 1.8559282674314678e-10,
+      "new_gap_unit": 6.192906698296628e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2021-10-29",
+      "old_gap_unit": 1.534304600059264e-10,
+      "new_gap_unit": 5.114971322222621e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2021-11-29",
+      "old_gap_unit": 1.4399833272113783e-10,
+      "new_gap_unit": 4.8007873584146396e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2021-12-28",
+      "old_gap_unit": 1.4144839485319537e-10,
+      "new_gap_unit": 4.7158301466348865e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2022-01-27",
+      "old_gap_unit": 1.5170218045377934e-10,
+      "new_gap_unit": 5.0570908073728805e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2022-03-04",
+      "old_gap_unit": 1.4080142332848184e-10,
+      "new_gap_unit": 4.7049792021931975e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2022-04-06",
+      "old_gap_unit": 1.2995871732207734e-10,
+      "new_gap_unit": 4.336139608363456e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2022-05-10",
+      "old_gap_unit": 1.287144933150851e-10,
+      "new_gap_unit": 4.298432246010059e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2022-06-09",
+      "old_gap_unit": 1.5083721775205965e-10,
+      "new_gap_unit": 5.031322567811598e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2022-07-08",
+      "old_gap_unit": 1.8180311785737714e-10,
+      "new_gap_unit": 6.068704576615711e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2022-08-08",
+      "old_gap_unit": 1.5657352440669043e-10,
+      "new_gap_unit": 5.221185459268777e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2022-09-06",
+      "old_gap_unit": 1.6631233294058107e-10,
+      "new_gap_unit": 5.5444272963094474e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2022-10-13",
+      "old_gap_unit": 1.688651905395178e-10,
+      "new_gap_unit": 5.642076985123917e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2022-11-11",
+      "old_gap_unit": 2.0488856385377918e-10,
+      "new_gap_unit": 6.833530950491064e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2022-12-12",
+      "old_gap_unit": 1.520612496839481e-10,
+      "new_gap_unit": 5.083281982649308e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2023-01-11",
+      "old_gap_unit": 1.7193949263058542e-10,
+      "new_gap_unit": 5.7392376545177503e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2023-02-16",
+      "old_gap_unit": 1.7897617370291779e-10,
+      "new_gap_unit": 5.977896754109785e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2023-03-17",
+      "old_gap_unit": 1.881414772895012e-10,
+      "new_gap_unit": 6.278841948917654e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2023-04-18",
+      "old_gap_unit": 2.037557129184418e-10,
+      "new_gap_unit": 6.792691220497375e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2023-05-22",
+      "old_gap_unit": 1.8104424123836956e-10,
+      "new_gap_unit": 6.03505034819912e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2023-06-20",
+      "old_gap_unit": 1.4653052814815756e-10,
+      "new_gap_unit": 4.903666471123663e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2023-07-21",
+      "old_gap_unit": 1.6178546694700868e-10,
+      "new_gap_unit": 5.3981664337354984e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2023-08-21",
+      "old_gap_unit": 1.626792710916818e-10,
+      "new_gap_unit": 5.4278732621440694e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2023-09-19",
+      "old_gap_unit": 1.5000670728022023e-10,
+      "new_gap_unit": 5.013171576703291e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2023-10-26",
+      "old_gap_unit": 2.014157308823604e-10,
+      "new_gap_unit": 6.726396047148393e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2023-11-24",
+      "old_gap_unit": 1.8080400494100645e-10,
+      "new_gap_unit": 6.033671401544533e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2023-12-25",
+      "old_gap_unit": 1.8260762441729874e-10,
+      "new_gap_unit": 6.089952690721382e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2024-01-24",
+      "old_gap_unit": 1.7169241161872524e-10,
+      "new_gap_unit": 5.737810246479136e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2024-03-01",
+      "old_gap_unit": 1.7007668108438996e-10,
+      "new_gap_unit": 5.671233115986726e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2024-04-01",
+      "old_gap_unit": 1.9468268448929353e-10,
+      "new_gap_unit": 6.490596169213954e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2024-05-07",
+      "old_gap_unit": 1.6062917832412371e-10,
+      "new_gap_unit": 5.361727878527536e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2024-06-05",
+      "old_gap_unit": 1.864749120440461e-10,
+      "new_gap_unit": 6.221375558622326e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2024-07-05",
+      "old_gap_unit": 2.19258818059315e-10,
+      "new_gap_unit": 7.317589687635257e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2024-08-05",
+      "old_gap_unit": 2.0011396851844135e-10,
+      "new_gap_unit": 6.674782470369422e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2024-09-03",
+      "old_gap_unit": 1.9784179400240844e-10,
+      "new_gap_unit": 6.594968773667083e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2024-10-11",
+      "old_gap_unit": 2.0129427111210153e-10,
+      "new_gap_unit": 6.710648300129792e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2024-11-11",
+      "old_gap_unit": 2.7283175001012026e-10,
+      "new_gap_unit": 9.099686595943505e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2024-12-10",
+      "old_gap_unit": 2.3240568665299024e-10,
+      "new_gap_unit": 7.75271123807288e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2025-01-09",
+      "old_gap_unit": 4.1686993587375476e-10,
+      "new_gap_unit": 1.3897632355022015e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2025-02-17",
+      "old_gap_unit": 3.703221597345392e-10,
+      "new_gap_unit": 1.2350410152771326e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2025-03-18",
+      "old_gap_unit": 3.4643501487797113e-10,
+      "new_gap_unit": 1.1549061517661056e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2025-04-17",
+      "old_gap_unit": 2.6866845003411033e-10,
+      "new_gap_unit": 8.955650551454433e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2025-05-21",
+      "old_gap_unit": 3.8027040075921567e-10,
+      "new_gap_unit": 1.2675709395842962e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2025-06-20",
+      "old_gap_unit": 3.226588025350213e-10,
+      "new_gap_unit": 1.075675313346201e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2025-07-21",
+      "old_gap_unit": 3.953355859765782e-10,
+      "new_gap_unit": 1.30551003546495e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2025-08-19",
+      "old_gap_unit": 3.6301917138108136e-10,
+      "new_gap_unit": 1.1889604068799376e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2025-09-17",
+      "old_gap_unit": 3.2064279853641387e-10,
+      "new_gap_unit": 1.0686343148051098e-10,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2025-10-24",
+      "old_gap_unit": 2.6805568703122514e-10,
+      "new_gap_unit": 8.944517649869313e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2025-11-24",
+      "old_gap_unit": 2.1414913783911206e-10,
+      "new_gap_unit": 7.152138116986603e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2025-12-23",
+      "old_gap_unit": 2.275298986944232e-10,
+      "new_gap_unit": 7.59071804801161e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2026-01-23",
+      "old_gap_unit": 2.5452144709320886e-10,
+      "new_gap_unit": 8.488011412334671e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2026-03-03",
+      "old_gap_unit": 2.2086064302462306e-10,
+      "new_gap_unit": 7.364531146435986e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2026-04-01",
+      "old_gap_unit": 2.946663626425486e-10,
+      "new_gap_unit": 9.812408170829066e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2026-05-06",
+      "old_gap_unit": 1.8154489139117246e-10,
+      "new_gap_unit": 6.053448051807928e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2026-06-04",
+      "old_gap_unit": 2.2996402972377646e-10,
+      "new_gap_unit": 7.668604303303783e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2026-07-06",
+      "old_gap_unit": 2.2048361345689275e-10,
+      "new_gap_unit": 7.353719852217592e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    },
+    {
+      "stage": "test",
+      "key": "20_long_2_2026-08-04",
+      "old_gap_unit": 2.1099932410056962e-10,
+      "new_gap_unit": 7.034381359381281e-11,
+      "old_status": "converged",
+      "new_status": "converged"
+    }
+  ]
+}
