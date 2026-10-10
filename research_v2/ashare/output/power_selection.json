@@ -1,0 +1,11 @@
+{
+  "scores": {
+    "0.1": -1.3571278772388222,
+    "0.25": -1.3611423286581354,
+    "0.5": -1.3655052232165854,
+    "1.0": -1.3696236484531792
+  },
+  "criterion": "validation whole-block Gaussian log predictive density per observed scalar",
+  "windows": 198,
+  "selected": 0.1
+}

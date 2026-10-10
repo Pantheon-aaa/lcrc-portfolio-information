@@ -1,0 +1,5 @@
+cohort,period,windows,panels,unique_security_codes,first_signal,last_signal,last_evaluation,valid_count_median,left_missing_median,internal_missing_median,limited_slots,left_dominated_slots,internal_dominated_slots
+long,test,207,3,424,2020-02-07,2025-12-23,2026-01-26,252.0,0.0,0.0,0,0,0
+long,extension,21,3,124,2026-01-23,2026-08-04,2026-09-03,252.0,0.0,0.0,0,0,0
+limited,test,207,3,650,2020-02-07,2025-12-23,2026-01-26,240.0,0.0,0.0,2070,1964,106
+limited,extension,21,3,118,2026-01-23,2026-08-04,2026-09-03,241.0,0.0,0.0,210,188,22

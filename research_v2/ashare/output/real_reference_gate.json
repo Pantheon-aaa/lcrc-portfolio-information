@@ -1,0 +1,82 @@
+[
+  {
+    "cohort": "long",
+    "method": "MA",
+    "gap_unit": 2.0920766870054098e-10,
+    "reference_objective": 0.00010938081137981175,
+    "lower": 0.00010938077680502922,
+    "upper": 0.00010938080975573484,
+    "reference_status": "optimal_inaccurate",
+    "margin": 4.7250713826334376e-08
+  },
+  {
+    "cohort": "long",
+    "method": "A-Tail",
+    "gap_unit": 2.186369425115776e-10,
+    "reference_objective": 0.0002060595420451135,
+    "lower": 0.0002060594992441961,
+    "upper": 0.00020605953368003476,
+    "reference_status": "optimal_inaccurate",
+    "margin": 4.7250713826334376e-08
+  },
+  {
+    "cohort": "long",
+    "method": "B-Tail",
+    "gap_unit": 2.2887825298173912e-10,
+    "reference_objective": 0.00011910438609837261,
+    "lower": 0.00011910434494458166,
+    "upper": 0.0001191043809934511,
+    "reference_status": "optimal_inaccurate",
+    "margin": 4.7250713826334376e-08
+  },
+  {
+    "cohort": "long",
+    "method": "B-Max",
+    "gap_unit": 2.2423978064447337e-10,
+    "reference_objective": 0.00012982251249990003,
+    "lower": 0.00012982057150510984,
+    "upper": 0.00012982060682340885,
+    "reference_status": "optimal_inaccurate",
+    "margin": 4.7250713826334376e-08
+  },
+  {
+    "cohort": "limited",
+    "method": "MA",
+    "gap_unit": 2.2743589600010554e-10,
+    "reference_objective": 0.0015526271524790283,
+    "lower": 0.001552627124697531,
+    "upper": 0.0015526271605192257,
+    "reference_status": "optimal_inaccurate",
+    "margin": 4.7250713826334376e-08
+  },
+  {
+    "cohort": "limited",
+    "method": "A-Tail",
+    "gap_unit": 2.4837868548873554e-10,
+    "reference_objective": 0.0022374575951239514,
+    "lower": 0.0022374575630829396,
+    "upper": 0.0022374576022031736,
+    "reference_status": "optimal_inaccurate",
+    "margin": 4.7250713826334376e-08
+  },
+  {
+    "cohort": "limited",
+    "method": "B-Tail",
+    "gap_unit": 2.347067474363345e-10,
+    "reference_objective": 0.0016526154344731188,
+    "lower": 0.0016526154055484243,
+    "upper": 0.0016526154425152955,
+    "reference_status": "optimal_inaccurate",
+    "margin": 4.7250713826334376e-08
+  },
+  {
+    "cohort": "limited",
+    "method": "B-Max",
+    "gap_unit": 2.3140039103668993e-10,
+    "reference_objective": 0.0018572654057686302,
+    "lower": 0.001857265380887041,
+    "upper": 0.0018572654173331531,
+    "reference_status": "optimal_inaccurate",
+    "margin": 4.7250713826334376e-08
+  }
+]

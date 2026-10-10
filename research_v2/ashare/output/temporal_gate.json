@@ -1,0 +1,21 @@
+{
+  "prefix_read_guard": true,
+  "validation_end_bound": true,
+  "test_date_bound": true,
+  "validation_windows": 198,
+  "test_windows": 456,
+  "overlapping_validation_end_excluded": [
+    "20_long_0_2019-12-02",
+    "20_long_0_2019-12-31",
+    "20_long_1_2019-12-02",
+    "20_long_1_2019-12-31",
+    "20_long_2_2019-12-02",
+    "20_long_2_2019-12-31",
+    "20_limited_0_2019-12-02",
+    "20_limited_0_2019-12-31",
+    "20_limited_1_2019-12-02",
+    "20_limited_1_2019-12-31",
+    "20_limited_2_2019-12-02",
+    "20_limited_2_2019-12-31"
+  ]
+}

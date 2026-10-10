@@ -1,0 +1,41 @@
+{
+  "MA": {
+    "gap": 7.895967213400468e-11,
+    "reference": 0.2041557191491169
+  },
+  "B-Mean": {
+    "gap": 7.895967213400468e-11,
+    "reference": 0.20415571914915137
+  },
+  "tail": {
+    "gap": 9.862597000198647e-08,
+    "reference": 0.3018602554310641
+  },
+  "ctail": {
+    "gap": 9.130555755909597e-10,
+    "reference": 0.28363571031957835
+  },
+  "max": {
+    "gap": 4.508528128610578e-08,
+    "reference": 0.5819696888922214
+  },
+  "bmax": {
+    "gap": 8.177275040988086e-07,
+    "reference": 0.48648074414768766
+  },
+  "lp": {
+    "gap": 7.092838627542619e-08,
+    "reference": 0.5547109590102941
+  },
+  "soft": {
+    "gap": 9.398087863488058e-11,
+    "reference": 0.3411327422967553
+  },
+  "book_conservation_blocked_trades_dividends": true,
+  "mean_identity_tail_order_uniform_topk_mask_equivalence": true,
+  "exact_lp_dominance": {
+    "gap": 8.394709927195265e-11,
+    "removed": 31
+  },
+  "fixed_conditional_marginals_replication_invariance": true
+}
