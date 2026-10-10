@@ -1,0 +1,13 @@
+d,candidate,baseline,metric,difference,ci95_lower,ci95_upper,p_one_sided,datasets,design_truth_strata,inference,comparison_status,p_holm
+10,B2,LCRC-all,harmful_change,0.0,0.0,0.0,0.5,200,32,conditional on fixed generated families,original_primary,1.0
+20,B2,LCRC-all,harmful_change,0.0,0.0,0.0,0.5,200,32,conditional on fixed generated families,original_primary,1.0
+10,B2,LCRC-all,true_change_from_pilot,1.3672059826041232e-12,-9.51243929407377e-13,3.685655894615623e-12,0.876123747167432,200,32,conditional on fixed generated families,original_primary,1.0
+20,B2,LCRC-all,true_change_from_pilot,-1.677931933608519e-18,-4.573822238868218e-18,1.21795837165118e-18,0.12804945770745446,200,32,conditional on fixed generated families,original_primary,1.0
+10,B2,MA-pilot,harmful_change,0.0,0.0,0.0,0.5,200,32,conditional on fixed generated families,original_primary,1.0
+20,B2,MA-pilot,harmful_change,0.0,0.0,0.0,0.5,200,32,conditional on fixed generated families,original_primary,1.0
+10,B2,MA-pilot,true_change_from_pilot,0.0,0.0,0.0,0.5,200,32,conditional on fixed generated families,original_primary,1.0
+20,B2,MA-pilot,true_change_from_pilot,0.0,0.0,0.0,0.5,200,32,conditional on fixed generated families,original_primary,1.0
+10,B2,CS-Safe,harmful_change,0.0,0.0,0.0,0.5,200,32,conditional on fixed generated families,supplementary_equal_budget,1.0
+20,B2,CS-Safe,harmful_change,0.0,0.0,0.0,0.5,200,32,conditional on fixed generated families,supplementary_equal_budget,1.0
+10,B2,CS-Safe,true_change_from_pilot,0.0,0.0,0.0,0.5,200,32,conditional on fixed generated families,supplementary_equal_budget,1.0
+20,B2,CS-Safe,true_change_from_pilot,0.0,0.0,0.0,0.5,200,32,conditional on fixed generated families,supplementary_equal_budget,1.0

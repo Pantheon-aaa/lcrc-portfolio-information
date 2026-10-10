@@ -1,0 +1,9 @@
+{
+  "E1_rows": 43200,
+  "E2_development_rows": 204800,
+  "E2_report_rows": 204800,
+  "E3_rows": 134400,
+  "E4_report_rows": 5600,
+  "independent_confirmation": true,
+  "cpu_before_report": 1582.984375
+}

@@ -1,0 +1,11 @@
+{
+  "status": "additional comparator declared during frozen runs, before inspecting E4 outcomes",
+  "reason": "Original finite LCRC controls regret coverage, not improvement safety; add a comparator with exactly the B2 safety target.",
+  "method": "CS-Safe",
+  "alpha": 0.005,
+  "pilot": "reuse frozen baseline, candidates and pilot posterior",
+  "confidence_set": "retain j when p_j(D_gate) >= alpha * sum_k posterior_pilot[k] p_k(D_gate)",
+  "approval": "candidate must be numerically certified non-worsening in every retained model",
+  "decision": "minimize full-data posterior mean risk in baseline plus approved-candidate convex hull",
+  "comparison": "supplementary equal-budget comparison; no original method or data changed"
+}

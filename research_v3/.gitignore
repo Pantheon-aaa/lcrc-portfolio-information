@@ -1,0 +1,3 @@
+# Lossless gzip files are canonical in Git; original raw files stay locally.
+results/*.jsonl
+!results/runtime_ledger.jsonl

@@ -1,0 +1,7 @@
+kind,candidate,baseline,metric,difference,ci95_lower,ci95_upper,p_one_sided,datasets,design_truth_strata,inference,p_holm
+asymmetric,A1,MA,true_success,0.12952098688175032,0.12306301879992301,0.13597895496357762,0.0,2400,376,conditional on fixed generated families,0.0
+hidden_curvature,A1,MA,true_success,0.11586866471734891,0.10910967269083673,0.1226276567438611,8.368811562456081e-248,1600,304,conditional on fixed generated families,8.368811562456081e-248
+simplex,A1,MA,true_success,0.12862787106568396,0.12202501324944671,0.13523072888192122,0.0,2400,376,conditional on fixed generated families,0.0
+asymmetric,A1,CVaR,true_success,0.19390043399156354,0.18635556587676932,0.20144530210635775,0.0,2400,376,conditional on fixed generated families,0.0
+hidden_curvature,A1,CVaR,true_success,0.16765960038986352,0.15952262841795212,0.17579657236177493,0.0,1600,304,conditional on fixed generated families,0.0
+simplex,A1,CVaR,true_success,0.1935976104389746,0.18410088854976095,0.20309433232818827,0.0,2400,376,conditional on fixed generated families,0.0

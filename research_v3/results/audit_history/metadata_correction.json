@@ -1,0 +1,47 @@
+{
+  "reason": "E4 epsilon was Gamma(all), but metadata incorrectly said epsilon_ratio=.5. Only this label changed; no observations, decisions, thresholds, or metrics changed.",
+  "records": [
+    {
+      "file": "E4_confirmation.jsonl",
+      "rows": 5200,
+      "old_sha256": "c30d0847775c81d294ef71a3087ac3de548882e1f325e81e91a0d0b6620bad12",
+      "new_sha256": "5412e21cc6d075fdeb49e4cefc79e53cd920e248fbb36afe38247e2fe3f99536",
+      "backup": "audit_history\\E4_confirmation.jsonl.before_metadata_fix.gz"
+    },
+    {
+      "file": "E4_confirmation_evidence.jsonl",
+      "rows": 400,
+      "old_sha256": "973343bd6007e81d7b4d0e23971da4dac35a3d08a09f3f24871dce8cc15020da",
+      "new_sha256": "bc5f8b3fb38b8a37f9bdebbeecda91c3e25686bc1877893457fbad9ab5eebbd1",
+      "backup": "audit_history\\E4_confirmation_evidence.jsonl.before_metadata_fix.gz"
+    },
+    {
+      "file": "E4_confirmation_safe_reference.jsonl",
+      "rows": 400,
+      "old_sha256": "0bcd0857945e5d8b8a525fb0f48d7357eb2ec2d8fed79b28243f3a45446ecfa4",
+      "new_sha256": "d972677774bd8d3afc3b11da4841343c2de0f872767047b01c9915af91da8848",
+      "backup": "audit_history\\E4_confirmation_safe_reference.jsonl.before_metadata_fix.gz"
+    },
+    {
+      "file": "E4_development.jsonl",
+      "rows": 20800,
+      "old_sha256": "a232d16aebd54c6af6f1158e1b54ec2751f3ab3a0783ebd72498967a023cd400",
+      "new_sha256": "dcd880ea2e3b1bea93c426b2e67770e4bac84fb23e4a943109039dd861e0b75e",
+      "backup": "audit_history\\E4_development.jsonl.before_metadata_fix.gz"
+    },
+    {
+      "file": "E4_development_evidence.jsonl",
+      "rows": 1600,
+      "old_sha256": "b9d7cb67176f9810b74327c8b3bae1126e91918486ca7159ce48fdc830b03319",
+      "new_sha256": "40e98a1bd6a182999dc796e0d61ce7b7ca3b0ab1b8f96639828f7568d389e291",
+      "backup": "audit_history\\E4_development_evidence.jsonl.before_metadata_fix.gz"
+    },
+    {
+      "file": "E4_development_safe_reference.jsonl",
+      "rows": 1600,
+      "old_sha256": "923e87b896574898bd4aaa50c60be4bd572600071b5237d8335e791b485f7e69",
+      "new_sha256": "5239b1807516bc2fe0f6e5405584e0abe17e9075b729d86a664f8b3e37e05f0e",
+      "backup": "audit_history\\E4_development_safe_reference.jsonl.before_metadata_fix.gz"
+    }
+  ]
+}

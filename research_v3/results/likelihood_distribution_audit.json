@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "repetitions": 2000,
+  "observed_mean_logLR": 1.6191952367602325,
+  "analytic_mean_logLR": 1.653885083103601,
+  "standard_error": 0.0405298184205467,
+  "z": -0.855909246456983
+}
