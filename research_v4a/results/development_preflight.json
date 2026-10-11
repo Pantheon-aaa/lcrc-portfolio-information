@@ -1,0 +1,13 @@
+{
+  "rows": 36769,
+  "statuses": {
+    "MA_endpoint": 6895,
+    "optimal": 5151,
+    "greedy": 5745,
+    "surrogate": 16104,
+    "success_optimal_secondary_open": 21,
+    "budget_precision_limited": 2850,
+    "open_mass_gap": 3
+  },
+  "errors": []
+}

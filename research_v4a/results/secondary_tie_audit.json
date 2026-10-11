@@ -1,0 +1,155 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "kind": "asymmetric",
+      "beta": 0.1,
+      "status": "optimal",
+      "same_mass_feasible_subsets": 3,
+      "candidate_price_upper_span": 1.3519379818060864e-05,
+      "Lstar": 0.00028366528843642666,
+      "solver_price": [
+        1.1020274864926155e-05,
+        1.1020274865340367e-05
+      ],
+      "enumeration_price": [
+        1.1020274864926155e-05,
+        1.1020274865340367e-05
+      ],
+      "global_secondary_certified": true
+    },
+    {
+      "kind": "asymmetric",
+      "beta": 0.25,
+      "status": "optimal",
+      "same_mass_feasible_subsets": 3,
+      "candidate_price_upper_span": 1.3519379818060864e-05,
+      "Lstar": 0.00028366528843642666,
+      "solver_price": [
+        1.1020274864926155e-05,
+        1.1020274865340367e-05
+      ],
+      "enumeration_price": [
+        1.1020274864926155e-05,
+        1.1020274865340367e-05
+      ],
+      "global_secondary_certified": true
+    },
+    {
+      "kind": "asymmetric",
+      "beta": "inf",
+      "status": "optimal",
+      "same_mass_feasible_subsets": 3,
+      "candidate_price_upper_span": 1.3519379818060864e-05,
+      "Lstar": 0.00028366528843642666,
+      "solver_price": [
+        1.1020274864926155e-05,
+        1.1020274865340367e-05
+      ],
+      "enumeration_price": [
+        1.1020274864926155e-05,
+        1.1020274865340367e-05
+      ],
+      "global_secondary_certified": true
+    },
+    {
+      "kind": "hidden_curvature",
+      "beta": 0.1,
+      "status": "optimal",
+      "same_mass_feasible_subsets": 3,
+      "candidate_price_upper_span": 2.1762338637470555e-07,
+      "Lstar": 5.520836253944744e-06,
+      "solver_price": [
+        1.4689103929824652e-07,
+        1.4689103960759447e-07
+      ],
+      "enumeration_price": [
+        1.4689103929824652e-07,
+        1.4689103960759447e-07
+      ],
+      "global_secondary_certified": true
+    },
+    {
+      "kind": "hidden_curvature",
+      "beta": 0.25,
+      "status": "optimal",
+      "same_mass_feasible_subsets": 3,
+      "candidate_price_upper_span": 2.1762338637470555e-07,
+      "Lstar": 5.520836253944744e-06,
+      "solver_price": [
+        1.4689103929824652e-07,
+        1.4689103960759447e-07
+      ],
+      "enumeration_price": [
+        1.4689103929824652e-07,
+        1.4689103960759447e-07
+      ],
+      "global_secondary_certified": true
+    },
+    {
+      "kind": "hidden_curvature",
+      "beta": "inf",
+      "status": "optimal",
+      "same_mass_feasible_subsets": 5,
+      "candidate_price_upper_span": 1.575360548799458e-06,
+      "Lstar": 5.520836253944744e-06,
+      "solver_price": [
+        1.4689103929824652e-07,
+        1.4689103960759447e-07
+      ],
+      "enumeration_price": [
+        1.4689103929824652e-07,
+        1.4689103960759447e-07
+      ],
+      "global_secondary_certified": true
+    }
+  ],
+  "structural_zero_case": {
+    "weights": [
+      0.16666666666666646,
+      0.16666666666666669,
+      0.16666666666666669,
+      0.16666666666666669,
+      0.16666666666666669,
+      0.16666666666666669
+    ],
+    "ma_weights": [
+      0.16666666666666646,
+      0.16666666666666669,
+      0.16666666666666669,
+      0.16666666666666669,
+      0.16666666666666669,
+      0.16666666666666669
+    ],
+    "success_mass_lower": 0.0,
+    "success_mass_upper": 1.0,
+    "optimal_mass_lower": 0.0,
+    "optimal_mass_upper": 1.0,
+    "primary_mass_gap": 1.0,
+    "secondary_price_gap": 4.440892098500626e-16,
+    "incumbent_mass_price_gap": 4.440892098500626e-16,
+    "primary_exact_at_float_posterior": false,
+    "posterior_mean_regret_MA_lower": 0.0,
+    "posterior_mean_regret_MA_upper": 0.0,
+    "posterior_mean_regret_method_lower": 0.0,
+    "posterior_mean_regret_method_upper": 4.440892098500626e-16,
+    "mean_increment_lower": 0,
+    "mean_increment_upper": 4.440892098500626e-16,
+    "budget_lower": 0.0,
+    "budget_upper": 0.0,
+    "budget_certified": false,
+    "status": "structural_zero_mean_numerical_open",
+    "cold_seconds": 0.000956299998506438,
+    "geometry_calls": 0,
+    "price_calls": 0,
+    "geometry_cuts": 0,
+    "price_cuts": 0,
+    "primal_residual": 0.0,
+    "structural_certificate": {
+      "certified": true,
+      "reason": "All public objective matrices are bitwise identical; every model has the same strictly convex program.",
+      "Lstar_exact": 0.0
+    },
+    "optimizer_representation_l2_error_bound": 2.9802322387695312e-08
+  }
+}

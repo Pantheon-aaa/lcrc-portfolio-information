@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "scope": "Strict delta_upper <= beta Lstar_lower also applies at beta=0. MA is still returned by definition, but a floating MA with positive error bound has no literal zero-budget certificate. Qualify all uncertified finite-budget incumbents conservatively; preserve all holdings, success events, priors, data and statistical tests. Raw nominal records are retained; API, audit and analysis apply the qualification.",
+  "example": {
+    "weights": [
+      0.5,
+      0.5
+    ],
+    "beta": 0,
+    "budget_certified": false,
+    "mean_increment_upper": 1e-16,
+    "budget_lower": 0,
+    "optimal_mass_lower": 0.0,
+    "optimal_mass_upper": 1.0,
+    "secondary_price_gap": "inf",
+    "status": "MA_endpoint_numerical_open",
+    "nominal_budget_certified": true,
+    "nominal_optimal_mass_lower": 0.5,
+    "ma_endpoint_by_definition": true,
+    "nominal_optimal_mass_upper": 0.5,
+    "primary_mass_gap": 1.0,
+    "nominal_secondary_price_gap": 0,
+    "strict_budget_qualification": "No certified floating feasible incumbent for this budget; nominal bounds retained separately. The MA endpoint policy is unchanged."
+  }
+}

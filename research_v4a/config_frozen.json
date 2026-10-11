@@ -1,0 +1,84 @@
+{
+  "baseline_commit": "edac208d27e8751faab5a2ca94a1cd267cd4439b",
+  "seed_namespace": "v4a-frozen-20261011",
+  "betas": [
+    0,
+    0.1,
+    0.25,
+    0.5,
+    "inf"
+  ],
+  "geometry_ratios": [
+    0.25,
+    0.5,
+    0.75,
+    1.25
+  ],
+  "common_epsilon_scales": [
+    0.0016512875809021929,
+    0.011863236445932387,
+    0.13477080327614221
+  ],
+  "development_geometry": [
+    0.01887216522249292,
+    7.897700450980557e-05,
+    0.13746480175372072,
+    0.012763131966660117,
+    0.00014905622685247547,
+    0.15706696308623225
+  ],
+  "n_blocks": [
+    0,
+    32,
+    256,
+    1024
+  ],
+  "development_repetitions": 2,
+  "confirmation_repetitions": 10,
+  "prior": "uniform",
+  "upper": 0.2,
+  "source_hash": "90dcfb52ab28505313e21367e209fe613b97e1a8ad89a1aa8f01aeb74d1977ea",
+  "frozen_algorithm_sha256": {
+    "baselines.py": "ee86fe3c13cd0a438aaf3f69f9d9a2f7d1aa894a5601c565d98181a001db9f6e",
+    "budgeted_dcl.py": "eb45f676fd1c55478d271dde33747164787f1c8ad4d234a0fe1b527c94178e5f",
+    "families.py": "e719b61ddabff3a90b27a750451969b810dc1c6af96aa9abcc977e96da646627",
+    "mean_budget.py": "951764f3813000d9486fdac98bae58711708c72d59a7507d952a2269ff835484",
+    "price_oracle.py": "6898283f87656d65244d6e482f185959d38882df0e6f885dde75f93c97233c8e"
+  },
+  "zero_threshold_replacement": 1e-08,
+  "bootstrap_repetitions": 10000,
+  "cpu_limit_seconds": 21600,
+  "query_limit_seconds": 30,
+  "primary_mass_tolerance": 1e-08,
+  "normalized_price_tolerance": 1e-06,
+  "primal_tolerance": 1e-09,
+  "environment": {
+    "python": "3.12.5",
+    "numpy": "2.5.3",
+    "scipy": "1.17.1",
+    "cvxpy": "1.9.3",
+    "clarabel": "0.11.1",
+    "pyscipopt": "6.2.1"
+  },
+  "attachment_sha256": "cc20443d187b762c3e1bc13e9a8108ac204999e810e40f4303b559d7f5cfd045",
+  "preconfirmation_amendment": "Recompute surrogate upper objective at repaired returned weights. No design, seed, threshold, budget or decision changed; before any S2 run.",
+  "validated_algorithm_sha256": {
+    "baselines.py": "3f8187ba02ebc82edd326aae38a01dbfa61a841e3735e74a41c304ad3e5e4adc",
+    "budgeted_dcl.py": "42eab3523f50c19ed4c40c4bb2a1f907eb8926aba9f5df567563a15599e798da",
+    "families.py": "e719b61ddabff3a90b27a750451969b810dc1c6af96aa9abcc977e96da646627",
+    "mean_budget.py": "951764f3813000d9486fdac98bae58711708c72d59a7507d952a2269ff835484",
+    "price_oracle.py": "6898283f87656d65244d6e482f185959d38882df0e6f885dde75f93c97233c8e",
+    "scip_reference.py": "3d035c436eed410e4493951b0e9750c5f1654cc60c541b1113f98355c5dd32f9",
+    "mass_lattice.py": "e04f729ed330ae1d78d2d144a423926fe387152048406f880dd7fd0ef8b067f4",
+    "api.py": "23021107b7168cebef9dcf0d0b3ec2079c77b1a6efc5ebe8b87743d5d58298b3",
+    "posterior_precision.py": "825a6b3a29de3b6172855417fe4d657fbbf0d782c386bdea557cfbf0e2b5d2e0",
+    "certificate_qualification.py": "f0596fcf0533283278d4322ca6cfb9ce180c487bceb956ec7b26cb187425f157"
+  },
+  "numerical_revision": {
+    "id": "scaled-mass-v2",
+    "reason": "Unscaled MILP dropped approximately 1e-8 posterior coefficients and understated bounds by approximately 1e-7. Scale probability objectives/constraints by 1e6; preserve epsilon, budgets, priors, generators, data, seeds, repeats and statistical tests. Exact subset-mass lattice qualifies global secondary certificates.",
+    "confirmation_repair": "Recompute A1-B and legacy A1 on every fixed dataset, not just counterexamples. Preserve initial records. Rerun all S3 methods under common numerical scaling.",
+    "funding": "Unused early-stage CPU allocations; unchanged total cap 21600 seconds."
+  },
+  "certificate_amendment": "Strict delta_upper <= beta Lstar_lower also applies at beta=0. MA is still returned by definition, but a floating MA with positive error bound has no literal zero-budget certificate. Qualify all uncertified finite-budget incumbents conservatively; preserve all holdings, success events, priors, data and statistical tests. Raw nominal records are retained; API, audit and analysis apply the qualification."
+}

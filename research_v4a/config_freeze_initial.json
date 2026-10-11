@@ -1,0 +1,64 @@
+{
+  "baseline_commit": "edac208d27e8751faab5a2ca94a1cd267cd4439b",
+  "seed_namespace": "v4a-frozen-20261011",
+  "betas": [
+    0,
+    0.1,
+    0.25,
+    0.5,
+    "inf"
+  ],
+  "geometry_ratios": [
+    0.25,
+    0.5,
+    0.75,
+    1.25
+  ],
+  "common_epsilon_scales": [
+    0.0016512875809021929,
+    0.011863236445932387,
+    0.13477080327614221
+  ],
+  "development_geometry": [
+    0.01887216522249292,
+    7.897700450980557e-05,
+    0.13746480175372072,
+    0.012763131966660117,
+    0.00014905622685247547,
+    0.15706696308623225
+  ],
+  "n_blocks": [
+    0,
+    32,
+    256,
+    1024
+  ],
+  "development_repetitions": 2,
+  "confirmation_repetitions": 10,
+  "prior": "uniform",
+  "upper": 0.2,
+  "source_hash": "90dcfb52ab28505313e21367e209fe613b97e1a8ad89a1aa8f01aeb74d1977ea",
+  "frozen_algorithm_sha256": {
+    "baselines.py": "17a27c11e75f1bf59c743c01a17c87fa1648d5b01624a2a9d958a19d6206676f",
+    "budgeted_dcl.py": "eb45f676fd1c55478d271dde33747164787f1c8ad4d234a0fe1b527c94178e5f",
+    "families.py": "e719b61ddabff3a90b27a750451969b810dc1c6af96aa9abcc977e96da646627",
+    "mean_budget.py": "951764f3813000d9486fdac98bae58711708c72d59a7507d952a2269ff835484",
+    "price_oracle.py": "6898283f87656d65244d6e482f185959d38882df0e6f885dde75f93c97233c8e"
+  },
+  "zero_threshold_replacement": 1e-08,
+  "bootstrap_repetitions": 10000,
+  "cpu_limit_seconds": 21600,
+  "query_limit_seconds": 30,
+  "primary_mass_tolerance": 1e-08,
+  "normalized_price_tolerance": 1e-06,
+  "primal_tolerance": 1e-09,
+  "environment": {
+    "python": "3.12.5",
+    "numpy": "2.5.3",
+    "scipy": "1.17.1",
+    "cvxpy": "1.9.3",
+    "clarabel": "0.11.1",
+    "pyscipopt": "6.2.1"
+  },
+  "attachment_sha256": "cc20443d187b762c3e1bc13e9a8108ac204999e810e40f4303b559d7f5cfd045"
+}

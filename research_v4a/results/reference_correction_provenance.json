@@ -1,0 +1,6 @@
+{
+  "original_sha256": "eb45f676fd1c55478d271dde33747164787f1c8ad4d234a0fe1b527c94178e5f",
+  "delivery_sha256": "42eab3523f50c19ed4c40c4bb2a1f907eb8926aba9f5df567563a15599e798da",
+  "scope": "This reference refinement excludes proven infinite/infeasible prices under beta=inf and promotes actual S1 holding mass to its lower bound. It changes no holding. Separately, scaled-mass-v2 repairs MILP numerical certificates and qualifies global secondary precision; all S2 A1-B/legacy A1 decisions and the full S3 benchmark are recomputed on the same fixed data. See config_frozen.json numerical_revision and the validated manifests. Initial streams are retained.",
+  "original_sources": "research_v4a/frozen_sources/budgeted_dcl.py"
+}

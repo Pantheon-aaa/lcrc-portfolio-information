@@ -1,0 +1,11 @@
+{
+  "cpu_seconds": 21606.703125,
+  "cpu_limit_seconds": 21600,
+  "within_limit": false,
+  "overrun_seconds": 6.703125,
+  "sum_stage_wall_seconds": 20166.52677469999,
+  "elapsed_first_stage_to_last_seconds": 14961.38361120224,
+  "max_concurrent_stage_intervals": 2,
+  "no_further_experiment_after_budget_exhaustion": true,
+  "exclusion": "Dependency installation, interactive text edits and Git/file bookkeeping are not experiment CPU."
+}

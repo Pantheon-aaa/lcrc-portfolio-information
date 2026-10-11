@@ -1,0 +1,386 @@
+[
+  {
+    "family": "asymmetric-10-6-confirmation-0",
+    "kind": "asymmetric",
+    "beta": 0.1,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "asymmetric-10-6-confirmation-0",
+    "kind": "asymmetric",
+    "beta": 0.1,
+    "baseline": "Budget-Hinge",
+    "lower": 0.026851851851851856,
+    "upper": 0.041666666666666664
+  },
+  {
+    "family": "asymmetric-10-6-confirmation-0",
+    "kind": "asymmetric",
+    "beta": 0.25,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "asymmetric-10-6-confirmation-0",
+    "kind": "asymmetric",
+    "beta": 0.25,
+    "baseline": "Budget-Hinge",
+    "lower": 0.04537037037037037,
+    "upper": 0.06296296296296296
+  },
+  {
+    "family": "hidden_curvature-10-6-confirmation-0",
+    "kind": "hidden_curvature",
+    "beta": 0.1,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "hidden_curvature-10-6-confirmation-0",
+    "kind": "hidden_curvature",
+    "beta": 0.1,
+    "baseline": "Budget-Hinge",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "hidden_curvature-10-6-confirmation-0",
+    "kind": "hidden_curvature",
+    "beta": 0.25,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "hidden_curvature-10-6-confirmation-0",
+    "kind": "hidden_curvature",
+    "beta": 0.25,
+    "baseline": "Budget-Hinge",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "block-12-6-confirmation-0",
+    "kind": "block",
+    "beta": 0.1,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "block-12-6-confirmation-0",
+    "kind": "block",
+    "beta": 0.1,
+    "baseline": "Budget-Hinge",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "block-12-6-confirmation-0",
+    "kind": "block",
+    "beta": 0.25,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "block-12-6-confirmation-0",
+    "kind": "block",
+    "beta": 0.25,
+    "baseline": "Budget-Hinge",
+    "lower": 0.027777777777777776,
+    "upper": 0.027777777777777776
+  },
+  {
+    "family": "asymmetric-12-6-confirmation-1",
+    "kind": "asymmetric",
+    "beta": 0.1,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "asymmetric-12-6-confirmation-1",
+    "kind": "asymmetric",
+    "beta": 0.1,
+    "baseline": "Budget-Hinge",
+    "lower": 0.02962962962962963,
+    "upper": 0.04259259259259259
+  },
+  {
+    "family": "asymmetric-12-6-confirmation-1",
+    "kind": "asymmetric",
+    "beta": 0.25,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "asymmetric-12-6-confirmation-1",
+    "kind": "asymmetric",
+    "beta": 0.25,
+    "baseline": "Budget-Hinge",
+    "lower": 0.041666666666666664,
+    "upper": 0.062037037037037036
+  },
+  {
+    "family": "hidden_curvature-12-6-confirmation-1",
+    "kind": "hidden_curvature",
+    "beta": 0.1,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "hidden_curvature-12-6-confirmation-1",
+    "kind": "hidden_curvature",
+    "beta": 0.1,
+    "baseline": "Budget-Hinge",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "hidden_curvature-12-6-confirmation-1",
+    "kind": "hidden_curvature",
+    "beta": 0.25,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "hidden_curvature-12-6-confirmation-1",
+    "kind": "hidden_curvature",
+    "beta": 0.25,
+    "baseline": "Budget-Hinge",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "block-12-6-confirmation-1",
+    "kind": "block",
+    "beta": 0.1,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "block-12-6-confirmation-1",
+    "kind": "block",
+    "beta": 0.1,
+    "baseline": "Budget-Hinge",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "block-12-6-confirmation-1",
+    "kind": "block",
+    "beta": 0.25,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "block-12-6-confirmation-1",
+    "kind": "block",
+    "beta": 0.25,
+    "baseline": "Budget-Hinge",
+    "lower": 0.027777777777777776,
+    "upper": 0.027777777777777776
+  },
+  {
+    "family": "asymmetric-10-6-confirmation-2",
+    "kind": "asymmetric",
+    "beta": 0.1,
+    "baseline": "Budget-Greedy",
+    "lower": 0.000925925925925926,
+    "upper": 0.000925925925925926
+  },
+  {
+    "family": "asymmetric-10-6-confirmation-2",
+    "kind": "asymmetric",
+    "beta": 0.1,
+    "baseline": "Budget-Hinge",
+    "lower": 0.03611111111111111,
+    "upper": 0.057407407407407414
+  },
+  {
+    "family": "asymmetric-10-6-confirmation-2",
+    "kind": "asymmetric",
+    "beta": 0.25,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "asymmetric-10-6-confirmation-2",
+    "kind": "asymmetric",
+    "beta": 0.25,
+    "baseline": "Budget-Hinge",
+    "lower": 0.04907407407407408,
+    "upper": 0.07500000000000001
+  },
+  {
+    "family": "hidden_curvature-10-6-confirmation-2",
+    "kind": "hidden_curvature",
+    "beta": 0.1,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "hidden_curvature-10-6-confirmation-2",
+    "kind": "hidden_curvature",
+    "beta": 0.1,
+    "baseline": "Budget-Hinge",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "hidden_curvature-10-6-confirmation-2",
+    "kind": "hidden_curvature",
+    "beta": 0.25,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "hidden_curvature-10-6-confirmation-2",
+    "kind": "hidden_curvature",
+    "beta": 0.25,
+    "baseline": "Budget-Hinge",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "block-12-6-confirmation-2",
+    "kind": "block",
+    "beta": 0.1,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "block-12-6-confirmation-2",
+    "kind": "block",
+    "beta": 0.1,
+    "baseline": "Budget-Hinge",
+    "lower": 0.027777777777777776,
+    "upper": 0.027777777777777776
+  },
+  {
+    "family": "block-12-6-confirmation-2",
+    "kind": "block",
+    "beta": 0.25,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "block-12-6-confirmation-2",
+    "kind": "block",
+    "beta": 0.25,
+    "baseline": "Budget-Hinge",
+    "lower": 0.027777777777777776,
+    "upper": 0.027777777777777776
+  },
+  {
+    "family": "asymmetric-12-6-confirmation-3",
+    "kind": "asymmetric",
+    "beta": 0.1,
+    "baseline": "Budget-Greedy",
+    "lower": -0.000925925925925926,
+    "upper": -0.000925925925925926
+  },
+  {
+    "family": "asymmetric-12-6-confirmation-3",
+    "kind": "asymmetric",
+    "beta": 0.1,
+    "baseline": "Budget-Hinge",
+    "lower": 0.03333333333333334,
+    "upper": 0.05370370370370371
+  },
+  {
+    "family": "asymmetric-12-6-confirmation-3",
+    "kind": "asymmetric",
+    "beta": 0.25,
+    "baseline": "Budget-Greedy",
+    "lower": -0.000925925925925926,
+    "upper": -0.000925925925925926
+  },
+  {
+    "family": "asymmetric-12-6-confirmation-3",
+    "kind": "asymmetric",
+    "beta": 0.25,
+    "baseline": "Budget-Hinge",
+    "lower": 0.041666666666666664,
+    "upper": 0.07037037037037036
+  },
+  {
+    "family": "hidden_curvature-12-6-confirmation-3",
+    "kind": "hidden_curvature",
+    "beta": 0.1,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "hidden_curvature-12-6-confirmation-3",
+    "kind": "hidden_curvature",
+    "beta": 0.1,
+    "baseline": "Budget-Hinge",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "hidden_curvature-12-6-confirmation-3",
+    "kind": "hidden_curvature",
+    "beta": 0.25,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "hidden_curvature-12-6-confirmation-3",
+    "kind": "hidden_curvature",
+    "beta": 0.25,
+    "baseline": "Budget-Hinge",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "block-12-6-confirmation-3",
+    "kind": "block",
+    "beta": 0.1,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "block-12-6-confirmation-3",
+    "kind": "block",
+    "beta": 0.1,
+    "baseline": "Budget-Hinge",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "block-12-6-confirmation-3",
+    "kind": "block",
+    "beta": 0.25,
+    "baseline": "Budget-Greedy",
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "family": "block-12-6-confirmation-3",
+    "kind": "block",
+    "beta": 0.25,
+    "baseline": "Budget-Hinge",
+    "lower": 0.027777777777777776,
+    "upper": 0.027777777777777776
+  }
+]

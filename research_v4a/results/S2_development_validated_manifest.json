@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "datasets": 444,
+  "expected_datasets": 444,
+  "numerical_revision": "scaled-mass-v2",
+  "unchanged_observations_and_design": true,
+  "recomputed_methods": [
+    "A1-B",
+    "A1-v3"
+  ]
+}
