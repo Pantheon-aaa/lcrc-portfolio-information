@@ -1,5 +1,7 @@
 # research_v5b_ashare
 
+审阅入口：[GPT Pro问题、方案与结果说明](GPT_PRO_REVIEW_BRIEF_ZH.md)。先读该文，再查完整报告、代码及机器可读证据；旧v5的中止状态不代表本轮v5b状态。
+
 真实历史风险实验与高斯机制桥接。规范见 `PROTOCOL_AMENDMENT_ZH.md`，原协议位于 `../research_v5_ashare/INPUT_PROTOCOL_ZH.md`；冻结参数见 `protocol_frozen.json`。结果完成后见 `REPORT_ZH.md`。
 
 训练只用原始 NaN。仅未来评价和研究账本使用估值沿用近似，不能将本目录的净值当作精确可交易回测。

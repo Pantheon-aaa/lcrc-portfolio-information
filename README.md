@@ -1,5 +1,9 @@
 # LCRC: Portfolio Decisions from Incomplete Risk Information
 
+## A-share decision compatibility: research v5b
+
+Start with the [GPT Pro review brief (中文)](research_v5b_ashare/GPT_PRO_REVIEW_BRIEF_ZH.md): problems encountered, evaluation changes, results, limitations, and review questions. The [full report](research_v5b_ashare/REPORT_ZH.md), [paper notes](research_v5b_ashare/PAPER_NOTES_ZH.md), and [code / reproduction guide](research_v5b_ashare/README.md) preserve the evidence. Approximate valuation made risk evaluation feasible, but the real-data primary A1-B portfolios equal MA and both achieved 51.882% success on 372 evaluable windows. Historical Gaussian bridge experiments support a local average-success mechanism (33.33% to 66.67% in the specified separated-information setting), also achieved by greedy. Neither a unique exact-solver advantage nor additional real-market gains are established. Missing months, open numerical qualifications, and incomplete economic-ledger paths remain explicit. Licensed security-level data remain private.
+
 ## Budgeted decision compatibility: research v4a
 
 The [paper evidence memo (中文)](research_v4a/PAPER_EVIDENCE_MEMO_ZH.md) preserves the research question, positive findings, family-level evidence, and remaining gaps for future paper writing. See the [experiment report](research_v4a/REPORT_ZH.md) and [core code / reproduction guide](research_v4a/README.md). Under 10% / 25% posterior mean-regret budgets, observed success was 86.43% / 87.64%, versus 84.41% for MA. Results were close to budgeted greedy; none of the four prespecified conservative Holm tests was significant. Strict budget certificates remain open for many instances, the final audit did not pass, and full raw-log archival is incomplete. These qualifications remain part of the evidence when this research is merged into main.
