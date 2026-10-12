@@ -1,0 +1,8 @@
+{
+  "geometries": 42,
+  "enumerated_subsets": 2688,
+  "convex_price_comparisons": 1749,
+  "max_absolute_price_distance_over_u": 5.983438067930225e-09,
+  "numerical_violations": [],
+  "scope": "Independent convex modeling comparison; legacy v4a certificate qualification retained; not a new certified solver."
+}

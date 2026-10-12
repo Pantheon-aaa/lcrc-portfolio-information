@@ -1,0 +1,55 @@
+{
+  "groups": {
+    "csi300_11": {
+      "instances": 31,
+      "complete": 1,
+      "raw_reported_complete": 1,
+      "missing": 2649,
+      "flagged": 0
+    },
+    "csi300_29": {
+      "instances": 31,
+      "complete": 0,
+      "raw_reported_complete": 0,
+      "missing": 2069,
+      "flagged": 0
+    },
+    "csi300_47": {
+      "instances": 31,
+      "complete": 0,
+      "raw_reported_complete": 0,
+      "missing": 2321,
+      "flagged": 0
+    },
+    "csi500_11": {
+      "instances": 31,
+      "complete": 0,
+      "raw_reported_complete": 0,
+      "missing": 3078,
+      "flagged": 0
+    },
+    "csi500_29": {
+      "instances": 31,
+      "complete": 0,
+      "raw_reported_complete": 0,
+      "missing": 4134,
+      "flagged": 0
+    },
+    "csi500_47": {
+      "instances": 31,
+      "complete": 1,
+      "raw_reported_complete": 1,
+      "missing": 2878,
+      "flagged": 0
+    }
+  },
+  "invalid_entries_with_panel_overlap": 17129,
+  "invalid_reasons": {
+    "missing_reported_return": 17129
+  },
+  "historical_status_on_invalid_entries": {
+    "nan": 17129
+  },
+  "conclusion": "Unknown returns cannot be zero-filled or identified as suspensions from missingness alone. No source mutation or future survivor filtering is applied.",
+  "detailed_private_file": "label_missing_details.json"
+}

@@ -1,0 +1,9 @@
+*.py -text
+*.md -text
+*.json -text
+*.jsonl -text
+*.csv -text
+*.png binary
+*.zst binary
+* whitespace=cr-at-eol
+INPUT_PROTOCOL_ZH.md -whitespace

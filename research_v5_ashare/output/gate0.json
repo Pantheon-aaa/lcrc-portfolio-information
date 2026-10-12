@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "complete_second_moment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "missing_EM_PSD_not_zero_fill",
+      "passed": true,
+      "detail": {
+        "status": "converged",
+        "iterations": 8,
+        "relative_change": 6.546353840932275e-07,
+        "observations": [
+          486,
+          567,
+          515,
+          515,
+          567,
+          567
+        ]
+      }
+    },
+    {
+      "name": "full_mask_likelihood",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "empty_mask_zero_evidence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "beta_zero_equals_MA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "return_unit_scaling",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cross_posterior_cache_rejected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "identical_models_MA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decision_interface_past_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same_method_input_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent_QP_interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "future_mutation_fit_invariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ledger_cash_cost_conservation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ledger_dividend",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ledger_split",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ledger_exchange",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pool_exit_blocked_holding_kept",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unknown_action_is_unresolved",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "deferred": [
+    "R3 scalar budgets and hidden-view invariance require R3 implementation before activation.",
+    "Full historical corporate-action reconstruction is unavailable; synthetic accounting identities do not certify L1 market implementation."
+  ]
+}

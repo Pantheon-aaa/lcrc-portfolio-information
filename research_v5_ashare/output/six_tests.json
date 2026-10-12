@@ -1,0 +1,44 @@
+[
+  {
+    "comparison": "A1B beta=0.1 vs MA",
+    "endpoint": "success",
+    "status": "not_computed_tau_not_frozen",
+    "p_value": null,
+    "holm_p": null
+  },
+  {
+    "comparison": "A1B beta=0.25 vs MA",
+    "endpoint": "success",
+    "status": "not_computed_tau_not_frozen",
+    "p_value": null,
+    "holm_p": null
+  },
+  {
+    "comparison": "A1B beta=0.1 vs Greedy",
+    "endpoint": "success",
+    "status": "not_computed_tau_not_frozen",
+    "p_value": null,
+    "holm_p": null
+  },
+  {
+    "comparison": "A1B beta=0.25 vs Greedy",
+    "endpoint": "success",
+    "status": "not_computed_tau_not_frozen",
+    "p_value": null,
+    "holm_p": null
+  },
+  {
+    "comparison": "A1B beta=0.1 vs budgeted MA reference",
+    "endpoint": "mean_cost",
+    "status": "not_computed_tau_not_frozen",
+    "p_value": null,
+    "holm_p": null
+  },
+  {
+    "comparison": "A1B beta=0.25 vs budgeted MA reference",
+    "endpoint": "mean_cost",
+    "status": "not_computed_tau_not_frozen",
+    "p_value": null,
+    "holm_p": null
+  }
+]

@@ -1,0 +1,1826 @@
+[
+  {
+    "stage": "timing",
+    "id": "00",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "01",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "02",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "03",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "04",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "05",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "06",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "07",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "08",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "09",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "10",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "12",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "13",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "14",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "15",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "16",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "17",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "18",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "19",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "20",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "21",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "22",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "timing",
+    "id": "23",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-01-30_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-01-30_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-01-30_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-01-30_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-01-30_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-01-30_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-02-28_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-02-28_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-02-28_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-02-28_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-02-28_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-02-28_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-03-31_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-03-31_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-03-31_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-03-31_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-03-31_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-03-31_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-04-30_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-04-30_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-04-30_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-04-30_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-04-30_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-04-30_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-05-30_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-05-30_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-05-30_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-05-30_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-05-30_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-05-30_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-06-30_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-06-30_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-06-30_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-06-30_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-06-30_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-06-30_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-07-31_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-07-31_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-07-31_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-07-31_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-07-31_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-07-31_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-08-29_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-08-29_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-08-29_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-08-29_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-08-29_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-08-29_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-09-30_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-09-30_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-09-30_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-09-30_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-09-30_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-09-30_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-10-31_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-10-31_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-10-31_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-10-31_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-10-31_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-10-31_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-11-28_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-11-28_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-11-28_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-11-28_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-11-28_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-11-28_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-12-31_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-12-31_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-12-31_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-12-31_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-12-31_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2014-12-31_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-01-30_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-01-30_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-01-30_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-01-30_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-01-30_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-01-30_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-02-27_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-02-27_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-02-27_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-02-27_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-02-27_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-02-27_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-03-31_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-03-31_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-03-31_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-03-31_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-03-31_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-03-31_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-04-30_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-04-30_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-04-30_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-04-30_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-04-30_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-04-30_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-05-29_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-05-29_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-05-29_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-05-29_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-05-29_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-05-29_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-06-30_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-06-30_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-06-30_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-06-30_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-06-30_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-06-30_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-07-31_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-07-31_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-07-31_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-07-31_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-07-31_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-07-31_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-08-31_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-08-31_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-08-31_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-08-31_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-08-31_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-08-31_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-09-30_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-09-30_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-09-30_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-09-30_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-09-30_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-09-30_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-10-30_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-10-30_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-10-30_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-10-30_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-10-30_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-10-30_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-11-30_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-11-30_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-11-30_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-11-30_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-11-30_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-11-30_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-12-31_csi300_11",
+    "status": "unverified_membership",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-12-31_csi300_29",
+    "status": "unverified_membership",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-12-31_csi300_47",
+    "status": "unverified_membership",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-12-31_csi500_11",
+    "status": "unverified_membership",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-12-31_csi500_29",
+    "status": "unverified_membership",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2015-12-31_csi500_47",
+    "status": "unverified_membership",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-01-29_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-01-29_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-01-29_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-01-29_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-01-29_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-01-29_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-02-29_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-02-29_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-02-29_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-02-29_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-02-29_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-02-29_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-03-31_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-03-31_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-03-31_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-03-31_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-03-31_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-03-31_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-04-29_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-04-29_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-04-29_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-04-29_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-04-29_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-05-31_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-05-31_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-05-31_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-05-31_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-05-31_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-05-31_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-06-30_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-06-30_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-06-30_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-06-30_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-06-30_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-06-30_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-07-29_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-07-29_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-07-29_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-07-29_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-07-29_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-08-31_csi300_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-08-31_csi300_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-08-31_csi300_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-08-31_csi500_11",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-08-31_csi500_29",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-08-31_csi500_47",
+    "status": "unknown_future_returns",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-09-30_csi300_11",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-09-30_csi300_29",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-09-30_csi300_47",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-09-30_csi500_11",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-09-30_csi500_29",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-09-30_csi500_47",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-10-31_csi300_11",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-10-31_csi300_29",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-10-31_csi300_47",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-10-31_csi500_11",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-10-31_csi500_29",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-10-31_csi500_47",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-11-30_csi300_11",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-11-30_csi300_29",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-11-30_csi300_47",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-11-30_csi500_11",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-11-30_csi500_29",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-11-30_csi500_47",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-12-30_csi300_11",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-12-30_csi300_29",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-12-30_csi300_47",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-12-30_csi500_11",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-12-30_csi500_29",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "calibration",
+    "id": "2016-12-30_csi500_47",
+    "status": "cross_phase_label",
+    "error": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-03-31_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-03-31_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-03-31_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-03-31_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-03-31_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-03-31_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-06-30_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-06-30_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-06-30_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-06-30_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-06-30_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-06-30_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-09-30_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-09-30_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-09-30_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-09-30_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-09-30_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-09-30_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-12-31_csi300_11",
+    "status": "unverified_membership",
+    "error": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2015-12-31_csi500_11",
+    "status": "unverified_membership",
+    "error": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-03-31_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-03-31_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-03-31_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-03-31_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-03-31_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-03-31_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-06-30_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-06-30_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-06-30_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-06-30_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-06-30_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-06-30_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-09-30_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-09-30_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-09-30_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-09-30_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-09-30_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-09-30_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-12-30_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-12-30_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-12-30_csi300_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-12-30_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-12-30_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  },
+  {
+    "stage": "r1_geometry",
+    "id": "2016-12-30_csi500_11",
+    "method": "A1B",
+    "beta": 0,
+    "status": "MA_endpoint_numerical_open",
+    "fallback": null
+  }
+]

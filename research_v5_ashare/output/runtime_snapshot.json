@@ -1,0 +1,430 @@
+{
+  "records": [
+    {
+      "stage": "audit-data",
+      "pid": 6748,
+      "cpu_seconds": 1.078125,
+      "child_cpu_seconds": 0.03125,
+      "exit_allowance_seconds": 1.0,
+      "wall_seconds": 21.036898599995766,
+      "peak_rss_bytes": 9039872,
+      "exit_code": 1,
+      "stop_reason": null,
+      "status": "failed",
+      "unix_end": 1791782564.53264,
+      "source_hashes": {
+        "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+        "common.py": "f4ece5b1972560a1f32a2596510f5ed4547fca781f18dda537db0c92937dc9f7",
+        "data.py": "7de63e66f45c9e1768c12bbd2644f77a4d8747dde035fff6ac5df7f753adea13",
+        "experiments.py": "3a603aeaf2b4ae6a56094875185fd4bfe3c43c0e30aa485eb7298ff2adbe918f",
+        "supervisor.py": "193a4098ae0cabef0c3a69efe97b7dac0bba7e53f90733c8b4c0d643810db778"
+      }
+    },
+    {
+      "stage": "audit-data-accounting-correction",
+      "cpu_seconds": 17.75,
+      "reason": "Windows venv redirector child omitted by initial watchdog; recovered child self-meter conservatively added in full",
+      "status": "accounting_correction"
+    },
+    {
+      "stage": "audit-data",
+      "pid": 36324,
+      "run_id": "audit-data_1791782618018609700",
+      "process_tree_cpu": {
+        "36324": 0.046875,
+        "32972": 23.046875
+      },
+      "cpu_seconds": 24.796875,
+      "child_cpu_seconds": 23.09375,
+      "exit_allowance_seconds": 1.0,
+      "wall_seconds": 38.74965840000368,
+      "peak_rss_bytes": 3753332736,
+      "exit_code": 0,
+      "stop_reason": null,
+      "status": "complete",
+      "unix_end": 1791782656.7630353,
+      "source_hashes": {
+        "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+        "common.py": "f4ece5b1972560a1f32a2596510f5ed4547fca781f18dda537db0c92937dc9f7",
+        "data.py": "b1775995b4b2dce7866c0f42514b40c5fe9aa04dab9f981807ec6d43bbc07918",
+        "experiments.py": "022dbba1a4d78a8a1ceeb8a8bb281fbb4338e24b79081c119b1edfc48df1769f",
+        "supervisor.py": "8e629765d1153cb711e0eee45348fd03141421603ff90832115809d5df4b67b9"
+      }
+    },
+    {
+      "stage": "timing",
+      "pid": 24164,
+      "run_id": "timing_1791782791278508100",
+      "process_tree_cpu": {
+        "24164": 0.046875,
+        "35144": 61.578125
+      },
+      "cpu_seconds": 63.84375,
+      "child_cpu_seconds": 61.625,
+      "exit_allowance_seconds": 1.0,
+      "wall_seconds": 73.30841359999613,
+      "peak_rss_bytes": 743043072,
+      "exit_code": 0,
+      "stop_reason": null,
+      "status": "complete",
+      "unix_end": 1791782864.586349,
+      "source_hashes": {
+        "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+        "common.py": "f4ece5b1972560a1f32a2596510f5ed4547fca781f18dda537db0c92937dc9f7",
+        "data.py": "b1775995b4b2dce7866c0f42514b40c5fe9aa04dab9f981807ec6d43bbc07918",
+        "decision.py": "25cf3568abff121c2b39ee49e543a758c0ec07194e95e9c02b7915cfa5def653",
+        "evaluator.py": "3e6092a7ad18da48d8bfc8b474ce37ea347c82cf572ae522d4abcd2e9ae36b36",
+        "experiments.py": "022dbba1a4d78a8a1ceeb8a8bb281fbb4338e24b79081c119b1edfc48df1769f",
+        "pipeline.py": "abc5dcb6ff074abb2cc7ac18e5fd6553bf8fd5eb3b5bc9c5c95af816bfd66557",
+        "risk.py": "aa482d3a419be674f91167503efc5140f6ab9f0eab880ab6dc800a3d72bb1dcc",
+        "supervisor.py": "8e629765d1153cb711e0eee45348fd03141421603ff90832115809d5df4b67b9"
+      }
+    },
+    {
+      "stage": "calibrate",
+      "pid": 37800,
+      "run_id": "calibrate_1791782883984260900",
+      "process_tree_cpu": {
+        "37800": 0.03125,
+        "30012": 48.71875
+      },
+      "cpu_seconds": 50.75,
+      "child_cpu_seconds": 48.8125,
+      "exit_allowance_seconds": 1.0,
+      "wall_seconds": 52.51768290000473,
+      "peak_rss_bytes": 622796800,
+      "exit_code": 1,
+      "stop_reason": null,
+      "status": "failed",
+      "unix_end": 1791782936.5015912,
+      "source_hashes": {
+        "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+        "common.py": "f4ece5b1972560a1f32a2596510f5ed4547fca781f18dda537db0c92937dc9f7",
+        "data.py": "b1775995b4b2dce7866c0f42514b40c5fe9aa04dab9f981807ec6d43bbc07918",
+        "decision.py": "d2a67fd6c71d5f4007be3b90bc84f6505be185cca7a6bdc759b5c0d1a25aa36b",
+        "evaluator.py": "3e6092a7ad18da48d8bfc8b474ce37ea347c82cf572ae522d4abcd2e9ae36b36",
+        "experiments.py": "022dbba1a4d78a8a1ceeb8a8bb281fbb4338e24b79081c119b1edfc48df1769f",
+        "pipeline.py": "abc5dcb6ff074abb2cc7ac18e5fd6553bf8fd5eb3b5bc9c5c95af816bfd66557",
+        "risk.py": "aa482d3a419be674f91167503efc5140f6ab9f0eab880ab6dc800a3d72bb1dcc",
+        "supervisor.py": "8e629765d1153cb711e0eee45348fd03141421603ff90832115809d5df4b67b9"
+      }
+    },
+    {
+      "stage": "gate0",
+      "pid": 35456,
+      "run_id": "gate0_1791783124809992700",
+      "process_tree_cpu": {
+        "35456": 0.03125,
+        "31340": 1.3125
+      },
+      "cpu_seconds": 2.625,
+      "child_cpu_seconds": 1.59375,
+      "exit_allowance_seconds": 1.0,
+      "wall_seconds": 2.0404258000053233,
+      "peak_rss_bytes": 165797888,
+      "exit_code": 0,
+      "stop_reason": null,
+      "status": "complete",
+      "unix_end": 1791783126.8506904,
+      "source_hashes": {
+        "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+        "checks.py": "ac8fc151585c0e8d4c27cffc945f9c6129f4e6d15e807cb87691dcd5b4d55105",
+        "common.py": "f4ece5b1972560a1f32a2596510f5ed4547fca781f18dda537db0c92937dc9f7",
+        "data.py": "b1775995b4b2dce7866c0f42514b40c5fe9aa04dab9f981807ec6d43bbc07918",
+        "decision.py": "d2a67fd6c71d5f4007be3b90bc84f6505be185cca7a6bdc759b5c0d1a25aa36b",
+        "evaluator.py": "3e6092a7ad18da48d8bfc8b474ce37ea347c82cf572ae522d4abcd2e9ae36b36",
+        "experiments.py": "022dbba1a4d78a8a1ceeb8a8bb281fbb4338e24b79081c119b1edfc48df1769f",
+        "ledger.py": "ed4c13102ff76f63e5323d08248eff7ebbd60334e1f5c681110cf9f4e68fd1d1",
+        "pipeline.py": "98037abbb5f42e10c7e9282d8b514c229a2394d5873599862966633d308b3c20",
+        "risk.py": "aa482d3a419be674f91167503efc5140f6ab9f0eab880ab6dc800a3d72bb1dcc",
+        "supervisor.py": "8e629765d1153cb711e0eee45348fd03141421603ff90832115809d5df4b67b9"
+      }
+    },
+    {
+      "stage": "label-audit",
+      "pid": 32352,
+      "run_id": "label-audit_1791783168289342000",
+      "process_tree_cpu": {
+        "32352": 0.03125,
+        "32908": 3.890625
+      },
+      "cpu_seconds": 5.015625,
+      "child_cpu_seconds": 3.921875,
+      "exit_allowance_seconds": 1.0,
+      "wall_seconds": 4.58673980000458,
+      "peak_rss_bytes": 756047872,
+      "exit_code": 0,
+      "stop_reason": null,
+      "status": "complete",
+      "unix_end": 1791783172.875843,
+      "source_hashes": {
+        "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+        "checks.py": "ac8fc151585c0e8d4c27cffc945f9c6129f4e6d15e807cb87691dcd5b4d55105",
+        "common.py": "f4ece5b1972560a1f32a2596510f5ed4547fca781f18dda537db0c92937dc9f7",
+        "data.py": "b1775995b4b2dce7866c0f42514b40c5fe9aa04dab9f981807ec6d43bbc07918",
+        "decision.py": "d2a67fd6c71d5f4007be3b90bc84f6505be185cca7a6bdc759b5c0d1a25aa36b",
+        "evaluator.py": "3e6092a7ad18da48d8bfc8b474ce37ea347c82cf572ae522d4abcd2e9ae36b36",
+        "experiments.py": "022dbba1a4d78a8a1ceeb8a8bb281fbb4338e24b79081c119b1edfc48df1769f",
+        "ledger.py": "ed4c13102ff76f63e5323d08248eff7ebbd60334e1f5c681110cf9f4e68fd1d1",
+        "pipeline.py": "edf5f95256474507a43bb476bfc9e783c8396c9df389805796ad4473640dafce",
+        "risk.py": "aa482d3a419be674f91167503efc5140f6ab9f0eab880ab6dc800a3d72bb1dcc",
+        "supervisor.py": "8e629765d1153cb711e0eee45348fd03141421603ff90832115809d5df4b67b9"
+      }
+    },
+    {
+      "stage": "calibrate",
+      "pid": 35200,
+      "run_id": "calibrate_1791783257542199500",
+      "process_tree_cpu": {
+        "35200": 0.03125,
+        "20520": 3.265625
+      },
+      "cpu_seconds": 4.46875,
+      "child_cpu_seconds": 3.390625,
+      "exit_allowance_seconds": 1.0,
+      "wall_seconds": 4.07776659999945,
+      "peak_rss_bytes": 756146176,
+      "exit_code": 0,
+      "stop_reason": null,
+      "status": "complete",
+      "unix_end": 1791783261.6199229,
+      "source_hashes": {
+        "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+        "checks.py": "ac8fc151585c0e8d4c27cffc945f9c6129f4e6d15e807cb87691dcd5b4d55105",
+        "common.py": "f4ece5b1972560a1f32a2596510f5ed4547fca781f18dda537db0c92937dc9f7",
+        "data.py": "b1775995b4b2dce7866c0f42514b40c5fe9aa04dab9f981807ec6d43bbc07918",
+        "decision.py": "d2a67fd6c71d5f4007be3b90bc84f6505be185cca7a6bdc759b5c0d1a25aa36b",
+        "evaluator.py": "3e6092a7ad18da48d8bfc8b474ce37ea347c82cf572ae522d4abcd2e9ae36b36",
+        "experiments.py": "022dbba1a4d78a8a1ceeb8a8bb281fbb4338e24b79081c119b1edfc48df1769f",
+        "ledger.py": "ed4c13102ff76f63e5323d08248eff7ebbd60334e1f5c681110cf9f4e68fd1d1",
+        "pipeline.py": "518509713c757ac32924f04dedf9feb17ed31e6c475a5b62f480a83244f44983",
+        "risk.py": "aa482d3a419be674f91167503efc5140f6ab9f0eab880ab6dc800a3d72bb1dcc",
+        "supervisor.py": "8e629765d1153cb711e0eee45348fd03141421603ff90832115809d5df4b67b9"
+      }
+    },
+    {
+      "stage": "r1-geometry",
+      "pid": 39648,
+      "run_id": "r1-geometry_1791783261895024400",
+      "process_tree_cpu": {
+        "39648": 0.046875,
+        "13652": 61.21875
+      },
+      "cpu_seconds": 63.34375,
+      "child_cpu_seconds": 61.265625,
+      "exit_allowance_seconds": 1.0,
+      "wall_seconds": 62.155763700000534,
+      "peak_rss_bytes": 713695232,
+      "exit_code": 0,
+      "stop_reason": null,
+      "status": "complete",
+      "unix_end": 1791783324.050399,
+      "source_hashes": {
+        "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+        "checks.py": "ac8fc151585c0e8d4c27cffc945f9c6129f4e6d15e807cb87691dcd5b4d55105",
+        "common.py": "f4ece5b1972560a1f32a2596510f5ed4547fca781f18dda537db0c92937dc9f7",
+        "data.py": "b1775995b4b2dce7866c0f42514b40c5fe9aa04dab9f981807ec6d43bbc07918",
+        "decision.py": "d2a67fd6c71d5f4007be3b90bc84f6505be185cca7a6bdc759b5c0d1a25aa36b",
+        "evaluator.py": "3e6092a7ad18da48d8bfc8b474ce37ea347c82cf572ae522d4abcd2e9ae36b36",
+        "experiments.py": "022dbba1a4d78a8a1ceeb8a8bb281fbb4338e24b79081c119b1edfc48df1769f",
+        "ledger.py": "ed4c13102ff76f63e5323d08248eff7ebbd60334e1f5c681110cf9f4e68fd1d1",
+        "pipeline.py": "518509713c757ac32924f04dedf9feb17ed31e6c475a5b62f480a83244f44983",
+        "risk.py": "aa482d3a419be674f91167503efc5140f6ab9f0eab880ab6dc800a3d72bb1dcc",
+        "supervisor.py": "8e629765d1153cb711e0eee45348fd03141421603ff90832115809d5df4b67b9"
+      }
+    },
+    {
+      "stage": "n100-attempt",
+      "pid": 37824,
+      "run_id": "n100-attempt_1791783324287944300",
+      "process_tree_cpu": {
+        "37824": 0.03125,
+        "32792": 18.328125
+      },
+      "cpu_seconds": 19.546875,
+      "child_cpu_seconds": 18.359375,
+      "exit_allowance_seconds": 1.0,
+      "wall_seconds": 10.711634599996614,
+      "peak_rss_bytes": 655519744,
+      "exit_code": 0,
+      "stop_reason": null,
+      "status": "complete",
+      "unix_end": 1791783334.9988198,
+      "source_hashes": {
+        "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+        "checks.py": "ac8fc151585c0e8d4c27cffc945f9c6129f4e6d15e807cb87691dcd5b4d55105",
+        "common.py": "f4ece5b1972560a1f32a2596510f5ed4547fca781f18dda537db0c92937dc9f7",
+        "data.py": "b1775995b4b2dce7866c0f42514b40c5fe9aa04dab9f981807ec6d43bbc07918",
+        "decision.py": "d2a67fd6c71d5f4007be3b90bc84f6505be185cca7a6bdc759b5c0d1a25aa36b",
+        "evaluator.py": "3e6092a7ad18da48d8bfc8b474ce37ea347c82cf572ae522d4abcd2e9ae36b36",
+        "experiments.py": "022dbba1a4d78a8a1ceeb8a8bb281fbb4338e24b79081c119b1edfc48df1769f",
+        "ledger.py": "ed4c13102ff76f63e5323d08248eff7ebbd60334e1f5c681110cf9f4e68fd1d1",
+        "pipeline.py": "518509713c757ac32924f04dedf9feb17ed31e6c475a5b62f480a83244f44983",
+        "risk.py": "aa482d3a419be674f91167503efc5140f6ab9f0eab880ab6dc800a3d72bb1dcc",
+        "supervisor.py": "8e629765d1153cb711e0eee45348fd03141421603ff90832115809d5df4b67b9"
+      }
+    },
+    {
+      "stage": "report",
+      "pid": 36588,
+      "run_id": "report_1791783466504996500",
+      "process_tree_cpu": {
+        "36588": 0.046875,
+        "37492": 2.703125
+      },
+      "cpu_seconds": 3.859375,
+      "child_cpu_seconds": 2.75,
+      "exit_allowance_seconds": 1.0,
+      "wall_seconds": 5.110968900000444,
+      "peak_rss_bytes": 234012672,
+      "exit_code": 0,
+      "stop_reason": null,
+      "status": "complete",
+      "unix_end": 1791783471.6156924,
+      "source_hashes": {
+        "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+        "checks.py": "ac8fc151585c0e8d4c27cffc945f9c6129f4e6d15e807cb87691dcd5b4d55105",
+        "common.py": "f4ece5b1972560a1f32a2596510f5ed4547fca781f18dda537db0c92937dc9f7",
+        "data.py": "b1775995b4b2dce7866c0f42514b40c5fe9aa04dab9f981807ec6d43bbc07918",
+        "decision.py": "d2a67fd6c71d5f4007be3b90bc84f6505be185cca7a6bdc759b5c0d1a25aa36b",
+        "evaluator.py": "3e6092a7ad18da48d8bfc8b474ce37ea347c82cf572ae522d4abcd2e9ae36b36",
+        "experiments.py": "022dbba1a4d78a8a1ceeb8a8bb281fbb4338e24b79081c119b1edfc48df1769f",
+        "ledger.py": "ed4c13102ff76f63e5323d08248eff7ebbd60334e1f5c681110cf9f4e68fd1d1",
+        "pipeline.py": "d82a563fd264c1c34775f2637b3c33b888ca9c0a37b812541565df211be22b2a",
+        "reporting.py": "388621a614af0420d91befbc1b5cd702092178c32e301a0140aef6918f8b3b05",
+        "risk.py": "aa482d3a419be674f91167503efc5140f6ab9f0eab880ab6dc800a3d72bb1dcc",
+        "supervisor.py": "8e629765d1153cb711e0eee45348fd03141421603ff90832115809d5df4b67b9"
+      }
+    },
+    {
+      "stage": "report",
+      "pid": 35932,
+      "run_id": "report_1791784013580238700",
+      "process_tree_cpu": {
+        "35932": 0.046875,
+        "7464": 2.4375
+      },
+      "cpu_seconds": 3.546875,
+      "child_cpu_seconds": 2.5,
+      "exit_allowance_seconds": 1.0,
+      "wall_seconds": 3.0659742999996524,
+      "peak_rss_bytes": 232632320,
+      "exit_code": 0,
+      "stop_reason": null,
+      "status": "complete",
+      "unix_end": 1791784016.6467113,
+      "source_hashes": {
+        "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+        "checks.py": "ac8fc151585c0e8d4c27cffc945f9c6129f4e6d15e807cb87691dcd5b4d55105",
+        "common.py": "f4ece5b1972560a1f32a2596510f5ed4547fca781f18dda537db0c92937dc9f7",
+        "data.py": "b1775995b4b2dce7866c0f42514b40c5fe9aa04dab9f981807ec6d43bbc07918",
+        "decision.py": "d2a67fd6c71d5f4007be3b90bc84f6505be185cca7a6bdc759b5c0d1a25aa36b",
+        "evaluator.py": "3e6092a7ad18da48d8bfc8b474ce37ea347c82cf572ae522d4abcd2e9ae36b36",
+        "experiments.py": "022dbba1a4d78a8a1ceeb8a8bb281fbb4338e24b79081c119b1edfc48df1769f",
+        "ledger.py": "ed4c13102ff76f63e5323d08248eff7ebbd60334e1f5c681110cf9f4e68fd1d1",
+        "pipeline.py": "d82a563fd264c1c34775f2637b3c33b888ca9c0a37b812541565df211be22b2a",
+        "reporting.py": "a9536792f6fca46aaceda123b42edd066e6569c60a8deea138a968ea0e09ed44",
+        "risk.py": "aa482d3a419be674f91167503efc5140f6ab9f0eab880ab6dc800a3d72bb1dcc",
+        "supervisor.py": "8e629765d1153cb711e0eee45348fd03141421603ff90832115809d5df4b67b9"
+      }
+    },
+    {
+      "stage": "report",
+      "pid": 10044,
+      "run_id": "report_1791784181222562600",
+      "process_tree_cpu": {
+        "10044": 0.03125,
+        "38376": 2.328125
+      },
+      "cpu_seconds": 3.484375,
+      "child_cpu_seconds": 2.4375,
+      "exit_allowance_seconds": 1.0,
+      "wall_seconds": 3.0632388000012725,
+      "peak_rss_bytes": 235819008,
+      "exit_code": 0,
+      "stop_reason": null,
+      "status": "complete",
+      "unix_end": 1791784184.2859395,
+      "source_hashes": {
+        "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+        "checks.py": "ac8fc151585c0e8d4c27cffc945f9c6129f4e6d15e807cb87691dcd5b4d55105",
+        "common.py": "f4ece5b1972560a1f32a2596510f5ed4547fca781f18dda537db0c92937dc9f7",
+        "data.py": "b1775995b4b2dce7866c0f42514b40c5fe9aa04dab9f981807ec6d43bbc07918",
+        "decision.py": "d2a67fd6c71d5f4007be3b90bc84f6505be185cca7a6bdc759b5c0d1a25aa36b",
+        "evaluator.py": "3e6092a7ad18da48d8bfc8b474ce37ea347c82cf572ae522d4abcd2e9ae36b36",
+        "experiments.py": "022dbba1a4d78a8a1ceeb8a8bb281fbb4338e24b79081c119b1edfc48df1769f",
+        "ledger.py": "ed4c13102ff76f63e5323d08248eff7ebbd60334e1f5c681110cf9f4e68fd1d1",
+        "pipeline.py": "d82a563fd264c1c34775f2637b3c33b888ca9c0a37b812541565df211be22b2a",
+        "reporting.py": "80174ca58d6bc3ca77461658bfef84ca53c3ce8d1ce572be5401b2e6d8f7fbd6",
+        "risk.py": "aa482d3a419be674f91167503efc5140f6ab9f0eab880ab6dc800a3d72bb1dcc",
+        "supervisor.py": "8e629765d1153cb711e0eee45348fd03141421603ff90832115809d5df4b67b9"
+      }
+    },
+    {
+      "stage": "archive",
+      "pid": 38040,
+      "run_id": "archive_1791784184552835500",
+      "process_tree_cpu": {
+        "38040": 0.03125,
+        "38364": 2.3125
+      },
+      "cpu_seconds": 3.53125,
+      "child_cpu_seconds": 2.46875,
+      "exit_allowance_seconds": 1.0,
+      "wall_seconds": 3.062459500004479,
+      "peak_rss_bytes": 181772288,
+      "exit_code": 0,
+      "stop_reason": null,
+      "status": "complete",
+      "unix_end": 1791784187.6147683,
+      "source_hashes": {
+        "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+        "checks.py": "ac8fc151585c0e8d4c27cffc945f9c6129f4e6d15e807cb87691dcd5b4d55105",
+        "common.py": "f4ece5b1972560a1f32a2596510f5ed4547fca781f18dda537db0c92937dc9f7",
+        "data.py": "b1775995b4b2dce7866c0f42514b40c5fe9aa04dab9f981807ec6d43bbc07918",
+        "decision.py": "d2a67fd6c71d5f4007be3b90bc84f6505be185cca7a6bdc759b5c0d1a25aa36b",
+        "evaluator.py": "3e6092a7ad18da48d8bfc8b474ce37ea347c82cf572ae522d4abcd2e9ae36b36",
+        "experiments.py": "022dbba1a4d78a8a1ceeb8a8bb281fbb4338e24b79081c119b1edfc48df1769f",
+        "ledger.py": "ed4c13102ff76f63e5323d08248eff7ebbd60334e1f5c681110cf9f4e68fd1d1",
+        "pipeline.py": "d82a563fd264c1c34775f2637b3c33b888ca9c0a37b812541565df211be22b2a",
+        "reporting.py": "80174ca58d6bc3ca77461658bfef84ca53c3ce8d1ce572be5401b2e6d8f7fbd6",
+        "risk.py": "aa482d3a419be674f91167503efc5140f6ab9f0eab880ab6dc800a3d72bb1dcc",
+        "supervisor.py": "8e629765d1153cb711e0eee45348fd03141421603ff90832115809d5df4b67b9"
+      }
+    },
+    {
+      "stage": "delivery-check",
+      "pid": 21740,
+      "run_id": "delivery-check_1791784188007602000",
+      "process_tree_cpu": {
+        "21740": 0.03125,
+        "39932": 2.953125
+      },
+      "cpu_seconds": 4.046875,
+      "child_cpu_seconds": 2.984375,
+      "exit_allowance_seconds": 1.0,
+      "wall_seconds": 3.578149000000849,
+      "peak_rss_bytes": 174632960,
+      "exit_code": 0,
+      "stop_reason": null,
+      "status": "complete",
+      "unix_end": 1791784191.5850775,
+      "source_hashes": {
+        "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+        "checks.py": "ac8fc151585c0e8d4c27cffc945f9c6129f4e6d15e807cb87691dcd5b4d55105",
+        "common.py": "f4ece5b1972560a1f32a2596510f5ed4547fca781f18dda537db0c92937dc9f7",
+        "data.py": "b1775995b4b2dce7866c0f42514b40c5fe9aa04dab9f981807ec6d43bbc07918",
+        "decision.py": "d2a67fd6c71d5f4007be3b90bc84f6505be185cca7a6bdc759b5c0d1a25aa36b",
+        "evaluator.py": "3e6092a7ad18da48d8bfc8b474ce37ea347c82cf572ae522d4abcd2e9ae36b36",
+        "experiments.py": "022dbba1a4d78a8a1ceeb8a8bb281fbb4338e24b79081c119b1edfc48df1769f",
+        "ledger.py": "ed4c13102ff76f63e5323d08248eff7ebbd60334e1f5c681110cf9f4e68fd1d1",
+        "pipeline.py": "d82a563fd264c1c34775f2637b3c33b888ca9c0a37b812541565df211be22b2a",
+        "reporting.py": "80174ca58d6bc3ca77461658bfef84ca53c3ce8d1ce572be5401b2e6d8f7fbd6",
+        "risk.py": "aa482d3a419be674f91167503efc5140f6ab9f0eab880ab6dc800a3d72bb1dcc",
+        "supervisor.py": "8e629765d1153cb711e0eee45348fd03141421603ff90832115809d5df4b67b9"
+      }
+    }
+  ],
+  "cpu_limit_seconds": 86400,
+  "optimization_limit_seconds": 69120
+}

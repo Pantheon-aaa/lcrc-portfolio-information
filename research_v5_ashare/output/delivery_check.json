@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "source_and_membership_unchanged": true,
+  "protocol_original_verified": true,
+  "prior_cpu_seconds": 267.640625,
+  "final_cpu_ledger": "output/runtime_snapshot.json",
+  "protected_test_gate": true,
+  "licensed_data_in_public_outputs": false,
+  "scope": "Package outputs use explicit aggregate allowlists. Security identifiers, matrices and portfolios remain in private run directory."
+}

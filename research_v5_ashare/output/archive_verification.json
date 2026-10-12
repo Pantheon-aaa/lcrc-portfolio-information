@@ -1,0 +1,9 @@
+{
+  "status": "all_archived_file_hashes_verified",
+  "files": 810,
+  "archive_bytes": 27881488,
+  "archive_sha256": "3ab5263e9289fd4c6e0d3d5682b63c3b1458178f56f63b64d8d2f4acb57ba38a",
+  "private_relative_path": "archives/v5_records.tar.zst",
+  "excluded": "data/ reproducible dense source cache; archives/ itself; live stage metric and ledger footer written after archive close",
+  "manifest_sha256": "4b6c50f5ec7165b204fdce6d196798a93fa627de5b64e539579d3419fcd372ba"
+}
