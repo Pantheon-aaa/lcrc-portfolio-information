@@ -1,0 +1,5042 @@
+[
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B_binf",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B_binf",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B_binf",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "A1B_binf",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 272,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 272,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 272,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 272,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 272,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 272,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 272,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 272,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 272,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 161,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 11,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B_binf",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B_binf",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B_binf",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "A1B_binf",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 272,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 121,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 121,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.0672180878495019,
+    "final_nav": 1455889.6689367648
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.06548342617784542,
+    "final_nav": 1442279.3665873318
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.06375410286508831,
+    "final_nav": 1428815.8335094065
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.05859794615239755,
+    "final_nav": 1389288.2255980317
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 32,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 29,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.05193844439385287,
+    "final_nav": 1339577.8591011532
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04740723395375013,
+    "final_nav": 1306602.4377696074
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.042903417647504716,
+    "final_nav": 1274494.3203935942
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.029554136268409303,
+    "final_nav": 1183134.1788282592
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.05193844439385287,
+    "final_nav": 1339577.8591011532
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04740723395375013,
+    "final_nav": 1306602.4377696074
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.042903417647504716,
+    "final_nav": 1274494.3203935942
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.029554136268409303,
+    "final_nav": 1183134.1788282592
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.05193844439385287,
+    "final_nav": 1339577.8591011532
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04740723395375013,
+    "final_nav": 1306602.4377696074
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.042903417647504716,
+    "final_nav": 1274494.3203935942
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.029554136268409303,
+    "final_nav": 1183134.1788282592
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.05193844439385287,
+    "final_nav": 1339577.8591011532
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04740723395375013,
+    "final_nav": 1306602.4377696074
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.042903417647504716,
+    "final_nav": 1274494.3203935942
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.029554136268409303,
+    "final_nav": 1183134.1788282592
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.05193844439385287,
+    "final_nav": 1339577.8591011532
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04740723395375013,
+    "final_nav": 1306602.4377696074
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.042903417647504716,
+    "final_nav": 1274494.3203935942
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.029554136268409303,
+    "final_nav": 1183134.1788282592
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B_binf",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.05193844439385287,
+    "final_nav": 1339577.8591011532
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B_binf",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04740723395375013,
+    "final_nav": 1306602.4377696074
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B_binf",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.042903417647504716,
+    "final_nav": 1274494.3203935942
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "A1B_binf",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.029554136268409303,
+    "final_nav": 1183134.1788282592
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.05208022864038031,
+    "final_nav": 1340620.675342404
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04739403878118642,
+    "final_nav": 1306507.4008475244
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04273653661972787,
+    "final_nav": 1273317.263762538
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.028933806810192753,
+    "final_nav": 1179024.1477235267
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.051170892869831563,
+    "final_nav": 1333944.1906305742
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04646330701703394,
+    "final_nav": 1299818.3012826962
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.041784699534378245,
+    "final_nav": 1266620.871082637
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.02792024471914689,
+    "final_nav": 1172334.134029508
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.05243011987760404,
+    "final_nav": 1343196.980655579
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04776304445668611,
+    "final_nav": 1309167.2835967117
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04312470813177449,
+    "final_nav": 1276056.5287826934
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.02937939888651031,
+    "final_nav": 1181975.2489616037
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.05243959751802185,
+    "final_nav": 1343266.8229428045
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.047769133815925846,
+    "final_nav": 1309211.2147030288
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04312748055394944,
+    "final_nav": 1276076.1108371003
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.02937270612595544,
+    "final_nav": 1181930.8785037391
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04783138028488487,
+    "final_nav": 1309660.3558808945
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04184643720526271,
+    "final_nav": 1267054.3248588203
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.03590392550613353,
+    "final_nav": 1225890.7064652077
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.01832691652934515,
+    "final_nav": 1110553.0895427053
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.049516089269695085,
+    "final_nav": 1321864.8976998383
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.047189010934232334,
+    "final_nav": 1305031.4422884744
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04487151593621341,
+    "final_nav": 1288443.8488222375
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.03797538090612207,
+    "final_nav": 1240112.142924902
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.05187393387541861,
+    "final_nav": 1339103.60942024
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04733210730803794,
+    "final_nav": 1306061.4219132795
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.042817756565484144,
+    "final_nav": 1273890.0174946093
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.029437255589878975,
+    "final_nav": 1182358.8743230004
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.05187393387541861,
+    "final_nav": 1339103.60942024
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04733210730803794,
+    "final_nav": 1306061.4219132795
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.042817756565484144,
+    "final_nav": 1273890.0174946093
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.029437255589878975,
+    "final_nav": 1182358.8743230004
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.05187393387541861,
+    "final_nav": 1339103.60942024
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04733210730803794,
+    "final_nav": 1306061.4219132795
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.042817756565484144,
+    "final_nav": 1273890.0174946093
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.029437255589878975,
+    "final_nav": 1182358.8743230004
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.05187393387541861,
+    "final_nav": 1339103.60942024
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04733210730803794,
+    "final_nav": 1306061.4219132795
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.042817756565484144,
+    "final_nav": 1273890.0174946093
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.029437255589878975,
+    "final_nav": 1182358.8743230004
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.05193844439385287,
+    "final_nav": 1339577.8591011532
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04740723395375013,
+    "final_nav": 1306602.4377696074
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.042903417647504716,
+    "final_nav": 1274494.3203935942
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.029554136268409303,
+    "final_nav": 1183134.1788282592
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.05193844439385287,
+    "final_nav": 1339577.8591011532
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04740723395375013,
+    "final_nav": 1306602.4377696074
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.042903417647504716,
+    "final_nav": 1274494.3203935942
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.029554136268409303,
+    "final_nav": 1183134.1788282592
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04825888084462382,
+    "final_nav": 1312748.4416822363
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.0458283366183756,
+    "final_nav": 1295271.0850986498
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.043408272754999366,
+    "final_nav": 1278060.677677503
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.036210294546439536,
+    "final_nav": 1227985.523944718
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.023336665588622463,
+    "final_nav": 1142470.8092877718
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.021584003569875332,
+    "final_nav": 1131219.2687012833
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.01983708896260561,
+    "final_nav": 1120095.9492437083
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.014630456997154928,
+    "final_nav": 1087478.2578701004
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.05193844439385287,
+    "final_nav": 1339577.8591011532
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.04740723395375013,
+    "final_nav": 1306602.4377696074
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.042903417647504716,
+    "final_nav": 1274494.3203935942
+  },
+  {
+    "domain": "csi300",
+    "seed": 47,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.029554136268409303,
+    "final_nav": 1183134.1788282592
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B_binf",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B_binf",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B_binf",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "A1B_binf",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 341,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.02324397915507803,
+    "final_nav": 1141873.4834340631
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.01308737169648011,
+    "final_nav": 1077963.6980020897
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": -0.01671662317064082,
+    "final_nav": 907252.538029994
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.03227301874515298,
+    "final_nav": 1201288.3198186732
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.02200795840309966,
+    "final_nav": 1133932.488387456
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.011855941179837792,
+    "final_nav": 1070420.2541362855
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 341,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.03211428549744011,
+    "final_nav": 1200222.15675422
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.021825544798642404,
+    "final_nav": 1132764.4218597154
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 63,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": -0.018205040571234843,
+    "final_nav": 899351.79955636
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.03190084997562326,
+    "final_nav": 1198789.8084472052
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.021610963563062358,
+    "final_nav": 1131391.6468839105
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.01143493566575704,
+    "final_nav": 1067851.3105269207
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 63,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.10419880269447757,
+    "final_nav": 1772338.813310612
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.09849116192823404,
+    "final_nav": 1720091.7291522322
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.09282257241025982,
+    "final_nav": 1669469.064161994
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.0760464425059677,
+    "final_nav": 1526814.316192805
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 341,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 121,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.017976080311466802,
+    "final_nav": 1108345.787099533
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 341,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 121,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.017976080311466802,
+    "final_nav": 1108345.787099533
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 341,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 121,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.017976080311466802,
+    "final_nav": 1108345.787099533
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 341,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 121,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.017976080311466802,
+    "final_nav": 1108345.787099533
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.09465346003591546,
+    "final_nav": 1685683.0494264357
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 121,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.08212345421844902,
+    "final_nav": 1577276.2825039986
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.06367141731452208,
+    "final_nav": 1428174.7029098636
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": -0.010706599225955293,
+    "final_nav": 939740.8104090051
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": -0.014857241537575283,
+    "final_nav": 917202.9476946046
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": -0.0189866339253284,
+    "final_nav": 895225.8214003078
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": -0.03125055516474906,
+    "final_nav": 832506.5031934681
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 11,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 409,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B_binf",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B_binf",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B_binf",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "A1B_binf",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 307,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 559,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 582,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 29,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 154,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B-guarded_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B-guarded_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B_b0.5",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B_binf",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B_binf",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B_binf",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "A1B_binf",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "CVaR025_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "CVaR025_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "CVaR05_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "CVaR05_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 1095,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 1095,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 1095,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "EMGMV_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 1095,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "EW_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Greedy1swap_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Greedy1swap_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Greedy_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Greedy_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Hinge_b0.1",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "Hinge_b0.25",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "InverseVol_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 0,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.026483383330523358,
+    "final_nav": 1162903.944366511
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 10,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.024594823181811387,
+    "final_nav": 1150604.7061658225
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 20,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.02271163238874707,
+    "final_nav": 1138447.72626271
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "LW_b0.0",
+    "cost_bps": 50,
+    "complete": true,
+    "unresolved_days": 0,
+    "endpoint_annual_return": 0.01709406972437466,
+    "final_nav": 1102812.5938487314
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 0,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 10,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 20,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  },
+  {
+    "domain": "csi500",
+    "seed": 47,
+    "method_beta": "MA_b0.0",
+    "cost_bps": 50,
+    "complete": false,
+    "unresolved_days": 986,
+    "endpoint_annual_return": null,
+    "final_nav": null
+  }
+]

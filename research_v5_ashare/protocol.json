@@ -1,0 +1,20 @@
+{
+  "version":"ashare-a1b-v1-20261012",
+  "base_commit":"f19453377892cbc7bb9aa8a79f3cfc117e74eb0b",
+  "cpu_seconds_limit":86400,"optimization_cpu_seconds_limit":69120,"workers_max":2,
+  "panel_seeds":[11,29,47],"N_main":50,"lookbacks":[126,252,504],
+  "shrinkages":[0.1,0.3,0.6,0.9],"eta_grid":[0,0.1,0.3,1],"score_days":63,
+  "em_max_iterations":50,"em_relative_tolerance":0.000001,"ridge_trace_factor":0.00000001,
+  "tau_quantiles":[0.3,0.5,0.7],"beta_primary":[0.1,0.25],"beta_frontier":[0,0.1,0.25,0.5,"inf"],
+  "weight_cap_rule":"min(0.20,5/N)","feasible_residual_max":0.000000001,
+  "risk_label_start_offset":2,"risk_horizons":[63,126],"primary_horizon":63,
+  "signal":"calendar_month_last_exchange_day","missing_membership":"keep_manifest_unresolved_no_rebalance",
+  "R1b":false,"PCA":false,"R3_n_blocks":[32,64,126],
+  "bootstrap_repetitions":10000,"bootstrap_seed":20261012,"bootstrap_block_months":[6,3,12],
+  "primary_cost_each_side_bps":20,"cost_sensitivity_each_side_bps":[0,10,50],
+  "initial_nav_cny":1000000,"pending_order_max_days":5,"adv_fraction":0.01,
+  "development_gate":{"threshold":0.9,"holding_l1_tolerance":0.00000001,"mass_tolerance":0.00000001,
+    "scope":"All predetermined evaluable development N50 M12 cells, all three tau and both primary budgets; conservative all-cell stop only when every eligible tau/beta is unchanged in >90% cells."},
+  "optional_cost_safety_factor":1.25,"optional_cost_quantile":0.9,
+  "publication":"local_commit_only","tests_are_retrospective":true
+}

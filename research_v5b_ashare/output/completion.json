@@ -1,0 +1,63 @@
+{
+  "planned": 1228,
+  "processed": 1228,
+  "completed": 1138,
+  "unrun": 0,
+  "remaining": 0,
+  "unresolved_or_failed": 90,
+  "by_stage": {
+    "R2": {
+      "planned": 492,
+      "processed": 492,
+      "complete": 456,
+      "statuses": {
+        "complete": 456,
+        "unverified_membership": 36
+      }
+    },
+    "R4-N": {
+      "planned": 328,
+      "processed": 328,
+      "complete": 304,
+      "statuses": {
+        "complete": 304,
+        "unverified_membership": 24
+      }
+    },
+    "R4-M": {
+      "planned": 112,
+      "processed": 112,
+      "complete": 96,
+      "statuses": {
+        "complete": 96,
+        "unverified_membership": 16
+      }
+    },
+    "R3b": {
+      "planned": 162,
+      "processed": 162,
+      "complete": 162,
+      "statuses": {
+        "complete": 162
+      }
+    },
+    "F2": {
+      "planned": 56,
+      "processed": 56,
+      "complete": 48,
+      "statuses": {
+        "complete": 48,
+        "unverified_membership": 8
+      }
+    },
+    "F2-library": {
+      "planned": 78,
+      "processed": 78,
+      "complete": 72,
+      "statuses": {
+        "complete": 72,
+        "unverified_membership": 6
+      }
+    }
+  }
+}

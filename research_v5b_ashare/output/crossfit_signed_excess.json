@@ -1,0 +1,107 @@
+[
+  {
+    "method": "A1B-guarded:0.1",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.07541542235884119
+  },
+  {
+    "method": "A1B-guarded:0.25",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.07541542235884119
+  },
+  {
+    "method": "A1B:0.1",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.07541542235884119
+  },
+  {
+    "method": "A1B:0.25",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.07541542235884119
+  },
+  {
+    "method": "A1B:0.5",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.07541542235884119
+  },
+  {
+    "method": "A1B:inf",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.07541542235884119
+  },
+  {
+    "method": "CVaR025:0.1",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.07850404972403803
+  },
+  {
+    "method": "CVaR025:0.25",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.07891359379094175
+  },
+  {
+    "method": "CVaR05:0.1",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.07730847055460453
+  },
+  {
+    "method": "CVaR05:0.25",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.07737068341783514
+  },
+  {
+    "method": "EMGMV:0.0",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.0917478146492996
+  },
+  {
+    "method": "EW:0.0",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.6394014274555768
+  },
+  {
+    "method": "Greedy1swap:0.1",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.07541542308596462
+  },
+  {
+    "method": "Greedy1swap:0.25",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.07541542308596462
+  },
+  {
+    "method": "Greedy:0.1",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.07541542308596462
+  },
+  {
+    "method": "Greedy:0.25",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.07541542308596462
+  },
+  {
+    "method": "Hinge:0.1",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.07541542235884119
+  },
+  {
+    "method": "Hinge:0.25",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.07541542235884119
+  },
+  {
+    "method": "InverseVol:0.0",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.4640626364886213
+  },
+  {
+    "method": "LW:0.0",
+    "evaluable": 92,
+    "signed_excess_over_u": 0.04657270975286427
+  },
+  {
+    "method": "MA:0.0",
+    "evaluable": 346,
+    "signed_excess_over_u": 0.07541542235884119
+  }
+]

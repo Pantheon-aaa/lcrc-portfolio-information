@@ -1,0 +1,46 @@
+{
+  "status": "blocked_insufficient_complete_development_labels",
+  "tau": null,
+  "rows": 216,
+  "complete": 2,
+  "counts": [
+    {
+      "domain": "csi300",
+      "seed": 11,
+      "n": 1
+    },
+    {
+      "domain": "csi300",
+      "seed": 29,
+      "n": 0
+    },
+    {
+      "domain": "csi300",
+      "seed": 47,
+      "n": 0
+    },
+    {
+      "domain": "csi500",
+      "seed": 11,
+      "n": 0
+    },
+    {
+      "domain": "csi500",
+      "seed": 29,
+      "n": 0
+    },
+    {
+      "domain": "csi500",
+      "seed": 47,
+      "n": 1
+    }
+  ],
+  "statuses": {
+    "complete": 2,
+    "cross_phase_label": 24,
+    "unknown_future_returns": 184,
+    "unverified_membership": 6
+  },
+  "calibration_rows_hash": "5c571983650c692481a1eb2f2a198cf4bbd77a7d237741c897a194f9cc4dae65",
+  "rule": "Protocol section 7.2/7.3: all six equally weighted index/panel groups must have complete development labels. No test labels may substitute."
+}

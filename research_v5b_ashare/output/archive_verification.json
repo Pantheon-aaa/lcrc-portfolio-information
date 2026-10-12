@@ -1,0 +1,7 @@
+{
+  "files": 7086,
+  "sha256": "b190f0edba52715ff3620277060cb150f5d4d1dfa6f5b36e07523b2afb3c53a8",
+  "bytes": 317653475,
+  "verified": true,
+  "excluded": "rebuildable valuation cache, archive itself and final live resource footer"
+}

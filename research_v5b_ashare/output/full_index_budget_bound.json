@@ -1,0 +1,9 @@
+{
+  "overhead_allowance_seconds": 20,
+  "second_instance_cpu_lower_bound": 1124.125,
+  "reason": "Predeclared p90 extrapolation with 1.25 safety and both M=6/12 exceeds remaining optimization budget even treating all other pilot times as zero",
+  "status": "optional_full_index_timing_censored_by_budget",
+  "unix_time": 1791789763,
+  "completed_first_seconds": 428.6875,
+  "partial_instance": "timingall_2015-03-31_csi500_11"
+}

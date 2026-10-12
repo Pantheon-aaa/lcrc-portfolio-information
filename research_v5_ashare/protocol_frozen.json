@@ -1,0 +1,35 @@
+{
+  "status": "NOT_FROZEN_CALIBRATION_BLOCKED",
+  "base_commit": "f19453377892cbc7bb9aa8a79f3cfc117e74eb0b",
+  "protocol_sha256": "d52af6195f590818db8d68629dabf02fe5d2306696e42b90dd789192545feb92",
+  "tau": null,
+  "eta": null,
+  "reason": "Only 2 complete development labels, with four of six index/panel calibration groups empty.",
+  "test_decisions": 0,
+  "test_future_labels_evaluated": 0,
+  "test_performance_read": false,
+  "optional_F2": "not_activated_freeze_blocked",
+  "optional_full_index": "not_activated_freeze_blocked",
+  "source_hashes": {
+    "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+    "checks.py": "ac8fc151585c0e8d4c27cffc945f9c6129f4e6d15e807cb87691dcd5b4d55105",
+    "common.py": "f4ece5b1972560a1f32a2596510f5ed4547fca781f18dda537db0c92937dc9f7",
+    "data.py": "b1775995b4b2dce7866c0f42514b40c5fe9aa04dab9f981807ec6d43bbc07918",
+    "decision.py": "d2a67fd6c71d5f4007be3b90bc84f6505be185cca7a6bdc759b5c0d1a25aa36b",
+    "evaluator.py": "3e6092a7ad18da48d8bfc8b474ce37ea347c82cf572ae522d4abcd2e9ae36b36",
+    "experiments.py": "022dbba1a4d78a8a1ceeb8a8bb281fbb4338e24b79081c119b1edfc48df1769f",
+    "ledger.py": "ed4c13102ff76f63e5323d08248eff7ebbd60334e1f5c681110cf9f4e68fd1d1",
+    "pipeline.py": "d82a563fd264c1c34775f2637b3c33b888ca9c0a37b812541565df211be22b2a",
+    "reporting.py": "80174ca58d6bc3ca77461658bfef84ca53c3ce8d1ce572be5401b2e6d8f7fbd6",
+    "risk.py": "aa482d3a419be674f91167503efc5140f6ab9f0eab880ab6dc800a3d72bb1dcc",
+    "supervisor.py": "8e629765d1153cb711e0eee45348fd03141421603ff90832115809d5df4b67b9"
+  },
+  "input_hashes": {
+    "current.json": "fe82e587fb56caccea356b142e3e6183aa57a69a69f0acec5a15dc5a66f511f6",
+    "daily_v1_20261012/daily_membership.parquet": "bc22e21358b9dde53f22bbec0f877a18ecb0b0b3416c1933670a4df12d00ebc8",
+    "daily_v1_20261012/validation.json": "6a375b4c0dcc173f6debdd7cd3adfcf0f30475f6cf2e180f1f0bcf9da4fd0636",
+    "daily_v1_20261012/audit_result.json": "6ba4417e3d808c49150c7730292ca757734b7a1737375c9b571d94ac926e8b0b"
+  },
+  "cpu_limit": 86400,
+  "optimization_limit": 69120
+}

@@ -1,0 +1,29 @@
+{
+  "status": "blocked_before_freeze_partial_experiments",
+  "completed": [
+    "read_only_data_audit",
+    "past_only_panels",
+    "24_development_timing_cases",
+    "216_tau_calibration_attempts",
+    "18_implemented_scope_checks",
+    "uniform_weight_geometric_diagnostics",
+    "4_development_N100_attempts"
+  ],
+  "not_completed": [
+    "tau_eta_and_practical_baseline_freeze",
+    "full_R1_at_primary_tau",
+    "R2_market_comparisons_and_ledger",
+    "R3_information_experiments",
+    "R4_test_scale_tables",
+    "six_statistical_tests",
+    "development_90_percent_equivalence_gate"
+  ],
+  "unimplemented_or_unverified": [
+    "production continuous market ledger and complete corporate actions",
+    "R3 experimental adapters and acceptance checks",
+    "Greedy+1swap and practical baseline runner",
+    "full R2/R3/R4 batch orchestration and block-bootstrap inference"
+  ],
+  "reason": "Only 2 complete development labels, with four of six index/panel calibration groups empty.",
+  "no_market_superiority_claim": true
+}

@@ -1,0 +1,61 @@
+{
+  "status": "frozen",
+  "base_commit": "4bb7273fc586ec665bfbee0803eaa3d965bb15a2",
+  "tau": [
+    0.1241315329697926,
+    0.29580796068642345,
+    0.8836513534481872
+  ],
+  "eta": 0.3,
+  "expert_index": 1,
+  "eta_R3": 1.0,
+  "eta_F2": 0.3,
+  "enable_F2": true,
+  "full_index_frequency": "not_scheduled_budget",
+  "cost_estimates": {
+    "core": 35885.87500000001,
+    "F2": 5880.0,
+    "all_monthly": 391951.03124999994,
+    "remaining_optimization": 65871.53125,
+    "p90_main": 10.3234375,
+    "safety_factor": 1.25
+  },
+  "label_stale_main": 63,
+  "label_sensitivity": [
+    20,
+    126,
+    0
+  ],
+  "source_hashes": {
+    "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+    "bridge.py": "5bd47f60267f248400bfcf6c4e1bfded88d3d08100d076435f28d8396c80cc38",
+    "checks.py": "b00a331cc25b594b7e9aa1a931c8676db2b0de303614c54ab7032071d8fd38b4",
+    "common.py": "cbf2cbbb9661c1c9cba56df10d0e4bbff761422cde95f8cb38710d8ea66c54e0",
+    "data.py": "02e3a84ce3cdfbbaae26f881136f628b646037c279de88c3c945adec76115e0e",
+    "decision.py": "c3e3a8c4340cbade5bcc878138a128664576f0f781b5d5be5abf548813550f99",
+    "evaluator.py": "6c2972ae8cfc6072494cbd231c1a0cc78fc6a214eb150d4789c0511d1f5f632e",
+    "experiments.py": "022dbba1a4d78a8a1ceeb8a8bb281fbb4338e24b79081c119b1edfc48df1769f",
+    "information.py": "f14db63c1dbc6ca6e7113c43afe1967521d574f3273804c43747cd4bad3e36f7",
+    "ledger.py": "ed4c13102ff76f63e5323d08248eff7ebbd60334e1f5c681110cf9f4e68fd1d1",
+    "pipeline.py": "9dc28db3c8be9d289833accadeca775aaba1301cb383751e047d5e86f3c80c7f",
+    "proxy_book.py": "9e82a3ec4a987e154b36b8c2b936c31c34a134b3cc295e821435cabe92a0bc76",
+    "reporting.py": "e1f8cd63be331d2c4bd4b8aedd1e832d9bc8baa0c003a9d759818a7995f0119b",
+    "risk.py": "cc135b7d51b1393a3aecacc709271196a29455d4919fe1fca7c1d014ad8395b3",
+    "runner.py": "7aa78c06bc5cc4906cf2e35486bef14e76ca6dc7c3f97e19bc231c2627acfbdd",
+    "setup.py": "cc7324465415732eb112f45d1145a958efd7eeb3532598be03a044b526ed8447",
+    "supervisor.py": "71d7916da67370cdd8031d3ff12b381a2cb26052e1f9ba1473388c43756cc066",
+    "valuation.py": "2f757c0075a798723794238ecc19e9c2291d97bec5011b1041651201e00549b1"
+  },
+  "manifest_hash": "c2ea9662ed5b4ab1ac4aa37e9004f7c9f317208f5009217fa94ef8c20cc31cf7",
+  "frozen_unix": 1791790098.373063,
+  "test_results_read": false,
+  "amendment_sha256": "4fd36b1a3eae52e5ece4992edb146e69fb030cfc048b4faad6e9ca59cdd51ced",
+  "parent_protocol_sha256": "d52af6195f590818db8d68629dabf02fe5d2306696e42b90dd789192545feb92",
+  "source_sha256": "0926a92ef3f8495364c2b3775ba4214baac4ddbaf9a0a52207dc7b33a7c05cd8",
+  "membership_hashes": {
+    "current.json": "fe82e587fb56caccea356b142e3e6183aa57a69a69f0acec5a15dc5a66f511f6",
+    "daily_v1_20261012/daily_membership.parquet": "bc22e21358b9dde53f22bbec0f877a18ecb0b0b3416c1933670a4df12d00ebc8",
+    "daily_v1_20261012/validation.json": "6a375b4c0dcc173f6debdd7cd3adfcf0f30475f6cf2e180f1f0bcf9da4fd0636",
+    "daily_v1_20261012/audit_result.json": "6ba4417e3d808c49150c7730292ca757734b7a1737375c9b571d94ac926e8b0b"
+  }
+}

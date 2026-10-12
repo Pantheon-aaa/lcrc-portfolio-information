@@ -1,0 +1,6718 @@
+[
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "MA": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "equal_weight": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "practical_baseline": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "practical_baseline": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy": 2
+    },
+    "solver_cpu": 0.859375
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.0625
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.078125
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy": 2
+    },
+    "solver_cpu": 0.40625
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.078125
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.0625
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy_1swap": 2
+    },
+    "solver_cpu": 0.40625
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy_1swap": 2
+    },
+    "solver_cpu": 0.375
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "MA": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "equal_weight": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "practical_baseline": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "practical_baseline": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.140625
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy": 2
+    },
+    "solver_cpu": 0.234375
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy": 2
+    },
+    "solver_cpu": 0.125
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy_1swap": 2
+    },
+    "solver_cpu": 0.109375
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy_1swap": 2
+    },
+    "solver_cpu": 0.125
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "MA": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "equal_weight": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "practical_baseline": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "practical_baseline": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy": 2
+    },
+    "solver_cpu": 42.21875
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 8.359375
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 6.34375
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy": 2
+    },
+    "solver_cpu": 6.515625
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 7.515625
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 6.46875
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy_1swap": 2
+    },
+    "solver_cpu": 6.0625
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 100,
+    "M": 12,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy_1swap": 2
+    },
+    "solver_cpu": 5.6875
+  },
+  {
+    "axis": "N",
+    "phase": "validation",
+    "N": 20,
+    "M": 12,
+    "method": "LW:0.0",
+    "panel_seed": 11,
+    "recorded": 1,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "practical_baseline": 1
+    },
+    "solver_cpu": 0.1875
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.48484848484848486,
+    "success_upper_recorded": 0.5454545454545454,
+    "success_evaluable": 0.5161290322580645,
+    "regret_over_u_evaluable": 0.39171178919546507,
+    "solver_status": {
+      "MA": 132
+    },
+    "solver_cpu": 0.09375
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.03787878787878788,
+    "success_upper_recorded": 0.09848484848484848,
+    "success_evaluable": 0.04032258064516129,
+    "regret_over_u_evaluable": 0.924813618870272,
+    "solver_status": {
+      "equal_weight": 132
+    },
+    "solver_cpu": 0.0625
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.08333333333333333,
+    "success_upper_recorded": 0.14393939393939395,
+    "success_evaluable": 0.08870967741935484,
+    "regret_over_u_evaluable": 0.7562204965852647,
+    "solver_status": {
+      "practical_baseline": 132
+    },
+    "solver_cpu": 0.09375
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.44696969696969696,
+    "success_upper_recorded": 0.5075757575757576,
+    "success_evaluable": 0.47580645161290325,
+    "regret_over_u_evaluable": 0.4071439675211837,
+    "solver_status": {
+      "practical_baseline": 132
+    },
+    "solver_cpu": 0.046875
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.48484848484848486,
+    "success_upper_recorded": 0.5454545454545454,
+    "success_evaluable": 0.5161290322580645,
+    "regret_over_u_evaluable": 0.39171178919546507,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.265625
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.48484848484848486,
+    "success_upper_recorded": 0.5454545454545454,
+    "success_evaluable": 0.5161290322580645,
+    "regret_over_u_evaluable": 0.39171178919546507,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.48484848484848486,
+    "success_upper_recorded": 0.5454545454545454,
+    "success_evaluable": 0.5161290322580645,
+    "regret_over_u_evaluable": 0.39171178919546507,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.234375
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.48484848484848486,
+    "success_upper_recorded": 0.5454545454545454,
+    "success_evaluable": 0.5161290322580645,
+    "regret_over_u_evaluable": 0.39171178919546507,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.48484848484848486,
+    "success_upper_recorded": 0.5454545454545454,
+    "success_evaluable": 0.5161290322580645,
+    "regret_over_u_evaluable": 0.39171178919546507,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.265625
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.48484848484848486,
+    "success_upper_recorded": 0.5454545454545454,
+    "success_evaluable": 0.5161290322580645,
+    "regret_over_u_evaluable": 0.39171178919546507,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.203125
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.48484848484848486,
+    "success_upper_recorded": 0.5454545454545454,
+    "success_evaluable": 0.5161290322580645,
+    "regret_over_u_evaluable": 0.39171179054675564,
+    "solver_status": {
+      "greedy": 132
+    },
+    "solver_cpu": 55.90625
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.48484848484848486,
+    "success_upper_recorded": 0.5454545454545454,
+    "success_evaluable": 0.5161290322580645,
+    "regret_over_u_evaluable": 0.39171178919546507,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 132
+    },
+    "solver_cpu": 0.0625
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.48484848484848486,
+    "success_upper_recorded": 0.5454545454545454,
+    "success_evaluable": 0.5161290322580645,
+    "regret_over_u_evaluable": 0.39538958404873753,
+    "solver_status": {
+      "surrogate": 132
+    },
+    "solver_cpu": 5.0
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.4772727272727273,
+    "success_upper_recorded": 0.5378787878787878,
+    "success_evaluable": 0.5080645161290323,
+    "regret_over_u_evaluable": 0.3969832735100999,
+    "solver_status": {
+      "surrogate": 132
+    },
+    "solver_cpu": 4.921875
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.48484848484848486,
+    "success_upper_recorded": 0.5454545454545454,
+    "success_evaluable": 0.5161290322580645,
+    "regret_over_u_evaluable": 0.39171179054675564,
+    "solver_status": {
+      "greedy": 132
+    },
+    "solver_cpu": 27.703125
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.48484848484848486,
+    "success_upper_recorded": 0.5454545454545454,
+    "success_evaluable": 0.5161290322580645,
+    "regret_over_u_evaluable": 0.39171178919546507,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 132
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.48484848484848486,
+    "success_upper_recorded": 0.5454545454545454,
+    "success_evaluable": 0.5161290322580645,
+    "regret_over_u_evaluable": 0.39538966756598165,
+    "solver_status": {
+      "surrogate": 132
+    },
+    "solver_cpu": 5.171875
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.4772727272727273,
+    "success_upper_recorded": 0.5378787878787878,
+    "success_evaluable": 0.5080645161290323,
+    "regret_over_u_evaluable": 0.39765149380522197,
+    "solver_status": {
+      "surrogate": 132
+    },
+    "solver_cpu": 4.90625
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.48484848484848486,
+    "success_upper_recorded": 0.5454545454545454,
+    "success_evaluable": 0.5161290322580645,
+    "regret_over_u_evaluable": 0.39171179054675564,
+    "solver_status": {
+      "greedy_1swap": 132
+    },
+    "solver_cpu": 26.640625
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.48484848484848486,
+    "success_upper_recorded": 0.5454545454545454,
+    "success_evaluable": 0.5161290322580645,
+    "regret_over_u_evaluable": 0.39171179054675564,
+    "solver_status": {
+      "greedy_1swap": 132
+    },
+    "solver_cpu": 26.59375
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5757575757575758,
+    "success_upper_recorded": 0.6363636363636364,
+    "success_evaluable": 0.6129032258064516,
+    "regret_over_u_evaluable": 0.3374733917715232,
+    "solver_status": {
+      "MA": 132
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.10606060606060606,
+    "success_upper_recorded": 0.16666666666666666,
+    "success_evaluable": 0.11290322580645161,
+    "regret_over_u_evaluable": 0.733201373662621,
+    "solver_status": {
+      "equal_weight": 132
+    },
+    "solver_cpu": 0.0625
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.20454545454545456,
+    "success_upper_recorded": 0.26515151515151514,
+    "success_evaluable": 0.21774193548387097,
+    "regret_over_u_evaluable": 0.5655485293974039,
+    "solver_status": {
+      "practical_baseline": 132
+    },
+    "solver_cpu": 0.078125
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5454545454545454,
+    "success_upper_recorded": 0.6060606060606061,
+    "success_evaluable": 0.5806451612903226,
+    "regret_over_u_evaluable": 0.3518073120961857,
+    "solver_status": {
+      "practical_baseline": 132
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5757575757575758,
+    "success_upper_recorded": 0.6363636363636364,
+    "success_evaluable": 0.6129032258064516,
+    "regret_over_u_evaluable": 0.33758105931336746,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.265625
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5757575757575758,
+    "success_upper_recorded": 0.6363636363636364,
+    "success_evaluable": 0.6129032258064516,
+    "regret_over_u_evaluable": 0.33758105931336746,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5757575757575758,
+    "success_upper_recorded": 0.6363636363636364,
+    "success_evaluable": 0.6129032258064516,
+    "regret_over_u_evaluable": 0.33758105931336746,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.296875
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5757575757575758,
+    "success_upper_recorded": 0.6363636363636364,
+    "success_evaluable": 0.6129032258064516,
+    "regret_over_u_evaluable": 0.33758105931336746,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5757575757575758,
+    "success_upper_recorded": 0.6363636363636364,
+    "success_evaluable": 0.6129032258064516,
+    "regret_over_u_evaluable": 0.33758105931336746,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.203125
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5757575757575758,
+    "success_upper_recorded": 0.6363636363636364,
+    "success_evaluable": 0.6129032258064516,
+    "regret_over_u_evaluable": 0.33758105931336746,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.296875
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5757575757575758,
+    "success_upper_recorded": 0.6363636363636364,
+    "success_evaluable": 0.6129032258064516,
+    "regret_over_u_evaluable": 0.3375810591473804,
+    "solver_status": {
+      "greedy": 132
+    },
+    "solver_cpu": 18.203125
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5757575757575758,
+    "success_upper_recorded": 0.6363636363636364,
+    "success_evaluable": 0.6129032258064516,
+    "regret_over_u_evaluable": 0.33758105931336746,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 131,
+      "surrogate": 1
+    },
+    "solver_cpu": 0.09375
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5454545454545454,
+    "success_upper_recorded": 0.6060606060606061,
+    "success_evaluable": 0.5806451612903226,
+    "regret_over_u_evaluable": 0.34049954963046336,
+    "solver_status": {
+      "surrogate": 132
+    },
+    "solver_cpu": 1.421875
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5454545454545454,
+    "success_upper_recorded": 0.6060606060606061,
+    "success_evaluable": 0.5806451612903226,
+    "regret_over_u_evaluable": 0.3444363105600716,
+    "solver_status": {
+      "surrogate": 132
+    },
+    "solver_cpu": 1.484375
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5757575757575758,
+    "success_upper_recorded": 0.6363636363636364,
+    "success_evaluable": 0.6129032258064516,
+    "regret_over_u_evaluable": 0.3375810591473804,
+    "solver_status": {
+      "greedy": 132
+    },
+    "solver_cpu": 9.34375
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5757575757575758,
+    "success_upper_recorded": 0.6363636363636364,
+    "success_evaluable": 0.6129032258064516,
+    "regret_over_u_evaluable": 0.33758105931336746,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 131,
+      "surrogate": 1
+    },
+    "solver_cpu": 0.0625
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5454545454545454,
+    "success_upper_recorded": 0.6060606060606061,
+    "success_evaluable": 0.5806451612903226,
+    "regret_over_u_evaluable": 0.3405253424702075,
+    "solver_status": {
+      "surrogate": 132
+    },
+    "solver_cpu": 1.59375
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5454545454545454,
+    "success_upper_recorded": 0.6060606060606061,
+    "success_evaluable": 0.5806451612903226,
+    "regret_over_u_evaluable": 0.3460081811594099,
+    "solver_status": {
+      "surrogate": 132
+    },
+    "solver_cpu": 1.40625
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5757575757575758,
+    "success_upper_recorded": 0.6363636363636364,
+    "success_evaluable": 0.6129032258064516,
+    "regret_over_u_evaluable": 0.3375810591473804,
+    "solver_status": {
+      "greedy_1swap": 132
+    },
+    "solver_cpu": 8.9375
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5757575757575758,
+    "success_upper_recorded": 0.6363636363636364,
+    "success_evaluable": 0.6129032258064516,
+    "regret_over_u_evaluable": 0.3375810591473804,
+    "solver_status": {
+      "greedy_1swap": 132
+    },
+    "solver_cpu": 9.078125
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5,
+    "success_upper_recorded": 0.5606060606060606,
+    "success_evaluable": 0.532258064516129,
+    "regret_over_u_evaluable": 0.4001989597287126,
+    "solver_status": {
+      "MA": 132
+    },
+    "solver_cpu": 0.125
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.03787878787878788,
+    "success_upper_recorded": 0.09848484848484848,
+    "success_evaluable": 0.04032258064516129,
+    "regret_over_u_evaluable": 1.0627006892202435,
+    "solver_status": {
+      "equal_weight": 132
+    },
+    "solver_cpu": 0.09375
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.05303030303030303,
+    "success_upper_recorded": 0.11363636363636363,
+    "success_evaluable": 0.056451612903225805,
+    "regret_over_u_evaluable": 0.8651803071548877,
+    "solver_status": {
+      "practical_baseline": 132
+    },
+    "solver_cpu": 0.171875
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.38636363636363635,
+    "success_upper_recorded": 0.44696969696969696,
+    "success_evaluable": 0.4112903225806452,
+    "regret_over_u_evaluable": 0.42450872656310534,
+    "solver_status": {
+      "practical_baseline": 132
+    },
+    "solver_cpu": 0.109375
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5,
+    "success_upper_recorded": 0.5606060606060606,
+    "success_evaluable": 0.532258064516129,
+    "regret_over_u_evaluable": 0.4001989597287126,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.4375
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5,
+    "success_upper_recorded": 0.5606060606060606,
+    "success_evaluable": 0.532258064516129,
+    "regret_over_u_evaluable": 0.4001989597287126,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5,
+    "success_upper_recorded": 0.5606060606060606,
+    "success_evaluable": 0.532258064516129,
+    "regret_over_u_evaluable": 0.4001989597287126,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.421875
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5,
+    "success_upper_recorded": 0.5606060606060606,
+    "success_evaluable": 0.532258064516129,
+    "regret_over_u_evaluable": 0.4001989597287126,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5,
+    "success_upper_recorded": 0.5606060606060606,
+    "success_evaluable": 0.532258064516129,
+    "regret_over_u_evaluable": 0.4001989597287126,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.453125
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5,
+    "success_upper_recorded": 0.5606060606060606,
+    "success_evaluable": 0.532258064516129,
+    "regret_over_u_evaluable": 0.4001989597287126,
+    "solver_status": {
+      "optimal": 132
+    },
+    "solver_cpu": 0.453125
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5,
+    "success_upper_recorded": 0.5606060606060606,
+    "success_evaluable": 0.532258064516129,
+    "regret_over_u_evaluable": 0.40019895918209547,
+    "solver_status": {
+      "greedy": 132
+    },
+    "solver_cpu": 2944.875
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5,
+    "success_upper_recorded": 0.5606060606060606,
+    "success_evaluable": 0.532258064516129,
+    "regret_over_u_evaluable": 0.4001989597287126,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 132
+    },
+    "solver_cpu": 0.1875
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.49242424242424243,
+    "success_upper_recorded": 0.553030303030303,
+    "success_evaluable": 0.5241935483870968,
+    "regret_over_u_evaluable": 0.4004957047765409,
+    "solver_status": {
+      "surrogate": 132
+    },
+    "solver_cpu": 524.828125
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.4621212121212121,
+    "success_upper_recorded": 0.5227272727272727,
+    "success_evaluable": 0.49193548387096775,
+    "regret_over_u_evaluable": 0.40043914164697914,
+    "solver_status": {
+      "surrogate": 132
+    },
+    "solver_cpu": 523.65625
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5,
+    "success_upper_recorded": 0.5606060606060606,
+    "success_evaluable": 0.532258064516129,
+    "regret_over_u_evaluable": 0.40019895918209547,
+    "solver_status": {
+      "greedy": 132
+    },
+    "solver_cpu": 458.890625
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5,
+    "success_upper_recorded": 0.5606060606060606,
+    "success_evaluable": 0.532258064516129,
+    "regret_over_u_evaluable": 0.4001989597287126,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 132
+    },
+    "solver_cpu": 0.203125
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.49242424242424243,
+    "success_upper_recorded": 0.553030303030303,
+    "success_evaluable": 0.5241935483870968,
+    "regret_over_u_evaluable": 0.40061309098581405,
+    "solver_status": {
+      "surrogate": 132
+    },
+    "solver_cpu": 533.84375
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.4696969696969697,
+    "success_upper_recorded": 0.5303030303030303,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.40064508310484864,
+    "solver_status": {
+      "surrogate": 132
+    },
+    "solver_cpu": 543.578125
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5,
+    "success_upper_recorded": 0.5606060606060606,
+    "success_evaluable": 0.532258064516129,
+    "regret_over_u_evaluable": 0.40019895918209547,
+    "solver_status": {
+      "greedy_1swap": 132
+    },
+    "solver_cpu": 445.15625
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 132,
+    "evaluable": 124,
+    "success_lower_recorded": 0.5,
+    "success_upper_recorded": 0.5606060606060606,
+    "success_evaluable": 0.532258064516129,
+    "regret_over_u_evaluable": 0.40019895918209547,
+    "solver_status": {
+      "greedy_1swap": 132
+    },
+    "solver_cpu": 447.890625
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 20,
+    "M": 12,
+    "method": "LW:0.0",
+    "panel_seed": 11,
+    "recorded": 103,
+    "evaluable": 96,
+    "success_lower_recorded": 0.5242718446601942,
+    "success_upper_recorded": 0.5922330097087378,
+    "success_evaluable": 0.5625,
+    "regret_over_u_evaluable": 0.3603509911116413,
+    "solver_status": {
+      "practical_baseline": 103
+    },
+    "solver_cpu": 0.71875
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "LW:0.0",
+    "panel_seed": 11,
+    "recorded": 53,
+    "evaluable": 49,
+    "success_lower_recorded": 0.41509433962264153,
+    "success_upper_recorded": 0.49056603773584906,
+    "success_evaluable": 0.4489795918367347,
+    "regret_over_u_evaluable": 0.3952536966200072,
+    "solver_status": {
+      "practical_baseline": 53
+    },
+    "solver_cpu": 0.453125
+  },
+  {
+    "axis": "N",
+    "phase": "test",
+    "N": 100,
+    "M": 12,
+    "method": "LW:0.0",
+    "panel_seed": 11,
+    "recorded": 12,
+    "evaluable": 12,
+    "success_lower_recorded": 0.5833333333333334,
+    "success_upper_recorded": 0.5833333333333334,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.39203366305830833,
+    "solver_status": {
+      "practical_baseline": 12
+    },
+    "solver_cpu": 0.703125
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3763655455656507,
+    "solver_status": {
+      "MA": 18
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 0.3333333333333333,
+    "success_evaluable": 0.0,
+    "regret_over_u_evaluable": 1.4251942671379652,
+    "solver_status": {
+      "equal_weight": 18
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 0.3333333333333333,
+    "success_evaluable": 0.0,
+    "regret_over_u_evaluable": 0.9867725052549311,
+    "solver_status": {
+      "practical_baseline": 18
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.4069786097576516,
+    "solver_status": {
+      "practical_baseline": 18
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3763655455656507,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.046875
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3763655455656507,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3763655455656507,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3763655455656507,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3763655455656507,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.046875
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3763655455656507,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.37636554476204614,
+    "solver_status": {
+      "greedy": 18
+    },
+    "solver_cpu": 8.0625
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3763655455656507,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 18
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3767509389436161,
+    "solver_status": {
+      "surrogate": 18
+    },
+    "solver_cpu": 0.671875
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.1111111111111111,
+    "success_upper_recorded": 0.4444444444444444,
+    "success_evaluable": 0.16666666666666666,
+    "regret_over_u_evaluable": 0.3775849408771492,
+    "solver_status": {
+      "surrogate": 18
+    },
+    "solver_cpu": 0.71875
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.37636554476204614,
+    "solver_status": {
+      "greedy": 18
+    },
+    "solver_cpu": 3.921875
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3763655455656507,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 18
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3767428336437774,
+    "solver_status": {
+      "surrogate": 18
+    },
+    "solver_cpu": 0.6875
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3781301514510251,
+    "solver_status": {
+      "surrogate": 18
+    },
+    "solver_cpu": 0.703125
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.37636554476204614,
+    "solver_status": {
+      "greedy_1swap": 18
+    },
+    "solver_cpu": 3.84375
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.37636554476204614,
+    "solver_status": {
+      "greedy_1swap": 18
+    },
+    "solver_cpu": 3.8125
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.2914834706546881,
+    "solver_status": {
+      "MA": 18
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 0.3333333333333333,
+    "success_evaluable": 0.0,
+    "regret_over_u_evaluable": 1.1280918834223177,
+    "solver_status": {
+      "equal_weight": 18
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.6523414928153727,
+    "solver_status": {
+      "practical_baseline": 18
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.2906998965426873,
+    "solver_status": {
+      "practical_baseline": 18
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.2914834706546881,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.2914834706546881,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.2914834706546881,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.2914834706546881,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.2914834706546881,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.2914834706546881,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.29148347070937836,
+    "solver_status": {
+      "greedy": 18
+    },
+    "solver_cpu": 2.640625
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.2914834706546881,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 18
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.2939041971462217,
+    "solver_status": {
+      "surrogate": 18
+    },
+    "solver_cpu": 0.25
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.3026639069136273,
+    "solver_status": {
+      "surrogate": 18
+    },
+    "solver_cpu": 0.15625
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.29148347070937836,
+    "solver_status": {
+      "greedy": 18
+    },
+    "solver_cpu": 1.328125
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.2914834706546881,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 18
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.2939042204897078,
+    "solver_status": {
+      "surrogate": 18
+    },
+    "solver_cpu": 0.21875
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.3040271977141547,
+    "solver_status": {
+      "surrogate": 18
+    },
+    "solver_cpu": 0.203125
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.29148347070937836,
+    "solver_status": {
+      "greedy_1swap": 18
+    },
+    "solver_cpu": 1.28125
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.3888888888888889,
+    "success_upper_recorded": 0.7222222222222222,
+    "success_evaluable": 0.5833333333333334,
+    "regret_over_u_evaluable": 0.29148347070937836,
+    "solver_status": {
+      "greedy_1swap": 18
+    },
+    "solver_cpu": 1.265625
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.4969739272076299,
+    "solver_status": {
+      "MA": 18
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 0.3333333333333333,
+    "success_evaluable": 0.0,
+    "regret_over_u_evaluable": 1.701734403424018,
+    "solver_status": {
+      "equal_weight": 18
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 0.3333333333333333,
+    "success_evaluable": 0.0,
+    "regret_over_u_evaluable": 1.209845175002623,
+    "solver_status": {
+      "practical_baseline": 18
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.517625149340136,
+    "solver_status": {
+      "practical_baseline": 18
+    },
+    "solver_cpu": 0.046875
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.4969739272076299,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.4969739272076299,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.4969739272076299,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.0625
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.4969739272076299,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.4969739272076299,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.078125
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.4969739272076299,
+    "solver_status": {
+      "optimal": 18
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.4969739227428492,
+    "solver_status": {
+      "greedy": 18
+    },
+    "solver_cpu": 400.140625
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.4969739272076299,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 18
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.4995231642736892,
+    "solver_status": {
+      "surrogate": 18
+    },
+    "solver_cpu": 64.96875
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.5057501074710443,
+    "solver_status": {
+      "surrogate": 18
+    },
+    "solver_cpu": 68.84375
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.4969739227428492,
+    "solver_status": {
+      "greedy": 18
+    },
+    "solver_cpu": 68.5
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.4969739272076299,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 18
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.49952317719869166,
+    "solver_status": {
+      "surrogate": 18
+    },
+    "solver_cpu": 67.890625
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.5055004926898029,
+    "solver_status": {
+      "surrogate": 18
+    },
+    "solver_cpu": 66.5625
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.4969739227428492,
+    "solver_status": {
+      "greedy_1swap": 18
+    },
+    "solver_cpu": 65.859375
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 18,
+    "evaluable": 12,
+    "success_lower_recorded": 0.05555555555555555,
+    "success_upper_recorded": 0.3888888888888889,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.4969739227428492,
+    "solver_status": {
+      "greedy_1swap": 18
+    },
+    "solver_cpu": 68.4375
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "LW:0.0",
+    "panel_seed": 11,
+    "recorded": 3,
+    "evaluable": 2,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 0.3333333333333333,
+    "success_evaluable": 0.0,
+    "regret_over_u_evaluable": 0.5401235865248395,
+    "solver_status": {
+      "practical_baseline": 3
+    },
+    "solver_cpu": 0.046875
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 20,
+    "M": 12,
+    "method": "LW:0.0",
+    "panel_seed": 11,
+    "recorded": 9,
+    "evaluable": 6,
+    "success_lower_recorded": 0.1111111111111111,
+    "success_upper_recorded": 0.4444444444444444,
+    "success_evaluable": 0.16666666666666666,
+    "regret_over_u_evaluable": 0.39154809078731634,
+    "solver_status": {
+      "practical_baseline": 9
+    },
+    "solver_cpu": 0.046875
+  },
+  {
+    "axis": "N",
+    "phase": "extension",
+    "N": 100,
+    "M": 12,
+    "method": "LW:0.0",
+    "panel_seed": 11,
+    "recorded": 1,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "practical_baseline": 1
+    },
+    "solver_cpu": 0.078125
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "MA": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "equal_weight": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "practical_baseline": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "practical_baseline": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy": 2
+    },
+    "solver_cpu": 0.859375
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.0625
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.078125
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy": 2
+    },
+    "solver_cpu": 0.40625
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.078125
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.0625
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy_1swap": 2
+    },
+    "solver_cpu": 0.40625
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy_1swap": 2
+    },
+    "solver_cpu": 0.375
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "MA": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "equal_weight": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "practical_baseline": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "practical_baseline": 2
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.125
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy": 2
+    },
+    "solver_cpu": 0.328125
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.046875
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.0625
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy": 2
+    },
+    "solver_cpu": 0.171875
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.0625
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.0625
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy_1swap": 2
+    },
+    "solver_cpu": 0.15625
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 6,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy_1swap": 2
+    },
+    "solver_cpu": 0.15625
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "MA": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "equal_weight": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "practical_baseline": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "practical_baseline": 2
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "optimal": 2
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy": 2
+    },
+    "solver_cpu": 2.3125
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.09375
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.125
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy": 2
+    },
+    "solver_cpu": 1.046875
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 2
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.109375
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "surrogate": 2
+    },
+    "solver_cpu": 0.09375
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy_1swap": 2
+    },
+    "solver_cpu": 1.078125
+  },
+  {
+    "axis": "M",
+    "phase": "validation",
+    "N": 50,
+    "M": 24,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 2,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "greedy_1swap": 2
+    },
+    "solver_cpu": 1.046875
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.38140207149693645,
+    "solver_status": {
+      "MA": 40
+    },
+    "solver_cpu": 0.046875
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.025,
+    "success_upper_recorded": 0.125,
+    "success_evaluable": 0.027777777777777776,
+    "regret_over_u_evaluable": 0.9413642518420422,
+    "solver_status": {
+      "equal_weight": 40
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.075,
+    "success_upper_recorded": 0.175,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.7557709914946101,
+    "solver_status": {
+      "practical_baseline": 40
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.475,
+    "success_upper_recorded": 0.575,
+    "success_evaluable": 0.5277777777777778,
+    "regret_over_u_evaluable": 0.39378557915595164,
+    "solver_status": {
+      "practical_baseline": 40
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.38140207149693645,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.125
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.38140207149693645,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.38140207149693645,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.09375
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.38140207149693645,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.38140207149693645,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.078125
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.38140207149693645,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.046875
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.3814020727057039,
+    "solver_status": {
+      "greedy": 40
+    },
+    "solver_cpu": 16.8125
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.38140207149693645,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 40
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.38662390557316967,
+    "solver_status": {
+      "surrogate": 40
+    },
+    "solver_cpu": 1.546875
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.387860757779947,
+    "solver_status": {
+      "surrogate": 40
+    },
+    "solver_cpu": 1.53125
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.3814020727057039,
+    "solver_status": {
+      "greedy": 40
+    },
+    "solver_cpu": 8.3125
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.38140207149693645,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 40
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.3866562964748666,
+    "solver_status": {
+      "surrogate": 40
+    },
+    "solver_cpu": 1.46875
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.3886762903788613,
+    "solver_status": {
+      "surrogate": 40
+    },
+    "solver_cpu": 1.484375
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.3814020727057039,
+    "solver_status": {
+      "greedy_1swap": 40
+    },
+    "solver_cpu": 7.921875
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.3814020727057039,
+    "solver_status": {
+      "greedy_1swap": 40
+    },
+    "solver_cpu": 7.921875
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.38215656186989405,
+    "solver_status": {
+      "MA": 40
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.025,
+    "success_upper_recorded": 0.125,
+    "success_evaluable": 0.027777777777777776,
+    "regret_over_u_evaluable": 0.9413642518420422,
+    "solver_status": {
+      "equal_weight": 40
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.075,
+    "success_upper_recorded": 0.175,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.7557709914946101,
+    "solver_status": {
+      "practical_baseline": 40
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.475,
+    "success_upper_recorded": 0.575,
+    "success_evaluable": 0.5277777777777778,
+    "regret_over_u_evaluable": 0.39378557915595164,
+    "solver_status": {
+      "practical_baseline": 40
+    },
+    "solver_cpu": 0.34375
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.38215656186989405,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.09375
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.38215656186989405,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.38215656186989405,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.109375
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.38215656186989405,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.38215656186989405,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.078125
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.38215656186989405,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.38215656153943,
+    "solver_status": {
+      "greedy": 40
+    },
+    "solver_cpu": 6.609375
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.38215656186989405,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 40
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.38705588962788656,
+    "solver_status": {
+      "surrogate": 40
+    },
+    "solver_cpu": 1.109375
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.3895736348245516,
+    "solver_status": {
+      "surrogate": 40
+    },
+    "solver_cpu": 1.234375
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.38215656153943,
+    "solver_status": {
+      "greedy": 40
+    },
+    "solver_cpu": 3.546875
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.38215656186989405,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 40
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.3874910204887799,
+    "solver_status": {
+      "surrogate": 40
+    },
+    "solver_cpu": 1.09375
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.39187935624459647,
+    "solver_status": {
+      "surrogate": 40
+    },
+    "solver_cpu": 1.171875
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.38215656153943,
+    "solver_status": {
+      "greedy_1swap": 40
+    },
+    "solver_cpu": 3.28125
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.38215656153943,
+    "solver_status": {
+      "greedy_1swap": 40
+    },
+    "solver_cpu": 3.28125
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.37938488423584293,
+    "solver_status": {
+      "MA": 40
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.025,
+    "success_upper_recorded": 0.125,
+    "success_evaluable": 0.027777777777777776,
+    "regret_over_u_evaluable": 0.9413642518420422,
+    "solver_status": {
+      "equal_weight": 40
+    },
+    "solver_cpu": 0.046875
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.075,
+    "success_upper_recorded": 0.175,
+    "success_evaluable": 0.08333333333333333,
+    "regret_over_u_evaluable": 0.7557709914946101,
+    "solver_status": {
+      "practical_baseline": 40
+    },
+    "solver_cpu": 0.0625
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.475,
+    "success_upper_recorded": 0.575,
+    "success_evaluable": 0.5277777777777778,
+    "regret_over_u_evaluable": 0.39378557915595164,
+    "solver_status": {
+      "practical_baseline": 40
+    },
+    "solver_cpu": 0.375
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.37938488423584293,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.140625
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.37938488423584293,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.37938488423584293,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.125
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.37938488423584293,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.37938488423584293,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.0625
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.37938488423584293,
+    "solver_status": {
+      "optimal": 40
+    },
+    "solver_cpu": 0.046875
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.37938488396014075,
+    "solver_status": {
+      "greedy": 40
+    },
+    "solver_cpu": 47.890625
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.37938488423584293,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 40
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.382329682908134,
+    "solver_status": {
+      "surrogate": 40
+    },
+    "solver_cpu": 2.125
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.38277598875342816,
+    "solver_status": {
+      "surrogate": 40
+    },
+    "solver_cpu": 2.1875
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.37938488396014075,
+    "solver_status": {
+      "greedy": 40
+    },
+    "solver_cpu": 21.46875
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.37938488423584293,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 40
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.38229771049848105,
+    "solver_status": {
+      "surrogate": 40
+    },
+    "solver_cpu": 2.171875
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.45,
+    "success_upper_recorded": 0.55,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.3828072641268492,
+    "solver_status": {
+      "surrogate": 40
+    },
+    "solver_cpu": 2.1875
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.37938488396014075,
+    "solver_status": {
+      "greedy_1swap": 40
+    },
+    "solver_cpu": 21.09375
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 40,
+    "evaluable": 36,
+    "success_lower_recorded": 0.425,
+    "success_upper_recorded": 0.525,
+    "success_evaluable": 0.4722222222222222,
+    "regret_over_u_evaluable": 0.37938488396014075,
+    "solver_status": {
+      "greedy_1swap": 40
+    },
+    "solver_cpu": 20.890625
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 12,
+    "method": "LW:0.0",
+    "panel_seed": 11,
+    "recorded": 16,
+    "evaluable": 14,
+    "success_lower_recorded": 0.25,
+    "success_upper_recorded": 0.375,
+    "success_evaluable": 0.2857142857142857,
+    "regret_over_u_evaluable": 0.45074405575276844,
+    "solver_status": {
+      "practical_baseline": 16
+    },
+    "solver_cpu": 0.125
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 6,
+    "method": "LW:0.0",
+    "panel_seed": 11,
+    "recorded": 16,
+    "evaluable": 14,
+    "success_lower_recorded": 0.25,
+    "success_upper_recorded": 0.375,
+    "success_evaluable": 0.2857142857142857,
+    "regret_over_u_evaluable": 0.45074405575276844,
+    "solver_status": {
+      "practical_baseline": 16
+    },
+    "solver_cpu": 0.296875
+  },
+  {
+    "axis": "M",
+    "phase": "test",
+    "N": 50,
+    "M": 24,
+    "method": "LW:0.0",
+    "panel_seed": 11,
+    "recorded": 16,
+    "evaluable": 14,
+    "success_lower_recorded": 0.25,
+    "success_upper_recorded": 0.375,
+    "success_evaluable": 0.2857142857142857,
+    "regret_over_u_evaluable": 0.45074405575276844,
+    "solver_status": {
+      "practical_baseline": 16
+    },
+    "solver_cpu": 0.1875
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.3268368142949223,
+    "solver_status": {
+      "MA": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 0.3333333333333333,
+    "success_evaluable": 0.0,
+    "regret_over_u_evaluable": 1.3714770239744012,
+    "solver_status": {
+      "equal_weight": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 0.3333333333333333,
+    "success_evaluable": 0.0,
+    "regret_over_u_evaluable": 0.8797224293925545,
+    "solver_status": {
+      "practical_baseline": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.36458573241637493,
+    "solver_status": {
+      "practical_baseline": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.3268368142949223,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.3268368142949223,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.3268368142949223,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.3268368142949223,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.3268368142949223,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.3268368142949223,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.32683681162805533,
+    "solver_status": {
+      "greedy": 6
+    },
+    "solver_cpu": 2.6875
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.3268368142949223,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 6
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.32448985910135214,
+    "solver_status": {
+      "surrogate": 6
+    },
+    "solver_cpu": 0.234375
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3219183881801825,
+    "solver_status": {
+      "surrogate": 6
+    },
+    "solver_cpu": 0.234375
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.32683681162805533,
+    "solver_status": {
+      "greedy": 6
+    },
+    "solver_cpu": 1.296875
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.3268368142949223,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3244898812673861,
+    "solver_status": {
+      "surrogate": 6
+    },
+    "solver_cpu": 0.234375
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.32191838113793236,
+    "solver_status": {
+      "surrogate": 6
+    },
+    "solver_cpu": 0.25
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.32683681162805533,
+    "solver_status": {
+      "greedy_1swap": 6
+    },
+    "solver_cpu": 1.28125
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.32683681162805533,
+    "solver_status": {
+      "greedy_1swap": 6
+    },
+    "solver_cpu": 1.265625
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3269278322112286,
+    "solver_status": {
+      "MA": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 0.3333333333333333,
+    "success_evaluable": 0.0,
+    "regret_over_u_evaluable": 1.3714770239744012,
+    "solver_status": {
+      "equal_weight": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 0.3333333333333333,
+    "success_evaluable": 0.0,
+    "regret_over_u_evaluable": 0.8797224293925545,
+    "solver_status": {
+      "practical_baseline": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.36458573241637493,
+    "solver_status": {
+      "practical_baseline": 6
+    },
+    "solver_cpu": 0.046875
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3269278322112286,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.046875
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3269278322112286,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3269278322112286,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3269278322112286,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3269278322112286,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3269278322112286,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3269278312303582,
+    "solver_status": {
+      "greedy": 6
+    },
+    "solver_cpu": 1.0625
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3269278322112286,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3216180089750361,
+    "solver_status": {
+      "surrogate": 6
+    },
+    "solver_cpu": 0.171875
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.32160459124432267,
+    "solver_status": {
+      "surrogate": 6
+    },
+    "solver_cpu": 0.171875
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3269278312303582,
+    "solver_status": {
+      "greedy": 6
+    },
+    "solver_cpu": 0.578125
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3269278322112286,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3216180085694908,
+    "solver_status": {
+      "surrogate": 6
+    },
+    "solver_cpu": 0.1875
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3187109181941054,
+    "solver_status": {
+      "surrogate": 6
+    },
+    "solver_cpu": 0.171875
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3269278312303582,
+    "solver_status": {
+      "greedy_1swap": 6
+    },
+    "solver_cpu": 0.5
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3269278312303582,
+    "solver_status": {
+      "greedy_1swap": 6
+    },
+    "solver_cpu": 0.53125
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "MA:0.0",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.33308837200847274,
+    "solver_status": {
+      "MA": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "EW:0.0",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 0.3333333333333333,
+    "success_evaluable": 0.0,
+    "regret_over_u_evaluable": 1.3714770239744012,
+    "solver_status": {
+      "equal_weight": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "InverseVol:0.0",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 0.3333333333333333,
+    "success_evaluable": 0.0,
+    "regret_over_u_evaluable": 0.8797224293925545,
+    "solver_status": {
+      "practical_baseline": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "EMGMV:0.0",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.36458573241637493,
+    "solver_status": {
+      "practical_baseline": 6
+    },
+    "solver_cpu": 0.078125
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "A1B:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.33308837200847274,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "A1B-guarded:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.33308837200847274,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "A1B:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.33308837200847274,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "A1B-guarded:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.33308837200847274,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "A1B:0.5",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.33308837200847274,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.03125
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "A1B:inf",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.33308837200847274,
+    "solver_status": {
+      "optimal": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "Greedy:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.33308836533623654,
+    "solver_status": {
+      "greedy": 6
+    },
+    "solver_cpu": 7.53125
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "Hinge:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.33308837200847274,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "CVaR05:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3272179707008627,
+    "solver_status": {
+      "surrogate": 6
+    },
+    "solver_cpu": 0.3125
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "CVaR025:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.3258305107121334,
+    "solver_status": {
+      "surrogate": 6
+    },
+    "solver_cpu": 0.34375
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "Greedy:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.33308836533623654,
+    "solver_status": {
+      "greedy": 6
+    },
+    "solver_cpu": 3.421875
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "Hinge:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.33308837200847274,
+    "solver_status": {
+      "hinge_zero_MA_secondary": 6
+    },
+    "solver_cpu": 0.0
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "CVaR05:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.16666666666666666,
+    "success_upper_recorded": 0.5,
+    "success_evaluable": 0.25,
+    "regret_over_u_evaluable": 0.3272180105107201,
+    "solver_status": {
+      "surrogate": 6
+    },
+    "solver_cpu": 0.3125
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "CVaR025:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.3254288153411485,
+    "solver_status": {
+      "surrogate": 6
+    },
+    "solver_cpu": 0.375
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "Greedy1swap:0.1",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.33308836533623654,
+    "solver_status": {
+      "greedy_1swap": 6
+    },
+    "solver_cpu": 3.40625
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "Greedy1swap:0.25",
+    "panel_seed": 11,
+    "recorded": 6,
+    "evaluable": 4,
+    "success_lower_recorded": 0.3333333333333333,
+    "success_upper_recorded": 0.6666666666666666,
+    "success_evaluable": 0.5,
+    "regret_over_u_evaluable": 0.33308836533623654,
+    "solver_status": {
+      "greedy_1swap": 6
+    },
+    "solver_cpu": 3.375
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 12,
+    "method": "LW:0.0",
+    "panel_seed": 11,
+    "recorded": 1,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "practical_baseline": 1
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 6,
+    "method": "LW:0.0",
+    "panel_seed": 11,
+    "recorded": 1,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "practical_baseline": 1
+    },
+    "solver_cpu": 0.015625
+  },
+  {
+    "axis": "M",
+    "phase": "extension",
+    "N": 50,
+    "M": 24,
+    "method": "LW:0.0",
+    "panel_seed": 11,
+    "recorded": 1,
+    "evaluable": 0,
+    "success_lower_recorded": 0.0,
+    "success_upper_recorded": 1.0,
+    "success_evaluable": null,
+    "regret_over_u_evaluable": null,
+    "solver_status": {
+      "practical_baseline": 1
+    },
+    "solver_cpu": 0.015625
+  }
+]

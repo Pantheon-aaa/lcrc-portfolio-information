@@ -1,0 +1,218 @@
+[
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "f9c606cc28ec088f26a3eec7674755b4689f6b1049cc8924c57053073a932520",
+    "frontend_cpu": 1.359375,
+    "solver_prepare_cpu": 0.0,
+    "cpu_seconds": 1.546875
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "a1244a0cabe5c08d41c4b8a0342f61be173b02393cc6013cc7eb5cc74d605e56",
+    "frontend_cpu": 1.21875,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 1.296875
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "c9ea12ac5d96b941230aa2b39341774216cae8d1ff8932b707904c1352eb510f",
+    "frontend_cpu": 1.3125,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 1.4375
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "b3dfd4a76b6b676b77a8c5acb0a3aa4acac04efb13024adf2114adb14f8d31f4",
+    "frontend_cpu": 1.25,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 1.265625
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "5feb5aa5ffacba094e87befbed5d85d4e48a4fe050a3a4984a37b32b4f115980",
+    "frontend_cpu": 1.1875,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 1.203125
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "35635e9aa9ddeb3afe6755676de30a23421ae6b8ca91e3830b056ed87f519d64",
+    "frontend_cpu": 1.390625,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 1.40625
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "bfaf9592e2e3183867b4c5a44281f17973d90491ad541227a170874bb32688f9",
+    "frontend_cpu": 1.6875,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 1.703125
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "2ace3041045e44d3dfc43e2af7882d37b57b27a5f3b900daabf8cacdbf59871f",
+    "frontend_cpu": 1.59375,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 1.609375
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "905ca66ca7df13866bb01796d8042b992538a008de6e6b90b34abaf24c862cb3",
+    "frontend_cpu": 1.453125,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 1.46875
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "9533048da4e731048e017b86c36544794f5f0e2ed0fda8420eebc517c0eabbb6",
+    "frontend_cpu": 1.453125,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 1.484375
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "511d5974036b7d554114c1a66541b0db872ef277f82a75e657800867e16216e6",
+    "frontend_cpu": 1.109375,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 1.140625
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "d7eb7e789f8a514be61dc4974f0d2fc331264c6d039de08f0694bb18121664aa",
+    "frontend_cpu": 1.046875,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 1.078125
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "9bd464bfda4afdd596dfbfed1fb2eb034cb496e99b0e6841991478e43965fd6e",
+    "frontend_cpu": 0.65625,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 0.703125
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "9c93c787e6b3c43ed8da39040d14b9cc1fd6370c27639d67da50c6616a36828a",
+    "frontend_cpu": 1.4375,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 1.46875
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "566f767bc75bc9b6f53d3994e6f768205ba65e5b3ab3dea36b50c466dbcc71f9",
+    "frontend_cpu": 0.96875,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 0.984375
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "6ac7c27c67aeb4285a4bb1dafc967702d3600eea334b782461f4640ccd005e58",
+    "frontend_cpu": 1.8125,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 1.828125
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "4d4ba95ca4ff03385242776f3f892273d4d383c6a11cca0ecdf201c58efa92b9",
+    "frontend_cpu": 1.90625,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 1.921875
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "366d9a58eef238dd7e41773ac53bb635aa3a8b70fd819634f9ecb570c442c601",
+    "frontend_cpu": 2.046875,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 2.0625
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "f9da4b3c45084941fd35930a4e4029b3a18923e5decc3e2751a8a2f0ed796711",
+    "frontend_cpu": 1.828125,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 1.84375
+  },
+  {
+    "N": 20,
+    "M": 6,
+    "status": "complete",
+    "shared_cost_id": "55c41c8737f21d297b94015ce5b3013b5d32915d4617f0d102a97f238540833f",
+    "frontend_cpu": 1.703125,
+    "solver_prepare_cpu": 0.015625,
+    "cpu_seconds": 1.71875
+  },
+  {
+    "N": 50,
+    "M": 12,
+    "status": "complete",
+    "shared_cost_id": "90c3945ee707fbe301546e40700edb12d69dd2a14db85fac0dcffe68ed9c7033",
+    "frontend_cpu": 6.140625,
+    "solver_prepare_cpu": 0.078125,
+    "cpu_seconds": 6.90625
+  },
+  {
+    "N": 50,
+    "M": 12,
+    "status": "complete",
+    "shared_cost_id": "68f80797e4ee1ecea526272f3d998d1cf84b53ecd3df05dc67ee5f3afdb25804",
+    "frontend_cpu": 6.390625,
+    "solver_prepare_cpu": 0.09375,
+    "cpu_seconds": 6.5625
+  },
+  {
+    "N": 50,
+    "M": 12,
+    "status": "complete",
+    "shared_cost_id": "b84868fa0d7a29e769cc233828233eb37371da7d7066d414f31bf4183b1079fd",
+    "frontend_cpu": 5.609375,
+    "solver_prepare_cpu": 0.078125,
+    "cpu_seconds": 6.96875
+  },
+  {
+    "N": 50,
+    "M": 12,
+    "status": "complete",
+    "shared_cost_id": "f2096d4f3d6b5657b0bf1fc64225bb42d495fc2f5542043f18e951141a497271",
+    "frontend_cpu": 7.375,
+    "solver_prepare_cpu": 0.078125,
+    "cpu_seconds": 7.546875
+  }
+]
