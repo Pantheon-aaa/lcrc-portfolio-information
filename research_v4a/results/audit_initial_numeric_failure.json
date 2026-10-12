@@ -1,0 +1,2427 @@
+{
+  "passed": false,
+  "errors": [
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-0-Separated-32-0-0",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-0-Separated-32-0-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-2-Separated-32-0-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-3-Separated-32-0-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-1-Joint-32-0-0",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-1-Joint-32-0-0",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-1-Joint-32-0-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-1-Joint-32-0-0",
+        "common",
+        0.13477080327614221
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Joint-32-0-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-1-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-1-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-1-0",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Separated-1024-1-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Separated-1024-1-0",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-2-0",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-2-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-256-2-0",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-2-0",
+        "geometry",
+        0.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-2-0",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-2-0",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-2-0",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-2-0",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-2-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Separated-1024-2-0",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-256-3-0",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-256-3-0",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-1-Separated-256-3-0",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-1-Separated-256-3-0",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-1-Separated-256-3-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-3-0",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-3-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-3-0",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-3-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-3-0",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-1024-3-0",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-1024-3-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-1024-3-0",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Joint-32-4-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-256-4-0",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Separated-256-4-0",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Separated-256-4-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Separated-256-4-0",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-4-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-256-4-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-4-0",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-4-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-4-0",
+        "geometry",
+        0.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-1024-4-0",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-1024-4-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-1024-4-0",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-256-5-0",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-256-5-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-256-5-0",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-256-5-0",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-5-0",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-5-0",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-5-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-256-5-0",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-256-5-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-256-5-0",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-5-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-5-0",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Joint-256-5-0",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Joint-256-5-0",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Joint-256-5-0",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-1-Joint-32-0-1",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-1-Joint-32-0-1",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-1-Joint-32-0-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-1-Joint-32-0-1",
+        "common",
+        0.13477080327614221
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-0-1",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-0-1",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-256-0-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-0-1",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-0-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-0-1",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-2-Separated-32-1-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-0-Joint-32-1-1",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-0-Joint-32-1-1",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-0-Joint-32-1-1",
+        "common",
+        0.13477080327614221
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-1-1",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-256-1-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-256-2-1",
+        "geometry",
+        0.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-256-2-1",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-2-1",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-2-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-2-1",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-2-1",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-2-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-2-1",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Joint-256-2-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-2-Separated-32-3-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Joint-32-3-1",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Joint-32-3-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-3-1",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-3-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-1-Separated-256-3-1",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-1-Separated-256-3-1",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-256-3-1",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-256-3-1",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-256-3-1",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-3-1",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-3-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-3-1",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-3-1",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-3-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-3-1",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-0-Separated-32-4-1",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-0-Separated-32-4-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-256-4-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-256-4-1",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-4-1",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-4-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-5-1",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-5-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-5-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-1024-5-1",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-1024-5-1",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-1024-5-1",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Joint-32-0-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Joint-32-0-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-2-Joint-32-0-2",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-2-Joint-32-0-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-2-Joint-32-0-2",
+        "common",
+        0.13477080327614221
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-256-0-2",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-256-0-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-256-0-2",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-1-Separated-256-0-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-0-2",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-0-2",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-256-0-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-3-Separated-32-1-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-1-2",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-1-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-256-1-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-1-2",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-1-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-3-Separated-32-2-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-2-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-2-2",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-2-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-2-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-2-2",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Separated-1024-2-2",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-3-2",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-3-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Separated-256-3-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-3-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-4-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Separated-256-4-2",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Separated-256-4-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-4-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-4-2",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-4-2",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-4-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-4-2",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Joint-32-5-2",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Joint-32-5-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-5-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Separated-256-5-2",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-5-2",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-5-2",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Joint-256-5-2",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Joint-256-5-2",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Joint-256-5-2",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-3-Separated-32-0-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-1-Separated-256-0-3",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-1-Separated-256-0-3",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-0-3",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-0-3",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-0-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-0-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-0-3",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-0-3",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-0-3",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-2-Separated-32-1-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-256-1-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-1-3",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-1-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-1-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-1-3",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Joint-256-1-3",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Joint-256-1-3",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-3-Joint-32-2-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-2-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-2-3",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-2-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-2-3",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-3-Separated-32-3-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-2-Joint-32-3-3",
+        "geometry",
+        0.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-2-Joint-32-3-3",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-2-Joint-32-3-3",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-2-Joint-32-3-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-2-Joint-32-3-3",
+        "common",
+        0.13477080327614221
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-3-3",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Separated-256-3-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Separated-256-3-3",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-3-3",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-3-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-3-3",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Joint-256-3-3",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Joint-256-3-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Joint-256-3-3",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-3-3",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-3-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-3-3",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-2-Separated-32-4-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-3-Separated-32-4-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-256-4-3",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-256-4-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-256-4-3",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Separated-256-4-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Separated-256-4-3",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-4-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-4-3",
+        "geometry",
+        0.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-4-3",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Joint-256-4-3",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Joint-256-4-3",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Joint-256-4-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Joint-256-4-3",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Joint-32-5-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-1-Joint-32-5-3",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-5-3",
+        "geometry",
+        0.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-5-3",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-5-3",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-256-5-3",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-256-5-3",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-256-0-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-256-0-4",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-0-4",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-0-4",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-0-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-256-0-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Joint-32-1-4",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-2-Joint-32-1-4",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-1-4",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-1-4",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-256-1-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-1-4",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-1-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Joint-256-1-4",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Joint-256-1-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Joint-256-1-4",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Joint-256-1-4",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Joint-256-1-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Joint-256-1-4",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-1-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-1-4",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-2-4",
+        "geometry",
+        0.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-2-4",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-2-4",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-2-4",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-2-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-2-4",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-2-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-2-4",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-2-Separated-32-3-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-1-Separated-256-3-4",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-1-Separated-256-3-4",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-3-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-3-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-3-4",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Joint-256-3-4",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Joint-256-3-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Joint-256-3-4",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-3-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-3-4",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-1024-3-4",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-1024-3-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-1024-3-4",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-0-Separated-32-4-4",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-0-Separated-32-4-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-256-4-4",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-256-4-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-256-4-4",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-1-Separated-256-4-4",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-1-Separated-256-4-4",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-256-4-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-4-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-256-4-4",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-4-4",
+        "geometry",
+        0.5
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-4-4",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-4-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-4-4",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-5-4",
+        "geometry",
+        0.75
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-256-5-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-5-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-256-5-4",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Joint-256-5-4",
+        "geometry",
+        1.25
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-asymmetric-12-6-confirmation-3-Joint-256-5-4",
+        "common",
+        0.011863236445932387
+      ]
+    },
+    {
+      "error": "old/new unconstrained objectives disagree",
+      "key": [
+        "S2-confirmation-block-12-6-confirmation-3-Separated-32-0-5",
+        "geometry",
+        1.25
+      ]
+    }
+  ],
+  "flags": {
+    "reference_only_infinite_bound_correction_no_decision_change": 1,
+    "primary_closed_budget_numerically_open": 588,
+    "old_new_unbudgeted_pairs_checked": 15421
+  },
+  "counts": {
+    "S1": {
+      "rows": 6990,
+      "status": {
+        "symmetry_quotient": 2730,
+        "greedy": 2730,
+        "MA_endpoint": 480,
+        "optimal": 830,
+        "success_optimal_secondary_open": 20,
+        "timeout": 200
+      },
+      "max_residual": 4.440892098500626e-16,
+      "max_primary_gap": 1.0,
+      "uncertain_success_rows": 0,
+      "uncertified_budget_rows": 0
+    },
+    "S2_development": {
+      "rows": 112896,
+      "status": {
+        "MA_endpoint": 21168,
+        "optimal": 13932,
+        "greedy": 17640,
+        "surrogate": 42084,
+        "success_optimal_secondary_open": 92,
+        "budget_precision_limited": 17955,
+        "open_mass_gap": 22,
+        "timeout": 3
+      },
+      "max_residual": 4.440892098500626e-16,
+      "max_primary_gap": 1.0,
+      "uncertain_success_rows": 312,
+      "uncertified_budget_rows": 22302
+    },
+    "S2_confirmation": {
+      "rows": 520360,
+      "status": {
+        "MA_endpoint": 97572,
+        "optimal": 63659,
+        "greedy": 81306,
+        "surrogate": 191800,
+        "budget_precision_limited": 85470,
+        "success_optimal_secondary_open": 462,
+        "open_mass_gap": 84,
+        "timeout": 7
+      },
+      "max_residual": 4.440892098500626e-16,
+      "max_primary_gap": 1.0,
+      "uncertain_success_rows": 1397,
+      "uncertified_budget_rows": 105324
+    },
+    "S3_computation": {
+      "rows": 600,
+      "status": {
+        "MA_endpoint": 108,
+        "optimal": 311,
+        "scip_timelimit": 50,
+        "success_optimal_secondary_open": 44,
+        "enumerated": 60,
+        "timeout": 9,
+        "budget_precision_limited": 18
+      },
+      "max_residual": 2.220446049250313e-16,
+      "max_primary_gap": 1.0,
+      "uncertain_success_rows": 0,
+      "uncertified_budget_rows": 18
+    }
+  },
+  "missing_count": 2141,
+  "likelihood_checks": [
+    {
+      "dataset": "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-32-0-0",
+      "maximum_absolute_error": 5.684341886080802e-14
+    },
+    {
+      "dataset": "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-32-0-0",
+      "maximum_absolute_error": 5.684341886080802e-14
+    },
+    {
+      "dataset": "S2-confirmation-block-12-6-confirmation-0-Separated-32-0-0",
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "dataset": "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-32-0-0",
+      "maximum_absolute_error": 5.684341886080802e-14
+    },
+    {
+      "dataset": "S2-confirmation-hidden_curvature-10-6-confirmation-0-Joint-32-0-0",
+      "maximum_absolute_error": 5.684341886080802e-14
+    },
+    {
+      "dataset": "S2-confirmation-block-12-6-confirmation-0-Joint-32-0-0",
+      "maximum_absolute_error": 1.1368683772161603e-13
+    }
+  ],
+  "cpu_seconds_before_this_audit": 4531.296875,
+  "expected_confirmation_datasets": 4344,
+  "expected_S3_queries": 600
+}

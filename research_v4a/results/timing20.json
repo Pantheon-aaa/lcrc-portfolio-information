@@ -1,0 +1,242 @@
+[
+  {
+    "index": 0,
+    "family": "asymmetric-10-6-development-0",
+    "cpu_seconds": 0.15625,
+    "status": [
+      "MA_endpoint",
+      "optimal",
+      "optimal",
+      "optimal",
+      "optimal"
+    ]
+  },
+  {
+    "index": 1,
+    "family": "hidden_curvature-10-6-development-0",
+    "cpu_seconds": 0.078125,
+    "status": [
+      "MA_endpoint",
+      "optimal",
+      "optimal",
+      "optimal",
+      "optimal"
+    ]
+  },
+  {
+    "index": 2,
+    "family": "block-12-6-development-0",
+    "cpu_seconds": 0.125,
+    "status": [
+      "MA_endpoint",
+      "optimal",
+      "optimal",
+      "optimal",
+      "optimal"
+    ]
+  },
+  {
+    "index": 3,
+    "family": "asymmetric-12-6-development-1",
+    "cpu_seconds": 0.046875,
+    "status": [
+      "MA_endpoint",
+      "optimal",
+      "optimal",
+      "optimal",
+      "optimal"
+    ]
+  },
+  {
+    "index": 4,
+    "family": "hidden_curvature-12-6-development-1",
+    "cpu_seconds": 0.125,
+    "status": [
+      "MA_endpoint",
+      "optimal",
+      "optimal",
+      "optimal",
+      "optimal"
+    ]
+  },
+  {
+    "index": 5,
+    "family": "block-12-6-development-1",
+    "cpu_seconds": 0.0,
+    "status": [
+      "MA_endpoint",
+      "optimal",
+      "optimal",
+      "optimal",
+      "optimal"
+    ]
+  },
+  {
+    "index": 6,
+    "family": "asymmetric-10-6-development-0",
+    "cpu_seconds": 0.25,
+    "status": [
+      "MA_endpoint",
+      "optimal",
+      "optimal",
+      "optimal",
+      "optimal"
+    ]
+  },
+  {
+    "index": 7,
+    "family": "hidden_curvature-10-6-development-0",
+    "cpu_seconds": 0.0,
+    "status": [
+      "MA_endpoint",
+      "budget_precision_limited",
+      "budget_precision_limited",
+      "budget_precision_limited",
+      "optimal"
+    ]
+  },
+  {
+    "index": 8,
+    "family": "block-12-6-development-0",
+    "cpu_seconds": 0.125,
+    "status": [
+      "MA_endpoint",
+      "optimal",
+      "optimal",
+      "optimal",
+      "optimal"
+    ]
+  },
+  {
+    "index": 9,
+    "family": "asymmetric-12-6-development-1",
+    "cpu_seconds": 0.078125,
+    "status": [
+      "MA_endpoint",
+      "optimal",
+      "optimal",
+      "optimal",
+      "optimal"
+    ]
+  },
+  {
+    "index": 10,
+    "family": "hidden_curvature-12-6-development-1",
+    "cpu_seconds": 0.0,
+    "status": [
+      "MA_endpoint",
+      "optimal",
+      "optimal",
+      "optimal",
+      "optimal"
+    ]
+  },
+  {
+    "index": 11,
+    "family": "block-12-6-development-1",
+    "cpu_seconds": 0.0,
+    "status": [
+      "MA_endpoint",
+      "budget_precision_limited",
+      "budget_precision_limited",
+      "budget_precision_limited",
+      "optimal"
+    ]
+  },
+  {
+    "index": 12,
+    "family": "asymmetric-10-6-development-0",
+    "cpu_seconds": 0.09375,
+    "status": [
+      "MA_endpoint",
+      "optimal",
+      "optimal",
+      "optimal",
+      "optimal"
+    ]
+  },
+  {
+    "index": 13,
+    "family": "hidden_curvature-10-6-development-0",
+    "cpu_seconds": 0.15625,
+    "status": [
+      "MA_endpoint",
+      "optimal",
+      "optimal",
+      "optimal",
+      "optimal"
+    ]
+  },
+  {
+    "index": 14,
+    "family": "block-12-6-development-0",
+    "cpu_seconds": 0.140625,
+    "status": [
+      "MA_endpoint",
+      "optimal",
+      "optimal",
+      "optimal",
+      "optimal"
+    ]
+  },
+  {
+    "index": 15,
+    "family": "asymmetric-12-6-development-1",
+    "cpu_seconds": 0.03125,
+    "status": [
+      "MA_endpoint",
+      "optimal",
+      "optimal",
+      "optimal",
+      "optimal"
+    ]
+  },
+  {
+    "index": 16,
+    "family": "hidden_curvature-12-6-development-1",
+    "cpu_seconds": 0.203125,
+    "status": [
+      "MA_endpoint",
+      "optimal",
+      "optimal",
+      "optimal",
+      "optimal"
+    ]
+  },
+  {
+    "index": 17,
+    "family": "block-12-6-development-1",
+    "cpu_seconds": 0.0625,
+    "status": [
+      "MA_endpoint",
+      "optimal",
+      "optimal",
+      "optimal",
+      "success_optimal_secondary_open"
+    ]
+  },
+  {
+    "index": 18,
+    "family": "asymmetric-10-6-development-0",
+    "cpu_seconds": 0.140625,
+    "status": [
+      "MA_endpoint",
+      "optimal",
+      "optimal",
+      "optimal",
+      "optimal"
+    ]
+  },
+  {
+    "index": 19,
+    "family": "hidden_curvature-10-6-development-0",
+    "cpu_seconds": 0.0,
+    "status": [
+      "MA_endpoint",
+      "budget_precision_limited",
+      "budget_precision_limited",
+      "budget_precision_limited",
+      "optimal"
+    ]
+  }
+]

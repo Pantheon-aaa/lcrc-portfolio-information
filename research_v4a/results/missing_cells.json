@@ -1,0 +1,1442 @@
+[
+  {
+    "stage": "S3_perturbation",
+    "index": 0,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 0,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 0,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 0,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 0,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 0,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 0,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 0,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 0,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 0,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 0,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 0,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 1,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 1,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 1,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 1,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 1,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 1,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 1,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 1,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 1,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 1,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 1,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 1,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 2,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 2,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 2,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 2,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 2,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 2,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 2,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 2,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 2,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 2,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 2,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 2,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 3,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 3,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 3,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 3,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 3,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 3,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 3,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 3,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 3,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 3,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 3,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 3,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 4,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 4,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 4,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 4,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 4,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 4,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 4,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 4,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 4,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 4,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 4,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 4,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 5,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 5,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 5,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 5,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 5,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 5,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 5,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 5,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 5,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 5,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 5,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 5,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 6,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 6,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 6,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 6,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 6,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 6,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 6,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 6,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 6,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 6,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 6,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 6,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 7,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 7,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 7,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 7,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 7,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 7,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 7,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 7,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 7,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 7,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 7,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 7,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 8,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 8,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 8,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 8,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 8,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 8,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 8,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 8,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 8,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 8,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 8,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 8,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 9,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 9,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 9,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 9,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 9,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 9,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 9,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 9,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 9,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 9,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 9,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 9,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 10,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 10,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 10,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 10,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 10,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 10,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 10,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 10,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 10,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 10,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 10,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 10,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 11,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 11,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 11,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 11,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 11,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 11,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 11,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 11,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 11,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 11,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 11,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 11,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 12,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 12,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 12,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 12,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 12,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 12,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 12,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 12,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 12,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 12,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 12,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 12,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 13,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 13,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 13,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 13,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 13,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 13,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 13,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 13,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 13,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 13,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 13,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 13,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 14,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 14,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 14,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 14,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 14,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 14,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 14,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 14,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 14,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 14,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 14,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 14,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 15,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 15,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 15,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 15,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 15,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 15,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 15,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 15,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 15,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 15,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 15,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 15,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 16,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 16,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 16,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 16,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 16,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 16,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 16,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 16,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 16,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 16,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 16,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 16,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 17,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 17,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 17,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 17,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 17,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 17,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 17,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 17,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 17,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 17,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 17,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 17,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 18,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 18,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 18,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 18,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 18,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 18,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 18,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 18,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 18,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 18,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 18,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 18,
+    "location": "above",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 19,
+    "location": "far",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 19,
+    "location": "far",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 19,
+    "location": "far",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 19,
+    "location": "far",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 19,
+    "location": "below",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 19,
+    "location": "below",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 19,
+    "location": "below",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 19,
+    "location": "below",
+    "delta": 0.01
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 19,
+    "location": "above",
+    "delta": 0
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 19,
+    "location": "above",
+    "delta": 0.0001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 19,
+    "location": "above",
+    "delta": 0.001
+  },
+  {
+    "stage": "S3_perturbation",
+    "index": 19,
+    "location": "above",
+    "delta": 0.01
+  }
+]

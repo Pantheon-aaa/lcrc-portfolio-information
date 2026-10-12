@@ -1,0 +1,9 @@
+*.py -text
+*.json -text
+*.jsonl -text
+*.md -text
+*.ps1 -text
+*.txt -text
+*.gz binary
+*.zst binary
+*.png binary

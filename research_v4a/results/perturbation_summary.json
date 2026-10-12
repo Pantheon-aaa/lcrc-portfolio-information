@@ -1,0 +1,39 @@
+{
+  "by_delta": [
+    {
+      "delta": 0,
+      "checks": 0,
+      "applicable": 0,
+      "positive_success_bound": 0,
+      "budget_certified": 0,
+      "success_certified": 0
+    },
+    {
+      "delta": 0.0001,
+      "checks": 0,
+      "applicable": 0,
+      "positive_success_bound": 0,
+      "budget_certified": 0,
+      "success_certified": 0
+    },
+    {
+      "delta": 0.001,
+      "checks": 0,
+      "applicable": 0,
+      "positive_success_bound": 0,
+      "budget_certified": 0,
+      "success_certified": 0
+    },
+    {
+      "delta": 0.01,
+      "checks": 0,
+      "applicable": 0,
+      "positive_success_bound": 0,
+      "budget_certified": 0,
+      "success_certified": 0
+    }
+  ],
+  "instances": 0,
+  "certified_success_frontier_jumps": 0,
+  "nominal_price_locations": 0
+}

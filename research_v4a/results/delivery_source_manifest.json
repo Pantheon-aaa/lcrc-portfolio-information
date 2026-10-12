@@ -1,0 +1,43 @@
+{
+  "type": "File bookkeeping after CPU stop; not a rerun of provenance.py",
+  "source_sha256": {
+    "__init__.py": "f607a7994f2b85cf3deb27a50dc3d43d69570f516d57f70b858cd51606a8451c",
+    "api.py": "23021107b7168cebef9dcf0d0b3ec2079c77b1a6efc5ebe8b87743d5d58298b3",
+    "archive.py": "c330d43545361adc0a89cb9fb145d3d93fe07790c8a88291ea79f69deee8a72a",
+    "audit.py": "32bff03395a99c6b39b55e3bf23e83113e9bd077cf43bb79c65835b905c6e67b",
+    "baselines.py": "3f8187ba02ebc82edd326aae38a01dbfa61a841e3735e74a41c304ad3e5e4adc",
+    "boundary_checks.py": "31a7d34b186115b8519f4ab207350b3eb77c4106460174b086a8e9395613f5bb",
+    "budgeted_dcl.py": "42eab3523f50c19ed4c40c4bb2a1f907eb8926aba9f5df567563a15599e798da",
+    "certificate_qualification.py": "f0596fcf0533283278d4322ca6cfb9ce180c487bceb956ec7b26cb187425f157",
+    "common.py": "94c2b1b07c0c9573055ad1799f20435b7fb2a454778fd67112f1511b6390ef8c",
+    "computation.py": "9475bc1ce168b5d1768d4bc6f9681e138d5a92f4cb21140c1b3828b8ab970d13",
+    "delivery_check.py": "98b2c7e4b40e77ee1c9c8f24504b17040f8efca8618ab0bb2f81b997e795cf67",
+    "enumeration_audit.py": "b98e81c7299e55e8ea450e2dc4990761ff932ff3908586e236c64efebef183e4",
+    "experiments.py": "4d94266dd731e2026211717ab0b792bbac4f624843ae615f4652dc0b2b1fc468",
+    "families.py": "e719b61ddabff3a90b27a750451969b810dc1c6af96aa9abcc977e96da646627",
+    "gates.py": "f131f10e2717925faeac6ddc52fe05c121ffeda40332ec2f41084b773c54441b",
+    "mass_lattice.py": "e04f729ed330ae1d78d2d144a423926fe387152048406f880dd7fd0ef8b067f4",
+    "mean_budget.py": "951764f3813000d9486fdac98bae58711708c72d59a7507d952a2269ff835484",
+    "numerical_boundaries.py": "d96856f9b0b0d26b09c336fd33fdf27f4245f9ffec8ea6718bdfde252b975d07",
+    "platforms.py": "2c658c32cd80ff99c8f9f57c0c7d58fab094e892be7d196a2c5fa15308a4a5e1",
+    "posterior_precision.py": "825a6b3a29de3b6172855417fe4d657fbbf0d782c386bdea557cfbf0e2b5d2e0",
+    "precision_audit.py": "26c8a1ccfc965e1cba88ff12d031fa4aa57f9ccfe803a39439fd9921d9b62867",
+    "price_oracle.py": "6898283f87656d65244d6e482f185959d38882df0e6f885dde75f93c97233c8e",
+    "price_precision.py": "c552b90b4543599aae5a17d0b60f88c26045c003a3ec48a5aba972d3680ca821",
+    "provenance.py": "91808f1ee65e01bfd0e1b07ec90789db92bfc363019158dff2c97d3193773477",
+    "refine_certificates.py": "935969661d0b9a914fef2136ad002656c97b4977c74c1d9b7fae9b6bd30a4715",
+    "repair_decisions.py": "744a6d6e37e9ef5e816b716ad0f882ba049839b47a99ac152f300a8c4f28be2b",
+    "scip_reference.py": "3d035c436eed410e4493951b0e9750c5f1654cc60c541b1113f98355c5dd32f9",
+    "secondary_tie_audit.py": "d07e613da340153c15d44eb72a0494b2dc196819ab248b92199ca9e5c3095e3d",
+    "summarize.py": "b52e194af5357f0983dbe5553e2e09e2e607b4a1445e3064cb6918b596397207"
+  },
+  "added_packages": {
+    "orjson": "3.13.0",
+    "zstandard": "0.25.0"
+  },
+  "post_summary_unvalidated_edits": [
+    "summary checkpoint coverage",
+    "public-precomputation metadata aggregation",
+    "Zstandard archival implementation"
+  ]
+}

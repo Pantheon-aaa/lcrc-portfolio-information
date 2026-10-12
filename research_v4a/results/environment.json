@@ -1,0 +1,70 @@
+{
+  "python": "3.12.5",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "logical_cpus": 18,
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.17.1",
+    "cvxpy": "1.9.3",
+    "clarabel": "0.11.1",
+    "osqp": "1.1.3",
+    "pandas": "2.3.3",
+    "pyarrow": "23.0.1",
+    "matplotlib": "3.10.8",
+    "psutil": "7.2.2",
+    "highspy": "1.15.1",
+    "mpmath": "1.3.0",
+    "pyscipopt": "6.2.1"
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "delivery_sources": {
+    "__init__.py": "f607a7994f2b85cf3deb27a50dc3d43d69570f516d57f70b858cd51606a8451c",
+    "api.py": "cde41bf9a30bbfbf8a9420b76a68b1068c63435b8859bca93b2e6f86beaf0c94",
+    "archive.py": "f4ba711865d7faab3c1fbba7f15f9020b0dff03f33d812b143dc5ef1c215f6a2",
+    "audit.py": "d293a83e140d6886d1948c67cc84335f2ef8fa1d4622c471761159a459259c84",
+    "baselines.py": "ee86fe3c13cd0a438aaf3f69f9d9a2f7d1aa894a5601c565d98181a001db9f6e",
+    "boundary_checks.py": "31a7d34b186115b8519f4ab207350b3eb77c4106460174b086a8e9395613f5bb",
+    "budgeted_dcl.py": "f7f95e646569cba1d108ae6f06af09399e2d817a794390c0330ca7f1702a9609",
+    "common.py": "9c5408fc533bb5c8e3e4c721421db65a518c7ef09fdbf4f0055b39a3242e8866",
+    "computation.py": "c60136f9589524343143ce7356b1c6d54c563cb63a0cdb320ee2067d89bd82e2",
+    "enumeration_audit.py": "b98e81c7299e55e8ea450e2dc4990761ff932ff3908586e236c64efebef183e4",
+    "experiments.py": "4d94266dd731e2026211717ab0b792bbac4f624843ae615f4652dc0b2b1fc468",
+    "families.py": "e719b61ddabff3a90b27a750451969b810dc1c6af96aa9abcc977e96da646627",
+    "gates.py": "f131f10e2717925faeac6ddc52fe05c121ffeda40332ec2f41084b773c54441b",
+    "mean_budget.py": "951764f3813000d9486fdac98bae58711708c72d59a7507d952a2269ff835484",
+    "numerical_boundaries.py": "d96856f9b0b0d26b09c336fd33fdf27f4245f9ffec8ea6718bdfde252b975d07",
+    "platforms.py": "2c658c32cd80ff99c8f9f57c0c7d58fab094e892be7d196a2c5fa15308a4a5e1",
+    "posterior_precision.py": "ebe8aa977b20628033d6fc4d0a0bcf7730a59c8953e694ff3f8157fceefae8ea",
+    "precision_audit.py": "26c8a1ccfc965e1cba88ff12d031fa4aa57f9ccfe803a39439fd9921d9b62867",
+    "price_oracle.py": "6898283f87656d65244d6e482f185959d38882df0e6f885dde75f93c97233c8e",
+    "price_precision.py": "c552b90b4543599aae5a17d0b60f88c26045c003a3ec48a5aba972d3680ca821",
+    "provenance.py": "99efbc57a2c1f2680230a779696be0b01df303254bf82043f949f123521224d8",
+    "refine_certificates.py": "b39b3290a7bc5b499b462b761b2290c5acdff6e06d4d6b1e47fa7769ac3fc429",
+    "scip_reference.py": "08eb7c18bb85bed0e6bf4b8e78f7733fe4ef215d5a7d4083cb18b1e853bf7b4e",
+    "summarize.py": "45ce3cde33fd7a0dd06eb9a203cb90292c72908f010d3927cb66fc2ede4b9431"
+  },
+  "loaded_threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\Portfolio_Optimization_paper\\.venv-v4a\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "scipy_HiGHS_version": "1.12.0",
+  "SCIP_version": [
+    10,
+    0,
+    2
+  ]
+}

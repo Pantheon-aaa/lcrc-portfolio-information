@@ -1,0 +1,313 @@
+{
+  "digits": 80,
+  "records": [
+    {
+      "dataset": "S2-confirmation-asymmetric-10-6-confirmation-0-Separated-1024-0-0",
+      "Lstar_80_digit": "0.0000000000000036520248705473692460309199754685552252407573487795221923032438389303177420926654",
+      "float_interval": [
+        3.3505693994601593e-15,
+        3.981232841776256e-15
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.000000000000000023093938945333545118887454508457187554370182750938102665452019675653942873572886",
+      "posterior_min_80_digit": "0.0000000000000000096294142787772793540178473402645317942190559260958346769025593676328222581826879",
+      "float_zero_weights": 0,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-hidden_curvature-10-6-confirmation-0-Separated-1024-0-0",
+      "Lstar_80_digit": "2.1172108343084031737919010608799896029783434255101406154523367182413958202709927e-32",
+      "float_interval": [
+        0,
+        3.272592392502758e-16
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.000000000000000011126449577074968803082652690752861957076018902651386781650334446305592356508493",
+      "posterior_min_80_digit": "2.8098037050478259472225504228436874088703728688935876571363692638168031529622137e-83",
+      "float_zero_weights": 0,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-block-12-6-confirmation-0-Separated-1024-0-0",
+      "Lstar_80_digit": "0.0066927543650839587100920231488112925214857180838575713718882798612808154811497633",
+      "float_interval": [
+        0.0066927543650808505,
+        0.006692754365087133
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.000000000000000026649200844987829302796436439841489209417073584017721769561151977087448749760998",
+      "posterior_min_80_digit": "7.0827952052772885712658860693304029532715223197522645485233465189067476377752018e-369",
+      "float_zero_weights": 3,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-asymmetric-12-6-confirmation-1-Separated-1024-0-0",
+      "Lstar_80_digit": "0.00000000000000011483764108861807894878755746258916883548736888515902901875176200395956241923667",
+      "float_interval": [
+        0,
+        3.9293705133073214e-16
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.000000000000000019880424824444892258631261796215726876023667072909830524441095000245016949401384",
+      "posterior_min_80_digit": "0.0000000000000000000025223631429236253161290297207815307932798243843779939708868297583009901818597899",
+      "float_zero_weights": 0,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-hidden_curvature-12-6-confirmation-1-Separated-1024-0-0",
+      "Lstar_80_digit": "2.6887916302804176024986190736117006921009374027240192415213728806496972840477785e-31",
+      "float_interval": [
+        0,
+        2.7508051911325465e-16
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.0000000000000000014979546697799418939731966939078383256140845629694196941535152763851989343315653",
+      "posterior_min_80_digit": "1.3085760536307784657813242384136372166706283854570824668285184278674075847898465e-65",
+      "float_zero_weights": 0,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-block-12-6-confirmation-1-Separated-1024-0-0",
+      "Lstar_80_digit": "0.0043554194672439698929796701528250579734981681047041819851422824421806403228488508",
+      "float_interval": [
+        0.004355419467241638,
+        0.004355419467246404
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.000000000000000020309298844773900962868407115458783359620435549158313784376565184614676102452729",
+      "posterior_min_80_digit": "6.2310735060438021387318486571288561289159428089478087424582860311399557271875574e-404",
+      "float_zero_weights": 3,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-asymmetric-10-6-confirmation-2-Separated-1024-0-0",
+      "Lstar_80_digit": "0.000000000000051732592842814981879940377239977638197269575189149595113289503687314384851640233",
+      "float_interval": [
+        5.140830469216916e-14,
+        5.204400569050152e-14
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.0000000000000000016314462106565892298206449162646049137907929175417695097619486212935114101908436",
+      "posterior_min_80_digit": "1.3198570294496984868545845692486436881350604427891711613110534180233667775541231e-27",
+      "float_zero_weights": 0,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-hidden_curvature-10-6-confirmation-2-Separated-1024-0-0",
+      "Lstar_80_digit": "2.574352428157529988965693602503306223632384958605498220572651939342208718604617e-30",
+      "float_interval": [
+        0,
+        3.255624563830466e-16
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.000000000000000011667673309318047805008377382733273824103920419360338337470930288248410581223958",
+      "posterior_min_80_digit": "5.012642988456185524678348411392553349467459382564067805515971654722174407578834e-54",
+      "float_zero_weights": 0,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-block-12-6-confirmation-2-Separated-1024-0-0",
+      "Lstar_80_digit": "0.0050282707102988635399507623016693412549563745547643316565511854576121975545460952",
+      "float_interval": [
+        0.005028270710296027,
+        0.005028270710301764
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.0000000000000000053942234279422322585154130381730072224197676671365708044985057559945598012724038",
+      "posterior_min_80_digit": "1.686726526386124208967151287141426770117663032179286720211549151961502797679196e-363",
+      "float_zero_weights": 3,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-asymmetric-12-6-confirmation-3-Separated-1024-0-0",
+      "Lstar_80_digit": "0.0000000000000044872794318077022410492999112589835230123060814465108217034045052204534925042329",
+      "float_interval": [
+        4.2167950314627796e-15,
+        4.772507285703707e-15
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.0000000000000000073145714520503749127335632612287971985389137505339428094795937015383766008074304",
+      "posterior_min_80_digit": "0.00000000000000000000000099765254388129904189410608355413536375014100955541982304081501100380719102912834",
+      "float_zero_weights": 0,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-hidden_curvature-12-6-confirmation-3-Separated-1024-0-0",
+      "Lstar_80_digit": "1.0287643998817985031396169155684492869976573227395026123558751704370830866974616e-36",
+      "float_interval": [
+        0,
+        2.640650188287016e-16
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.000000000000000016104739381747364154356041255196584220772104254887810858193600589352071178431287",
+      "posterior_min_80_digit": "8.9261379546260908643428065654750809097118643033006982727344668898001901040901452e-40",
+      "float_zero_weights": 0,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-block-12-6-confirmation-3-Separated-1024-0-0",
+      "Lstar_80_digit": "0.0036186771604531599676787149764084223363265536443739375814857008884439194990486677",
+      "float_interval": [
+        0.0036186771604507493,
+        0.0036186771604556508
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.000000000000000014031729812242187611311848487152503252959152800531912762998303881857884521548499",
+      "posterior_min_80_digit": "1.4560512775611627096563063791094547282014221418720024469853266769539632023270789e-181",
+      "float_zero_weights": 0,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-asymmetric-10-6-confirmation-0-Joint-1024-0-0",
+      "Lstar_80_digit": "5.6375488930780655590250695909413841775360823809660007829027592420814470781367588e-28",
+      "float_interval": [
+        0,
+        3.153317211554644e-16
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.000000000000000023093938945333545118887454508457187554370182750938102665452019675653942873572886",
+      "posterior_min_80_digit": "2.1349734616771731633692009275106019495713369780523955665619678482757808813318273e-45",
+      "float_zero_weights": 0,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-hidden_curvature-10-6-confirmation-0-Joint-1024-0-0",
+      "Lstar_80_digit": "1.7175217111636878055568392487153474092123472709637492894242315548468374827044295e-77",
+      "float_interval": [
+        0,
+        3.272592392502758e-16
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.000000000000000011126449577074968803082652690752861957076018902651386781650334446305592356508493",
+      "posterior_min_80_digit": "4.3927421696708063431443245796460404733068632066083936680643113841119384756525669e-120",
+      "float_zero_weights": 0,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-block-12-6-confirmation-0-Joint-1024-0-0",
+      "Lstar_80_digit": "0.0",
+      "float_interval": [
+        0,
+        6.199366426410317e-16
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.000000000000000026649200844987829302796436439841489209417073584017721769561151977087448749760998",
+      "posterior_min_80_digit": "6.2025455868398228825878071669609284996178627520853687744289792388419563484712395e-1112",
+      "float_zero_weights": 5,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-asymmetric-12-6-confirmation-1-Joint-1024-0-0",
+      "Lstar_80_digit": "1.7998762025549333465855258652821674585164968768381618922599938451272233627682792e-49",
+      "float_interval": [
+        0,
+        2.675399189878965e-16
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.000000000000000019880424824444892258631261796215726876023667072909830524441095000245016949401384",
+      "posterior_min_80_digit": "1.029299470913909835319971416142910611918700778391299060872172309939777743469698e-77",
+      "float_zero_weights": 0,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-hidden_curvature-12-6-confirmation-1-Joint-1024-0-0",
+      "Lstar_80_digit": "0.0",
+      "float_interval": [
+        0,
+        2.750805191132544e-16
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.0000000000000000014979546697799418939731966939078383256140845629694196941535152763851989343315653",
+      "posterior_min_80_digit": "7.3995425112085854873368159277895348559106472545667282526671301775622551613351459e-146",
+      "float_zero_weights": 0,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-block-12-6-confirmation-1-Joint-1024-0-0",
+      "Lstar_80_digit": "0.0",
+      "float_interval": [
+        0,
+        5.415602966034808e-16
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.000000000000000020309298844773900962868407115458783359620435549158313784376565184614676102452729",
+      "posterior_min_80_digit": "1.0011686648218218895794967319287651895522884146092139617068703689271394948952726e-1125",
+      "float_zero_weights": 4,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-asymmetric-10-6-confirmation-2-Joint-1024-0-0",
+      "Lstar_80_digit": "7.2795265678797677077084950338100009570082595395587353326096831637687406513601167e-37",
+      "float_interval": [
+        0,
+        3.2428814934559223e-16
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.0000000000000000016314462106565892298206449162646049137907929175417695097619486212935114101908436",
+      "posterior_min_80_digit": "8.2310141654797309668696962987685714534896254640576613109897661008260196952545453e-43",
+      "float_zero_weights": 0,
+      "KKT_checked": true
+    },
+    {
+      "dataset": "S2-confirmation-hidden_curvature-10-6-confirmation-2-Joint-1024-0-0",
+      "Lstar_80_digit": "1.1089074461535606616611656330179651243734915629078873879238046982035629276063816e-79",
+      "float_interval": [
+        0,
+        3.25562456383044e-16
+      ],
+      "interval_outside": "0.0",
+      "oracle_interval_outside": "0.000000000000000011667673309318047805008377382733273824103920419360338337470930288248410581223958",
+      "posterior_min_80_digit": "1.1538883380911210915542440623372469872847814877287141111968612249134476849174083e-102",
+      "float_zero_weights": 0,
+      "KKT_checked": true
+    }
+  ],
+  "structural_zero_example": {
+    "weights": [
+      0.16666666666666646,
+      0.16666666666666669,
+      0.16666666666666669,
+      0.16666666666666669,
+      0.16666666666666669,
+      0.16666666666666669
+    ],
+    "ma_weights": [
+      0.16666666666666646,
+      0.16666666666666669,
+      0.16666666666666669,
+      0.16666666666666669,
+      0.16666666666666669,
+      0.16666666666666669
+    ],
+    "success_mass_lower": 1.0,
+    "success_mass_upper": 1.0,
+    "optimal_mass_lower": 1.0,
+    "optimal_mass_upper": 1.0,
+    "primary_mass_gap": 0.0,
+    "secondary_price_gap": 4.440892098500626e-16,
+    "posterior_mean_regret_MA_lower": 0.0,
+    "posterior_mean_regret_MA_upper": 0.0,
+    "posterior_mean_regret_method_lower": 0.0,
+    "posterior_mean_regret_method_upper": 4.440892098500626e-16,
+    "mean_increment_lower": 0,
+    "mean_increment_upper": 4.440892098500626e-16,
+    "budget_lower": 0.0,
+    "budget_upper": 0.0,
+    "budget_certified": false,
+    "status": "structural_zero_mean_numerical_open",
+    "cold_seconds": 0.0010256999994453508,
+    "geometry_calls": 0,
+    "price_calls": 0,
+    "geometry_cuts": 0,
+    "price_cuts": 0,
+    "primal_residual": 0.0,
+    "structural_certificate": {
+      "certified": true,
+      "reason": "All public objective matrices are bitwise identical; every model has the same strictly convex program.",
+      "Lstar_exact": 0.0
+    },
+    "optimizer_representation_l2_error_bound": 2.9802322387695312e-08
+  },
+  "underflow_not_structural": true,
+  "qualification": "Float primal objective is not outward-rounded; sub-ulp oracle violations are disclosed, not claimed rigorous interval arithmetic."
+}

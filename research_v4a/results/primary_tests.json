@@ -1,0 +1,192 @@
+{
+  "estimand": "Equal family, truth, positive n, mask and common-threshold paired actual success difference",
+  "bootstrap": 10000,
+  "seed": 1389928250225440364,
+  "test": "two-sided family sign randomization; symmetry assumption; Holm across four comparisons",
+  "tests": [
+    {
+      "beta": 0.1,
+      "baseline": "Budget-Greedy",
+      "families": 12,
+      "effect_lower": 0.0,
+      "effect_upper": 0.0,
+      "bootstrap_interval": [
+        -0.0002314814814814815,
+        0.0002314814814814815
+      ],
+      "p_lower": 1.0,
+      "p_upper": 1.0,
+      "kind_statistics": [
+        {
+          "kind": "asymmetric",
+          "families": 4,
+          "effect_lower": 0.0,
+          "effect_upper": 0.0,
+          "interval": [
+            -0.0006944444444444445,
+            0.0006944444444444445
+          ]
+        },
+        {
+          "kind": "hidden_curvature",
+          "families": 4,
+          "effect_lower": 0.0,
+          "effect_upper": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "kind": "block",
+          "families": 4,
+          "effect_lower": 0.0,
+          "effect_upper": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "holm_p_upper": 1.0
+    },
+    {
+      "beta": 0.1,
+      "baseline": "Budget-Hinge",
+      "families": 12,
+      "effect_lower": 0.012808641975308642,
+      "effect_upper": 0.01859567901234568,
+      "bootstrap_interval": [
+        0.009645061728395063,
+        0.02345679012345679
+      ],
+      "p_lower": 0.0,
+      "p_upper": 0.1875,
+      "kind_statistics": [
+        {
+          "kind": "asymmetric",
+          "families": 4,
+          "effect_lower": 0.031481481481481485,
+          "effect_upper": 0.04884259259259259,
+          "interval": [
+            0.02824074074074074,
+            0.055555555555555566
+          ]
+        },
+        {
+          "kind": "hidden_curvature",
+          "families": 4,
+          "effect_lower": 0.0,
+          "effect_upper": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "kind": "block",
+          "families": 4,
+          "effect_lower": 0.006944444444444444,
+          "effect_upper": 0.006944444444444444,
+          "interval": [
+            0.0,
+            0.020833333333333332
+          ]
+        }
+      ],
+      "holm_p_upper": 0.5625
+    },
+    {
+      "beta": 0.25,
+      "baseline": "Budget-Greedy",
+      "families": 12,
+      "effect_lower": -7.716049382716049e-05,
+      "effect_upper": -7.716049382716049e-05,
+      "bootstrap_interval": [
+        -0.0002314814814814815,
+        0.0
+      ],
+      "p_lower": 1.0,
+      "p_upper": 1.0,
+      "kind_statistics": [
+        {
+          "kind": "asymmetric",
+          "families": 4,
+          "effect_lower": -0.0002314814814814815,
+          "effect_upper": -0.0002314814814814815,
+          "interval": [
+            -0.0006944444444444445,
+            0.0
+          ]
+        },
+        {
+          "kind": "hidden_curvature",
+          "families": 4,
+          "effect_lower": 0.0,
+          "effect_upper": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "kind": "block",
+          "families": 4,
+          "effect_lower": 0.0,
+          "effect_upper": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "holm_p_upper": 1.0
+    },
+    {
+      "beta": 0.25,
+      "baseline": "Budget-Hinge",
+      "families": 12,
+      "effect_lower": 0.024074074074074078,
+      "effect_upper": 0.03179012345679013,
+      "bootstrap_interval": [
+        0.023148148148148147,
+        0.03348765432098766
+      ],
+      "p_lower": 0.0,
+      "p_upper": 0.0390625,
+      "kind_statistics": [
+        {
+          "kind": "asymmetric",
+          "families": 4,
+          "effect_lower": 0.044444444444444446,
+          "effect_upper": 0.06759259259259259,
+          "interval": [
+            0.041666666666666664,
+            0.07268518518518519
+          ]
+        },
+        {
+          "kind": "hidden_curvature",
+          "families": 4,
+          "effect_lower": 0.0,
+          "effect_upper": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "kind": "block",
+          "families": 4,
+          "effect_lower": 0.027777777777777776,
+          "effect_upper": 0.027777777777777776,
+          "interval": [
+            0.027777777777777776,
+            0.027777777777777776
+          ]
+        }
+      ],
+      "holm_p_upper": 0.15625
+    }
+  ]
+}

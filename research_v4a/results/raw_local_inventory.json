@@ -1,0 +1,198 @@
+[
+  {
+    "relative_path": "research_v4a/results/failures.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\failures.jsonl",
+    "bytes": 6477,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/record_failures.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\record_failures.jsonl",
+    "bytes": 160900546,
+    "full_archive_complete": false,
+    "included_in_local_commit": false
+  },
+  {
+    "relative_path": "research_v4a/results/runtime_ledger.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\runtime_ledger.jsonl",
+    "bytes": 9432,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S1_completed.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S1_completed.jsonl",
+    "bytes": 9220,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S1.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S1.jsonl",
+    "bytes": 11821091,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S2_boundary_diagnostics.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_boundary_diagnostics.jsonl",
+    "bytes": 459205,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S2_confirmation_certificates.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_confirmation_certificates.jsonl",
+    "bytes": 24496077,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S2_confirmation_completed.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_confirmation_completed.jsonl",
+    "bytes": 340232,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S2_confirmation_evidence.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_confirmation_evidence.jsonl",
+    "bytes": 3371256,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S2_confirmation_validated_certificates.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_confirmation_validated_certificates.jsonl",
+    "bytes": 47786694,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S2_confirmation_validated_completed.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_confirmation_validated_completed.jsonl",
+    "bytes": 340232,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S2_confirmation_validated_geometry.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_confirmation_validated_geometry.jsonl",
+    "bytes": 690816,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S2_confirmation_validated.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_confirmation_validated.jsonl",
+    "bytes": 2121068415,
+    "full_archive_complete": false,
+    "included_in_local_commit": false
+  },
+  {
+    "relative_path": "research_v4a/results/S2_confirmation.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_confirmation.jsonl",
+    "bytes": 2088855587,
+    "full_archive_complete": false,
+    "included_in_local_commit": false
+  },
+  {
+    "relative_path": "research_v4a/results/S2_development_certificates.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_development_certificates.jsonl",
+    "bytes": 2547219,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S2_development_completed.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_development_completed.jsonl",
+    "bytes": 33868,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S2_development_evidence.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_development_evidence.jsonl",
+    "bytes": 341902,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S2_development_validated_certificates.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_development_validated_certificates.jsonl",
+    "bytes": 4917103,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S2_development_validated_completed.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_development_validated_completed.jsonl",
+    "bytes": 33868,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S2_development_validated_geometry.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_development_validated_geometry.jsonl",
+    "bytes": 438272,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S2_development_validated.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_development_validated.jsonl",
+    "bytes": 239381689,
+    "full_archive_complete": false,
+    "included_in_local_commit": false
+  },
+  {
+    "relative_path": "research_v4a/results/S2_development.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_development.jsonl",
+    "bytes": 235729325,
+    "full_archive_complete": false,
+    "included_in_local_commit": false
+  },
+  {
+    "relative_path": "research_v4a/results/S2_platforms_initial.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_platforms_initial.jsonl",
+    "bytes": 2424763,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S2_platforms.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S2_platforms.jsonl",
+    "bytes": 2426803,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S3_computation_initial.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S3_computation_initial.jsonl",
+    "bytes": 1390600,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S3_computation.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S3_computation.jsonl",
+    "bytes": 1440104,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/S3_perturbation_initial.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\S3_perturbation_initial.jsonl",
+    "bytes": 316420,
+    "full_archive_complete": false,
+    "included_in_local_commit": true
+  },
+  {
+    "relative_path": "research_v4a/results/stratum_summary.jsonl",
+    "absolute_path": "D:\\Portfolio_Optimization_paper\\worktrees\\portfolio-research-v4a\\research_v4a\\results\\stratum_summary.jsonl",
+    "bytes": 80475844,
+    "full_archive_complete": false,
+    "included_in_local_commit": false
+  }
+]
