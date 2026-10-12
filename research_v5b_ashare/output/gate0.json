@@ -1,0 +1,160 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "complete_second_moment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "missing_EM_PSD_not_zero_fill",
+      "passed": true,
+      "detail": {
+        "status": "converged",
+        "iterations": 8,
+        "relative_change": 6.546353840932275e-07,
+        "observations": [
+          486,
+          567,
+          515,
+          515,
+          567,
+          567
+        ]
+      }
+    },
+    {
+      "name": "full_mask_likelihood",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "empty_mask_zero_evidence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "beta_zero_equals_MA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "return_unit_scaling",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cross_posterior_cache_rejected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "identical_models_MA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "zero_hinge_global_mean_tie",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decision_interface_past_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same_method_input_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent_QP_interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "future_mutation_fit_invariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ledger_cash_cost_conservation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ledger_dividend",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ledger_split",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ledger_exchange",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pool_exit_blocked_holding_kept",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unknown_action_is_unresolved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "observed_returns_unchanged",
+      "passed": true,
+      "detail": {
+        "carried_cells": 638338
+      }
+    },
+    {
+      "name": "future_mutation_frontend_and_target_invariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R3_equal_scalar_budget",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R3_hidden_coordinates_invariant",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "proxy_cash_and_initial_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "proxy_pool_exit_missing_trade_kept",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "proxy_pending_expires",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "proxy_unknown_value_unresolved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "proxy_value_recovers",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "qualification": "Research mark and fractional total-return ledger checks; no L1 execution claim."
+}

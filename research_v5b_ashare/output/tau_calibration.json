@@ -1,0 +1,51 @@
+{
+  "tau": [
+    0.1241315329697926,
+    0.29580796068642345,
+    0.8836513534481872
+  ],
+  "quantile_rule": "left inverse weighted empirical CDF; equal index/panel, equal available complete development dates within group",
+  "rows": 216,
+  "complete": 182,
+  "unresolved": 34,
+  "calibration_rows_hash": "34cd4eda1786f4a67245362850018c52f4400750dbd8e598d4462ff2f58bff9c",
+  "max_oracle_ratio_width": 1.518341008477364e-11,
+  "counts": [
+    {
+      "domain": "csi300",
+      "seed": 11,
+      "n": 31
+    },
+    {
+      "domain": "csi300",
+      "seed": 29,
+      "n": 31
+    },
+    {
+      "domain": "csi300",
+      "seed": 47,
+      "n": 31
+    },
+    {
+      "domain": "csi500",
+      "seed": 11,
+      "n": 31
+    },
+    {
+      "domain": "csi500",
+      "seed": 29,
+      "n": 28
+    },
+    {
+      "domain": "csi500",
+      "seed": 47,
+      "n": 30
+    }
+  ],
+  "statuses": {
+    "complete": 182,
+    "cross_phase_label": 24,
+    "unknown_future_returns": 4,
+    "unverified_membership": 6
+  }
+}

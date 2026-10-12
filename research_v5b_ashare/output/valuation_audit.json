@@ -1,0 +1,13 @@
+{
+  "source_sha256": "0926a92ef3f8495364c2b3775ba4214baac4ddbaf9a0a52207dc7b33a7c05cd8",
+  "comparisons": 13538130,
+  "mismatch_records": 12,
+  "max_stale_main": 63,
+  "sensitivities": [
+    20,
+    126
+  ],
+  "assumption": "carry last total-return valuation during missing records, recognize supplier cumulative return on resumption; not certified suspension identification",
+  "training_cache_read_only": true,
+  "source_unchanged": true
+}
