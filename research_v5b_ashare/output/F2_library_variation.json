@@ -1,1 +1,434 @@
-[]
+[
+  {
+    "date": "2015-01-30",
+    "domain": "csi300",
+    "N": 20,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.21298602589573867,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2015-01-30",
+    "domain": "csi300",
+    "N": 20,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.21298602589573867,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2015-01-30",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.3275711487569577,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2015-01-30",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.3275711487569577,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2015-01-30",
+    "domain": "csi500",
+    "N": 20,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.21032833279375882,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2015-01-30",
+    "domain": "csi500",
+    "N": 20,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.21032833279375882,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2015-01-30",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.30359641381701413,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2015-01-30",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.30359641381701413,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2015-02-27",
+    "domain": "csi300",
+    "N": 20,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.38116002989492487,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2015-02-27",
+    "domain": "csi300",
+    "N": 20,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.38116002989492487,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2015-02-27",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.379055846841073,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2015-02-27",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.379055846841073,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2015-02-27",
+    "domain": "csi500",
+    "N": 20,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.14258831278071118,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2015-02-27",
+    "domain": "csi500",
+    "N": 20,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.14258831278071118,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2015-02-27",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.2689354878263969,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2015-02-27",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.2689354878263969,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2017-06-30",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.21443089386019443,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2017-06-30",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.21443089386019443,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2017-06-30",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.16393300800104163,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2017-06-30",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.16393300800104163,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2018-06-29",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.09041964058072151,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2018-06-29",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.09041964058072151,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2018-06-29",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.15507214238324832,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2018-06-29",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.15507214238324832,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2019-06-28",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.0952262825988787,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2019-06-28",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.0952262825988787,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2019-06-28",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.19079754997435452,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2019-06-28",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.19079754997435452,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2020-06-30",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.10385787907156756,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2020-06-30",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.10385787907156756,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2020-06-30",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.16809273187725693,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2020-06-30",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.16809273187725693,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2022-06-30",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.17135951791862947,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2022-06-30",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.17135951791862947,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2022-06-30",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.21093565687712648,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2022-06-30",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.21093565687712648,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2023-06-30",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.150406004672034,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2023-06-30",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.150406004672034,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2023-06-30",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.1722128180412064,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2023-06-30",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.1722128180412064,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2024-06-28",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.10259045942971891,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2024-06-28",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.10259045942971891,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2024-06-28",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.16403085488256888,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2024-06-28",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.16403085488256888,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2025-06-30",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.12042385317024144,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2025-06-30",
+    "domain": "csi300",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.12042385317024144,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2025-06-30",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.1,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.12422927490327595,
+    "library_over_method_ratio": null
+  },
+  {
+    "date": "2025-06-30",
+    "domain": "csi500",
+    "N": 50,
+    "beta": 0.25,
+    "method_L1_difference": 0.0,
+    "library_L1_difference": 0.12422927490327595,
+    "library_over_method_ratio": null
+  }
+]

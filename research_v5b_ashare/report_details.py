@@ -136,6 +136,43 @@ def information_pairs():
             loss_difference_over_u=r['loss_over_u']-s['loss_over_u'] if r['loss_over_u'] is not None and s['loss_over_u'] is not None else None))
     write(OUT/'information_orientation_average.json',averaged);write(OUT/'information_paired_responses.json',pairs);write(OUT/'information_unresolved.json',missing)
 
+def scale_tables(records):
+    out=[]
+    for axis,stage in [('N','R4-N'),('M','R4-M')]:
+        selected=[r for r in records if r['stage'] in [stage,'R2'] and r['seed']==11 and r['tau']==1 and r['view']=='H63_stale63'
+                  and (axis=='N' or r['date'][5:7] in ['03','06','09','12'])]
+        grouped=defaultdict(list)
+        for r in selected:grouped[(r['phase'],r['N'],r['M'],r['method'])].append(r)
+        for k,rr in grouped.items():
+            good=[r for r in rr if r['regret_upper'] is not None]
+            out.append(dict(axis=axis,phase=k[0],N=k[1],M=k[2],method=k[3],panel_seed=11,recorded=len(rr),evaluable=len(good),
+                success_lower_recorded=mean([r['success_lower'] for r in rr]),success_upper_recorded=mean([r['success_upper'] for r in rr]),
+                success_evaluable=mean([r['success_lower'] for r in good]),regret_over_u_evaluable=mean([r['regret_upper']/r['u'] for r in good]),
+                solver_status=dict(Counter(r['solver_status'] for r in rr)),solver_cpu=sum(r['solver_cpu'] for r in rr)))
+    write(OUT/'R4_scale_tables.json',out)
+
+def extension_pairs(records):
+    selected=[r for r in records if r['stage'] in ['R3b','R4-N','R4-M','F2'] and r['phase']=='test' and r['tau']==1 and r['view']=='H63_stale63']
+    lookup={(r['id'],r['method']):r for r in selected};grouped=defaultdict(list)
+    for r in selected:
+        if r['method'] not in ['A1B:0.1','A1B:0.25']:continue
+        beta=float(r['method'].split(':')[1])
+        for baseline in ['MA:0.0',f'Greedy:{beta}']:
+            b=lookup.get((r['id'],baseline))
+            if b is None:continue
+            grouped[(r['stage'],r['domain'],r['N'],r['M'],beta,baseline)].append((r,b))
+    out=[]
+    for k,rr in grouped.items():
+        good=[(a,b) for a,b in rr if a['regret_upper'] is not None and b['regret_upper'] is not None]
+        out.append(dict(stage=k[0],domain=k[1],N=k[2],M=k[3],beta=k[4],baseline=k[5],recorded_pairs=len(rr),evaluable_pairs=len(good),
+            success_difference_evaluable=mean([a['success_lower']-b['success_lower'] for a,b in good]),
+            improved_cases=sum(a['success_lower']>b['success_upper'] for a,b in good),worsened_cases=sum(a['success_upper']<b['success_lower'] for a,b in good),
+            regret_difference_over_u=mean([(a['regret_upper']-b['regret_upper'])/a['u'] for a,b in good]),
+            internal_mass_gain=mean([a['internal_success_lower']-b['internal_success_lower'] for a,b in rr]),
+            scope='exploratory paired evaluable records; does not replace fixed-calendar primary inference'))
+    write(OUT/'extension_paired_differences.json',out)
+    return out
+
 def library_diagnostic():
     groups=defaultdict(dict)
     for j in read(PRIVATE/'manifest.json'):
@@ -191,13 +228,19 @@ def book_tables():
     return out
 
 def private_audit():
-    hashes=[];overlap=[];costs={};status=Counter();fail=[];end_to_end=[]
+    hashes=[];overlap=[];costs={};status=Counter();fail=[];end_to_end=[];weight_diagnostics={};cfg=read(ROOT/'protocol_frozen.json')
+    from scipy.special import logsumexp
     for job in read(PRIVATE/'manifest.json'):
         path=PRIVATE/'decisions'/f'{job["id"]}.json'
         if not path.exists():continue
         r=read(path)
         if r['status']!='complete':continue
         costs.setdefault(r['shared_cost_id'],r['frontend_cpu'])
+        key=r['shared_cost_id']
+        if key not in weight_diagnostics:
+            with np.load(PRIVATE/'frontends'/f'{key}.npz') as f:
+                z=(cfg['eta_F2'] if job.get('front')=='F2' else cfg['eta'])*f['scores'].sum(0);lp=z-logsumexp(z);p=np.exp(lp)
+            weight_diagnostics[key]=dict(shared_cost_id=key,min_probability=float(p.min()),max_probability=float(p.max()),ESS=float(1/(p@p)),underflow_count=int(np.sum((p==0)&np.isfinite(lp))))
         end_to_end.append(dict(id=job['id'],stage=job['stage'],N=job['N'],M=job['M'],shared_cost_id=r['shared_cost_id'],
             measured_job_cpu=r['cpu_seconds'],frontend_cold_reference_cpu=r['frontend_cpu'],method_calls_cpu=sum(c.get('measured_cpu',0) for c in r['cells']),
             accounting='job CPU includes actual cache loads, shared QP preparation and future evaluation; cold frontend reference must not be added again to job CPU'))
@@ -208,11 +251,12 @@ def private_audit():
             ma=next(c for c in cc if c['method']=='MA')['decision']
             for c in cc:
                 d=c['decision'];status[d['raw_status']]+=1
-                if c['method']=='A1B':overlap.append(dict(stage=job['stage'],phase=job['panel']['phase'],tau=tau,beta=c['beta'],max_weight_difference=float(np.max(np.abs(np.array(d['evaluated_target'])-ma['evaluated_target']))),internal_mass_gain=d['success_mass_lower']-ma['success_mass_lower']))
+                if c['method']=='A1B':overlap.append(dict(id=job['id'],stage=job['stage'],phase=job['panel']['phase'],tau=tau,beta=c['beta'],max_weight_difference=float(np.max(np.abs(np.array(d['evaluated_target'])-ma['evaluated_target']))),internal_mass_gain=d['success_mass_lower']-ma['success_mass_lower']))
                 if d['primal_residual']>1e-9:fail.append(dict(id=job['id'],method=c['method'],reason='evaluated_primal'))
     write(OUT/'postrun_integrity.json',dict(common_inputs=all(hashes),shared_inputs_checked=len(hashes),unique_frontends=len(costs),
         cold_frontend_cpu_sum=sum(costs.values()),statuses=dict(status),failures=fail,overlap=overlap))
     write(OUT/'computational_costs.json',end_to_end)
+    write(OUT/'predictive_weight_diagnostics.json',list(weight_diagnostics.values()))
     return dict(common_inputs=all(hashes),failures=len(fail),statuses=dict(status))
 
 def frontend_diagnostics():
@@ -233,7 +277,7 @@ def frontend_diagnostics():
 
 def extend_report(records,table):
     prices,front=r1_audit();bridge=detailed_bridge();grid=additional_tables(records);audit=private_audit()
-    information_pairs();library_diagnostic();books=book_tables();frontend_diagnostics()
+    information_pairs();scale_tables(records);extensions=extension_pairs(records);library_diagnostic();books=book_tables();frontend_diagnostics()
     import matplotlib.pyplot as plt
     for threshold in ['tau','geo0.5','geo0.75','geo1.05']:
         fig,axes=plt.subplots(1,2,figsize=(10,4))
@@ -272,6 +316,14 @@ def extend_report(records,table):
         '本轮冻结后新增的汇总代码只读取结果，不参与模型、阈值或持仓生成。完整指数扩展在测试前因开发计时预算排除；该缺口不能用N=100结果代替。',
         '','## 三项最终判断的使用原则','',
         '半合成只支持这两个历史校准族中的机制判断；真实结果只有固定月份配对区间及成本敏感性共同支持时，才可说有稳健改善。若算法与MA或贪心重合，记为真实风险库中的前沿退化或没有额外增益，不能转用几何阈值包装成主要实证成功。']
+    with (ROOT/'REPORT_ZH.md').open('a',encoding='utf-8') as f:f.write('\n'.join(lines)+'\n')
+    lines=['','## 扩展实验的组内配对结果','',
+        '下表按实际配对的可评价实例展示10%预算相对MA的差。长/混合历史分组、不同N/M及F2分别报告，不能将不同股票池之间的水平差解释为因果效应；未决与25%预算、相对Greedy的完整记录见 `output/extension_paired_differences.json`。这是敏感性描述，不替代六项主检验。','',
+        '|阶段|域|N/M|可评价对数|成功率差|由失败变成功/反向|平均regret/u差|','|---|---|---|---:|---:|---:|---:|']
+    for r in extensions:
+        if r['beta']!=.1 or r['baseline']!='MA:0.0' or r['success_difference_evaluable'] is None:continue
+        lines.append(f'|{r["stage"]}|{r["domain"]}|{r["N"]}/{r["M"]}|{r["evaluable_pairs"]}|{r["success_difference_evaluable"]:.3%}|{r["improved_cases"]}/{r["worsened_cases"]}|{r["regret_difference_over_u"]:.7g}|')
+    lines+=['','计算成本见 `output/computational_costs.json`。端到端CPU包含实际前端计算/缓存读取、共同QP准备与未来评价；逐方法调用另计。公共QP准备未细分为独立内核计时，不能把平坦前沿中A1-B直接返回MA的速度当成困难组合问题的普遍加速证据。']
     with (ROOT/'REPORT_ZH.md').open('a',encoding='utf-8') as f:f.write('\n'.join(lines)+'\n')
     lines=['','## 总收益指数研究账本与成本','',
         '下表仅对净值全程可评价的账本计算年化风险结果；完整数少于6时，不得解释为六个预设面板的总体表现。若只是中途估值陈旧、最终可靠累计估值已恢复，可识别的首末端点年化收益另见 `output/book_endpoint_returns.json`，仍不填造中间日收益或补算Sharpe/回撤。费用、换手和暴露为实际可观察期间的诊断。各成本场景完整结果见 `output/book_cost_tables.json`。','',

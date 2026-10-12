@@ -32,7 +32,7 @@ def collect():
     with gzip.open(OUT/'risk_records_aggregate.json.gz','wt',encoding='utf-8') as f:json.dump(clean(public),f,ensure_ascii=False,separators=(',',':'),allow_nan=False)
     write(OUT/'failure_and_unfinished.json',fail)
     unrun=sum(c['not_run'] for c in counts.values())
-    write(OUT/'completion.json',dict(planned=len(manifest),processed=len(manifest)-unrun,completed=complete,unrun=unrun,remaining=len(manifest)-complete,
+    write(OUT/'completion.json',dict(planned=len(manifest),processed=len(manifest)-unrun,completed=complete,unrun=unrun,remaining=unrun,unresolved_or_failed=len(manifest)-complete-unrun,
        by_stage={s:dict(planned=sum(c.values()),processed=sum(c.values())-c['not_run'],complete=c['complete'],statuses=dict(c)) for s,c in counts.items()}))
     return public
 
@@ -126,7 +126,7 @@ def report():
       '**阶段性汇总：仍有冻结实例未执行，完成规模实验后更新。**' if completion['unrun'] else '**冻结清单已全部处理；数据不可用和失败项仍保留，下文逐项说明。**','',
       '本报告的真实评价采用总收益估值近似：缺失期间沿用上一估值，恢复日计入累计变化。训练端仍保留 NaN。结果不代表精确可交易回测或真实市场风险保证。','',
       '## 配置与完成情况','',f'冻结 τ={cfg["tau"]}；η_F1={cfg["eta"]}，η_R3={cfg["eta_R3"]}，η_F2={cfg["eta_F2"]}。主估值陈旧期63日，敏感性20/126日，严格完整口径另列。',
-      f'主跑批计划 {completion["planned"]} 项，完整完成 {completion["completed"]} 项；不可用/失败/尚未运行均保留清单，不根据胜负删减。',
+      f'主跑批计划 {completion["planned"]} 项，已处理 {completion["processed"]} 项，形成有效决策 {completion["completed"]} 项，数据未决/失败 {completion["unresolved_or_failed"]} 项，未运行 {completion["unrun"]} 项；完整清单保留，不根据胜负删减。',
       '半合成、信息视图、R1枚举另有独立记录，未计入上述主跑批数量。2019年末目标用于初始建仓；2026单列。','',
       '## 真实风险比较（公共可评价记录的描述性结果）','',
       '下表不能替代固定月历上的区间推断。不同估计器可用性可能不同，LW缺失时不插补。正式主要比较使用同一月历、同一数据配对。','',
@@ -194,6 +194,11 @@ def delivery_check():
             with np.load(PRIVATE/'frontends'/f'{r["shared_cost_id"]}.npz') as z:
                 assert array_hash(z['Q'])==r['Q_hash'] and array_hash(z['scores'])==r['scores_hash']
             prefetch.append(r['shared_cost_id'])
-    versions={p:importlib.metadata.version(p) for p in ['numpy','scipy','pandas','pyarrow','cvxpy','clarabel','highspy','psutil','matplotlib','zstandard']}
+    versions={p:importlib.metadata.version(p) for p in ['numpy','scipy','pandas','pyarrow','cvxpy','clarabel','highspy','psutil','matplotlib','zstandard','scikit-learn','mpmath']}
+    import platform,os
+    (ROOT/'requirements.txt').write_text('\n'.join(f'{p}=={v}' for p,v in versions.items())+'\n',encoding='utf-8')
+    write(OUT/'environment.json',dict(python=platform.python_version(),platform=platform.platform(),packages=versions,
+        blas_environment={k:os.environ.get(k) for k in ['OPENBLAS_NUM_THREADS','OMP_NUM_THREADS','MKL_NUM_THREADS','NUMEXPR_NUM_THREADS']},
+        resource_note='At most two numerical worker processes; cumulative process CPU includes native solver threads. CPU is not wall time.'))
     write(OUT/'delivery_check.json',dict(passed=True,source_unchanged=True,membership_unchanged=True,manifest_unchanged=True,frozen_core_verified=core,public_security_detail_scan_passed=True,prefetch_cache_hashes_verified=len(prefetch),
        versions=versions,current_source_hashes=source_hashes(),frozen_source_hashes=cfg['source_hashes']))

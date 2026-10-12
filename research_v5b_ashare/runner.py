@@ -1,5 +1,5 @@
 """Atomic batch runner: shared inputs, method-neutral raw records, fixed calendar."""
-import time,traceback
+import time,traceback,os
 import numpy as np
 from core import feasible
 from research_v4a.mean_budget import qp
@@ -78,5 +78,22 @@ def batch(stage):
     if cfg['status']!='frozen':raise ValueError('test gate closed')
     jobs=[j for j in read(PRIVATE/'manifest.json') if j['stage']==stage];data=Data()
     for k,j in enumerate(jobs):
-        r=solve_job(data,j,cfg)
-        print(stage,k+1,len(jobs),j['id'],r['status'],round(r['cpu_seconds'],2),flush=True)
+        path=PRIVATE/'decisions'/f'{j["id"]}.json'
+        if path.exists():continue
+        # An exclusive per-instance lease permits two workers to traverse the
+        # same frozen order without evaluating an instance twice.
+        import psutil
+        lock=PRIVATE/'job_locks'/f'{j["id"]}.lock';lock.parent.mkdir(exist_ok=True)
+        if lock.exists():
+            try:
+                owner=read(lock);alive=psutil.pid_exists(owner['pid']) and abs(psutil.Process(owner['pid']).create_time()-owner['created'])<.01
+            except (ValueError,OSError,psutil.Error):alive=True
+            if alive:continue
+            lock.unlink()
+        try:
+            with lock.open('x',encoding='utf-8') as f:json.dump(dict(pid=os.getpid(),created=psutil.Process().create_time()),f)
+        except FileExistsError:continue
+        try:
+            r=solve_job(data,j,cfg)
+            print(stage,k+1,len(jobs),j['id'],r['status'],round(r['cpu_seconds'],2),flush=True)
+        finally:lock.unlink(missing_ok=True)

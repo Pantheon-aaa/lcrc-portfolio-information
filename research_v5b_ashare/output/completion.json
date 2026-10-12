@@ -1,9 +1,10 @@
 {
   "planned": 1228,
-  "processed": 623,
-  "completed": 587,
-  "unrun": 605,
-  "remaining": 641,
+  "processed": 1228,
+  "completed": 1138,
+  "unrun": 0,
+  "remaining": 0,
+  "unresolved_or_failed": 90,
   "by_stage": {
     "R2": {
       "planned": 492,
@@ -16,43 +17,46 @@
     },
     "R4-N": {
       "planned": 328,
-      "processed": 0,
-      "complete": 0,
+      "processed": 328,
+      "complete": 304,
       "statuses": {
-        "not_run": 328
+        "complete": 304,
+        "unverified_membership": 24
       }
     },
     "R4-M": {
       "planned": 112,
-      "processed": 0,
-      "complete": 0,
+      "processed": 112,
+      "complete": 96,
       "statuses": {
-        "not_run": 112
+        "complete": 96,
+        "unverified_membership": 16
       }
     },
     "R3b": {
       "planned": 162,
-      "processed": 131,
-      "complete": 131,
+      "processed": 162,
+      "complete": 162,
       "statuses": {
-        "complete": 131,
-        "not_run": 31
+        "complete": 162
       }
     },
     "F2": {
       "planned": 56,
-      "processed": 0,
-      "complete": 0,
+      "processed": 56,
+      "complete": 48,
       "statuses": {
-        "not_run": 56
+        "complete": 48,
+        "unverified_membership": 8
       }
     },
     "F2-library": {
       "planned": 78,
-      "processed": 0,
-      "complete": 0,
+      "processed": 78,
+      "complete": 72,
       "statuses": {
-        "not_run": 78
+        "complete": 72,
+        "unverified_membership": 6
       }
     }
   }
