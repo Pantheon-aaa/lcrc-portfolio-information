@@ -7,11 +7,13 @@ def num(x):return float(x) if x is not None else np.nan
 def key(cell):return cell['method']+':'+str(cell['beta'])
 
 def collect():
-    manifest=read(PRIVATE/'manifest.json');public=[];fail=[];complete=0
+    from collections import Counter,defaultdict
+    manifest=read(PRIVATE/'manifest.json');public=[];fail=[];complete=0;counts=defaultdict(Counter)
     for job in manifest:
         path=PRIVATE/'decisions'/f'{job["id"]}.json';p=job['panel']
-        if not path.exists():fail.append(dict(id=job['id'],stage=job['stage'],status='not_run'));continue
+        if not path.exists():fail.append(dict(id=job['id'],stage=job['stage'],status='not_run'));counts[job['stage']]['not_run']+=1;continue
         r=read(path)
+        counts[job['stage']][r['status']]+=1
         if r['status']!='complete':fail.append(dict(id=job['id'],stage=job['stage'],status=r['status'],error=r.get('error')));continue
         complete+=1
         for cell in r['cells']:
@@ -26,9 +28,12 @@ def collect():
                    internal_success_lower=d['success_mass_lower'],internal_success_upper=d['success_mass_upper'],budget_certified=d['budget_certified'],
                    mean_increment_upper=d['mean_increment_upper'],budget_lower=d['budget_lower'],primary_gap=rr.get('primary_mass_gap'),secondary_gap=rr.get('secondary_price_gap'),
                    fallback=d.get('fallback_reason'),solver_status=d['raw_status'],residual=d['primal_residual'],solver_cpu=cell['measured_cpu']))
-    write(OUT/'risk_records_aggregate.json',public);write(OUT/'failure_and_unfinished.json',fail)
-    write(OUT/'completion.json',dict(planned=len(manifest),completed=complete,remaining=len(manifest)-complete,
-       by_stage={s:dict(planned=sum(j['stage']==s for j in manifest),complete=sum(j['stage']==s and (PRIVATE/'decisions'/f'{j["id"]}.json').exists() and read(PRIVATE/'decisions'/f'{j["id"]}.json')['status']=='complete' for j in manifest)) for s in sorted(set(j['stage'] for j in manifest))}))
+    import gzip
+    with gzip.open(OUT/'risk_records_aggregate.json.gz','wt',encoding='utf-8') as f:json.dump(clean(public),f,ensure_ascii=False,separators=(',',':'),allow_nan=False)
+    write(OUT/'failure_and_unfinished.json',fail)
+    unrun=sum(c['not_run'] for c in counts.values())
+    write(OUT/'completion.json',dict(planned=len(manifest),processed=len(manifest)-unrun,completed=complete,unrun=unrun,remaining=len(manifest)-complete,
+       by_stage={s:dict(planned=sum(c.values()),processed=sum(c.values())-c['not_run'],complete=c['complete'],statuses=dict(c)) for s,c in counts.items()}))
     return public
 
 def inference(records):
@@ -164,5 +169,11 @@ def delivery_check():
     assert sha(SOURCE)==read(CACHE/'index.json')['source_sha256']
     assert PRIOR_CPU+sum(r['cpu_seconds'] for r in rows(PRIVATE/'runtime_ledger.jsonl'))<86400
     assert read(OUT/'gate0.json')['passed']
+    cfg=read(ROOT/'protocol_frozen.json')
+    assert all(sha(MEMBERSHIP/name)==value for name,value in cfg['membership_hashes'].items())
+    assert digest(json.dumps(clean(read(PRIVATE/'manifest.json')),sort_keys=True))==cfg['manifest_hash']
+    core=['risk.py','decision.py','data.py','valuation.py','evaluator.py','bridge.py','information.py','setup.py']
+    assert all(sha(ROOT/name)==cfg['source_hashes'][name] for name in core)
     versions={p:importlib.metadata.version(p) for p in ['numpy','scipy','pandas','pyarrow','cvxpy','clarabel','highspy','psutil','matplotlib','zstandard']}
-    write(OUT/'delivery_check.json',dict(passed=True,source_unchanged=True,versions=versions,current_source_hashes=source_hashes(),frozen_source_hashes=read(ROOT/'protocol_frozen.json')['source_hashes']))
+    write(OUT/'delivery_check.json',dict(passed=True,source_unchanged=True,membership_unchanged=True,manifest_unchanged=True,frozen_core_verified=core,
+       versions=versions,current_source_hashes=source_hashes(),frozen_source_hashes=cfg['source_hashes']))

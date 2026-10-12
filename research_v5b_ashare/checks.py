@@ -86,5 +86,7 @@ def run():
     before=dict(book.units);trade[:]=True;book.step(prices,valid,trade);check('proxy_pending_expires',book.units==before)
     valid[0]=False;check('proxy_unknown_value_unresolved',book.step(prices,valid,trade)['nav'] is None)
     valid[:]=True;check('proxy_value_recovers',book.step(prices,valid,trade)['nav'] is not None)
+    book.step(prices,valid,trade,np.array([True,False]))
+    check('proxy_inconsistent_path_requires_reconciliation',book.step(prices,valid,trade)['nav'] is None)
     write(OUT/'gate0.json',dict(passed=True,checks=checks,qualification='Research mark and fractional total-return ledger checks; no L1 execution claim.'))
     print('GATE0',len(checks),'checks passed under amended research assumptions',flush=True)

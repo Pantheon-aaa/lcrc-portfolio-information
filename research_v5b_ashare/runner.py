@@ -56,7 +56,7 @@ def solve_job(data,job,cfg,folder='decisions',timing=False):
                 if job.get('front')=='F2':selected=[a for a in selected if a[0] not in ['InverseVol','EMGMV','LW']]
                 for method,beta in selected:
                     tick=cpu()
-                    r=practical(data,p,front,s,method,cfg['expert_index']) if method in ['InverseVol','EMGMV','LW'] else s.solve(method,beta,120 if job['N']>=100 else 30)
+                    r=practical(data,p,front,s,method,cfg['expert_index']) if method in ['InverseVol','EMGMV','LW'] else s.solve(method,beta,120 if job['N']>100 else 30)
                     if r is None:
                         out['cells'].append(dict(tau_index=k,method=method,beta=beta,status='unavailable_incomplete_joint_history'));continue
                     scores={name:assess(lab,r['evaluated_target'],cfg['tau'][k]*front['u'])|{'quality':lab.get('quality')} for name,lab in evaluations.items()}

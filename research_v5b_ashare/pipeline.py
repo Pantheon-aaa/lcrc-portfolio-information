@@ -18,7 +18,10 @@ def gate0():
 
 def prepare():
     from .valuation import build
-    build(Data())
+    from .data import universe
+    data=Data()
+    if not (PRIVATE/'panels.json').exists():universe(data)
+    build(data)
 
 def benchmark():
     from .setup import benchmark as run

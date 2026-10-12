@@ -5,11 +5,12 @@ from .data import Data
 from .valuation import Valuation
 
 class ProxyBook:
-    def __init__(self,cost):self.cash=1e6;self.units={};self.pending=None;self.age=0;self.cost=cost;self.total_fees=0.
+    def __init__(self,cost):self.cash=1e6;self.units={};self.pending=None;self.age=0;self.cost=cost;self.total_fees=0.;self.unreconciled=set()
     def target(self,target):self.pending=target;self.age=0
-    def step(self,prices,valid,trade):
+    def step(self,prices,valid,trade,mismatch=None):
         self.age+=1;held=[i for i,v in self.units.items() if v>0]
-        if any(not valid[i] for i in held):return dict(nav=None,cash=self.cash,status='valuation_unresolved',fees=0.,traded=0.,exposure=None)
+        if mismatch is not None:self.unreconciled.update(i for i in held if mismatch[i])
+        if self.unreconciled or any(not valid[i] for i in held):return dict(nav=None,cash=self.cash,status='unreconciled_return_path' if self.unreconciled else 'valuation_unresolved',fees=0.,traded=0.,exposure=None)
         nav=self.cash+sum(self.units[i]*prices[i] for i in held);fees=0.;traded=0.;changed=False
         if self.pending is not None and self.age<=5:
             ids=sorted(set(self.units)|set(self.pending));sold=set()
@@ -59,7 +60,7 @@ def run():
                         if t in targets:book.target(None if targets[t] is None else targets[t].get(key))
                         prices=v.a['marks'][t];valid=np.isfinite(prices)&(v.a['age'][t]<=63)&~v.a['mismatch'][t]
                         trade=data.a['valid'][t]&(data.a['observed'][t]==1)
-                        rec=book.step(prices,valid,trade);rec['date']=data.dates[t];daily.append(rec)
+                        rec=book.step(prices,valid,trade,v.a['mismatch'][t]);rec['date']=data.dates[t];daily.append(rec)
                     nav=np.array([np.nan if r['nav'] is None else r['nav'] for r in daily]);complete=bool(np.isfinite(nav).all());returns=nav[1:]/nav[:-1]-1
                     metrics=dict(domain=domain,seed=seed,method_beta=key,cost_bps=bps,complete=complete,unresolved_days=int(np.isnan(nav).sum()),total_fees=book.total_fees,
                         turnover_sum=sum(r.get('one_way_turnover',0) for r in daily),mean_exposure=float(np.nanmean([r['exposure'] if r['exposure'] is not None else np.nan for r in daily])))

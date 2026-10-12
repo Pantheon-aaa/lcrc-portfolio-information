@@ -657,10 +657,71 @@
         "supervisor.py": "71d7916da67370cdd8031d3ff12b381a2cb26052e1f9ba1473388c43756cc066",
         "valuation.py": "2f757c0075a798723794238ecc19e9c2291d97bec5011b1041651201e00549b1"
       }
+    },
+    {
+      "stage": "information",
+      "arguments": [],
+      "pid": 39452,
+      "run_id": "information_1791790695183734900",
+      "process_tree_cpu": {
+        "39452": 0.03125,
+        "16876": 241.390625
+      },
+      "cpu_seconds": 246.765625,
+      "child_cpu_seconds": 241.421875,
+      "exit_allowance_seconds": 1.0,
+      "wall_seconds": 246.67257889999746,
+      "peak_rss_bytes": 657850368,
+      "exit_code": 0,
+      "stop_reason": null,
+      "status": "complete",
+      "unix_end": 1791790941.7417526,
+      "source_hashes": {
+        "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+        "bridge.py": "5bd47f60267f248400bfcf6c4e1bfded88d3d08100d076435f28d8396c80cc38",
+        "checks.py": "9410834f793c323284cae0351809a730a97427cd78ad41c8ee909bed30487aa6",
+        "common.py": "cbf2cbbb9661c1c9cba56df10d0e4bbff761422cde95f8cb38710d8ea66c54e0",
+        "data.py": "02e3a84ce3cdfbbaae26f881136f628b646037c279de88c3c945adec76115e0e",
+        "decision.py": "c3e3a8c4340cbade5bcc878138a128664576f0f781b5d5be5abf548813550f99",
+        "evaluator.py": "6c2972ae8cfc6072494cbd231c1a0cc78fc6a214eb150d4789c0511d1f5f632e",
+        "experiments.py": "022dbba1a4d78a8a1ceeb8a8bb281fbb4338e24b79081c119b1edfc48df1769f",
+        "information.py": "f14db63c1dbc6ca6e7113c43afe1967521d574f3273804c43747cd4bad3e36f7",
+        "ledger.py": "ed4c13102ff76f63e5323d08248eff7ebbd60334e1f5c681110cf9f4e68fd1d1",
+        "pipeline.py": "9dc28db3c8be9d289833accadeca775aaba1301cb383751e047d5e86f3c80c7f",
+        "proxy_book.py": "26022ce36e4793c89868f73116587c9acbef11fbaa824356b52c6bd4258d6233",
+        "report_details.py": "073c26daeccb11105a96b5d4bf9951ff368a79c4758751347962e140ec1bb4d3",
+        "reporting.py": "1689874e72b8db71af8e53d44ccbfaa89baafa701ad56433270a193a86e2d9f2",
+        "risk.py": "cc135b7d51b1393a3aecacc709271196a29455d4919fe1fca7c1d014ad8395b3",
+        "runner.py": "7aa78c06bc5cc4906cf2e35486bef14e76ca6dc7c3f97e19bc231c2627acfbdd",
+        "setup.py": "cc7324465415732eb112f45d1145a958efd7eeb3532598be03a044b526ed8447",
+        "supervisor.py": "cfac66a9a6663e7f4fad9fb1807eec77aa535c3d587471cdb56876978f3d2751",
+        "valuation.py": "2f757c0075a798723794238ecc19e9c2291d97bec5011b1041651201e00549b1"
+      },
+      "initial_source_hashes": {
+        "__init__.py": "b88ff20cd937fd76c44965510b7ecfdbfb2ee18b7253e9680a9622e5aab0a9ed",
+        "bridge.py": "5bd47f60267f248400bfcf6c4e1bfded88d3d08100d076435f28d8396c80cc38",
+        "checks.py": "b00a331cc25b594b7e9aa1a931c8676db2b0de303614c54ab7032071d8fd38b4",
+        "common.py": "cbf2cbbb9661c1c9cba56df10d0e4bbff761422cde95f8cb38710d8ea66c54e0",
+        "data.py": "02e3a84ce3cdfbbaae26f881136f628b646037c279de88c3c945adec76115e0e",
+        "decision.py": "c3e3a8c4340cbade5bcc878138a128664576f0f781b5d5be5abf548813550f99",
+        "evaluator.py": "6c2972ae8cfc6072494cbd231c1a0cc78fc6a214eb150d4789c0511d1f5f632e",
+        "experiments.py": "022dbba1a4d78a8a1ceeb8a8bb281fbb4338e24b79081c119b1edfc48df1769f",
+        "information.py": "f14db63c1dbc6ca6e7113c43afe1967521d574f3273804c43747cd4bad3e36f7",
+        "ledger.py": "ed4c13102ff76f63e5323d08248eff7ebbd60334e1f5c681110cf9f4e68fd1d1",
+        "pipeline.py": "9dc28db3c8be9d289833accadeca775aaba1301cb383751e047d5e86f3c80c7f",
+        "proxy_book.py": "9e82a3ec4a987e154b36b8c2b936c31c34a134b3cc295e821435cabe92a0bc76",
+        "report_details.py": "073c26daeccb11105a96b5d4bf9951ff368a79c4758751347962e140ec1bb4d3",
+        "reporting.py": "6e6da6eaca4d88c7f71a433e3345bc8409e81237000ad6e324dcc66864992f57",
+        "risk.py": "cc135b7d51b1393a3aecacc709271196a29455d4919fe1fca7c1d014ad8395b3",
+        "runner.py": "7aa78c06bc5cc4906cf2e35486bef14e76ca6dc7c3f97e19bc231c2627acfbdd",
+        "setup.py": "cc7324465415732eb112f45d1145a958efd7eeb3532598be03a044b526ed8447",
+        "supervisor.py": "cfac66a9a6663e7f4fad9fb1807eec77aa535c3d587471cdb56876978f3d2751",
+        "valuation.py": "2f757c0075a798723794238ecc19e9c2291d97bec5011b1041651201e00549b1"
+      }
     }
   ],
   "prior_v5_cpu": 271.6875,
-  "cumulative_cpu": 3709.90625,
+  "cumulative_cpu": 3956.671875,
   "cpu_limit_seconds": 86400,
   "optimization_limit_seconds": 69120
 }
