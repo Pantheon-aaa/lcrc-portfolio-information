@@ -1,0 +1,202 @@
+[
+  {
+    "method": "MA:0.0",
+    "view": "H63_stale0",
+    "recorded": 396,
+    "evaluable": 207,
+    "success_common": 0.5603864734299517,
+    "regret_over_u_common": 0.3417717321428421
+  },
+  {
+    "method": "MA:0.0",
+    "view": "H63_stale20",
+    "recorded": 396,
+    "evaluable": 356,
+    "success_common": 0.5140449438202247,
+    "regret_over_u_common": 0.37426122441179993
+  },
+  {
+    "method": "MA:0.0",
+    "view": "H63_stale63",
+    "recorded": 396,
+    "evaluable": 372,
+    "success_common": 0.5188172043010753,
+    "regret_over_u_common": 0.37240901221613487
+  },
+  {
+    "method": "MA:0.0",
+    "view": "H63_stale126",
+    "recorded": 396,
+    "evaluable": 372,
+    "success_common": 0.5188172043010753,
+    "regret_over_u_common": 0.37240901221613487
+  },
+  {
+    "method": "MA:0.0",
+    "view": "H126_stale63",
+    "recorded": 396,
+    "evaluable": 346,
+    "success_common": 0.5895953757225434,
+    "regret_over_u_common": 0.30936476208441804
+  },
+  {
+    "method": "A1B:0.1",
+    "view": "H63_stale0",
+    "recorded": 396,
+    "evaluable": 207,
+    "success_common": 0.5603864734299517,
+    "regret_over_u_common": 0.3417717321428421
+  },
+  {
+    "method": "A1B:0.1",
+    "view": "H63_stale20",
+    "recorded": 396,
+    "evaluable": 356,
+    "success_common": 0.5140449438202247,
+    "regret_over_u_common": 0.37426122441179993
+  },
+  {
+    "method": "A1B:0.1",
+    "view": "H63_stale63",
+    "recorded": 396,
+    "evaluable": 372,
+    "success_common": 0.5188172043010753,
+    "regret_over_u_common": 0.37240901221613487
+  },
+  {
+    "method": "A1B:0.1",
+    "view": "H63_stale126",
+    "recorded": 396,
+    "evaluable": 372,
+    "success_common": 0.5188172043010753,
+    "regret_over_u_common": 0.37240901221613487
+  },
+  {
+    "method": "A1B:0.1",
+    "view": "H126_stale63",
+    "recorded": 396,
+    "evaluable": 346,
+    "success_common": 0.5895953757225434,
+    "regret_over_u_common": 0.30936476208441804
+  },
+  {
+    "method": "A1B:0.25",
+    "view": "H63_stale0",
+    "recorded": 396,
+    "evaluable": 207,
+    "success_common": 0.5603864734299517,
+    "regret_over_u_common": 0.3417717321428421
+  },
+  {
+    "method": "A1B:0.25",
+    "view": "H63_stale20",
+    "recorded": 396,
+    "evaluable": 356,
+    "success_common": 0.5140449438202247,
+    "regret_over_u_common": 0.37426122441179993
+  },
+  {
+    "method": "A1B:0.25",
+    "view": "H63_stale63",
+    "recorded": 396,
+    "evaluable": 372,
+    "success_common": 0.5188172043010753,
+    "regret_over_u_common": 0.37240901221613487
+  },
+  {
+    "method": "A1B:0.25",
+    "view": "H63_stale126",
+    "recorded": 396,
+    "evaluable": 372,
+    "success_common": 0.5188172043010753,
+    "regret_over_u_common": 0.37240901221613487
+  },
+  {
+    "method": "A1B:0.25",
+    "view": "H126_stale63",
+    "recorded": 396,
+    "evaluable": 346,
+    "success_common": 0.5895953757225434,
+    "regret_over_u_common": 0.30936476208441804
+  },
+  {
+    "method": "Greedy:0.1",
+    "view": "H63_stale0",
+    "recorded": 396,
+    "evaluable": 207,
+    "success_common": 0.5603864734299517,
+    "regret_over_u_common": 0.34177173351685425
+  },
+  {
+    "method": "Greedy:0.1",
+    "view": "H63_stale20",
+    "recorded": 396,
+    "evaluable": 356,
+    "success_common": 0.5140449438202247,
+    "regret_over_u_common": 0.3742612255808085
+  },
+  {
+    "method": "Greedy:0.1",
+    "view": "H63_stale63",
+    "recorded": 396,
+    "evaluable": 372,
+    "success_common": 0.5188172043010753,
+    "regret_over_u_common": 0.372409012934939
+  },
+  {
+    "method": "Greedy:0.1",
+    "view": "H63_stale126",
+    "recorded": 396,
+    "evaluable": 372,
+    "success_common": 0.5188172043010753,
+    "regret_over_u_common": 0.372409012934939
+  },
+  {
+    "method": "Greedy:0.1",
+    "view": "H126_stale63",
+    "recorded": 396,
+    "evaluable": 346,
+    "success_common": 0.5895953757225434,
+    "regret_over_u_common": 0.3093647628067388
+  },
+  {
+    "method": "Greedy:0.25",
+    "view": "H63_stale0",
+    "recorded": 396,
+    "evaluable": 207,
+    "success_common": 0.5603864734299517,
+    "regret_over_u_common": 0.34177173351685425
+  },
+  {
+    "method": "Greedy:0.25",
+    "view": "H63_stale20",
+    "recorded": 396,
+    "evaluable": 356,
+    "success_common": 0.5140449438202247,
+    "regret_over_u_common": 0.3742612255808085
+  },
+  {
+    "method": "Greedy:0.25",
+    "view": "H63_stale63",
+    "recorded": 396,
+    "evaluable": 372,
+    "success_common": 0.5188172043010753,
+    "regret_over_u_common": 0.372409012934939
+  },
+  {
+    "method": "Greedy:0.25",
+    "view": "H63_stale126",
+    "recorded": 396,
+    "evaluable": 372,
+    "success_common": 0.5188172043010753,
+    "regret_over_u_common": 0.372409012934939
+  },
+  {
+    "method": "Greedy:0.25",
+    "view": "H126_stale63",
+    "recorded": 396,
+    "evaluable": 346,
+    "success_common": 0.5895953757225434,
+    "regret_over_u_common": 0.3093647628067388
+  }
+]

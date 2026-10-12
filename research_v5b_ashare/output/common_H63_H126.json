@@ -1,0 +1,170 @@
+[
+  {
+    "method": "A1B-guarded:0.1",
+    "common_instances": 346,
+    "H63_success": 0.5028901734104047,
+    "H126_success": 0.5895953757225434,
+    "H63_regret_over_u": 0.38456465154353536,
+    "H126_regret_over_u": 0.30936476208441804
+  },
+  {
+    "method": "A1B-guarded:0.25",
+    "common_instances": 346,
+    "H63_success": 0.5028901734104047,
+    "H126_success": 0.5895953757225434,
+    "H63_regret_over_u": 0.38456465154353536,
+    "H126_regret_over_u": 0.30936476208441804
+  },
+  {
+    "method": "A1B:0.1",
+    "common_instances": 346,
+    "H63_success": 0.5028901734104047,
+    "H126_success": 0.5895953757225434,
+    "H63_regret_over_u": 0.38456465154353536,
+    "H126_regret_over_u": 0.30936476208441804
+  },
+  {
+    "method": "A1B:0.25",
+    "common_instances": 346,
+    "H63_success": 0.5028901734104047,
+    "H126_success": 0.5895953757225434,
+    "H63_regret_over_u": 0.38456465154353536,
+    "H126_regret_over_u": 0.30936476208441804
+  },
+  {
+    "method": "A1B:0.5",
+    "common_instances": 346,
+    "H63_success": 0.5028901734104047,
+    "H126_success": 0.5895953757225434,
+    "H63_regret_over_u": 0.38456465154353536,
+    "H126_regret_over_u": 0.30936476208441804
+  },
+  {
+    "method": "A1B:inf",
+    "common_instances": 346,
+    "H63_success": 0.5028901734104047,
+    "H126_success": 0.5895953757225434,
+    "H63_regret_over_u": 0.38456465154353536,
+    "H126_regret_over_u": 0.30936476208441804
+  },
+  {
+    "method": "CVaR025:0.1",
+    "common_instances": 346,
+    "H63_success": 0.4884393063583815,
+    "H126_success": 0.5838150289017341,
+    "H63_regret_over_u": 0.3891498441210472,
+    "H126_regret_over_u": 0.3124696619512609
+  },
+  {
+    "method": "CVaR025:0.25",
+    "common_instances": 346,
+    "H63_success": 0.4884393063583815,
+    "H126_success": 0.5809248554913294,
+    "H63_regret_over_u": 0.3897719372774746,
+    "H126_regret_over_u": 0.3128842465484914
+  },
+  {
+    "method": "CVaR05:0.1",
+    "common_instances": 346,
+    "H63_success": 0.5,
+    "H126_success": 0.5867052023121387,
+    "H63_regret_over_u": 0.3869766015508918,
+    "H126_regret_over_u": 0.311277584572842
+  },
+  {
+    "method": "CVaR05:0.25",
+    "common_instances": 346,
+    "H63_success": 0.5,
+    "H126_success": 0.5867052023121387,
+    "H63_regret_over_u": 0.38705459031794853,
+    "H126_regret_over_u": 0.3113409689923656
+  },
+  {
+    "method": "EMGMV:0.0",
+    "common_instances": 346,
+    "H63_success": 0.47109826589595377,
+    "H126_success": 0.523121387283237,
+    "H63_regret_over_u": 0.3998213157125051,
+    "H126_regret_over_u": 0.32557459303926467
+  },
+  {
+    "method": "EW:0.0",
+    "common_instances": 346,
+    "H63_success": 0.046242774566473986,
+    "H126_success": 0.04046242774566474,
+    "H63_regret_over_u": 0.9594973551235437,
+    "H126_regret_over_u": 0.8754440732778096
+  },
+  {
+    "method": "Greedy1swap:0.1",
+    "common_instances": 346,
+    "H63_success": 0.5028901734104047,
+    "H126_success": 0.5895953757225434,
+    "H63_regret_over_u": 0.38456465255096517,
+    "H126_regret_over_u": 0.3093647628067388
+  },
+  {
+    "method": "Greedy1swap:0.25",
+    "common_instances": 346,
+    "H63_success": 0.5028901734104047,
+    "H126_success": 0.5895953757225434,
+    "H63_regret_over_u": 0.38456465255096517,
+    "H126_regret_over_u": 0.3093647628067388
+  },
+  {
+    "method": "Greedy:0.1",
+    "common_instances": 346,
+    "H63_success": 0.5028901734104047,
+    "H126_success": 0.5895953757225434,
+    "H63_regret_over_u": 0.38456465255096517,
+    "H126_regret_over_u": 0.3093647628067388
+  },
+  {
+    "method": "Greedy:0.25",
+    "common_instances": 346,
+    "H63_success": 0.5028901734104047,
+    "H126_success": 0.5895953757225434,
+    "H63_regret_over_u": 0.38456465255096517,
+    "H126_regret_over_u": 0.3093647628067388
+  },
+  {
+    "method": "Hinge:0.1",
+    "common_instances": 346,
+    "H63_success": 0.5028901734104047,
+    "H126_success": 0.5895953757225434,
+    "H63_regret_over_u": 0.38456465154353536,
+    "H126_regret_over_u": 0.30936476208441804
+  },
+  {
+    "method": "Hinge:0.25",
+    "common_instances": 346,
+    "H63_success": 0.5028901734104047,
+    "H126_success": 0.5895953757225434,
+    "H63_regret_over_u": 0.38456465154353536,
+    "H126_regret_over_u": 0.30936476208441804
+  },
+  {
+    "method": "InverseVol:0.0",
+    "common_instances": 346,
+    "H63_success": 0.07514450867052024,
+    "H126_success": 0.09826589595375723,
+    "H63_regret_over_u": 0.7824997512779871,
+    "H126_regret_over_u": 0.6994831375502032
+  },
+  {
+    "method": "LW:0.0",
+    "common_instances": 92,
+    "H63_success": 0.5,
+    "H126_success": 0.5543478260869565,
+    "H63_regret_over_u": 0.3941709589891719,
+    "H126_regret_over_u": 0.3212814341197521
+  },
+  {
+    "method": "MA:0.0",
+    "common_instances": 346,
+    "H63_success": 0.5028901734104047,
+    "H126_success": 0.5895953757225434,
+    "H63_regret_over_u": 0.38456465154353536,
+    "H126_regret_over_u": 0.30936476208441804
+  }
+]

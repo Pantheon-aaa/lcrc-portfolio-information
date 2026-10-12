@@ -158,16 +158,23 @@ def library_diagnostic():
 def book_tables():
     path=OUT/'book_summary.json'
     if not path.exists():return []
-    grouped=defaultdict(list)
-    for r in read(path):grouped[(r['method_beta'],r['cost_bps'])].append(r)
+    grouped=defaultdict(list);endpoint_records=[]
+    for bp in (PRIVATE/'books').glob('*.json'):
+        book=read(bp);r=book['summary'];daily=book['daily'];last=daily[-1]['nav']
+        endpoints=last is not None
+        r=dict(r,endpoint_annual_return=(last/1e6)**(252/len(daily))-1 if endpoints else None)
+        endpoint_records.append({k:r[k] for k in ['domain','seed','method_beta','cost_bps','complete','unresolved_days','endpoint_annual_return']}|dict(final_nav=last))
+        grouped[(r['method_beta'],r['cost_bps'])].append(r)
     out=[]
     for k,rr in grouped.items():
         good=[r for r in rr if r['complete']]
         out.append(dict(method=k[0],cost_bps=k[1],books=len(rr),complete=len(good),unresolved_days=sum(r['unresolved_days'] for r in rr),
+            endpoint_evaluable=sum(r['endpoint_annual_return'] is not None for r in rr),annual_return_endpoints=mean([r['endpoint_annual_return'] for r in rr if r['endpoint_annual_return'] is not None]),
             annual_return_complete=mean([r['annual_return'] for r in good]),annual_vol_complete=mean([r['annual_vol'] for r in good]),
             max_drawdown_complete=mean([r['max_drawdown'] for r in good]),sharpe_complete=mean([r['sharpe_zero_rate'] for r in good if r.get('sharpe_zero_rate') is not None]),
             turnover_observed=mean([r['turnover_sum'] for r in rr]),fees_observed=mean([r['total_fees'] for r in rr]),exposure_observed=mean([r['mean_exposure'] for r in rr])))
     write(OUT/'book_cost_tables.json',out)
+    write(OUT/'book_endpoint_returns.json',endpoint_records)
     import matplotlib.pyplot as plt
     fig,ax=plt.subplots(figsize=(9,4));curves={}
     for method in ['MA_b0.0','A1B_b0.1','A1B_b0.25','Greedy_b0.1','EMGMV_b0.0','EW_b0.0']:
@@ -184,13 +191,16 @@ def book_tables():
     return out
 
 def private_audit():
-    hashes=[];overlap=[];costs={};status=Counter();fail=[]
+    hashes=[];overlap=[];costs={};status=Counter();fail=[];end_to_end=[]
     for job in read(PRIVATE/'manifest.json'):
         path=PRIVATE/'decisions'/f'{job["id"]}.json'
         if not path.exists():continue
         r=read(path)
         if r['status']!='complete':continue
         costs.setdefault(r['shared_cost_id'],r['frontend_cpu'])
+        end_to_end.append(dict(id=job['id'],stage=job['stage'],N=job['N'],M=job['M'],shared_cost_id=r['shared_cost_id'],
+            measured_job_cpu=r['cpu_seconds'],frontend_cold_reference_cpu=r['frontend_cpu'],method_calls_cpu=sum(c.get('measured_cpu',0) for c in r['cells']),
+            accounting='job CPU includes actual cache loads, shared QP preparation and future evaluation; cold frontend reference must not be added again to job CPU'))
         cells=[c for c in r['cells'] if c['status']=='complete']
         for tau in set(c['tau_index'] for c in cells):
             cc=[c for c in cells if c['tau_index']==tau]
@@ -202,20 +212,40 @@ def private_audit():
                 if d['primal_residual']>1e-9:fail.append(dict(id=job['id'],method=c['method'],reason='evaluated_primal'))
     write(OUT/'postrun_integrity.json',dict(common_inputs=all(hashes),shared_inputs_checked=len(hashes),unique_frontends=len(costs),
         cold_frontend_cpu_sum=sum(costs.values()),statuses=dict(status),failures=fail,overlap=overlap))
+    write(OUT/'computational_costs.json',end_to_end)
     return dict(common_inputs=all(hashes),failures=len(fail),statuses=dict(status))
+
+def frontend_diagnostics():
+    current=Counter();scoring=Counter();rows=[]
+    for path in (PRIVATE/'frontends').glob('*.json'):
+        r=read(path)
+        for m in r['current_models']:current[m['status']]+=1
+        scoring.update(r['score_fit_status'])
+        rows.append(dict(shared_cost_id=r['shared_cost_id'],date=r['date'],N=r['N'],M=r['M'],cpu_seconds=r['cpu_seconds'],wall_seconds=r['wall_seconds'],
+            eigen_min=min(r['current_eigen_min']),condition_max=max(r['current_condition']),
+            current_unconverged=sum(m['status']=='max_iterations' for m in r['current_models'])))
+    write(OUT/'frontend_diagnostics.json',dict(current_model_status=dict(current),prequential_model_status=dict(scoring),unique_cache_records=len(rows),
+        counting_rule='model records, including shrinkage models sharing one EM fit; not independent repetitions',records=rows))
+    old=read(ROOT.parent/'research_v5_ashare/output/data_audit.json')
+    write(OUT/'data_inventory.json',dict(inherited_read_only_audit=old,valuation_audit=read(OUT/'valuation_audit.json'),
+        source_absolute_path=str(SOURCE),membership_root=str(MEMBERSHIP),training_cache_read_only=str(CACHE),
+        source_identity='same source SHA verified again at v5b valuation construction and final delivery'))
 
 def extend_report(records,table):
     prices,front=r1_audit();bridge=detailed_bridge();grid=additional_tables(records);audit=private_audit()
-    information_pairs();library_diagnostic();books=book_tables()
+    information_pairs();library_diagnostic();books=book_tables();frontend_diagnostics()
     import matplotlib.pyplot as plt
-    fig,axes=plt.subplots(1,2,figsize=(10,4))
-    for ax,domain in zip(axes,['csi300','csi500']):
-        for method,beta in [('MA','0.0'),('A1B','0.1'),('Greedy','0.1')]:
-            for view,style in [('Separated0','--'),('Joint0','-')]:
-                rr=sorted([r for r in bridge if r['domain']==domain and r['threshold']=='geo0.75' and r['method']==method and r['beta']==beta and r['view']==view],key=lambda r:r['n'])
-                if rr:ax.plot([r['n'] for r in rr],[r['success_lower'] for r in rr],style,marker='o',label=f'{method} {view}')
-        ax.set_title(domain);ax.set_xlabel('Two-day blocks');ax.set_ylabel('Known-model success');ax.set_ylim(-.03,1.03);ax.grid(alpha=.2)
-    axes[1].legend(fontsize=7);fig.tight_layout();fig.savefig(OUT/'bridge_information.png',dpi=160);plt.close(fig)
+    for threshold in ['tau','geo0.5','geo0.75','geo1.05']:
+        fig,axes=plt.subplots(1,2,figsize=(10,4))
+        for ax,domain in zip(axes,['csi300','csi500']):
+            for method,beta in [('MA','0.0'),('A1B','0.1'),('Greedy','0.1')]:
+                for view,style in [('Separated0','--'),('Joint0','-')]:
+                    rr=sorted([r for r in bridge if r['domain']==domain and r['threshold']==threshold and r['method']==method and r['beta']==beta and r['view']==view],key=lambda r:r['n'])
+                    if rr:ax.plot([r['n'] for r in rr],[r['success_lower'] for r in rr],style,marker='o',label=f'{method} {view}')
+            ax.set_title(f'{domain}, threshold={threshold}');ax.set_xlabel('Two-day blocks');ax.set_ylabel('Known-model success');ax.set_ylim(-.03,1.03);ax.grid(alpha=.2)
+        axes[1].legend(fontsize=7);fig.tight_layout();fig.savefig(OUT/f'bridge_{threshold}.png',dpi=160)
+        if threshold=='geo0.75':fig.savefig(OUT/'bridge_information.png',dpi=160)
+        plt.close(fig)
     fig,ax=plt.subplots(figsize=(7,4))
     for threshold in ['tau0','tau1','tau2','geo0.5','geo0.75','geo1.05']:
         series=[mean([r['actual_lower'] for r in front if r['threshold']==threshold and float(r['beta'])==float(b)]) for b in [0,.1,.25,.5,'inf']]
@@ -231,7 +261,8 @@ def extend_report(records,table):
     for r in bridge:
         if r['n']==512 and r['method'] in ['MA','A1B','Greedy'] and r['beta'] in ['0.0','0.1','0.25']:
             lines.append(f'|{r["domain"]}|{r["threshold"]}|{r["view"]}|{r["method"]}/{r["beta"]}|{r["success_lower"]:.3%}|{r["worst_truth_success_lower"]:.3%}|{r["mean_regret"]:.7g}|')
-    lines+=['','![半合成信息实验](output/bridge_information.png)','',
+    lines+=['','![半合成0.5Gamma](output/bridge_geo0.5.png)','![半合成0.75Gamma](output/bridge_geo0.75.png)',
+        '![半合成1.05Gamma](output/bridge_geo1.05.png)','![半合成经验阈值](output/bridge_tau.png)','',
         '其余样本量、尾部 regret 和预算资格见 `output/bridge_detailed.json`。等价类极限后验的全部集合价格见 `output/bridge_platform_prices.json`；该枚举平台与有限样本实际达标率含义不同。','',
         '## R3、R4与敏感性','',
         '自然缺失面板和规模对照均使用同组内共同输入。所有阈值、预算、CVaR水平、N/M、2026延伸结果保存在 `output/all_threshold_budget_scale_tables.json`；不能从其中挑选最优一列代表预设主比较。信息实验逐日期的标量成本见 `output/information_summary.json`，Full使用双倍信息成本。',
@@ -243,7 +274,7 @@ def extend_report(records,table):
         '半合成只支持这两个历史校准族中的机制判断；真实结果只有固定月份配对区间及成本敏感性共同支持时，才可说有稳健改善。若算法与MA或贪心重合，记为真实风险库中的前沿退化或没有额外增益，不能转用几何阈值包装成主要实证成功。']
     with (ROOT/'REPORT_ZH.md').open('a',encoding='utf-8') as f:f.write('\n'.join(lines)+'\n')
     lines=['','## 总收益指数研究账本与成本','',
-        '下表仅对净值全程可评价的账本计算年化结果；完整数少于6时，不得解释为六个预设面板的总体表现。费用、换手和暴露为实际可观察期间的诊断，未知期间没有被记为零收益。各成本场景完整结果见 `output/book_cost_tables.json`。','',
+        '下表仅对净值全程可评价的账本计算年化风险结果；完整数少于6时，不得解释为六个预设面板的总体表现。若只是中途估值陈旧、最终可靠累计估值已恢复，可识别的首末端点年化收益另见 `output/book_endpoint_returns.json`，仍不填造中间日收益或补算Sharpe/回撤。费用、换手和暴露为实际可观察期间的诊断。各成本场景完整结果见 `output/book_cost_tables.json`。','',
         '|方法|每边成本bp|完整账本/6|完整账本平均年化收益|平均年化波动|观察期平均暴露|','|---|---:|---:|---:|---:|---:|']
     for r in books:
         if r['cost_bps']!=20:continue
@@ -253,3 +284,20 @@ def extend_report(records,table):
     if (OUT/'research_nav.png').exists():lines+=['','![研究账本净值](output/research_nav.png)']
     lines+=['','净值图严格按六个面板等权；任一个组成账本未知时，相应总体曲线留空，不改用剩余面板重新归一化。']
     with (ROOT/'REPORT_ZH.md').open('a',encoding='utf-8') as f:f.write('\n'.join(lines)+'\n')
+    main={r['method']:r for r in table if r['stage']=='R2'}
+    integrity=read(OUT/'postrun_integrity.json')
+    overlap=[r for r in integrity['overlap'] if r['stage']=='R2' and r['phase']=='test' and r['tau']==1 and r['beta'] in [.1,.25]]
+    identical=bool(overlap) and all(r['max_weight_difference']==0 for r in overlap)
+    a=main.get('A1B:0.1');m=main.get('MA:0.0');conclusions=['## 本轮结果判断','']
+    if a and m:
+        conclusions.append(f'**近似真实主实验没有显示A1-B相对MA的额外达标收益。** 主阈值下，两者在各自{a["evaluable"]}个可评价记录上的达标率分别为{a["success_common"]:.3%}和{m["success_common"]:.3%}；平均regret/u分别为{a["regret_over_u_common"]:.5f}和{m["regret_over_u_common"]:.5f}。')
+        if identical:conclusions.append(f'更直接的证据是：{len(overlap)}个主预算查询（同一实例的两档预算不算独立样本）的持仓均逐元素等于MA。当前库下MA已覆盖全部模型ε集合，主预算前沿平坦，不能将其相对等权的优势归因于A1-B。')
+    selected=[r for r in bridge if r['n']==512 and r['view']=='Separated0' and r['threshold']=='geo0.5' and r['method'] in ['MA','A1B','Greedy'] and r['beta'] in ['0.0','0.1']]
+    conclusions+=['','**半合成支持局部机制，但不支持精确求解器普遍胜过简单Greedy。** 在两个固定历史族、0.5Γ阈值、512块Separated观测下：']
+    for domain in ['csi300','csi500']:
+        rr={r['method']:r for r in selected if r['domain']==domain}
+        if len(rr)==3:conclusions.append(f'- {domain}：MA {rr["MA"]["success_lower"]:.2%}，A1-B(β=0.10) {rr["A1B"]["success_lower"]:.2%}，Greedy {rr["Greedy"]["success_lower"]:.2%}；A1-B最坏真模型成功率{rr["A1B"]["worst_truth_success_lower"]:.2%}。')
+    conclusions+=['','这个分离针对平均模型成功率，不能写成所有市场均受保护；Joint充分识别后各方法均可达标，也不能归因于A1-B独有的信息利用优势。',
+        '','**论文层面的结论：保留机制证据和真实前沿退化证据，不主张本轮已验证真实市场增益。** 真实目标与MA相同时，没有独立的平均风险或交易成本收益。部分账本路径仍未决，不能以少数完整账本的收益排行补强结论。更丰富风险库是否必要属于后续新研究问题；本轮没有按测试表现更换模型或阈值。','']
+    report=(ROOT/'REPORT_ZH.md').read_text(encoding='utf-8');first,rest=report.split('\n',1)
+    (ROOT/'REPORT_ZH.md').write_text(first+'\n\n'+'\n'.join(conclusions)+rest,encoding='utf-8')

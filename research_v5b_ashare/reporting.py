@@ -123,6 +123,7 @@ def report():
     ax.set_xlabel('Mean empirical regret / historical risk unit');ax.set_ylabel('Empirical success on evaluable records');ax.set_title('Approximate A-share evaluation; descriptive available-case frontier');ax.legend();ax.grid(alpha=.2);fig.tight_layout();fig.savefig(OUT/'risk_frontier.png',dpi=160);plt.close(fig)
     tests=read(OUT/'six_tests.json');completion=read(OUT/'completion.json');cfg=read(ROOT/'protocol_frozen.json')
     lines=['# research_v5b：近似真实 A 股实验与机制验证','',
+      '**阶段性汇总：仍有冻结实例未执行，完成规模实验后更新。**' if completion['unrun'] else '**冻结清单已全部处理；数据不可用和失败项仍保留，下文逐项说明。**','',
       '本报告的真实评价采用总收益估值近似：缺失期间沿用上一估值，恢复日计入累计变化。训练端仍保留 NaN。结果不代表精确可交易回测或真实市场风险保证。','',
       '## 配置与完成情况','',f'冻结 τ={cfg["tau"]}；η_F1={cfg["eta"]}，η_R3={cfg["eta_R3"]}，η_F2={cfg["eta_F2"]}。主估值陈旧期63日，敏感性20/126日，严格完整口径另列。',
       f'主跑批计划 {completion["planned"]} 项，完整完成 {completion["completed"]} 项；不可用/失败/尚未运行均保留清单，不根据胜负删减。',
@@ -132,10 +133,12 @@ def report():
       '|方法|可评价记录|达标率|平均 regret/u|p95 regret/u|模型内达标质量|','|---|---:|---:|---:|---:|---:|']
     for r in table:
         if r['stage']=='R2' and r['success_common'] is not None:lines.append(f'|{r["method"]}|{r["evaluable"]}|{r["success_common"]:.3%}|{r["regret_over_u_common"]:.5f}|{r["p95_regret_over_u_common"]:.5f}|{r["internal_success"]:.3%}|')
-    lines+=['','![风险前沿](output/risk_frontier.png)','','## 六项预设推断','','|比较|全月历效应区间|Holm p|','|---|---|---|']
+    lines+=['','![风险前沿](output/risk_frontier.png)','','## 六项预设推断','','|比较|全月历识别区间|95%基本bootstrap区间，块长6|Holm p|','|---|---|---|---|']
     for r in tests['comparisons']:
         interval=f'[{r["lower"]:.4f}, {r["upper"]:.4f}]' if 'lower' in r else '连续损失未决，未计算全样本检验'
-        lines.append(f'|{r["endpoint"]} β={r["beta"]} {r.get("baseline","")}|{interval}|{r["holm_p"]}|')
+        ci=r.get('block_results',{}).get('6',{}).get('basic_ci')
+        cis=f'[{ci[0]:.4f}, {ci[1]:.4f}]' if ci else '未计算'
+        lines.append(f'|{r["endpoint"]} β={r["beta"]} {r.get("baseline","")}|{interval}|{cis}|{r["holm_p"] if r["holm_p"] is not None else "未计算"}|')
     lines+=['','采用10,000次同步循环月份块重采样，主块长6，敏感性3/12；缺失成功率按区间传播。无法有限界定的连续损失不输出全样本p值。六项检验中的不可计算项不被解释为零效应。',
       '','## 估值、账本与机制边界','',
       '20/63/126日和严格完整口径见 `output/valuation_sensitivity.json`；同一目标不重新调参。账户以可分割总收益单位计价、下一交易日收盘调整，成本每边0/10/20/50bp。无记录证券不成交，池外遗留持仓不删除，不重复发放分红。未知估值暂停交易并保留净值未决。',
@@ -174,6 +177,23 @@ def delivery_check():
     assert digest(json.dumps(clean(read(PRIVATE/'manifest.json')),sort_keys=True))==cfg['manifest_hash']
     core=['risk.py','decision.py','data.py','valuation.py','evaluator.py','bridge.py','information.py','setup.py']
     assert all(sha(ROOT/name)==cfg['source_hashes'][name] for name in core)
+    forbidden={'symbol','symbols','security_id','ranking','columns','raw_target','evaluated_target','guarded_target','executed_units','Q','log_likelihood','weights','ma_weights'}
+    def inspect_public(x):
+        if isinstance(x,dict):
+            assert not forbidden.intersection(x),f'Private field in public aggregate: {forbidden.intersection(x)}'
+            for value in x.values():inspect_public(value)
+        elif isinstance(x,list):
+            for value in x:inspect_public(value)
+    for path in OUT.glob('*.json'):inspect_public(read(path))
+    import gzip
+    for path in OUT.glob('*.json.gz'):
+        with gzip.open(path,'rt',encoding='utf-8') as f:inspect_public(json.load(f))
+    prefetch=[]
+    if (PRIVATE/'prefetch_log.json').exists():
+        for r in read(PRIVATE/'prefetch_log.json'):
+            with np.load(PRIVATE/'frontends'/f'{r["shared_cost_id"]}.npz') as z:
+                assert array_hash(z['Q'])==r['Q_hash'] and array_hash(z['scores'])==r['scores_hash']
+            prefetch.append(r['shared_cost_id'])
     versions={p:importlib.metadata.version(p) for p in ['numpy','scipy','pandas','pyarrow','cvxpy','clarabel','highspy','psutil','matplotlib','zstandard']}
-    write(OUT/'delivery_check.json',dict(passed=True,source_unchanged=True,membership_unchanged=True,manifest_unchanged=True,frozen_core_verified=core,
+    write(OUT/'delivery_check.json',dict(passed=True,source_unchanged=True,membership_unchanged=True,manifest_unchanged=True,frozen_core_verified=core,public_security_detail_scan_passed=True,prefetch_cache_hashes_verified=len(prefetch),
        versions=versions,current_source_hashes=source_hashes(),frozen_source_hashes=cfg['source_hashes']))

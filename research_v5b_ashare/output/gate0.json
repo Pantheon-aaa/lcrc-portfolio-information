@@ -136,6 +136,11 @@
       "detail": null
     },
     {
+      "name": "proxy_filled_target_drifts_without_rebalancing",
+      "passed": true,
+      "detail": null
+    },
+    {
       "name": "proxy_pool_exit_missing_trade_kept",
       "passed": true,
       "detail": null
@@ -152,6 +157,11 @@
     },
     {
       "name": "proxy_value_recovers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "proxy_inconsistent_path_requires_reconciliation",
       "passed": true,
       "detail": null
     }

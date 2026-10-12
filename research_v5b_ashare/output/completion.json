@@ -1,0 +1,59 @@
+{
+  "planned": 1228,
+  "processed": 623,
+  "completed": 587,
+  "unrun": 605,
+  "remaining": 641,
+  "by_stage": {
+    "R2": {
+      "planned": 492,
+      "processed": 492,
+      "complete": 456,
+      "statuses": {
+        "complete": 456,
+        "unverified_membership": 36
+      }
+    },
+    "R4-N": {
+      "planned": 328,
+      "processed": 0,
+      "complete": 0,
+      "statuses": {
+        "not_run": 328
+      }
+    },
+    "R4-M": {
+      "planned": 112,
+      "processed": 0,
+      "complete": 0,
+      "statuses": {
+        "not_run": 112
+      }
+    },
+    "R3b": {
+      "planned": 162,
+      "processed": 131,
+      "complete": 131,
+      "statuses": {
+        "complete": 131,
+        "not_run": 31
+      }
+    },
+    "F2": {
+      "planned": 56,
+      "processed": 0,
+      "complete": 0,
+      "statuses": {
+        "not_run": 56
+      }
+    },
+    "F2-library": {
+      "planned": 78,
+      "processed": 0,
+      "complete": 0,
+      "statuses": {
+        "not_run": 78
+      }
+    }
+  }
+}

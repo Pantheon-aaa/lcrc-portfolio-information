@@ -59,6 +59,10 @@ def evaluate():
     from .proxy_book import run
     run()
 
+def prefetch():
+    from .prefetch import run
+    run()
+
 def label_audit():
     data=Data();details=[];counts={};groups={};total=0
     for panel in panels('development'):

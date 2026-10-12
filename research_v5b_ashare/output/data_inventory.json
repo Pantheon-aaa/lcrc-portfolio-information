@@ -1,0 +1,134 @@
+{
+  "inherited_read_only_audit": {
+    "source_sha256": "0926a92ef3f8495364c2b3775ba4214baac4ddbaf9a0a52207dc7b33a7c05cd8",
+    "source_bytes": 2304798955,
+    "rows": 13912860,
+    "shape": [
+      3641,
+      5841
+    ],
+    "date_start": "2011-10-10",
+    "date_end": "2026-09-30",
+    "duplicate_identity_date": 0,
+    "fields": {
+      "return_total": {
+        "finite": 13543971,
+        "missing": 7723110
+      },
+      "amount": {
+        "finite": 13543971,
+        "missing": 7723110
+      },
+      "trading_status": {
+        "finite": 13543971,
+        "missing": 7723110
+      },
+      "market_type": {
+        "finite": 13543971,
+        "missing": 7723110
+      },
+      "open": {
+        "finite": 13543971,
+        "missing": 7723110
+      },
+      "close": {
+        "finite": 13543971,
+        "missing": 7723110
+      },
+      "prev_close_exchange": {
+        "finite": 13543971,
+        "missing": 7723110
+      },
+      "limit_up": {
+        "finite": 13516109,
+        "missing": 7750972
+      },
+      "limit_down": {
+        "finite": 13515840,
+        "missing": 7751241
+      },
+      "return_ex_dividend": {
+        "finite": 13543971,
+        "missing": 7723110
+      },
+      "observed": {
+        "finite": 13912860,
+        "missing": 7354221
+      },
+      "adjustment_suspect": {
+        "finite": 13912860,
+        "missing": 7354221
+      },
+      "total_adjustment_suspect": {
+        "finite": 13912860,
+        "missing": 7354221
+      }
+    },
+    "return_quantiles": [
+      -0.964431,
+      -0.11672215,
+      -0.093079,
+      0.0,
+      0.100032,
+      0.1998670299999993,
+      19.75362
+    ],
+    "returns_below_minus_one": 0,
+    "ordinary_close_return_abs_error_quantiles": [
+      2.3989218341999297e-07,
+      4.7535771055106507e-07,
+      4.950495049544854e-07,
+      0.045826126436781654
+    ],
+    "source_units": "decimal returns; CNY price and amount; source field dictionary; empirical raw-close identity cross-check",
+    "membership_hashes": {
+      "current.json": "fe82e587fb56caccea356b142e3e6183aa57a69a69f0acec5a15dc5a66f511f6",
+      "daily_v1_20261012/daily_membership.parquet": "bc22e21358b9dde53f22bbec0f877a18ecb0b0b3416c1933670a4df12d00ebc8",
+      "daily_v1_20261012/validation.json": "6a375b4c0dcc173f6debdd7cd3adfcf0f30475f6cf2e180f1f0bcf9da4fd0636",
+      "daily_v1_20261012/audit_result.json": "6ba4417e3d808c49150c7730292ca757734b7a1737375c9b571d94ac926e8b0b"
+    },
+    "monthends_unverified": [
+      "2012-02-29",
+      "2013-04-26",
+      "2015-12-31",
+      "2021-06-30",
+      "2021-09-30",
+      "2021-12-31",
+      "2022-12-30",
+      "2023-01-31",
+      "2023-02-28"
+    ],
+    "test_unverified_monthends": [
+      "2021-06-30",
+      "2021-09-30",
+      "2021-12-31",
+      "2022-12-30",
+      "2023-01-31",
+      "2023-02-28"
+    ],
+    "implementation_grade": "research_only_company_actions_unverified",
+    "limitations": [
+      "No complete independently verified cash dividend/split/exchange register. Existing execution_dividend is inferred and is not used as factual actions.",
+      "Historical symbol is available; permanent entity identifiers and historical announcement-time certification are unavailable.",
+      "Membership is daily-union-validated historical queries, not fully announcement-certified point-in-time membership.",
+      "Exchange historical board-lot rules are not independently established by these fields."
+    ]
+  },
+  "valuation_audit": {
+    "source_sha256": "0926a92ef3f8495364c2b3775ba4214baac4ddbaf9a0a52207dc7b33a7c05cd8",
+    "comparisons": 13538130,
+    "mismatch_records": 12,
+    "max_stale_main": 63,
+    "sensitivities": [
+      20,
+      126
+    ],
+    "assumption": "carry last total-return valuation during missing records, recognize supplier cumulative return on resumption; not certified suspension identification",
+    "training_cache_read_only": true,
+    "source_unchanged": true
+  },
+  "source_absolute_path": "D:\\A股日频数据\\量化研究\\research\\a_share_research.parquet",
+  "membership_root": "D:\\A股日频数据\\量化研究\\research\\sources\\verified_index_history",
+  "training_cache_read_only": "D:\\Portfolio_Optimization_paper\\private_runs\\ashare_v5\\data",
+  "source_identity": "same source SHA verified again at v5b valuation construction and final delivery"
+}

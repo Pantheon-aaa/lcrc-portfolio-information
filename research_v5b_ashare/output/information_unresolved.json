@@ -1,0 +1,722 @@
+[
+  {
+    "id": "2021-06-30_csi300_11_information",
+    "n": 126,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi300_11_information",
+    "n": 126,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi300_11_information",
+    "n": 126,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi300_11_information",
+    "n": 126,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi300_11_information",
+    "n": 126,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi300_11_information",
+    "n": 32,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi300_11_information",
+    "n": 32,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi300_11_information",
+    "n": 32,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi300_11_information",
+    "n": 32,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi300_11_information",
+    "n": 32,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi300_11_information",
+    "n": 64,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi300_11_information",
+    "n": 64,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi300_11_information",
+    "n": 64,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi300_11_information",
+    "n": 64,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi300_11_information",
+    "n": 64,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi500_11_information",
+    "n": 126,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi500_11_information",
+    "n": 126,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi500_11_information",
+    "n": 126,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi500_11_information",
+    "n": 126,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi500_11_information",
+    "n": 126,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi500_11_information",
+    "n": 32,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi500_11_information",
+    "n": 32,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi500_11_information",
+    "n": 32,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi500_11_information",
+    "n": 32,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi500_11_information",
+    "n": 32,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi500_11_information",
+    "n": 64,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi500_11_information",
+    "n": 64,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi500_11_information",
+    "n": 64,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi500_11_information",
+    "n": 64,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-06-30_csi500_11_information",
+    "n": 64,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi300_11_information",
+    "n": 126,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi300_11_information",
+    "n": 126,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi300_11_information",
+    "n": 126,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi300_11_information",
+    "n": 126,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi300_11_information",
+    "n": 126,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi300_11_information",
+    "n": 32,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi300_11_information",
+    "n": 32,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi300_11_information",
+    "n": 32,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi300_11_information",
+    "n": 32,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi300_11_information",
+    "n": 32,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi300_11_information",
+    "n": 64,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi300_11_information",
+    "n": 64,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi300_11_information",
+    "n": 64,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi300_11_information",
+    "n": 64,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi300_11_information",
+    "n": 64,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi500_11_information",
+    "n": 126,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi500_11_information",
+    "n": 126,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi500_11_information",
+    "n": 126,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi500_11_information",
+    "n": 126,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi500_11_information",
+    "n": 126,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi500_11_information",
+    "n": 32,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi500_11_information",
+    "n": 32,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi500_11_information",
+    "n": 32,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi500_11_information",
+    "n": 32,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi500_11_information",
+    "n": 32,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi500_11_information",
+    "n": 64,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi500_11_information",
+    "n": 64,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi500_11_information",
+    "n": 64,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi500_11_information",
+    "n": 64,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-09-30_csi500_11_information",
+    "n": 64,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi300_11_information",
+    "n": 126,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi300_11_information",
+    "n": 126,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi300_11_information",
+    "n": 126,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi300_11_information",
+    "n": 126,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi300_11_information",
+    "n": 126,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi300_11_information",
+    "n": 32,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi300_11_information",
+    "n": 32,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi300_11_information",
+    "n": 32,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi300_11_information",
+    "n": 32,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi300_11_information",
+    "n": 32,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi300_11_information",
+    "n": 64,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi300_11_information",
+    "n": 64,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi300_11_information",
+    "n": 64,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi300_11_information",
+    "n": 64,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi300_11_information",
+    "n": 64,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi500_11_information",
+    "n": 126,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi500_11_information",
+    "n": 126,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi500_11_information",
+    "n": 126,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi500_11_information",
+    "n": 126,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi500_11_information",
+    "n": 126,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi500_11_information",
+    "n": 32,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi500_11_information",
+    "n": 32,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi500_11_information",
+    "n": 32,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi500_11_information",
+    "n": 32,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi500_11_information",
+    "n": 32,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi500_11_information",
+    "n": 64,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi500_11_information",
+    "n": 64,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi500_11_information",
+    "n": 64,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi500_11_information",
+    "n": 64,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2021-12-31_csi500_11_information",
+    "n": 64,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi300_11_information",
+    "n": 126,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi300_11_information",
+    "n": 126,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi300_11_information",
+    "n": 126,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi300_11_information",
+    "n": 126,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi300_11_information",
+    "n": 126,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi300_11_information",
+    "n": 32,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi300_11_information",
+    "n": 32,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi300_11_information",
+    "n": 32,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi300_11_information",
+    "n": 32,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi300_11_information",
+    "n": 32,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi300_11_information",
+    "n": 64,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi300_11_information",
+    "n": 64,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi300_11_information",
+    "n": 64,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi300_11_information",
+    "n": 64,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi300_11_information",
+    "n": 64,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi500_11_information",
+    "n": 126,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi500_11_information",
+    "n": 126,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi500_11_information",
+    "n": 126,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi500_11_information",
+    "n": 126,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi500_11_information",
+    "n": 126,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi500_11_information",
+    "n": 32,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi500_11_information",
+    "n": 32,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi500_11_information",
+    "n": 32,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi500_11_information",
+    "n": 32,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi500_11_information",
+    "n": 32,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi500_11_information",
+    "n": 64,
+    "view": "Full",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi500_11_information",
+    "n": 64,
+    "view": "Joint0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi500_11_information",
+    "n": 64,
+    "view": "Joint1",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi500_11_information",
+    "n": 64,
+    "view": "Separated0",
+    "status": "unverified_membership"
+  },
+  {
+    "id": "2022-12-30_csi500_11_information",
+    "n": 64,
+    "view": "Separated1",
+    "status": "unverified_membership"
+  }
+]
