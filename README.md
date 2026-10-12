@@ -1,5 +1,9 @@
 # LCRC: Portfolio Decisions from Incomplete Risk Information
 
+## Budgeted decision compatibility: research v4a
+
+The [paper evidence memo (中文)](research_v4a/PAPER_EVIDENCE_MEMO_ZH.md) preserves the research question, positive findings, family-level evidence, and remaining gaps for future paper writing. See the [experiment report](research_v4a/REPORT_ZH.md) and [core code / reproduction guide](research_v4a/README.md). Under 10% / 25% posterior mean-regret budgets, observed success was 86.43% / 87.64%, versus 84.41% for MA. Results were close to budgeted greedy; none of the four prespecified conservative Holm tests was significant. Strict budget certificates remain open for many instances, the final audit did not pass, and full raw-log archival is incomplete. These qualifications remain part of the evidence when this research is merged into main.
+
 ## Research question and real-data evidence
 
 **When asset return histories are incomplete and joint observations are uneven, can preserving the probability weights of better-informed risk components while applying tail reweighting only to uncertain components improve out-of-sample portfolio risk over model averaging and covariance shrinkage?** The broader question is what information is enough for a good portfolio decision, without recovering the entire risk model.
