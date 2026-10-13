@@ -7,6 +7,15 @@ from .common import *
 from .pipeline import readtraj
 def binomial(k,n):
     return [0 if not k else float(beta_dist.ppf(.025,k,n-k+1)),1 if k==n else float(beta_dist.ppf(.975,k+1,n-k))] if n else [None,None]
+
+def balanced_weights(g):
+    count=g.groupby(['family','truth']).truth.transform('size')
+    truths=g.groupby('family').truth.transform('nunique')
+    return 1/(count.to_numpy()*truths.to_numpy()*g.family.nunique())
+
+def weighted_quantile(values,weights,q):
+    ids=np.argsort(values);v=np.asarray(values)[ids];w=np.asarray(weights)[ids]
+    return float(v[min(len(v)-1,np.searchsorted(np.cumsum(w),q*w.sum()))])
 def aggregate():
     records=[];counts={};failures=[];allocation_tables={};geometries={}
     for split in ('development','confirmation','calibration'):
@@ -85,16 +94,20 @@ def terminal_summary():
             observation_cost=stream_costs[ds][j['n']]
         else:observation_cost=0
         for a in r['answers']:
-            if 'error' in a:errors.append(dict(job=j,**a));continue
+            failed='error' in a
+            if failed:
+                errors.append(dict(job=j,**a))
+                a=dict(method=a['method'],beta=a['beta'],cpu=a['cpu'],status='method_error',regret_lower=[None]*6,regret_upper=[None]*6,success_mass_lower=0.,success_mass_upper=1.,optimal_mass_lower=0.,optimal_mass_upper=1.,mean_increment_upper=float('inf'),budget_lower=0.,primary_mass_gap=1.)
             truths=r['zero_prior_truths'] if j['n']==0 else [j['truth']]
             for truth in truths:
                 lo=a['regret_lower'][truth];hi=a['regret_upper'][truth]
-                certified=a['beta']=='inf' or a['mean_increment_upper']<=a['budget_lower']
-                result.append(dict(**{k:v for k,v in j.items() if k not in ('allowed','truth')},truth=truth,observation_cost=observation_cost,design='Separated' if j['allowed']==[1] else 'All',method=a['method'],beta=str(a['beta']),success_low=hi<=r['epsilon'],success_high=lo<=r['epsilon'],regret=(lo+hi)/2,posterior_mass=a['success_mass_lower'],posterior_mass_upper=a['success_mass_upper'],optimal_mass_lower=a['optimal_mass_lower'],optimal_mass_upper=a['optimal_mass_upper'],budget_certified=certified,primary_gap=a['primary_mass_gap'],status=a['status'],cpu=a['cpu']))
+                certified=not failed and (a['beta']=='inf' or a['mean_increment_upper']<=a['budget_lower'])
+                result.append(dict(**{k:v for k,v in j.items() if k not in ('allowed','truth')},truth=truth,observation_cost=observation_cost,design='Separated' if j['allowed']==[1] else 'All',method=a['method'],beta=str(a['beta']),success_low=False if failed else hi<=r['epsilon'],success_high=True if failed else lo<=r['epsilon'],regret=None if failed else (lo+hi)/2,posterior_mass=a['success_mass_lower'],posterior_mass_upper=a['success_mass_upper'],optimal_mass_lower=a['optimal_mass_lower'],optimal_mass_upper=a['optimal_mass_upper'],budget_certified=certified,primary_gap=a['primary_mass_gap'],status=a['status'],cpu=a['cpu']))
     df=pd.DataFrame(result);summary=[]
     if len(df):
-      for key,g in df.groupby(['n','ratio','design','method','beta']):
-        summary.append(dict(zip(['n','ratio','design','method','beta'],key),n_records=len(g),success_low=float(g.success_low.mean()),success_high=float(g.success_high.mean()),mean_regret=float(g.regret.mean()),p95=float(g.regret.quantile(.95)),failure_regret=float(g.loc[~g.success_high,'regret'].mean()) if (~g.success_high).any() else None,budget_certified=float(g.budget_certified.mean()),mass=float(g.posterior_mass.mean()),mean_primary_gap=float(g.primary_gap.mean())))
+      for key,g in df.groupby(['n','ratio','premium','design','method','beta']):
+        w=balanced_weights(g);valid=g.regret.notna().all();fail=~g.success_high
+        summary.append(dict(zip(['n','ratio','premium','design','method','beta'],key),n_records=len(g),families=g.family.nunique(),weighting='equal families then equal observed truths; all method errors retained',method_errors=int((g.status=='method_error').sum()),success_low=float(w@g.success_low),success_high=float(w@g.success_high),mean_regret=float(w@g.regret) if valid else None,p95=weighted_quantile(g.regret,w,.95) if valid else None,failure_regret=float(w[fail]@g.loc[fail,'regret']/w[fail].sum()) if valid and fail.any() else None,budget_certified=float(w@g.budget_certified),mass=float(w@g.posterior_mass),mean_primary_gap=float(w@g.primary_gap)))
     write(OUT/'terminal_summary.json',summary);write(OUT/'terminal_errors.json',errors)
     if len(df):df.to_json(OUT/'terminal_aggregate.json.gz',orient='records',compression='gzip')
     paired=[];worst=[]
@@ -103,11 +116,12 @@ def terminal_summary():
       aa=df[df.method=='A1-B']
       for method in ('Greedy','Hinge','CVaR'):
        pp=aa.merge(df[df.method==method],on=keys,suffixes=('_a','_b'))
-       for key,g in pp.groupby(['n','ratio','design','beta']):
-        paired.append(dict(zip(['n','ratio','design','beta'],key),comparator=method,pairs=len(g),success_difference_lower=float((g.success_low_a.astype(float)-g.success_high_b.astype(float)).mean()),success_difference_upper=float((g.success_high_a.astype(float)-g.success_low_b.astype(float)).mean()),mean_regret_difference=float((g.regret_a-g.regret_b).mean()),attained_mass_difference_lower=float((g.posterior_mass_a-g.posterior_mass_upper_b).mean()),attained_mass_difference_upper=float((g.posterior_mass_upper_a-g.posterior_mass_b).mean()),optimality_gap_lower=float(np.maximum(0,g.optimal_mass_lower_a-g.posterior_mass_upper_b).mean()),optimality_gap_upper=float(np.maximum(0,g.optimal_mass_upper_a-g.posterior_mass_b).mean()),both_budget_certified=float((g.budget_certified_a&g.budget_certified_b).mean())))
-      for key,g in df.groupby(['family','n','ratio','design','method','beta']):
+       for key,g in pp.groupby(['n','ratio','premium','design','beta']):
+        w=balanced_weights(g)
+        paired.append(dict(zip(['n','ratio','premium','design','beta'],key),comparator=method,pairs=len(g),success_difference_lower=float(w@(g.success_low_a.astype(float)-g.success_high_b.astype(float))),success_difference_upper=float(w@(g.success_high_a.astype(float)-g.success_low_b.astype(float))),mean_regret_difference=float(w@(g.regret_a-g.regret_b)) if (g.regret_a.notna()&g.regret_b.notna()).all() else None,attained_mass_difference_lower=float(w@(g.posterior_mass_a-g.posterior_mass_upper_b)),attained_mass_difference_upper=float(w@(g.posterior_mass_upper_a-g.posterior_mass_b)),optimality_gap_lower=float(w@np.maximum(0,g.optimal_mass_lower_a-g.posterior_mass_upper_b)),optimality_gap_upper=float(w@np.maximum(0,g.optimal_mass_upper_a-g.posterior_mass_b)),both_budget_certified=float(w@(g.budget_certified_a&g.budget_certified_b))))
+      for key,g in df.groupby(['family','n','ratio','premium','design','method','beta']):
        rates=g.groupby('truth')[['success_low','success_high']].mean()
-       worst.append(dict(zip(['family','n','ratio','design','method','beta'],key),truths_evaluated=len(rates),worst_failure_lower=float(1-rates.success_high.min()),worst_failure_upper=float(1-rates.success_low.min()),qualification='complete truth coverage' if len(rates)==6 else 'partial truth coverage; not full worst-model estimate'))
+       worst.append(dict(zip(['family','n','ratio','premium','design','method','beta'],key),truths_evaluated=len(rates),worst_failure_lower=float(1-rates.success_high.min()),worst_failure_upper=float(1-rates.success_low.min()),qualification='complete truth coverage' if len(rates)==6 else 'partial truth coverage; not full worst-model estimate'))
     write(OUT/'terminal_paired.json',paired);write(OUT/'terminal_worst_model.json',worst)
     return summary
 
