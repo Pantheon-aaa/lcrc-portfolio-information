@@ -14,7 +14,10 @@ def aggregate():
         for path in (RUN/split).glob('*.json.gz'):
             r=readtraj(path);stop=r.get('stop');T=r['T_candidate'];T=float(T) if isinstance(T,(str,int,float)) else np.nan
             rec={k:r[k] for k in ('family','kind','truth','rep','ratio','delta','premium','policy','status','certified','false_certification','certification_truth_indeterminate','stop_t','stop_cost','restricted_cost','censor_cost','cpu_seconds')}
-            rec.update(split=split,design='Separated' if r['allowed']==[1] else 'All',joint_fraction=r['counts'][3]/max(1,sum(r['counts'])),T_candidate=T,normalized_stop_cost=(r['stop_cost']/(T*np.log(1/r['delta']))) if stop and np.isfinite(T) and T>0 else None)
+            # Every trajectory in these three stages has the frozen 100,000-action cap.
+            d=int(round(r['censor_cost']/100000))
+            actions=int(sum(r['counts']));times=int(sum(n*k for n,k in zip(r['counts'],(d,2,(d+1)//2,1))))
+            rec.update(split=split,design='Separated' if r['allowed']==[1] else 'All',actions=actions,scalars=d*actions,independent_times=times,joint_fraction=r['counts'][3]/max(1,actions),T_candidate=T,normalized_stop_cost=(r['stop_cost']/(T*np.log(1/r['delta']))) if stop and np.isfinite(T) and T>0 else None)
             records.append(rec);count+=1
             if r['false_certification'] or r['certification_truth_indeterminate'] or r['status']=='empty_confidence_set':failures.append(dict(path=str(path.relative_to(RUN)),**rec))
         counts[split]=count
@@ -65,14 +68,62 @@ def terminal_summary():
             for truth in truths:
                 lo=a['regret_lower'][truth];hi=a['regret_upper'][truth]
                 certified=a['beta']=='inf' or a['mean_increment_upper']<=a['budget_lower']
-                result.append(dict(**{k:v for k,v in j.items() if k not in ('allowed','truth')},truth=truth,design='Separated' if j['allowed']==[1] else 'All',method=a['method'],beta=str(a['beta']),success_low=hi<=r['epsilon'],success_high=lo<=r['epsilon'],regret=(lo+hi)/2,posterior_mass=a['success_mass_lower'],budget_certified=certified,primary_gap=a['primary_mass_gap'],status=a['status'],cpu=a['cpu']))
+                result.append(dict(**{k:v for k,v in j.items() if k not in ('allowed','truth')},truth=truth,design='Separated' if j['allowed']==[1] else 'All',method=a['method'],beta=str(a['beta']),success_low=hi<=r['epsilon'],success_high=lo<=r['epsilon'],regret=(lo+hi)/2,posterior_mass=a['success_mass_lower'],posterior_mass_upper=a['success_mass_upper'],budget_certified=certified,primary_gap=a['primary_mass_gap'],status=a['status'],cpu=a['cpu']))
     df=pd.DataFrame(result);summary=[]
     if len(df):
       for key,g in df.groupby(['n','ratio','design','method','beta']):
         summary.append(dict(zip(['n','ratio','design','method','beta'],key),n_records=len(g),success_low=float(g.success_low.mean()),success_high=float(g.success_high.mean()),mean_regret=float(g.regret.mean()),p95=float(g.regret.quantile(.95)),failure_regret=float(g.loc[~g.success_high,'regret'].mean()) if (~g.success_high).any() else None,budget_certified=float(g.budget_certified.mean()),mass=float(g.posterior_mass.mean()),mean_primary_gap=float(g.primary_gap.mean())))
     write(OUT/'terminal_summary.json',summary);write(OUT/'terminal_errors.json',errors)
     if len(df):df.to_json(OUT/'terminal_aggregate.json.gz',orient='records',compression='gzip')
+    paired=[];worst=[]
+    if len(df):
+      keys=['family','rep','truth','premium','n','ratio','design','beta']
+      aa=df[df.method=='A1-B']
+      for method in ('Greedy','Hinge','CVaR'):
+       pp=aa.merge(df[df.method==method],on=keys,suffixes=('_a','_b'))
+       for key,g in pp.groupby(['n','ratio','design','beta']):
+        paired.append(dict(zip(['n','ratio','design','beta'],key),comparator=method,pairs=len(g),success_difference_lower=float((g.success_low_a.astype(float)-g.success_high_b.astype(float)).mean()),success_difference_upper=float((g.success_high_a.astype(float)-g.success_low_b.astype(float)).mean()),mean_regret_difference=float((g.regret_a-g.regret_b).mean()),mass_gap_lower=float((g.posterior_mass_a-g.posterior_mass_upper_b).mean()),mass_gap_upper=float((g.posterior_mass_upper_a-g.posterior_mass_b).mean()),both_budget_certified=float((g.budget_certified_a&g.budget_certified_b).mean())))
+      for key,g in df.groupby(['family','n','ratio','design','method','beta']):
+       rates=g.groupby('truth')[['success_low','success_high']].mean()
+       worst.append(dict(zip(['family','n','ratio','design','method','beta'],key),truths_evaluated=len(rates),worst_failure_lower=float(1-rates.success_high.min()),worst_failure_upper=float(1-rates.success_low.min()),qualification='complete truth coverage' if len(rates)==6 else 'partial truth coverage; not full worst-model estimate'))
+    write(OUT/'terminal_paired.json',paired);write(OUT/'terminal_worst_model.json',worst)
     return summary
+
+def geometry_summary():
+    from .pipeline import load_family
+    from .models import specs,equivalence
+    from .information import randomized_platform
+    out=[]
+    for sp in specs('confirmation'):
+        name=f'{sp[0]}-{sp[1]}-6-confirmation-{sp[4]}';f=load_family(name)
+        geo={int(k):v for k,v in read(RUN/'geometry'/f'{name}.json').items()}
+        gamma=(geo[63]['lower']+geo[63]['upper'])/2
+        for ratio in (.5,.75,1.25):
+          eps=ratio*gamma;ok=[True]+[geo[s]['upper']<=eps for s in range(1,64)]
+          for design,allowed in [('Singleton',[0]),('Separated',[1]),('All',[0,1,2,3])]:
+            for group in equivalence(f,allowed):
+              g=geo[sum(1<<j for j in group)]
+              out.append(dict(family=name,kind=sp[0],ratio=ratio,epsilon=eps,design=design,group=group,gamma_all_lower=geo[63]['lower'],gamma_all_upper=geo[63]['upper'],gamma_class_lower=g['lower'],gamma_class_upper=g['upper'],uniformly_coverable=g['upper']<=eps,uniformly_impossible=g['lower']>eps,randomized_platform=randomized_platform(6,ok,group)))
+    write(OUT/'confirmation_geometry.json',out)
+
+def inventory():
+    from importlib.metadata import version,PackageNotFoundError
+    versions={}
+    for package in ('numpy','scipy','clarabel','cvxpy','highspy','mpmath','numba','psutil','zstandard','matplotlib','pandas'):
+        try:versions[package]=version(package)
+        except PackageNotFoundError:versions[package]=None
+    write(OUT/'environment.json',dict(python=platform.python_version(),platform=platform.platform(),packages=versions,blas_threads=1,maximum_numerical_processes=2,base=BASE))
+    done={p.name[:-8] for p in (RUN/'confirmation').glob('*.json.gz')}
+    missing=[]
+    for j in read(ROOT/'manifest.json'):
+        key=j['family']+f"_t{j['truth']}_r{j['rep']}_e{j['ratio']}_d{j['delta']}_c{j['premium']}_a"+''.join(map(str,j['allowed']))+'_'+j['policy']
+        if key not in done:missing.append(j)
+    with gzip.open(OUT/'unrun_confirmation.json.gz','wt',encoding='utf8') as z:json.dump(missing,z)
+    done={p.name[:-8] for p in (RUN/'terminal').glob('*.json.gz')};missing=[]
+    for j in read(ROOT/'terminal_manifest.json'):
+        key=f"{j['family']}_r{j['rep']}_t{j['truth']}_c{j['premium']}_a{''.join(map(str,j['allowed']))}_n{j['n']}_e{j['ratio']}"
+        if key not in done:missing.append(j)
+    with gzip.open(OUT/'unrun_terminal.json.gz','wt',encoding='utf8') as z:json.dump(missing,z)
 def plots(df):
     import matplotlib;matplotlib.use('Agg')
     import matplotlib.pyplot as plt
@@ -91,12 +142,18 @@ def plots(df):
     for name in sorted({r['family'] for r in h}):
         z=[r for r in h if r['family']==name];ax.plot([r['strength'] for r in z],[r['gamma']['upper'] for r in z],'o-',label=name)
     ax.set_xlabel('Common diagonal perturbation');ax.set_ylabel('Certified upper bound on Gamma');ax.legend(fontsize=7);fig.tight_layout();fig.savefig(OUT/'hidden_curvature.png',dpi=160);plt.close(fig)
+    ge=read(OUT/'confirmation_geometry.json');names=list(dict.fromkeys(x['family'] for x in ge))
+    vals=np.array([[max(x['gamma_class_upper']/x['gamma_all_upper'] for x in ge if x['family']==name and x['design']==des and x['ratio']==.5) for des in ('Singleton','Separated','All')] for name in names])
+    fig,ax=plt.subplots(figsize=(8,6));im=ax.imshow(vals,vmin=0,vmax=1,cmap='viridis');ax.set_xticks(range(3),['Singleton','Separated','All']);ax.set_yticks(range(len(names)),names,fontsize=7)
+    for i in range(len(names)):
+        for j in range(3):ax.text(j,i,f'{vals[i,j]:.3g}',ha='center',va='center',color='white' if vals[i,j]<.5 else 'black',fontsize=8)
+    fig.colorbar(im,ax=ax,label='Worst equivalence-class Gamma / whole-family Gamma');fig.tight_layout();fig.savefig(OUT/'equivalence_geometry.png',dpi=160);plt.close(fig)
 def report():
-    df,summary=aggregate();tt=tests(df);term=terminal_summary();plots(df);comp=read(OUT/'completion.json');c=df[df.split=='confirmation'];main=c[(c.design=='All')&(c.delta==.05)&(c.ratio==.5)]
+    df,summary=aggregate();tt=tests(df);term=terminal_summary();geometry_summary();inventory();plots(df);comp=read(OUT/'completion.json');c=df[df.split=='confirmation'];main=c[(c.design=='All')&(c.delta==.05)&(c.ratio==.5)]
     text=['# research_v6：决策充分信息与自适应观测合成报告','',
       '本轮仅纯合成。新族/新种子与历史复现分栏；没有真实行情或历史校准半合成。理论和统计保证的条件见[理论状态](THEORY_STATUS_ZH.md)，实现调整见[开发日志](DEVELOPMENT_LOG_ZH.md)。','',
       '## 完成与研究边界','',f"确认计划{comp['planned_confirmation']:,}条轨迹，已处理{comp['processed_confirmation']:,}，未运行{comp['unrun_confirmation']:,}。预算耗尽未运行与轨迹内未认证分别报告；未按胜负筛选。",'',
-      '可用动作成本为观测d个标量，Joint溢价另计。所有方法共用固定先验整路径混合置信序列。oracle_allocation使用真模型，只作参照。Separate-only只有一个合法动作，因此五种分配法是同一过程，仅运行一个代表。','',
+      '可用动作成本为观测d个标量，Joint溢价另计。所有方法共用固定先验整路径混合置信序列。oracle_allocation使用真模型的最优LP分配并保留强制探索，只作参照，不是理论下界。Separate-only只有一个合法动作，因此五种分配法是同一过程，仅运行一个代表。','',
       '## 主参数的采样成本与认证','',
       '|Joint成本倍数|方法|轨迹数|认证率|错误认证|截断平均成本|','|---|---|---:|---:|---:|---:|']
     for (cost,policy),g in main.groupby(['premium','policy']):text.append(f'|{cost}|{policy}|{len(g)}|{g.certified.mean():.3%}|{int(g.false_certification.sum())}|{g.restricted_cost.mean():.3f}|')
@@ -108,11 +165,14 @@ def report():
       '## 理论诊断','',
       '旧隐藏曲率族包含非均匀对角扰动，H1≈0并不推出最终模型具有共同最优组合。消融的Γ、最优持仓差异及一阶响应误差在`S0_hidden_ablation.json`；移除扰动后数值近零与精确共同最优控制分开。','',
       '![隐藏曲率消融](results/hidden_curvature.png)','',
-      '三模型两两兼容而整体冲突，随机选择pair center的最坏失败率1/3。它否定“Γ类>ε意味着任意固定δ随机化任务均不可能”的过强解释。有限答案的约简及Helly见证是经典工具；新渐近下界与本轮启发式最优性尚未证明。T候选归一化结果不作有限样本下界检验。','',
+      '![等价类几何](results/equivalence_geometry.png)','',
+      '热图为最坏观测等价类Γ与全族Γ之比；共同组合的可认证性由阈值与类内Γ比较，不能仅由模型是否可辨识判断。新确认族的随机化平台及上下界见`results/confirmation_geometry.json`。','',
+      '三模型两两兼容而整体冲突，随机选择pair center的最坏失败率1/3。它否定“Γ类>ε意味着任意固定δ随机化任务均不可能”的过强解释。有限答案的约简及Helly见证是经典工具；有限高斯族渐近成本下界已补成独立核查草稿，尚未经外部审阅，本轮启发式最优性仍未证明。T候选归一化结果不作有限样本下界检验。见[下界草稿](FINITE_GAUSSIAN_LOWER_BOUND_ZH.md)。','',
       '## 错误控制与数值','',f"确认中观察到错误认证{int(c.false_certification.sum())}次、真模型评价区间未决{int(c.certification_truth_indeterminate.sum())}次。额外独立校准逐真模型二项区间见`calibration_errors.json`；零错误不能当作零风险。",'',
       '理论错误控制依赖自适应动作的可预测性、正确有限候选族以及有效数值界。停止输出由有理持仓/弱对偶证书定义；浮点展示权重不是额外的精确保证。似然包络依赖IEEE误差模型，未做全软件形式化验证。','',
       '## 终端规则与求解','',f"终端完成情况：{comp.get('terminal')}。模型内成功、实际成功和预算资格见`terminal_summary.json`；冷启动/缓存/贪心结果见`S3_stress.json`。",'',
       'A1-B作为信息耗尽的终端规则，不继承δ认证。旧平均代价证书开放状态保留。M=6枚举价格并保留跳点区间；M=12只报告查询结果和开放界，不声称枚举了所有跳点或证明了多项式加速。','',
+      'β=0各方法均为MA端点；零观测只计算一次先验持仓。逐数据集的配对效应区间在`results/terminal_paired.json`，逐族最坏模型结果与真模型覆盖数在`results/terminal_worst_model.json`。未覆盖全部真模型的行不冒称完整最坏情形估计。未运行清单为`results/unrun_terminal.json.gz`和`results/unrun_confirmation.json.gz`。','',
       '## 最终判断的依据','',
       '1. Γ等价类判据刻画共同组合的存在性；随机化平台与统一认证必须分开。隐藏曲率负结果不能仅凭名称解释。',
       '2. 分配价值以主表和四项配对比较为准，任何优势限定本轮有限高斯族和动作成本。',
