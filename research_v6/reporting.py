@@ -17,6 +17,27 @@ def weighted_quantile(values,weights,q):
     ids=np.argsort(values);v=np.asarray(values)[ids];w=np.asarray(weights)[ids]
     return float(v[min(len(v)-1,np.searchsorted(np.cumsum(w),q*w.sum()))])
 
+def game_interval(sets,group):
+    from fractions import Fraction as F
+    from scipy.optimize import linprog
+    if not sets:return (0.,1.)
+    A=np.array([[int(mask>>j&1) for mask in sets] for j in group])
+    r=linprog(np.r_[np.zeros(len(sets)),-1.],A_ub=np.c_[-A,np.ones(len(group))],b_ub=np.zeros(len(group)),A_eq=[np.r_[np.ones(len(sets)),0.]],b_eq=[1.],bounds=[(0,None)]*(len(sets)+1),method='highs')
+    if not r.success:return (0.,1.)
+    def normalize(x):
+        v=[F(float(max(0,z))) for z in x];s=sum(v)
+        return [z/s for z in v] if s else [F(1,len(v))]*len(v)
+    p=normalize(r.x[:-1]);q=normalize(-r.ineqlin.marginals)
+    lo=min(sum(p[k]*int(A[i,k]) for k in range(len(p))) for i in range(len(q)))
+    hi=max(sum(q[i]*int(A[i,k]) for i in range(len(q))) for k in range(len(p)))
+    return (float(lo) if lo in (0,1) else float(np.nextafter(float(lo),-np.inf)),float(hi) if hi in (0,1) else float(np.nextafter(float(hi),np.inf)))
+
+def platform_interval(geo,epsilon,group):
+    certain=[s for s,g in geo.items() if g['upper']<=epsilon]
+    possible=[s for s,g in geo.items() if g['lower']<=epsilon]
+    lo=game_interval(certain,group)[0];hi=game_interval(possible,group)[1]
+    return dict(success_lower=lo,success_upper=hi,worst_failure_lower=max(0.,float(np.nextafter(1-hi,-np.inf))),worst_failure_upper=min(1.,float(np.nextafter(1-lo,np.inf))),unresolved_subsets=len(set(possible)-set(certain)),scope='rational primal/dual LP bounds plus unresolved geometry')
+
 def posterior_events(log_likelihood,error):
     """Common posterior event bounds; never treat underflow as structural zero."""
     from mpmath import iv
@@ -51,6 +72,8 @@ def report_check():
             checks.append(0<=lo<=hi<=1 and mp.mpf(lo)<=lower<=upper<=mp.mpf(hi))
     tiny=posterior_events([0.,-10000.],[0.,0.])(2)
     checks.append(tiny[0]==0 and tiny[1]>0)
+    lo,hi=game_interval([3,5,6],[0,1,2]);checks.append(lo<=2/3<=hi and hi-lo<1e-12)
+    checks.append(game_interval([7],[0,1,2])==(1.,1.))
     write(OUT/'reporting_checks.json',dict(passed=all(checks),cases=len(checks),scope='independent 100-digit posterior event extrema, exact endpoints, positive underflow retained'))
     if not all(checks):raise AssertionError('posterior reporting interval check')
     print('REPORT_CHECK',len(checks),'passed',flush=True)
@@ -176,7 +199,6 @@ def terminal_summary():
 def geometry_summary():
     from .pipeline import load_family
     from .models import specs,equivalence
-    from .information import randomized_platform
     out=[]
     for sp in specs('confirmation'):
         name=f'{sp[0]}-{sp[1]}-6-confirmation-{sp[4]}';f=load_family(name)
@@ -188,8 +210,16 @@ def geometry_summary():
           for design,allowed in [('Singleton',[0]),('Separated',[1]),('Bridge',[2]),('WithoutJoint',[0,1,2]),('All',[0,1,2,3])]:
             for group in equivalence(f,allowed):
               g=geo[sum(1<<j for j in group)]
-              out.append(dict(family=name,kind=sp[0],ratio=ratio,epsilon=eps,design=design,group=group,gamma_all_lower=geo[63]['lower'],gamma_all_upper=geo[63]['upper'],gamma_class_lower=g['lower'],gamma_class_upper=g['upper'],uniformly_coverable=g['upper']<=eps,uniformly_impossible=g['lower']>eps,randomized_platform=randomized_platform(6,ok,group)))
+              out.append(dict(family=name,kind=sp[0],ratio=ratio,epsilon=eps,design=design,group=group,gamma_all_lower=geo[63]['lower'],gamma_all_upper=geo[63]['upper'],gamma_class_lower=g['lower'],gamma_class_upper=g['upper'],uniformly_coverable=g['upper']<=eps,uniformly_impossible=g['lower']>eps,randomized_platform=platform_interval(geo,eps,group)))
     write(OUT/'confirmation_geometry.json',out)
+    cache={};memo={};qualified=[]
+    for r in read(OUT/'S0_diagnostics.json'):
+        name=r['family']
+        if name not in cache:cache[name]={int(k):v for k,v in read(RUN/'geometry'/f'{name}.json').items()}
+        key=(name,r['epsilon'],tuple(r['group']))
+        if key not in memo:memo[key]=platform_interval(cache[name],r['epsilon'],r['group'])
+        qualified.append(dict(**{k:r[k] for k in ('family','threshold_type','threshold','epsilon','allowed','group')},platform=memo[key]))
+    write(OUT/'S0_platform_intervals.json',qualified)
 
 def inventory():
     from importlib.metadata import version,PackageNotFoundError

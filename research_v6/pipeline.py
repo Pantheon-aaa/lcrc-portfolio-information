@@ -176,7 +176,7 @@ def develop():
         if len(timings)%100==0:print('DEVELOP',len(timings),flush=True)
     write(OUT/'development_timing.json',dict(records=timings,censored=False))
 def freeze():
-    if (ROOT/'manifest.json').exists():raise RuntimeError('freeze already exists')
+    if (ROOT/'manifest.json').exists() or (ROOT/'manifest.json.gz').exists():raise RuntimeError('freeze already exists')
     if not read(OUT/'gate0.json')['passed']:raise RuntimeError('gate required')
     t=read(OUT/'development_timing.json')['records'];p90=float(np.quantile([x['cpu'] for x in t],.9)) if t else np.inf
     measured=sum(r['cpu_seconds'] for r in rows(RUN/'runtime.jsonl') if r['stage']=='develop')

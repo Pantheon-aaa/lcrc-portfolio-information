@@ -1,5 +1,5 @@
 {
   "passed": true,
-  "cases": 257,
+  "cases": 259,
   "scope": "independent 100-digit posterior event extrema, exact endpoints, positive underflow retained"
 }

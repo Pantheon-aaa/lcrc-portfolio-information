@@ -745,9 +745,63 @@
         "terminal.py": "1b3efc6729a8e8313dd50021d72fbdfd61179a441b8e7dd434028e2f4824f6ca",
         "__init__.py": "d2a5677b0e1e0caa9b814f2ac3e1198ffe04c1cb605d50ae584e9836b4b3854a"
       }
+    },
+    {
+      "stage": "confirm",
+      "args": [],
+      "cpu_seconds": 5438.6875,
+      "child_cpu": 5276.234375,
+      "wall_seconds": 5617.0168792,
+      "unix_end": 1791872521.552637,
+      "peak_rss": 818524160,
+      "exit_code": 0,
+      "reason": null,
+      "sources": {
+        "audit_certificates.py": "485af1b41af9f3c58db5446cc53f89709bf44b6f90559b21c8de25f60bc45cdb",
+        "certificates.py": "fb2e127c293ac0f96d75afdd07b418a5779f52fb4a59087543d5418316ec1ad5",
+        "common.py": "831df4456b82aa5ae1e0d01227f04a02b8623981ee98ea5e259128a578941652",
+        "experiments.py": "50f262058a752440e21de492d80e819ec2b9287a7deeb02d8eff04e29b6aaf29",
+        "information.py": "4fff438332040198d23b4cde3e1b8dc9cb763cd30d586f85012569b330f7aa6f",
+        "likelihood.py": "b41d19450deac916f6bd80045f2ff8527c7bc1af7bd0cd1dc288e0f21e1f7f1d",
+        "models.py": "4b63fb9b5d3a8dd6ba309c7183785e103dbac07c62a7b2149917f481524f2534",
+        "pipeline.py": "ff73f43f1407681354a0fc94def0ca4ea6738cbee81dfd202073e2e773584ceb",
+        "reporting.py": "72dce3453e3aa2f7f43798f52e9ede64960d86e73081f8981aacc480d4bcd386",
+        "sequential.py": "665bb0548ada5599af36b44349ed293d6f8c9fbd16b9be4a02f52dbf67beeea0",
+        "stream_cache.py": "00f1c3ed074be1445e9f325424c68ff96a7c9ff0f48b0b7c9fc1bdb7776d309e",
+        "supervisor.py": "2c78d434e2325be124f25f242fb141f48a745c9021febf59718bb76d48016432",
+        "terminal.py": "1b3efc6729a8e8313dd50021d72fbdfd61179a441b8e7dd434028e2f4824f6ca",
+        "__init__.py": "d2a5677b0e1e0caa9b814f2ac3e1198ffe04c1cb605d50ae584e9836b4b3854a"
+      }
+    },
+    {
+      "stage": "report-check",
+      "args": [],
+      "cpu_seconds": 3.0,
+      "child_cpu": 1.921875,
+      "wall_seconds": 2.562650300000314,
+      "unix_end": 1791872553.8296573,
+      "peak_rss": 196644864,
+      "exit_code": 0,
+      "reason": null,
+      "sources": {
+        "audit_certificates.py": "485af1b41af9f3c58db5446cc53f89709bf44b6f90559b21c8de25f60bc45cdb",
+        "certificates.py": "fb2e127c293ac0f96d75afdd07b418a5779f52fb4a59087543d5418316ec1ad5",
+        "common.py": "831df4456b82aa5ae1e0d01227f04a02b8623981ee98ea5e259128a578941652",
+        "experiments.py": "50f262058a752440e21de492d80e819ec2b9287a7deeb02d8eff04e29b6aaf29",
+        "information.py": "4fff438332040198d23b4cde3e1b8dc9cb763cd30d586f85012569b330f7aa6f",
+        "likelihood.py": "b41d19450deac916f6bd80045f2ff8527c7bc1af7bd0cd1dc288e0f21e1f7f1d",
+        "models.py": "4b63fb9b5d3a8dd6ba309c7183785e103dbac07c62a7b2149917f481524f2534",
+        "pipeline.py": "ff73f43f1407681354a0fc94def0ca4ea6738cbee81dfd202073e2e773584ceb",
+        "reporting.py": "d5ff5e95b0474ad8340c8f82ff62431675f08dccf9e35551adbabf34b2f8cf35",
+        "sequential.py": "665bb0548ada5599af36b44349ed293d6f8c9fbd16b9be4a02f52dbf67beeea0",
+        "stream_cache.py": "00f1c3ed074be1445e9f325424c68ff96a7c9ff0f48b0b7c9fc1bdb7776d309e",
+        "supervisor.py": "2c78d434e2325be124f25f242fb141f48a745c9021febf59718bb76d48016432",
+        "terminal.py": "1b3efc6729a8e8313dd50021d72fbdfd61179a441b8e7dd434028e2f4824f6ca",
+        "__init__.py": "d2a5677b0e1e0caa9b814f2ac3e1198ffe04c1cb605d50ae584e9836b4b3854a"
+      }
     }
   ],
-  "cpu_seconds": 6929.234375,
+  "cpu_seconds": 12370.921875,
   "limit": 43200,
   "optimization_limit": 34560
 }
