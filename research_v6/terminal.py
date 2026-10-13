@@ -91,4 +91,23 @@ def stress():
                     out.append(dict(kind=kind,d=d,M=M,beta=beta,method=method,cpu=time.process_time()-tic,**a))
                 except Exception as e:out.append(dict(kind=kind,d=d,M=M,beta=beta,method=method,error=repr(e),cpu=time.process_time()-tic))
         write(OUT/'S3_stress.json',out);print('STRESS',kind,d,M,flush=True)
-def dispatch(stage,*args):{'terminal':terminal,'stress':stress}[stage](*args)
+def profile_shared():
+    """Measure preparation separately on the same frozen stress instances.
+
+    No solver result is replaced. This profile is explicitly a later timing run.
+    """
+    from .certificates import Geometry
+    from .likelihood import GaussianStream
+    start=time.process_time();prior=sum(r['cpu_seconds'] for r in rows(RUN/'runtime.jsonl') if r['stage'] in ('stress','stress-profile'));out=[]
+    for d,M,kind in itertools.product((10,20),(6,12),KINDS):
+        if prior+time.process_time()-start>900:break
+        timing={}
+        def mark(label,tic):timing[label]=time.process_time()-tic
+        tic=time.process_time();f=make(kind,d,M,'stress',0);mark('family_and_QP_oracles',tic)
+        tic=time.process_time();g=Geometry(f);r=g.gamma((1<<M)-1);eps=.5*(r['lower']+r['upper'])/2;mark('rational_geometry',tic)
+        tic=time.process_time();con=constants(f);stream=GaussianStream(f,0,seed('stress',d,M,kind),con);ll,_=stream.chunk(3,32);p=np.exp(ll.sum(0)-logsumexp(ll.sum(0)));mark('likelihood_and_observations',tic)
+        tic=time.process_time();gg=OldGeometry(f,eps);pc=PriceCache(MeanBudget(f,p),gg);mark('initial_cache_and_mean_budget',tic)
+        out.append(dict(kind=kind,d=d,M=M,input_hash=f.hash,posterior=p,epsilon=eps,cpu=timing,qualification='later preparation-only profile; original query times and decisions retained'))
+        write(OUT/'S3_shared_profile.json',out)
+
+def dispatch(stage,*args):{'terminal':terminal,'stress':stress,'stress-profile':profile_shared}[stage](*args)

@@ -1,0 +1,302 @@
+[
+  {
+    "kind": "asymmetric",
+    "d": 10,
+    "M": 6,
+    "input_hash": "dac7d467743394dbc8cb8246b836b7ab57018ed5e1858b87597936ac16ead8bd",
+    "posterior": [
+      0.24769686145784658,
+      0.5811750220074263,
+      0.0071870296179013865,
+      0.021463641166624428,
+      0.005687331910726021,
+      0.13679011383946174
+    ],
+    "epsilon": 9.875472208661951e-05,
+    "cpu": {
+      "family_and_QP_oracles": 0.015625,
+      "rational_geometry": 0.03125,
+      "likelihood_and_observations": 0.140625,
+      "initial_cache_and_mean_budget": 0.0
+    },
+    "qualification": "later preparation-only profile; original query times and decisions retained"
+  },
+  {
+    "kind": "hidden_curvature",
+    "d": 10,
+    "M": 6,
+    "input_hash": "e852c12df684ceff0323365466b408f1ed580d0f722f94b5f4814d43cad82f5c",
+    "posterior": [
+      0.9573822463664076,
+      0.006301782226945643,
+      0.0006007390402454847,
+      0.026097095665611025,
+      0.009423820534113057,
+      0.00019431616668340757
+    ],
+    "epsilon": 4.551407827724531e-06,
+    "cpu": {
+      "family_and_QP_oracles": 0.0,
+      "rational_geometry": 0.03125,
+      "likelihood_and_observations": 0.140625,
+      "initial_cache_and_mean_budget": 0.0
+    },
+    "qualification": "later preparation-only profile; original query times and decisions retained"
+  },
+  {
+    "kind": "block",
+    "d": 10,
+    "M": 6,
+    "input_hash": "1008dfc6ca1d095c9906982d72a18bdc240b50408d5bff49e3653591f12f1804",
+    "posterior": [
+      0.9999999999886597,
+      6.355444429854927e-23,
+      1.1327525607799387e-11,
+      2.3709458256531666e-34,
+      1.7346014522802966e-33,
+      3.634987585547877e-30
+    ],
+    "epsilon": 0.004419894881377014,
+    "cpu": {
+      "family_and_QP_oracles": 0.015625,
+      "rational_geometry": 0.03125,
+      "likelihood_and_observations": 0.125,
+      "initial_cache_and_mean_budget": 0.015625
+    },
+    "qualification": "later preparation-only profile; original query times and decisions retained"
+  },
+  {
+    "kind": "asymmetric",
+    "d": 10,
+    "M": 12,
+    "input_hash": "54dcfca43ec16e36e0913fc9f56f957ce1da833c36823c31778d182981cb4f1a",
+    "posterior": [
+      0.3008833924322327,
+      0.015312706618358447,
+      0.0018724447989214052,
+      0.29271545047509884,
+      0.07918655659081647,
+      0.020438883411431196,
+      0.1894434538568134,
+      0.030048264086826898,
+      0.004926717094995013,
+      0.06176364131476846,
+      0.0024985548547205136,
+      0.0009099344650030605
+    ],
+    "epsilon": 0.00039985414983669356,
+    "cpu": {
+      "family_and_QP_oracles": 0.015625,
+      "rational_geometry": 0.046875,
+      "likelihood_and_observations": 0.265625,
+      "initial_cache_and_mean_budget": 0.0
+    },
+    "qualification": "later preparation-only profile; original query times and decisions retained"
+  },
+  {
+    "kind": "hidden_curvature",
+    "d": 10,
+    "M": 12,
+    "input_hash": "bdec64c65554a1fa1180755fdd1711f61f7f1fe2cc349ba5035dd2d2308b74e0",
+    "posterior": [
+      0.9866440682998572,
+      0.00024626919199659123,
+      8.062645413674496e-05,
+      0.009359520970874415,
+      1.8590452837132377e-06,
+      0.002156268680180104,
+      7.421062475841455e-05,
+      2.221214595828486e-06,
+      5.714486655710554e-05,
+      0.0010913379135458604,
+      0.00024119552613148434,
+      4.5277212083839125e-05
+    ],
+    "epsilon": 4.651024188512988e-06,
+    "cpu": {
+      "family_and_QP_oracles": 0.015625,
+      "rational_geometry": 0.0625,
+      "likelihood_and_observations": 0.40625,
+      "initial_cache_and_mean_budget": 0.0
+    },
+    "qualification": "later preparation-only profile; original query times and decisions retained"
+  },
+  {
+    "kind": "block",
+    "d": 10,
+    "M": 12,
+    "input_hash": "0ed8d03e07a635838aa1cb88ae04f2d9c613681531cd91e8798bbaa06a4f7fd6",
+    "posterior": [
+      0.9999999996079509,
+      1.2648483486557555e-13,
+      2.8129919578034325e-10,
+      9.55363069936264e-11,
+      1.507158665036436e-11,
+      2.8075339577457844e-14,
+      4.2297187722652684e-37,
+      3.6749409792093284e-27,
+      5.730088615682775e-29,
+      1.7592510621939216e-35,
+      2.3228742188207458e-35,
+      9.636188634658354e-29
+    ],
+    "epsilon": 0.006667165777594478,
+    "cpu": {
+      "family_and_QP_oracles": 0.0625,
+      "rational_geometry": 0.078125,
+      "likelihood_and_observations": 0.4375,
+      "initial_cache_and_mean_budget": 0.0
+    },
+    "qualification": "later preparation-only profile; original query times and decisions retained"
+  },
+  {
+    "kind": "asymmetric",
+    "d": 20,
+    "M": 6,
+    "input_hash": "bff6e6d8afec8480cc3aea30fd4bfeac071f1cb942af6a6cd07a8db19e581152",
+    "posterior": [
+      0.3629261269319565,
+      0.004300179602640715,
+      0.5517551454982215,
+      0.0007815732008645525,
+      0.005263580584504222,
+      0.07497339418182995
+    ],
+    "epsilon": 0.00017552536297989972,
+    "cpu": {
+      "family_and_QP_oracles": 0.03125,
+      "rational_geometry": 0.390625,
+      "likelihood_and_observations": 1.453125,
+      "initial_cache_and_mean_budget": 0.015625
+    },
+    "qualification": "later preparation-only profile; original query times and decisions retained"
+  },
+  {
+    "kind": "hidden_curvature",
+    "d": 20,
+    "M": 6,
+    "input_hash": "023ff66255179f9749f04eb5b655f11fa90a94c04fc76d7a1401493ade019aac",
+    "posterior": [
+      0.999859971161843,
+      2.7634746969383284e-07,
+      0.00010518840153487979,
+      1.1489326487499872e-05,
+      2.306825896148097e-05,
+      6.5036825601737926e-09
+    ],
+    "epsilon": 1.2239424938309187e-06,
+    "cpu": {
+      "family_and_QP_oracles": 0.015625,
+      "rational_geometry": 0.40625,
+      "likelihood_and_observations": 1.421875,
+      "initial_cache_and_mean_budget": 0.0
+    },
+    "qualification": "later preparation-only profile; original query times and decisions retained"
+  },
+  {
+    "kind": "block",
+    "d": 20,
+    "M": 6,
+    "input_hash": "b39a06e0e9793f8a48658c20b97469b2047edc3940370884e8da9f3c03f8678a",
+    "posterior": [
+      1.0,
+      5.834178773264379e-24,
+      3.63152772791034e-25,
+      1.3054149495349023e-54,
+      5.680765540628081e-46,
+      7.670313005184056e-56
+    ],
+    "epsilon": 0.0029069018761649044,
+    "cpu": {
+      "family_and_QP_oracles": 0.03125,
+      "rational_geometry": 0.390625,
+      "likelihood_and_observations": 1.546875,
+      "initial_cache_and_mean_budget": 0.015625
+    },
+    "qualification": "later preparation-only profile; original query times and decisions retained"
+  },
+  {
+    "kind": "asymmetric",
+    "d": 20,
+    "M": 12,
+    "input_hash": "fa040c5dbb6b84a6a8533da4401c8806a744b07388abb216d408ff36b3ef049f",
+    "posterior": [
+      0.9719070599974886,
+      4.9461459434568256e-05,
+      0.00015417715166781077,
+      0.0001604284169266477,
+      0.002318626440668853,
+      5.753018347826498e-05,
+      2.0205454948337247e-05,
+      8.352470315576083e-05,
+      0.008429541678121712,
+      0.00021695773705417465,
+      0.00010346342571117574,
+      0.016499023351323878
+    ],
+    "epsilon": 0.00019878896587302897,
+    "cpu": {
+      "family_and_QP_oracles": 0.03125,
+      "rational_geometry": 0.671875,
+      "likelihood_and_observations": 2.875,
+      "initial_cache_and_mean_budget": 0.0
+    },
+    "qualification": "later preparation-only profile; original query times and decisions retained"
+  },
+  {
+    "kind": "hidden_curvature",
+    "d": 20,
+    "M": 12,
+    "input_hash": "e269595c7a83e7117953d3ecbd2705acd348428664ffd91f5a1474f9ab61acfe",
+    "posterior": [
+      0.9838540292749279,
+      0.000445165061113765,
+      1.191191457724021e-07,
+      0.0013868774465937476,
+      0.00017235554022673193,
+      2.352453420208817e-05,
+      0.00024407044571053994,
+      0.008570194707163642,
+      1.1391204309110896e-07,
+      2.96982549057352e-07,
+      0.005302791878484015,
+      4.610978144547379e-07
+    ],
+    "epsilon": 1.4252811063365018e-06,
+    "cpu": {
+      "family_and_QP_oracles": 0.03125,
+      "rational_geometry": 0.609375,
+      "likelihood_and_observations": 3.03125,
+      "initial_cache_and_mean_budget": 0.0
+    },
+    "qualification": "later preparation-only profile; original query times and decisions retained"
+  },
+  {
+    "kind": "block",
+    "d": 20,
+    "M": 12,
+    "input_hash": "a7893e9f40437e7eb8c5eefd177493b22c5e26bba78021accc3e19ea2f947314",
+    "posterior": [
+      1.0,
+      6.3535196863154454e-24,
+      1.895724199432498e-18,
+      4.516200752357344e-27,
+      5.921778801426056e-17,
+      4.287513350454819e-22,
+      3.610393952753844e-48,
+      1.658280936154348e-47,
+      5.7574540195920724e-36,
+      3.378935104319966e-36,
+      3.0931398268203643e-37,
+      1.7626918608241668e-38
+    ],
+    "epsilon": 0.0023104725516172636,
+    "cpu": {
+      "family_and_QP_oracles": 0.0625,
+      "rational_geometry": 0.640625,
+      "likelihood_and_observations": 3.015625,
+      "initial_cache_and_mean_budget": 0.015625
+    },
+    "qualification": "later preparation-only profile; original query times and decisions retained"
+  }
+]

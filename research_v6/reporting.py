@@ -16,6 +16,44 @@ def balanced_weights(g):
 def weighted_quantile(values,weights,q):
     ids=np.argsort(values);v=np.asarray(values)[ids];w=np.asarray(weights)[ids]
     return float(v[min(len(v)-1,np.searchsorted(np.cumsum(w),q*w.sum()))])
+
+def posterior_events(log_likelihood,error):
+    """Common posterior event bounds; never treat underflow as structural zero."""
+    from mpmath import iv
+    center=float(max(log_likelihood));terms=[];memo={};M=len(log_likelihood)
+    for x,e in zip(log_likelihood,error):
+        terms.append(iv.exp(iv.mpf([float(np.nextafter(x-e,-np.inf)),float(np.nextafter(x+e,np.inf))])-iv.mpf(center)))
+    def event(mask):
+        if mask in memo:return memo[mask]
+        if mask==0:return (0.,0.)
+        if mask==(1<<M)-1:return (1.,1.)
+        good=[j for j in range(M) if mask>>j&1];bad=[j for j in range(M) if not mask>>j&1]
+        gl=sum((terms[j].a for j in good),iv.mpf(0));gh=sum((terms[j].b for j in good),iv.mpf(0))
+        bl=sum((terms[j].a for j in bad),iv.mpf(0));bh=sum((terms[j].b for j in bad),iv.mpf(0))
+        low=gl/(gl+bh);high=gh/(gh+bl)
+        memo[mask]=(max(0.,float(np.nextafter(float(low.a),-np.inf))),min(1.,float(np.nextafter(float(high.b),np.inf))))
+        return memo[mask]
+    return event
+
+def report_check():
+    from mpmath import mp
+    mp.dps=100;checks=[]
+    for values in ([0.]*6,[0.,-1.,-5.,-100.,-1000.,-10000.]):
+      for radius in (0.,1e-6):
+        errors=np.full(6,radius);event=posterior_events(values,errors)
+        for mask in range(64):
+            lo,hi=event(mask)
+            xs=[mp.mpf(float(x)) for x in values];ee=[mp.mpf(float(x)) for x in errors]
+            good=[i for i in range(6) if mask>>i&1];bad=[i for i in range(6) if not mask>>i&1]
+            gl=sum(mp.exp(xs[i]-ee[i]) for i in good);gh=sum(mp.exp(xs[i]+ee[i]) for i in good)
+            bl=sum(mp.exp(xs[i]-ee[i]) for i in bad);bh=sum(mp.exp(xs[i]+ee[i]) for i in bad)
+            lower=gl/(gl+bh);upper=gh/(gh+bl)
+            checks.append(0<=lo<=hi<=1 and mp.mpf(lo)<=lower<=upper<=mp.mpf(hi))
+    tiny=posterior_events([0.,-10000.],[0.,0.])(2)
+    checks.append(tiny[0]==0 and tiny[1]>0)
+    write(OUT/'reporting_checks.json',dict(passed=all(checks),cases=len(checks),scope='independent 100-digit posterior event extrema, exact endpoints, positive underflow retained'))
+    if not all(checks):raise AssertionError('posterior reporting interval check')
+    print('REPORT_CHECK',len(checks),'passed',flush=True)
 def aggregate():
     records=[];counts={};failures=[];allocation_tables={};geometries={}
     for split in ('development','confirmation','calibration'):
@@ -43,9 +81,10 @@ def aggregate():
                 rec['allocation_distance_oracle_L1']=float(np.abs(np.array(r['counts'])/actions-target).sum())
             else:rec['allocation_distance_oracle_L1']=None
             records.append(rec);count+=1
+            if count%50000==0:print('AGGREGATE',split,count,flush=True)
             if r['false_certification'] or r['certification_truth_indeterminate'] or r['status']=='empty_confidence_set':failures.append(dict(path=str(path.relative_to(RUN)),**rec))
         counts[split]=count
-    frame=pd.DataFrame(records);OUT.mkdir(parents=True,exist_ok=True);frame.to_json(OUT/'trajectory_aggregate.json.gz',orient='records',compression='gzip',force_ascii=False)
+    frame=pd.DataFrame(records);OUT.mkdir(parents=True,exist_ok=True);frame.to_json(OUT/'trajectory_aggregate.json.gz',orient='records',compression='gzip',force_ascii=False,double_precision=15)
     summary=[]
     keys=['split','kind','ratio','delta','premium','design','policy']
     for key,g in frame.groupby(keys,dropna=False):
@@ -83,33 +122,42 @@ def tests(df):
     for r in out:r['qualification']='family-level paired available records; incomplete frozen coverage remains explicit' if read(OUT/'completion.json')['unrun_confirmation'] else 'frozen full confirmation'
     write(OUT/'four_tests.json',out);return out
 def terminal_summary():
-    result=[];errors=[];stream_costs={}
+    result=[];errors=[];stream_costs={};posterior_bounds={}
     for path in (RUN/'terminal').glob('*.json.gz'):
         r=readtraj(path);j=r['job'];p=np.array(r['posterior']);
         ds=(j['family'],j['truth'],j['rep'],j['premium'],tuple(j['allowed']))
         if j['n']:
             if ds not in stream_costs:
                 stream=readtraj(RUN/'terminal_streams'/f'{seed(*ds)}.json.gz')
-                stream_costs[ds]={int(k):v['cost'] for k,v in stream['snapshots'].items()}
-            observation_cost=stream_costs[ds][j['n']]
-        else:observation_cost=0
+                stream_costs[ds]={int(k):v for k,v in stream['snapshots'].items()}
+            snap=stream_costs[ds][j['n']];observation_cost=snap['cost'];error=snap['error']
+            if not np.array_equal(snap['log_likelihood'],r['log_likelihood']):raise AssertionError('terminal likelihood differs from checkpoint')
+        else:observation_cost=0;error=np.zeros(len(p))
+        pk=(ds,j['n'])
+        if pk not in posterior_bounds:posterior_bounds[pk]=posterior_events(r['log_likelihood'],error)
+        event=posterior_bounds[pk]
         for a in r['answers']:
             failed='error' in a
             if failed:
                 errors.append(dict(job=j,**a))
                 a=dict(method=a['method'],beta=a['beta'],cpu=a['cpu'],status='method_error',regret_lower=[None]*6,regret_upper=[None]*6,success_mass_lower=0.,success_mass_upper=1.,optimal_mass_lower=0.,optimal_mass_upper=1.,mean_increment_upper=float('inf'),budget_lower=0.,primary_mass_gap=1.)
             truths=r['zero_prior_truths'] if j['n']==0 else [j['truth']]
+            if failed:masslo,masshi=0.,1.
+            else:
+                good=sum(1<<k for k,x in enumerate(a['regret_upper']) if x<=r['epsilon'])
+                possible=sum(1<<k for k,x in enumerate(a['regret_lower']) if x<=r['epsilon'])
+                masslo=event(good)[0];masshi=event(possible)[1]
             for truth in truths:
                 lo=a['regret_lower'][truth];hi=a['regret_upper'][truth]
                 certified=not failed and (a['beta']=='inf' or a['mean_increment_upper']<=a['budget_lower'])
-                result.append(dict(**{k:v for k,v in j.items() if k not in ('allowed','truth')},truth=truth,observation_cost=observation_cost,design='Separated' if j['allowed']==[1] else 'All',method=a['method'],beta=str(a['beta']),success_low=False if failed else hi<=r['epsilon'],success_high=True if failed else lo<=r['epsilon'],regret=None if failed else (lo+hi)/2,posterior_mass=a['success_mass_lower'],posterior_mass_upper=a['success_mass_upper'],optimal_mass_lower=a['optimal_mass_lower'],optimal_mass_upper=a['optimal_mass_upper'],budget_certified=certified,primary_gap=a['primary_mass_gap'],status=a['status'],cpu=a['cpu']))
+                result.append(dict(**{k:v for k,v in j.items() if k not in ('allowed','truth')},truth=truth,observation_cost=observation_cost,design='Separated' if j['allowed']==[1] else 'All',method=a['method'],beta=str(a['beta']),success_low=False if failed else hi<=r['epsilon'],success_high=True if failed else lo<=r['epsilon'],regret=None if failed else (lo+hi)/2,posterior_mass=masslo,posterior_mass_upper=masshi,native_mass_lower=a['success_mass_lower'],native_mass_upper=a['success_mass_upper'],float_posterior_underflow=bool((p==0).any()),optimal_mass_lower=a['optimal_mass_lower'],optimal_mass_upper=a['optimal_mass_upper'],budget_certified=certified,primary_gap=a['primary_mass_gap'],status=a['status'],cpu=a['cpu']))
     df=pd.DataFrame(result);summary=[]
     if len(df):
       for key,g in df.groupby(['n','ratio','premium','design','method','beta']):
         w=balanced_weights(g);valid=g.regret.notna().all();fail=~g.success_high
-        summary.append(dict(zip(['n','ratio','premium','design','method','beta'],key),n_records=len(g),families=g.family.nunique(),weighting='equal families then equal observed truths; all method errors retained',method_errors=int((g.status=='method_error').sum()),success_low=float(w@g.success_low),success_high=float(w@g.success_high),mean_regret=float(w@g.regret) if valid else None,p95=weighted_quantile(g.regret,w,.95) if valid else None,failure_regret=float(w[fail]@g.loc[fail,'regret']/w[fail].sum()) if valid and fail.any() else None,budget_certified=float(w@g.budget_certified),mass=float(w@g.posterior_mass),mean_primary_gap=float(w@g.primary_gap)))
+        summary.append(dict(zip(['n','ratio','premium','design','method','beta'],key),n_records=len(g),families=g.family.nunique(),weighting='equal families then equal observed truths; all method errors retained',method_errors=int((g.status=='method_error').sum()),success_low=float(np.clip(w@g.success_low,0,1)),success_high=float(np.clip(w@g.success_high,0,1)),mean_regret=float(w@g.regret) if valid else None,p95=weighted_quantile(g.regret,w,.95) if valid else None,failure_regret=float(w[fail]@g.loc[fail,'regret']/w[fail].sum()) if valid and fail.any() else None,budget_certified=float(np.clip(w@g.budget_certified,0,1)),mass=float(np.clip(w@g.posterior_mass,0,1)),mass_upper=float(np.clip(w@g.posterior_mass_upper,0,1)),mean_primary_gap=float(w@g.primary_gap)))
     write(OUT/'terminal_summary.json',summary);write(OUT/'terminal_errors.json',errors)
-    if len(df):df.to_json(OUT/'terminal_aggregate.json.gz',orient='records',compression='gzip')
+    if len(df):df.to_json(OUT/'terminal_aggregate.json.gz',orient='records',compression='gzip',double_precision=15)
     paired=[];worst=[]
     if len(df):
       keys=['family','rep','truth','premium','n','ratio','design','beta']
@@ -118,7 +166,7 @@ def terminal_summary():
        pp=aa.merge(df[df.method==method],on=keys,suffixes=('_a','_b'))
        for key,g in pp.groupby(['n','ratio','premium','design','beta']):
         w=balanced_weights(g)
-        paired.append(dict(zip(['n','ratio','premium','design','beta'],key),comparator=method,pairs=len(g),success_difference_lower=float(w@(g.success_low_a.astype(float)-g.success_high_b.astype(float))),success_difference_upper=float(w@(g.success_high_a.astype(float)-g.success_low_b.astype(float))),mean_regret_difference=float(w@(g.regret_a-g.regret_b)) if (g.regret_a.notna()&g.regret_b.notna()).all() else None,attained_mass_difference_lower=float(w@(g.posterior_mass_a-g.posterior_mass_upper_b)),attained_mass_difference_upper=float(w@(g.posterior_mass_upper_a-g.posterior_mass_b)),optimality_gap_lower=float(w@np.maximum(0,g.optimal_mass_lower_a-g.posterior_mass_upper_b)),optimality_gap_upper=float(w@np.maximum(0,g.optimal_mass_upper_a-g.posterior_mass_b)),both_budget_certified=float(w@(g.budget_certified_a&g.budget_certified_b))))
+        paired.append(dict(zip(['n','ratio','premium','design','beta'],key),comparator=method,pairs=len(g),success_difference_lower=float(w@(g.success_low_a.astype(float)-g.success_high_b.astype(float))),success_difference_upper=float(w@(g.success_high_a.astype(float)-g.success_low_b.astype(float))),mean_regret_difference=float(w@(g.regret_a-g.regret_b)) if (g.regret_a.notna()&g.regret_b.notna()).all() else None,attained_mass_difference_lower=float(w@(g.posterior_mass_a-g.posterior_mass_upper_b)),attained_mass_difference_upper=float(w@(g.posterior_mass_upper_a-g.posterior_mass_b)),optimality_gap_lower=float(w@np.maximum(0,g.optimal_mass_lower_a-g.native_mass_upper_b)),optimality_gap_upper=float(w@np.maximum(0,g.optimal_mass_upper_a-g.native_mass_lower_b)),both_budget_certified=float(w@(g.budget_certified_a&g.budget_certified_b))))
       for key,g in df.groupby(['family','n','ratio','premium','design','method','beta']):
        rates=g.groupby('truth')[['success_low','success_high']].mean()
        worst.append(dict(zip(['family','n','ratio','premium','design','method','beta'],key),truths_evaluated=len(rates),worst_failure_lower=float(1-rates.success_high.min()),worst_failure_upper=float(1-rates.success_low.min()),qualification='complete truth coverage' if len(rates)==6 else 'partial truth coverage; not full worst-model estimate'))
@@ -195,8 +243,27 @@ def plots(df):
     for i in range(len(names)):
         for j in range(len(designs)):ax.text(j,i,f'{vals[i,j]:.3g}',ha='center',va='center',color='white' if vals[i,j]<.5 else 'black',fontsize=8)
     fig.colorbar(im,ax=ax,label='Worst equivalence-class Gamma / whole-family Gamma');fig.tight_layout();fig.savefig(OUT/'equivalence_geometry.png',dpi=160);plt.close(fig)
+    tr=read(OUT/'terminal_summary.json')
+    for filename,lowkey,highkey,ylabel in [('terminal_success','success_low','success_high','Actual success interval'),('terminal_mass','mass','mass_upper','Posterior success mass interval')]:
+      fig,axes=plt.subplots(2,2,figsize=(10,7))
+      for i,beta in enumerate(('0.1','0.25')):
+       for j,design in enumerate(('Separated','All')):
+        ax=axes[i,j]
+        for method,style in [('MA','k--o'),('A1-B','C0-o'),('Greedy','C1--^'),('Hinge','C2-s'),('CVaR','C3-d')]:
+            actual='A1-B' if method=='MA' else method;b='0' if method=='MA' else beta
+            z=[r for r in tr if r['ratio']==.5 and r['premium']==1 and r['design']==design and r['method']==actual and r['beta']==b]
+            if design=='All':z += [r for r in tr if r['n']==0 and r['ratio']==.5 and r['premium']==1 and r['design']=='Separated' and r['method']==actual and r['beta']==b]
+            z=sorted(z,key=lambda r:r['n']);x=[r['n'] for r in z];lo=[r[lowkey] for r in z];hi=[r[highkey] for r in z]
+            line,=ax.plot(x,lo,style,label=method,markersize=4,linewidth=1);ax.fill_between(x,lo,hi,color=line.get_color(),alpha=.1)
+        ax.set_title(f'{design}, beta={beta}');ax.set_xscale('symlog',linthresh=32);ax.set_xticks([0,32,128,512,2048],[0,32,128,512,2048]);ax.set_ylim(-.03,1.03);ax.set_ylabel(ylabel);ax.set_xlabel('Observed actions');ax.tick_params(labelsize=8)
+      handles,labels=axes[-1,-1].get_legend_handles_labels();fig.legend(handles,labels,loc='lower center',ncol=5);fig.suptitle('Completed terminal records; Joint cost multiplier 1; common prior reused at n=0',fontsize=10);fig.tight_layout(rect=[0,.05,1,.95]);fig.savefig(OUT/f'{filename}.png',dpi=160);plt.close(fig)
+    sr=read(OUT/'S3_stress.json');pr=read(OUT/'S3_shared_profile.json')
+    fig,axes=plt.subplots(1,2,figsize=(11,4));methods=['cold','cached','greedy']
+    axes[0].bar(methods,[sum(r['cpu'] for r in sr if r['method']==m) for m in methods]);axes[0].set_title('Original queries: 48 per method, open results retained');axes[0].set_ylabel('Cumulative process CPU seconds')
+    keys=['family_and_QP_oracles','rational_geometry','likelihood_and_observations','initial_cache_and_mean_budget'];labels=['Family / QP','Rational geometry','Likelihood / data','Initial cache']
+    axes[1].barh(labels,[sum(r['cpu'][k] for r in pr) for k in keys]);axes[1].set_title('Separate preparation-only timing run');axes[1].set_xlabel('Cumulative process CPU seconds');fig.tight_layout();fig.savefig(OUT/'solver_cost.png',dpi=160);plt.close(fig)
 def report():
-    df,summary=aggregate();tt=tests(df);term=terminal_summary();geometry_summary();inventory();plots(df);comp=read(OUT/'completion.json');c=df[df.split=='confirmation'];main=c[(c.design=='All')&(c.delta==.05)&(c.ratio==.5)]
+    report_check();df,summary=aggregate();tt=tests(df);term=terminal_summary();geometry_summary();inventory();plots(df);comp=read(OUT/'completion.json');c=df[df.split=='confirmation'];main=c[(c.design=='All')&(c.delta==.05)&(c.ratio==.5)]
     text=['# research_v6：决策充分信息与自适应观测合成报告','',
       '本轮仅纯合成。新族/新种子与历史复现分栏；没有真实行情或历史校准半合成。四项研究问题的最终回答见[综合判断](INTERPRETATION_ZH.md)。理论和统计保证的条件见[理论状态](THEORY_STATUS_ZH.md)，实现调整见[开发日志](DEVELOPMENT_LOG_ZH.md)。','',
       '## 完成与研究边界','',f"确认计划{comp['planned_confirmation']:,}条轨迹，已处理{comp['processed_confirmation']:,}，未运行{comp['unrun_confirmation']:,}。预算耗尽未运行与轨迹内未认证分别报告；未按胜负筛选。",'',
@@ -220,7 +287,10 @@ def report():
       '理论错误控制依赖自适应动作的可预测性、正确有限候选族以及有效数值界。停止输出由有理持仓/弱对偶证书定义；浮点展示权重不是额外的精确保证。似然包络依赖IEEE误差模型，未做全软件形式化验证。','',
       '## 终端规则与求解','',f"终端完成情况：{comp.get('terminal')}。模型内成功、实际成功和预算资格见`terminal_summary.json`；冷启动/缓存/贪心结果见`S3_stress.json`。",'',
       'A1-B作为信息耗尽的终端规则，不继承δ认证。旧平均代价证书开放状态保留。M=6枚举价格并保留跳点区间；M=12只报告查询结果和开放界，不声称枚举了所有跳点或证明了多项式加速。','',
+      '实际持仓后验成功质量由共同regret区间及保存的似然误差包络重算，使用区间指数避免把下溢当作结构性零；原生API的质量下界另存。原生最优性间隙仍针对方法所接收的浮点后验，并保留后验精度开放状态，不与重算的质量混作一种证书。','',
       'β=0各方法均为MA端点；零观测只计算一次先验持仓。逐数据集的配对效应区间在`results/terminal_paired.json`，逐族最坏模型结果与真模型覆盖数在`results/terminal_worst_model.json`。未覆盖全部真模型的行不冒称完整最坏情形估计。未运行清单为`results/unrun_terminal.json.gz`和`results/unrun_confirmation.json.gz`。','',
+      '以下终端图为已完成记录；线为成功质量/成功率下界，阴影为区间。n=0的共同先验复用于两种观测设计。原始查询成本与另行补测的公共准备成本分栏，不能将后者隐去后宣称端到端加速。','',
+      '![终端实际成功](results/terminal_success.png)','![终端后验质量](results/terminal_mass.png)','![求解成本](results/solver_cost.png)','',
       '## 最终判断的依据','',
       '1. Γ等价类判据刻画共同组合的存在性；随机化平台与统一认证必须分开。隐藏曲率负结果不能仅凭名称解释。',
       '2. 分配价值以主表和四项配对比较为准，任何优势限定本轮有限高斯族和动作成本。',
@@ -236,6 +306,7 @@ def audit():
     failures=[];n=0
     for path in (RUN/'confirmation').glob('*.json.gz'):
         r=readtraj(path);n+=1
+        if n%100000==0:print('AUDIT_RECORDS',n,flush=True)
         if r['stop']:
             cert=r['stop']['certificate'];ids=[j for j in range(len(cert['weights']) if False else len(cert['regret_upper'])) if r['stop']['confidence_mask']>>j&1]
             if not ids or max(cert['regret_upper'][j] for j in ids)>r['epsilon']:failures.append(str(path))
@@ -288,4 +359,7 @@ def archive():
                 if hashlib.file_digest(tar.extractfile(m),'sha256').hexdigest()!=manifest[m.name]:raise RuntimeError('archive mismatch '+m.name)
                 count+=1
     write(OUT/'archive_verification.json',dict(files=count,sha256=sha(archive),bytes=archive.stat().st_size,verified=count==len(files),excluded='archives itself and final supervisor metrics'))
-def dispatch(stage,*args):{'report':report,'audit':audit,'archive':archive}[stage](*args)
+def terminal_report():
+    terminal_summary();geometry_summary();print('TERMINAL_REPORT complete',flush=True)
+
+def dispatch(stage,*args):{'report':report,'report-terminal':terminal_report,'report-check':report_check,'audit':audit,'archive':archive}[stage](*args)

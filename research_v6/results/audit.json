@@ -1,0 +1,154 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "core_hashes",
+      "passed": true
+    },
+    {
+      "name": "gate",
+      "passed": true
+    },
+    {
+      "name": "stop_certificates_action_counts",
+      "passed": true,
+      "records": 514728,
+      "failures": []
+    },
+    {
+      "name": "reconstructed_exact_stop_bounds",
+      "passed": true,
+      "families": 15
+    },
+    {
+      "name": "independent_uncached_replay",
+      "passed": true,
+      "records": [
+        {
+          "key": "asymmetric-10-6-confirmation-0_t0_r0_e0.5_d0.05_c1_a0123_equal_cost",
+          "passed": true
+        },
+        {
+          "key": "asymmetric-10-6-confirmation-0_t0_r0_e0.5_d0.05_c1_a0123_conflict_kl",
+          "passed": true
+        },
+        {
+          "key": "hidden_curvature-10-6-confirmation-0_t0_r0_e0.5_d0.05_c1_a0123_equal_cost",
+          "passed": true
+        },
+        {
+          "key": "hidden_curvature-10-6-confirmation-0_t0_r0_e0.5_d0.05_c1_a0123_conflict_kl",
+          "passed": true
+        },
+        {
+          "key": "block-10-6-confirmation-0_t0_r0_e0.5_d0.05_c1_a0123_equal_cost",
+          "passed": true
+        },
+        {
+          "key": "block-10-6-confirmation-0_t0_r0_e0.5_d0.05_c1_a0123_conflict_kl",
+          "passed": true
+        },
+        {
+          "key": "asymmetric-12-6-confirmation-1_t0_r0_e0.5_d0.05_c1_a0123_equal_cost",
+          "passed": true
+        },
+        {
+          "key": "asymmetric-12-6-confirmation-1_t0_r0_e0.5_d0.05_c1_a0123_conflict_kl",
+          "passed": true
+        },
+        {
+          "key": "hidden_curvature-12-6-confirmation-1_t0_r0_e0.5_d0.05_c1_a0123_equal_cost",
+          "passed": true
+        },
+        {
+          "key": "hidden_curvature-12-6-confirmation-1_t0_r0_e0.5_d0.05_c1_a0123_conflict_kl",
+          "passed": true
+        },
+        {
+          "key": "block-12-6-confirmation-1_t0_r0_e0.5_d0.05_c1_a0123_equal_cost",
+          "passed": true
+        },
+        {
+          "key": "block-12-6-confirmation-1_t0_r0_e0.5_d0.05_c1_a0123_conflict_kl",
+          "passed": true
+        },
+        {
+          "key": "asymmetric-10-6-confirmation-2_t0_r0_e0.5_d0.05_c1_a0123_equal_cost",
+          "passed": true
+        },
+        {
+          "key": "asymmetric-10-6-confirmation-2_t0_r0_e0.5_d0.05_c1_a0123_conflict_kl",
+          "passed": true
+        },
+        {
+          "key": "hidden_curvature-10-6-confirmation-2_t0_r0_e0.5_d0.05_c1_a0123_equal_cost",
+          "passed": true
+        },
+        {
+          "key": "hidden_curvature-10-6-confirmation-2_t0_r0_e0.5_d0.05_c1_a0123_conflict_kl",
+          "passed": true
+        },
+        {
+          "key": "block-10-6-confirmation-2_t0_r0_e0.5_d0.05_c1_a0123_equal_cost",
+          "passed": true
+        },
+        {
+          "key": "block-10-6-confirmation-2_t0_r0_e0.5_d0.05_c1_a0123_conflict_kl",
+          "passed": true
+        },
+        {
+          "key": "asymmetric-12-6-confirmation-3_t0_r0_e0.5_d0.05_c1_a0123_equal_cost",
+          "passed": true
+        },
+        {
+          "key": "asymmetric-12-6-confirmation-3_t0_r0_e0.5_d0.05_c1_a0123_conflict_kl",
+          "passed": true
+        },
+        {
+          "key": "hidden_curvature-12-6-confirmation-3_t0_r0_e0.5_d0.05_c1_a0123_equal_cost",
+          "passed": true
+        },
+        {
+          "key": "hidden_curvature-12-6-confirmation-3_t0_r0_e0.5_d0.05_c1_a0123_conflict_kl",
+          "passed": true
+        },
+        {
+          "key": "block-12-6-confirmation-3_t0_r0_e0.5_d0.05_c1_a0123_equal_cost",
+          "passed": true
+        },
+        {
+          "key": "block-12-6-confirmation-3_t0_r0_e0.5_d0.05_c1_a0123_conflict_kl",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "frozen_config_unchanged",
+      "passed": true
+    },
+    {
+      "name": "manifest_unchanged",
+      "passed": true
+    },
+    {
+      "name": "cpu_below_limit",
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "audit_certificates.py": "485af1b41af9f3c58db5446cc53f89709bf44b6f90559b21c8de25f60bc45cdb",
+    "certificates.py": "fb2e127c293ac0f96d75afdd07b418a5779f52fb4a59087543d5418316ec1ad5",
+    "common.py": "831df4456b82aa5ae1e0d01227f04a02b8623981ee98ea5e259128a578941652",
+    "experiments.py": "50f262058a752440e21de492d80e819ec2b9287a7deeb02d8eff04e29b6aaf29",
+    "information.py": "4fff438332040198d23b4cde3e1b8dc9cb763cd30d586f85012569b330f7aa6f",
+    "likelihood.py": "b41d19450deac916f6bd80045f2ff8527c7bc1af7bd0cd1dc288e0f21e1f7f1d",
+    "models.py": "4b63fb9b5d3a8dd6ba309c7183785e103dbac07c62a7b2149917f481524f2534",
+    "pipeline.py": "916d322444377be851c3c1e5329c71473045e7e0cde1470b83dad05edd953e37",
+    "reporting.py": "4a677412c255b16f3bc1929668103ec8935e0d8dcc93df154e628abab9687970",
+    "sequential.py": "665bb0548ada5599af36b44349ed293d6f8c9fbd16b9be4a02f52dbf67beeea0",
+    "stream_cache.py": "00f1c3ed074be1445e9f325424c68ff96a7c9ff0f48b0b7c9fc1bdb7776d309e",
+    "supervisor.py": "da3f169944b9e9c82e1327807f310ce2d6d0cda46b1d1691463f17259a8a5faf",
+    "terminal.py": "1b3efc6729a8e8313dd50021d72fbdfd61179a441b8e7dd434028e2f4824f6ca",
+    "__init__.py": "d2a5677b0e1e0caa9b814f2ac3e1198ffe04c1cb605d50ae584e9836b4b3854a"
+  }
+}

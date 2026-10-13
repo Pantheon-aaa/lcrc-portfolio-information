@@ -9,7 +9,7 @@ def main():
                 from .stream_cache import install
                 install()
             dispatch(stage,*sys.argv[2:])
-        elif stage in ('terminal','stress'):
+        elif stage in ('terminal','stress','stress-profile'):
             from .terminal import dispatch
             dispatch(stage,*sys.argv[2:])
         else:

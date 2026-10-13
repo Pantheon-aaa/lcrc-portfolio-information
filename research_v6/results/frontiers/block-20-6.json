@@ -1,0 +1,987 @@
+{
+  "prices": [
+    {
+      "subset": [
+        0
+      ],
+      "lower": 0,
+      "upper": 3.064549587447837e-16,
+      "epsilon_feasible": true,
+      "status": "Solved"
+    },
+    {
+      "subset": [
+        1
+      ],
+      "lower": 0.0007905326723910772,
+      "upper": 0.0007905326723955517,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        2
+      ],
+      "lower": 0.0018065321237005613,
+      "upper": 0.0018065321237071546,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        3
+      ],
+      "lower": 0.008450930265372091,
+      "upper": 0.008450930265391378,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        4
+      ],
+      "lower": 0.0011060014569035871,
+      "upper": 0.0011060014569102016,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        5
+      ],
+      "lower": 0.00552388360863971,
+      "upper": 0.005523883610176431,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        0,
+        1
+      ],
+      "lower": 0.0007905326723910592,
+      "upper": 0.0007905326723960382,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        0,
+        2
+      ],
+      "lower": 0.0018065321237004015,
+      "upper": 0.0018065321237069518,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        0,
+        3
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        4
+      ],
+      "lower": 0.0011060014567674426,
+      "upper": 0.0011060014569486427,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        0,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        2
+      ],
+      "lower": 0.001813695090408621,
+      "upper": 0.0018136950904158434,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        1,
+        3
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        4
+      ],
+      "lower": 0.003091189585645755,
+      "upper": 0.0030911895862841274,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        1,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        2,
+        3
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        2,
+        4
+      ],
+      "lower": 0.0034356804183343684,
+      "upper": 0.0034356804183513627,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        2,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        3,
+        4
+      ],
+      "lower": 0.008927097686969662,
+      "upper": 0.008927097688597755,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        3,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        4,
+        5
+      ],
+      "lower": 0.005725276527623788,
+      "upper": 0.005725276527644195,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "lower": 0.0018136950903820648,
+      "upper": 0.0018136950904365653,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        3
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        2,
+        3
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        2,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        2,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        3,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        3,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        2,
+        3
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        2,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        2,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        3,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        3,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        2,
+        3,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        2,
+        3,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        2,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        3,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    }
+  ],
+  "results": [
+    {
+      "weights": [
+        0.055499055444022866,
+        0.056548013157254454,
+        0.036269139645305815,
+        0.0758058084503332,
+        0.04840236585830127,
+        0.03983649930686746,
+        0.057879756888950175,
+        0.026113796050673786,
+        0.0722527239193792,
+        0.091812466831409,
+        0.053368247291788226,
+        0.05266804637449552,
+        0.05359085896675581,
+        0.053678666140585134,
+        0.024010329035360843,
+        0.03184011517697716,
+        0.018424318348083786,
+        0.09133853513349148,
+        0.015010790541219366,
+        0.045650467438745616
+      ],
+      "ma_weights": [
+        0.055499055444022866,
+        0.056548013157254454,
+        0.036269139645305815,
+        0.0758058084503332,
+        0.04840236585830127,
+        0.03983649930686746,
+        0.057879756888950175,
+        0.026113796050673786,
+        0.0722527239193792,
+        0.091812466831409,
+        0.053368247291788226,
+        0.05266804637449552,
+        0.05359085896675581,
+        0.053678666140585134,
+        0.024010329035360843,
+        0.03184011517697716,
+        0.018424318348083786,
+        0.09133853513349148,
+        0.015010790541219366,
+        0.045650467438745616
+      ],
+      "success_mass_lower": 1.0,
+      "success_mass_upper": 1.0,
+      "optimal_mass_lower": 1.0,
+      "optimal_mass_upper": 1.0,
+      "primary_mass_gap": 0.0,
+      "secondary_price_gap": 0,
+      "incumbent_mass_price_gap": 0,
+      "primary_exact_at_float_posterior": true,
+      "posterior_mean_regret_MA_lower": 0,
+      "posterior_mean_regret_MA_upper": 3.12867972038883e-16,
+      "posterior_mean_regret_method_lower": 4.6684531183179264e-26,
+      "posterior_mean_regret_method_upper": 3.12867972038883e-16,
+      "mean_increment_lower": 0,
+      "mean_increment_upper": 3.128679719921985e-16,
+      "budget_lower": 0,
+      "budget_upper": 0.0,
+      "budget_certified": true,
+      "status": "enumerated",
+      "cold_seconds": 0.4581292000002577,
+      "geometry_calls": 63,
+      "price_calls": 63,
+      "geometry_cuts": 0,
+      "price_cuts": 63,
+      "primal_residual": 0.0,
+      "selected": []
+    },
+    {
+      "weights": [
+        0.055499055444022866,
+        0.056548013157254454,
+        0.036269139645305815,
+        0.0758058084503332,
+        0.04840236585830127,
+        0.03983649930686746,
+        0.057879756888950175,
+        0.026113796050673786,
+        0.0722527239193792,
+        0.091812466831409,
+        0.053368247291788226,
+        0.05266804637449552,
+        0.05359085896675581,
+        0.053678666140585134,
+        0.024010329035360843,
+        0.03184011517697716,
+        0.018424318348083786,
+        0.09133853513349148,
+        0.015010790541219366,
+        0.045650467438745616
+      ],
+      "ma_weights": [
+        0.055499055444022866,
+        0.056548013157254454,
+        0.036269139645305815,
+        0.0758058084503332,
+        0.04840236585830127,
+        0.03983649930686746,
+        0.057879756888950175,
+        0.026113796050673786,
+        0.0722527239193792,
+        0.091812466831409,
+        0.053368247291788226,
+        0.05266804637449552,
+        0.05359085896675581,
+        0.053678666140585134,
+        0.024010329035360843,
+        0.03184011517697716,
+        0.018424318348083786,
+        0.09133853513349148,
+        0.015010790541219366,
+        0.045650467438745616
+      ],
+      "success_mass_lower": 1.0,
+      "success_mass_upper": 1.0,
+      "optimal_mass_lower": 1.0,
+      "optimal_mass_upper": 1.0,
+      "primary_mass_gap": 0.0,
+      "secondary_price_gap": 0,
+      "incumbent_mass_price_gap": 0,
+      "primary_exact_at_float_posterior": false,
+      "posterior_mean_regret_MA_lower": 0,
+      "posterior_mean_regret_MA_upper": 3.12867972038883e-16,
+      "posterior_mean_regret_method_lower": 4.6684531183179264e-26,
+      "posterior_mean_regret_method_upper": 3.12867972038883e-16,
+      "mean_increment_lower": 0,
+      "mean_increment_upper": 3.128679719921985e-16,
+      "budget_lower": 0.0,
+      "budget_upper": 3.1286797203888304e-17,
+      "budget_certified": false,
+      "status": "enumerated",
+      "cold_seconds": 0.45870000000013533,
+      "geometry_calls": 63,
+      "price_calls": 63,
+      "geometry_cuts": 0,
+      "price_cuts": 63,
+      "primal_residual": 0.0,
+      "selected": []
+    },
+    {
+      "weights": [
+        0.055499055444022866,
+        0.056548013157254454,
+        0.036269139645305815,
+        0.0758058084503332,
+        0.04840236585830127,
+        0.03983649930686746,
+        0.057879756888950175,
+        0.026113796050673786,
+        0.0722527239193792,
+        0.091812466831409,
+        0.053368247291788226,
+        0.05266804637449552,
+        0.05359085896675581,
+        0.053678666140585134,
+        0.024010329035360843,
+        0.03184011517697716,
+        0.018424318348083786,
+        0.09133853513349148,
+        0.015010790541219366,
+        0.045650467438745616
+      ],
+      "ma_weights": [
+        0.055499055444022866,
+        0.056548013157254454,
+        0.036269139645305815,
+        0.0758058084503332,
+        0.04840236585830127,
+        0.03983649930686746,
+        0.057879756888950175,
+        0.026113796050673786,
+        0.0722527239193792,
+        0.091812466831409,
+        0.053368247291788226,
+        0.05266804637449552,
+        0.05359085896675581,
+        0.053678666140585134,
+        0.024010329035360843,
+        0.03184011517697716,
+        0.018424318348083786,
+        0.09133853513349148,
+        0.015010790541219366,
+        0.045650467438745616
+      ],
+      "success_mass_lower": 1.0,
+      "success_mass_upper": 1.0,
+      "optimal_mass_lower": 1.0,
+      "optimal_mass_upper": 1.0,
+      "primary_mass_gap": 0.0,
+      "secondary_price_gap": 0,
+      "incumbent_mass_price_gap": 0,
+      "primary_exact_at_float_posterior": false,
+      "posterior_mean_regret_MA_lower": 0,
+      "posterior_mean_regret_MA_upper": 3.12867972038883e-16,
+      "posterior_mean_regret_method_lower": 4.6684531183179264e-26,
+      "posterior_mean_regret_method_upper": 3.12867972038883e-16,
+      "mean_increment_lower": 0,
+      "mean_increment_upper": 3.128679719921985e-16,
+      "budget_lower": 0.0,
+      "budget_upper": 7.821699300972075e-17,
+      "budget_certified": false,
+      "status": "enumerated",
+      "cold_seconds": 0.45923709999988205,
+      "geometry_calls": 63,
+      "price_calls": 63,
+      "geometry_cuts": 0,
+      "price_cuts": 63,
+      "primal_residual": 0.0,
+      "selected": []
+    },
+    {
+      "weights": [
+        0.055499055444022866,
+        0.056548013157254454,
+        0.036269139645305815,
+        0.0758058084503332,
+        0.04840236585830127,
+        0.03983649930686746,
+        0.057879756888950175,
+        0.026113796050673786,
+        0.0722527239193792,
+        0.091812466831409,
+        0.053368247291788226,
+        0.05266804637449552,
+        0.05359085896675581,
+        0.053678666140585134,
+        0.024010329035360843,
+        0.03184011517697716,
+        0.018424318348083786,
+        0.09133853513349148,
+        0.015010790541219366,
+        0.045650467438745616
+      ],
+      "ma_weights": [
+        0.055499055444022866,
+        0.056548013157254454,
+        0.036269139645305815,
+        0.0758058084503332,
+        0.04840236585830127,
+        0.03983649930686746,
+        0.057879756888950175,
+        0.026113796050673786,
+        0.0722527239193792,
+        0.091812466831409,
+        0.053368247291788226,
+        0.05266804637449552,
+        0.05359085896675581,
+        0.053678666140585134,
+        0.024010329035360843,
+        0.03184011517697716,
+        0.018424318348083786,
+        0.09133853513349148,
+        0.015010790541219366,
+        0.045650467438745616
+      ],
+      "success_mass_lower": 1.0,
+      "success_mass_upper": 1.0,
+      "optimal_mass_lower": 1.0,
+      "optimal_mass_upper": 1.0,
+      "primary_mass_gap": 0.0,
+      "secondary_price_gap": 0,
+      "incumbent_mass_price_gap": 0,
+      "primary_exact_at_float_posterior": false,
+      "posterior_mean_regret_MA_lower": 0,
+      "posterior_mean_regret_MA_upper": 3.12867972038883e-16,
+      "posterior_mean_regret_method_lower": 4.6684531183179264e-26,
+      "posterior_mean_regret_method_upper": 3.12867972038883e-16,
+      "mean_increment_lower": 0,
+      "mean_increment_upper": 3.128679719921985e-16,
+      "budget_lower": "inf",
+      "budget_upper": "inf",
+      "budget_certified": true,
+      "status": "enumerated",
+      "cold_seconds": 0.4599926000000778,
+      "geometry_calls": 63,
+      "price_calls": 63,
+      "geometry_cuts": 0,
+      "price_cuts": 63,
+      "primal_residual": 0.0,
+      "selected": []
+    }
+  ],
+  "cpu": 0.453125
+}

@@ -20,6 +20,7 @@ python -B -m research_v6.supervisor calibrate
 python -B -m research_v6.supervisor confirm
 python -B -m research_v6.supervisor terminal
 python -B -m research_v6.supervisor stress
+python -B -m research_v6.supervisor stress-profile
 python -B -m research_v6.supervisor report
 python -B -m research_v6.supervisor audit
 python -B -m research_v6.supervisor archive

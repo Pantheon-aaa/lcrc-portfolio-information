@@ -2,7 +2,7 @@ import sys,subprocess,time,os
 import psutil
 from .common import *
 def main():
-    stage=sys.argv[1];wall=time.perf_counter();own=time.process_time();prior=used();cap=43200 if stage in ('report','archive','audit') else 34560
+    stage=sys.argv[1];wall=time.perf_counter();own=time.process_time();prior=used();cap=43200 if stage.startswith('report') or stage in ('archive','audit') else 34560
     if prior>=cap-120:raise SystemExit('CPU reserve reached')
     runid=f'{stage}-{time.time_ns()}';env=dict(os.environ,V6_STAGE_ID=runid)
     child=subprocess.Popen([sys.executable,'-B','-m','research_v6.experiments',*sys.argv[1:]],env=env)

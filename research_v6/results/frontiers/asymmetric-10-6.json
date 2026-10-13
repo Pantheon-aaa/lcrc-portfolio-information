@@ -1,0 +1,916 @@
+{
+  "prices": [
+    {
+      "subset": [
+        0
+      ],
+      "lower": 5.3881034156824804e-05,
+      "upper": 5.3881034158431103e-05,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        1
+      ],
+      "lower": 0,
+      "upper": 3.2526593080607977e-16,
+      "epsilon_feasible": true,
+      "status": "Solved"
+    },
+    {
+      "subset": [
+        2
+      ],
+      "lower": 3.9296693779264484e-05,
+      "upper": 3.929669378064845e-05,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        3
+      ],
+      "lower": 8.418276905408883e-05,
+      "upper": 8.41827698195813e-05,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        4
+      ],
+      "lower": 4.051416802471823e-05,
+      "upper": 4.051416802634714e-05,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        5
+      ],
+      "lower": 4.579944220207312e-06,
+      "upper": 4.579944221098882e-06,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        0,
+        1
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        2
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        3
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        2
+      ],
+      "lower": 4.5072578555793725e-05,
+      "upper": 4.5072578558953063e-05,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        1,
+        3
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        5
+      ],
+      "lower": 4.579944213608368e-06,
+      "upper": 4.579944272147887e-06,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        2,
+        3
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        2,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        2,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        3,
+        4
+      ],
+      "lower": 0.00011072248585669509,
+      "upper": 0.00011072248724523067,
+      "epsilon_feasible": true,
+      "status": "AlmostSolved"
+    },
+    {
+      "subset": [
+        3,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        3
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        2,
+        3
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        2,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        2,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        3,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        3,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        2,
+        3
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        2,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        2,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        3,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        3,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        2,
+        3,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        2,
+        3,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        2,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        3,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "lower": "inf",
+      "upper": "inf",
+      "epsilon_feasible": false,
+      "status": "geometrically_incompatible"
+    }
+  ],
+  "results": [
+    {
+      "weights": [
+        0.12590194853337366,
+        0.11981496817185969,
+        0.10244067936589105,
+        0.11173013382913595,
+        0.10122024640864379,
+        0.0983003512441616,
+        0.08864429457654492,
+        0.09100950131034635,
+        0.08230740840559554,
+        0.07863046815444719
+      ],
+      "ma_weights": [
+        0.12590194853337366,
+        0.11981496817185969,
+        0.10244067936589105,
+        0.11173013382913595,
+        0.10122024640864379,
+        0.0983003512441616,
+        0.08864429457654492,
+        0.09100950131034635,
+        0.08230740840559554,
+        0.07863046815444719
+      ],
+      "success_mass_lower": 0.5811750220074342,
+      "success_mass_upper": 0.5811750220074342,
+      "optimal_mass_lower": 0.5811750220074342,
+      "optimal_mass_upper": 0.5811750220074342,
+      "primary_mass_gap": 0.0,
+      "secondary_price_gap": 0,
+      "incumbent_mass_price_gap": 0,
+      "primary_exact_at_float_posterior": true,
+      "posterior_mean_regret_MA_lower": 0.00014188378728071345,
+      "posterior_mean_regret_MA_upper": 0.00014188378728170962,
+      "posterior_mean_regret_method_lower": 0.00014188378728102248,
+      "posterior_mean_regret_method_upper": 0.00014188378728170962,
+      "mean_increment_lower": 0,
+      "mean_increment_upper": 3.0901203260483355e-16,
+      "budget_lower": 0.0,
+      "budget_upper": 0.0,
+      "budget_certified": true,
+      "status": "enumerated",
+      "cold_seconds": 0.16821840000011434,
+      "geometry_calls": 63,
+      "price_calls": 63,
+      "geometry_cuts": 0,
+      "price_cuts": 63,
+      "primal_residual": 1.1102230246251565e-16,
+      "selected": []
+    },
+    {
+      "weights": [
+        0.12532347882310907,
+        0.11965581851644513,
+        0.09987378069253104,
+        0.11179879526092767,
+        0.10125453387911407,
+        0.09906130912323435,
+        0.08955676986559055,
+        0.09224996712952242,
+        0.08230476538233474,
+        0.07892078132719088
+      ],
+      "ma_weights": [
+        0.12590194853337366,
+        0.11981496817185969,
+        0.10244067936589105,
+        0.11173013382913595,
+        0.10122024640864379,
+        0.0983003512441616,
+        0.08864429457654492,
+        0.09100950131034635,
+        0.08230740840559554,
+        0.07863046815444719
+      ],
+      "success_mass_lower": 0.7179651358468978,
+      "success_mass_upper": 0.7179651358468978,
+      "optimal_mass_lower": 0.7179651358468978,
+      "optimal_mass_upper": 0.7179651358468978,
+      "primary_mass_gap": 0.0,
+      "secondary_price_gap": 5.853951932845592e-14,
+      "incumbent_mass_price_gap": 5.853951932845592e-14,
+      "primary_exact_at_float_posterior": true,
+      "posterior_mean_regret_MA_lower": 0.00014188378728071345,
+      "posterior_mean_regret_MA_upper": 0.00014188378728170962,
+      "posterior_mean_regret_method_lower": 0.00014646373155281864,
+      "posterior_mean_regret_method_upper": 0.00014646373155352002,
+      "mean_increment_lower": 4.579944271766954e-06,
+      "mean_increment_upper": 4.579944272147887e-06,
+      "budget_lower": 1.4188378728071345e-05,
+      "budget_upper": 1.4188378728170963e-05,
+      "budget_certified": true,
+      "status": "enumerated",
+      "cold_seconds": 0.16863520000060817,
+      "geometry_calls": 63,
+      "price_calls": 63,
+      "geometry_cuts": 0,
+      "price_cuts": 63,
+      "primal_residual": 0.0,
+      "selected": [
+        1,
+        5
+      ]
+    },
+    {
+      "weights": [
+        0.12532347882310907,
+        0.11965581851644513,
+        0.09987378069253104,
+        0.11179879526092767,
+        0.10125453387911407,
+        0.09906130912323435,
+        0.08955676986559055,
+        0.09224996712952242,
+        0.08230476538233474,
+        0.07892078132719088
+      ],
+      "ma_weights": [
+        0.12590194853337366,
+        0.11981496817185969,
+        0.10244067936589105,
+        0.11173013382913595,
+        0.10122024640864379,
+        0.0983003512441616,
+        0.08864429457654492,
+        0.09100950131034635,
+        0.08230740840559554,
+        0.07863046815444719
+      ],
+      "success_mass_lower": 0.7179651358468978,
+      "success_mass_upper": 0.7179651358468978,
+      "optimal_mass_lower": 0.7179651358468978,
+      "optimal_mass_upper": 0.7179651358468978,
+      "primary_mass_gap": 0.0,
+      "secondary_price_gap": 5.853951932845592e-14,
+      "incumbent_mass_price_gap": 5.853951932845592e-14,
+      "primary_exact_at_float_posterior": true,
+      "posterior_mean_regret_MA_lower": 0.00014188378728071345,
+      "posterior_mean_regret_MA_upper": 0.00014188378728170962,
+      "posterior_mean_regret_method_lower": 0.00014646373155281864,
+      "posterior_mean_regret_method_upper": 0.00014646373155352002,
+      "mean_increment_lower": 4.579944271766954e-06,
+      "mean_increment_upper": 4.579944272147887e-06,
+      "budget_lower": 3.547094682017836e-05,
+      "budget_upper": 3.5470946820427404e-05,
+      "budget_certified": true,
+      "status": "enumerated",
+      "cold_seconds": 0.1689977000005456,
+      "geometry_calls": 63,
+      "price_calls": 63,
+      "geometry_cuts": 0,
+      "price_cuts": 63,
+      "primal_residual": 0.0,
+      "selected": [
+        1,
+        5
+      ]
+    },
+    {
+      "weights": [
+        0.12532347882310907,
+        0.11965581851644513,
+        0.09987378069253104,
+        0.11179879526092767,
+        0.10125453387911407,
+        0.09906130912323435,
+        0.08955676986559055,
+        0.09224996712952242,
+        0.08230476538233474,
+        0.07892078132719088
+      ],
+      "ma_weights": [
+        0.12590194853337366,
+        0.11981496817185969,
+        0.10244067936589105,
+        0.11173013382913595,
+        0.10122024640864379,
+        0.0983003512441616,
+        0.08864429457654492,
+        0.09100950131034635,
+        0.08230740840559554,
+        0.07863046815444719
+      ],
+      "success_mass_lower": 0.7179651358468978,
+      "success_mass_upper": 0.7179651358468978,
+      "optimal_mass_lower": 0.7179651358468978,
+      "optimal_mass_upper": 0.7179651358468978,
+      "primary_mass_gap": 0.0,
+      "secondary_price_gap": 5.853951932845592e-14,
+      "incumbent_mass_price_gap": 5.853951932845592e-14,
+      "primary_exact_at_float_posterior": true,
+      "posterior_mean_regret_MA_lower": 0.00014188378728071345,
+      "posterior_mean_regret_MA_upper": 0.00014188378728170962,
+      "posterior_mean_regret_method_lower": 0.00014646373155281864,
+      "posterior_mean_regret_method_upper": 0.00014646373155352002,
+      "mean_increment_lower": 4.579944271766954e-06,
+      "mean_increment_upper": 4.579944272147887e-06,
+      "budget_lower": "inf",
+      "budget_upper": "inf",
+      "budget_certified": true,
+      "status": "enumerated",
+      "cold_seconds": 0.16937330000018846,
+      "geometry_calls": 63,
+      "price_calls": 63,
+      "geometry_cuts": 0,
+      "price_cuts": 63,
+      "primal_residual": 0.0,
+      "selected": [
+        1,
+        5
+      ]
+    }
+  ],
+  "cpu": 0.15625
+}
