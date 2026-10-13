@@ -63,14 +63,17 @@ def terminal():
         if len(datasets)>60:datasets={ds:datasets[ds]} if ds in datasets else {}
     write(OUT/'terminal_completion.json',dict(planned=len(jobs),processed=len(list((RUN/'terminal').glob('*.json.gz'))),new=processed))
 def stress():
-    start=time.process_time();out=[]
+    start=time.process_time();prior=sum(r['cpu_seconds'] for r in rows(RUN/'runtime.jsonl') if r['stage']=='stress')
+    out=read(OUT/'S3_stress.json') if (OUT/'S3_stress.json').exists() else []
+    done={(r['kind'],r['d'],r['M'],str(r['beta']),r['method']) for r in out}
     for d,M,kind in itertools.product((10,20),(6,12),KINDS):
-        if time.process_time()-start>960:break
+        if prior+time.process_time()-start>900:break
         f=make(kind,d,M,'stress',0);g=__import__('research_v6.certificates',fromlist=['Geometry']).Geometry(f);r=g.gamma((1<<M)-1);eps=.5*(r['lower']+r['upper'])/2
         con=constants(f);from .likelihood import GaussianStream
         stream=GaussianStream(f,0,seed('stress',d,M,kind),con);ll,_=stream.chunk(3,32);p=np.exp(ll.sum(0)-logsumexp(ll.sum(0)));gg=OldGeometry(f,eps);pc=PriceCache(MeanBudget(f,p),gg)
         enum=None
-        if M==6:
+        if M==6 and not (OUT/'frontiers'/f'{kind}-{d}-{M}.json').exists():
+            if prior+time.process_time()-start>929:break
             tic=time.process_time()
             try:
                 enum,prices=enumerate_frontier(f,p,eps,BETAS,30)
@@ -78,6 +81,10 @@ def stress():
             except Exception as e:write(OUT/'frontiers'/f'{kind}-{d}-{M}.json',dict(error=repr(e),cpu=time.process_time()-tic))
         for beta in BETAS:
             for method in ('cold','cached','greedy'):
+                if (kind,d,M,str(beta),method) in done:continue
+                # Keep the same 30-second query limit and reserve its full allowance.
+                if prior+time.process_time()-start>929:
+                    write(OUT/'S3_stress.json',out);return
                 tic=time.process_time()
                 try:
                     a=solve_budgeted_dcl(f,p,eps,beta,gg,pc,30) if method=='cached' else solve_budgeted_dcl(f,p,eps,beta,time_limit_seconds=30) if method=='cold' else budget_greedy(f,p,eps,beta)

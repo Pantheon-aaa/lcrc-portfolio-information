@@ -17,12 +17,13 @@ def aggregate():
             # Every trajectory in these three stages has the frozen 100,000-action cap.
             d=int(round(r['censor_cost']/100000))
             actions=int(sum(r['counts']));times=int(sum(n*k for n,k in zip(r['counts'],(d,2,(d+1)//2,1))))
-            rec.update(split=split,design='Separated' if r['allowed']==[1] else 'All',actions=actions,scalars=d*actions,independent_times=times,joint_fraction=r['counts'][3]/max(1,actions),T_candidate=T,normalized_stop_cost=(r['stop_cost']/(T*np.log(1/r['delta']))) if stop and np.isfinite(T) and T>0 else None)
+            rec.update(split=split,design='Separated' if r['allowed']==[1] else 'All',actions=actions,scalars=d*actions,independent_times=times,joint_fraction=r['counts'][3]/max(1,actions),T_candidate=T,T_candidate_kind='zero_information_required' if T==0 else 'infinite_cost' if np.isposinf(T) else 'finite' if np.isfinite(T) else 'unknown',normalized_stop_cost=(r['stop_cost']/(T*np.log(1/r['delta']))) if stop and np.isfinite(T) and T>0 else None)
             C=r['confidence_mask'];rec.update(confidence_mask=C,confidence_size=int(C).bit_count())
+            rec['gamma_numerical_open']=False
             if split!='development':
                 if r['family'] not in geometries:geometries[r['family']]=read(RUN/'geometry'/f"{r['family']}.json")
                 g=geometries[r['family']].get(str(C),{})
-                rec.update(gamma_lower=g.get('lower'),gamma_upper=g.get('upper'))
+                rec.update(gamma_lower=g.get('lower'),gamma_upper=g.get('upper'),gamma_numerical_open=bool(g and g['lower']<=r['epsilon']<g['upper']))
             if stop:rec.update(actual_regret_lower=stop['certificate']['regret_lower'][r['truth']],actual_regret_upper=stop['certificate']['regret_upper'][r['truth']])
             key=f"{r['family']}-{r['ratio']}-{r['premium']}-"+''.join(map(str,r['allowed']))
             path_table=RUN/'tables_klv2'/f'{key}.npz'
@@ -40,7 +41,7 @@ def aggregate():
     keys=['split','kind','ratio','delta','premium','design','policy']
     for key,g in frame.groupby(keys,dropna=False):
         k=int(g.false_certification.sum());n=len(g);st=g.loc[g.certified,'stop_cost']
-        summary.append(dict(zip(keys,key),n=n,certification_rate=float(g.certified.mean()),false_certification=k,error_interval=binomial(k,n),numerical_indeterminate=int(g.certification_truth_indeterminate.sum()),restricted_mean_cost=float(g.restricted_cost.mean()),stop_median_conditional=float(st.median()) if len(st) else None,stop_p95_conditional=float(st.quantile(.95)) if len(st) else None,joint_fraction=float(g.joint_fraction.mean()),mean_scalars=float(g.scalars.mean()),mean_independent_times=float(g.independent_times.mean()),allocation_distance_oracle_L1=float(g.allocation_distance_oracle_L1.mean()) if g.allocation_distance_oracle_L1.notna().any() else None,normalized_stop_mean_conditional=float(g.normalized_stop_cost.mean()) if g.normalized_stop_cost.notna().any() else None))
+        summary.append(dict(zip(keys,key),n=n,certification_rate=float(g.certified.mean()),false_certification=k,numerical_indeterminate=int(g.certification_truth_indeterminate.sum()),gamma_numerical_open=int(g.gamma_numerical_open.sum()),empty_confidence_sets=int((g.status=="empty_confidence_set").sum()),budget_exhausted=int((g.status=="budget_exhausted").sum()),restricted_mean_cost=float(g.restricted_cost.mean()),stop_median_conditional=float(st.median()) if len(st) else None,stop_p95_conditional=float(st.quantile(.95)) if len(st) else None,joint_fraction=float(g.joint_fraction.mean()),mean_scalars=float(g.scalars.mean()),mean_independent_times=float(g.independent_times.mean()),allocation_distance_oracle_L1=float(g.allocation_distance_oracle_L1.mean()) if g.allocation_distance_oracle_L1.notna().any() else None,normalized_stop_mean_conditional=float(g.normalized_stop_cost.mean()) if g.normalized_stop_cost.notna().any() else None))
     write(OUT/'sequential_summary.json',summary)
     calibration=[]
     for (family,truth),g in frame[frame.split=='calibration'].groupby(['family','truth']):
@@ -146,6 +147,15 @@ def inventory():
         key=f"{j['family']}_r{j['rep']}_t{j['truth']}_c{j['premium']}_a{''.join(map(str,j['allowed']))}_n{j['n']}_e{j['ratio']}"
         if key not in done:missing.append(j)
     with gzip.open(OUT/'unrun_terminal.json.gz','wt',encoding='utf8') as z:json.dump(missing,z)
+    stress=read(OUT/'S3_stress.json') if (OUT/'S3_stress.json').exists() else []
+    done={(r['kind'],r['d'],r['M'],str(r['beta']),r['method']) for r in stress};missing=[]
+    for kind in KINDS:
+      for d in (10,20):
+       for M in (6,12):
+        for beta in (0,.1,.25,'inf'):
+         for method in ('cold','cached','greedy'):
+          if (kind,d,M,str(beta),method) not in done:missing.append(dict(kind=kind,d=d,M=M,beta=beta,method=method))
+    write(OUT/'unrun_stress.json',missing)
 def plots(df):
     import matplotlib;matplotlib.use('Agg')
     import matplotlib.pyplot as plt
@@ -174,9 +184,10 @@ def plots(df):
 def report():
     df,summary=aggregate();tt=tests(df);term=terminal_summary();geometry_summary();inventory();plots(df);comp=read(OUT/'completion.json');c=df[df.split=='confirmation'];main=c[(c.design=='All')&(c.delta==.05)&(c.ratio==.5)]
     text=['# research_v6：决策充分信息与自适应观测合成报告','',
-      '本轮仅纯合成。新族/新种子与历史复现分栏；没有真实行情或历史校准半合成。理论和统计保证的条件见[理论状态](THEORY_STATUS_ZH.md)，实现调整见[开发日志](DEVELOPMENT_LOG_ZH.md)。','',
+      '本轮仅纯合成。新族/新种子与历史复现分栏；没有真实行情或历史校准半合成。四项研究问题的最终回答见[综合判断](INTERPRETATION_ZH.md)。理论和统计保证的条件见[理论状态](THEORY_STATUS_ZH.md)，实现调整见[开发日志](DEVELOPMENT_LOG_ZH.md)。','',
       '## 完成与研究边界','',f"确认计划{comp['planned_confirmation']:,}条轨迹，已处理{comp['processed_confirmation']:,}，未运行{comp['unrun_confirmation']:,}。预算耗尽未运行与轨迹内未认证分别报告；未按胜负筛选。",'',
       '可用动作成本为观测d个标量，Joint溢价另计。所有方法共用固定先验整路径混合置信序列。oracle_allocation使用真模型的最优LP分配并保留强制探索，只作参照，不是理论下界。Separate-only只有一个合法动作，因此五种分配法是同一过程，仅运行一个代表。','',
+      '77.76万项指方法/参数轨迹评估，不是77.76万个独立风险族。确认使用12个风险族、每族6个真模型、每真模型100个重复，即7,200组动作随机流；同组在方法、δ、ε及成本设置间配对复用。统计独立单位为风险族。开发记录及修订前记录不进入确认推断。','',
       '## 主参数的采样成本与认证','',
       '|Joint成本倍数|方法|轨迹数|认证率|错误认证|截断平均成本|','|---|---|---:|---:|---:|---:|']
     for (cost,policy),g in main.groupby(['premium','policy']):text.append(f'|{cost}|{policy}|{len(g)}|{g.certified.mean():.3%}|{int(g.false_certification.sum())}|{g.restricted_cost.mean():.3f}|')
@@ -215,11 +226,21 @@ def audit():
             cert=r['stop']['certificate'];ids=[j for j in range(len(cert['weights']) if False else len(cert['regret_upper'])) if r['stop']['confidence_mask']>>j&1]
             if not ids or max(cert['regret_upper'][j] for j in ids)>r['epsilon']:failures.append(str(path))
         if sum(length for _,length in r['action_rle'])!=sum(r['counts']):failures.append(str(path))
+        if r['seed']!=seed(r['family'],r['truth'],r['rep'],'confirmation'):failures.append(str(path)+': pairing seed')
     checks.append(dict(name='stop_certificates_action_counts',passed=not failures,records=n,failures=failures))
     from .pipeline import load_family,setup,jobkey
     from .models import specs
     from .likelihood import constants
     from .sequential import simulate
+    from .audit_certificates import verify
+    reconstructed=[]
+    names=[f'{sp[0]}-{sp[1]}-6-confirmation-{sp[4]}' for sp in specs('confirmation')]
+    names+=['e1-calibration','block-10-6-development-0','common-exact']
+    for name in names:
+        f=load_family(name)
+        reconstructed.append(verify(f,{int(k):v for k,v in read(RUN/'geometry'/f'{name}.json').items()}))
+    write(OUT/'rational_certificate_audit.json',reconstructed)
+    checks.append(dict(name='reconstructed_exact_stop_bounds',passed=all(r['passed'] for r in reconstructed),families=len(reconstructed)))
     replay=[]
     for sp in specs('confirmation'):
         name=f'{sp[0]}-{sp[1]}-6-confirmation-{sp[4]}';f=load_family(name);con=constants(f)
