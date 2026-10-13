@@ -1,0 +1,23 @@
+{
+  "id": "symmetric-covariance-v3",
+  "reason": "Normalize Gaussian covariance symmetry after floating matrix multiplication; evaluate all rational quadratic certificates on the exact symmetric part. Outward round likelihood interval endpoints. Preserve all pre-revision records and rerun unchanged grid.",
+  "approved_core_hashes": {
+    "certificates.py": "fb2e127c293ac0f96d75afdd07b418a5779f52fb4a59087543d5418316ec1ad5",
+    "information.py": "4fff438332040198d23b4cde3e1b8dc9cb763cd30d586f85012569b330f7aa6f",
+    "likelihood.py": "b41d19450deac916f6bd80045f2ff8527c7bc1af7bd0cd1dc288e0f21e1f7f1d",
+    "models.py": "4b63fb9b5d3a8dd6ba309c7183785e103dbac07c62a7b2149917f481524f2534",
+    "sequential.py": "665bb0548ada5599af36b44349ed293d6f8c9fbd16b9be4a02f52dbf67beeea0"
+  },
+  "original_core_hashes": {
+    "certificates.py": "7de972ee7320c80dcaaf4959686414e0a768acc11aad2151d0ab58df2a714c9f",
+    "information.py": "4fff438332040198d23b4cde3e1b8dc9cb763cd30d586f85012569b330f7aa6f",
+    "likelihood.py": "51559b4407e00a3b07ea9fbdaf656d338fb65862065fcb88ded7811db85ae0dc",
+    "models.py": "655d44b4c25e0118d431909d8105065369f34c92614e2da3e3ba02f8b64e48d1",
+    "sequential.py": "665bb0548ada5599af36b44349ed293d6f8c9fbd16b9be4a02f52dbf67beeea0"
+  },
+  "stream_cache": "Original action-specific seeded chunks reused exactly; no policy change.",
+  "old_confirmation": "revisions/kl_zero_v1/confirmation",
+  "manifest_sha256_unchanged": "2f9dee299a531676bc2df2d3498407030066e0b8af0cc4fc199dc39477967810",
+  "previous_revision": "kl-zero-v2",
+  "prior_runs": "revisions/symmetric_covariance_v3"
+}

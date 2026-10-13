@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "cases": 20,
+  "scope": "two reads of original and cached action streams; LL and rounding enclosures bitwise equal"
+}

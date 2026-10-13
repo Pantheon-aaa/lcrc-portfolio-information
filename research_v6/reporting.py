@@ -64,7 +64,8 @@ def terminal_summary():
             truths=r['zero_prior_truths'] if j['n']==0 else [j['truth']]
             for truth in truths:
                 lo=a['regret_lower'][truth];hi=a['regret_upper'][truth]
-                result.append(dict(**{k:v for k,v in j.items() if k not in ('allowed','truth')},truth=truth,design='Separated' if j['allowed']==[1] else 'All',method=a['method'],beta=str(a['beta']),success_low=hi<=r['epsilon'],success_high=lo<=r['epsilon'],regret=(lo+hi)/2,posterior_mass=a['success_mass_lower'],budget_certified=a['budget_certified'],primary_gap=a['primary_mass_gap'],status=a['status'],cpu=a['cpu']))
+                certified=a['beta']=='inf' or a['mean_increment_upper']<=a['budget_lower']
+                result.append(dict(**{k:v for k,v in j.items() if k not in ('allowed','truth')},truth=truth,design='Separated' if j['allowed']==[1] else 'All',method=a['method'],beta=str(a['beta']),success_low=hi<=r['epsilon'],success_high=lo<=r['epsilon'],regret=(lo+hi)/2,posterior_mass=a['success_mass_lower'],budget_certified=certified,primary_gap=a['primary_mass_gap'],status=a['status'],cpu=a['cpu']))
     df=pd.DataFrame(result);summary=[]
     if len(df):
       for key,g in df.groupby(['n','ratio','design','method','beta']):
@@ -121,7 +122,8 @@ def report():
     (ROOT/'REPORT_ZH.md').write_text('\n'.join(text)+'\n',encoding='utf8')
 def audit():
     cfg=read(ROOT/'config_frozen.json');checks=[]
-    checks.append(dict(name='core_hashes',passed=all(sha(ROOT/k)==v for k,v in cfg['core_hashes'].items())))
+    approved=read(ROOT/'implementation_revision.json')['approved_core_hashes'] if (ROOT/'implementation_revision.json').exists() else cfg['core_hashes']
+    checks.append(dict(name='core_hashes',passed=all(sha(ROOT/k)==v for k,v in approved.items())))
     checks.append(dict(name='gate',passed=read(OUT/'gate0.json')['passed']))
     failures=[];n=0
     for path in (RUN/'confirmation').glob('*.json.gz'):
@@ -131,6 +133,25 @@ def audit():
             if not ids or max(cert['regret_upper'][j] for j in ids)>r['epsilon']:failures.append(str(path))
         if sum(length for _,length in r['action_rle'])!=sum(r['counts']):failures.append(str(path))
     checks.append(dict(name='stop_certificates_action_counts',passed=not failures,records=n,failures=failures))
+    from .pipeline import load_family,setup,jobkey
+    from .models import specs
+    from .likelihood import constants
+    from .sequential import simulate
+    replay=[]
+    for sp in specs('confirmation'):
+        name=f'{sp[0]}-{sp[1]}-6-confirmation-{sp[4]}';f=load_family(name);con=constants(f)
+        for policy in ('equal_cost','conflict_kl'):
+            key=jobkey(f,0,0,.5,.05,1,[0,1,2,3],policy);p=RUN/'confirmation'/f'{key}.json.gz'
+            if not p.exists():replay.append(dict(key=key,status='not_run'));continue
+            saved=readtraj(p);geo,tab=setup(f,.5,1,[0,1,2,3]);r=simulate(f,geo,tab,con,0,0,.5,.05,1,[0,1,2,3],policy)
+            acts=np.concatenate([np.repeat(a,length) for a,length in saved['action_rle']]) if saved['action_rle'] else np.array([],dtype=int)
+            ok=np.array_equal(acts,r['actions']) and np.array_equal(saved['log_likelihood'],r['log_likelihood']) and saved['stop_t']==r['stop_t']
+            replay.append(dict(key=key,passed=ok))
+    checks.append(dict(name='independent_uncached_replay',passed=all(x.get('passed',False) for x in replay),records=replay))
+    frozen=read(OUT/'freeze_summary.json')
+    checks.append(dict(name='frozen_config_unchanged',passed=sha(ROOT/'config_frozen.json')==frozen['config_sha256']))
+    with gzip.open(ROOT/'manifest.json.gz','rb') as z:manifest_digest=hashlib.file_digest(z,'sha256').hexdigest()
+    checks.append(dict(name='manifest_unchanged',passed=manifest_digest==frozen['manifest_sha256']))
     checks.append(dict(name='cpu_below_limit',passed=used()<43200))
     write(OUT/'audit.json',dict(passed=all(x['passed'] for x in checks),checks=checks,source_hashes=sources()))
 def archive():

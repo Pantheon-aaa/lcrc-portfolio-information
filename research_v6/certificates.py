@@ -7,7 +7,9 @@ from fractions import Fraction as F
 import numpy as np
 from research_v3.compatible_qcqp import solve
 from .common import clean
-def mat(Q):return [[F(float(x)) for x in row] for row in Q]
+def mat(Q):
+    # x'Qx equals x'((Q+Q')/2)x, including any floating asymmetry in legacy inputs.
+    return [[(F(float(Q[i,j]))+F(float(Q[j,i])))/2 for j in range(len(Q))] for i in range(len(Q))]
 def dot(a,b):return sum((x*y for x,y in zip(a,b)),F(0))
 def mv(Q,x):return [dot(row,x) for row in Q]
 def quad(Q,x):return dot(x,mv(Q,x))/2

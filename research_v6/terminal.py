@@ -22,6 +22,8 @@ def outputs(f,p,eps,truth):
                 elif method=='Greedy':a=budget_greedy(f,p,eps,beta,geo)
                 else:a=budget_surrogate(f,p,eps,beta,mode='hinge' if method=='Hinge' else 'tail',rho=.5)
                 lo,hi=f.regret_bounds(a['weights']);a.update(regret_lower=lo,regret_upper=hi,success_lower=bool(hi[truth]<=eps),success_upper=bool(lo[truth]<=eps),true_regret=float((lo[truth]+hi[truth])/2))
+                a['native_budget_certified']=a['budget_certified']
+                a['budget_certified']=bool(np.isinf(beta) or a['mean_increment_upper']<=a['budget_lower'])
                 answers.append(dict(method=method,beta=beta,cpu=time.process_time()-start,**a))
             except Exception as e:answers.append(dict(method=method,beta=beta,error=repr(e),cpu=time.process_time()-start))
     return answers

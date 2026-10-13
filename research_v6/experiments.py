@@ -3,8 +3,11 @@ from .common import *
 def main():
     stage=sys.argv[1];start=time.process_time()
     try:
-        if stage in ('gate','diagnose','prepare','develop','freeze','confirm','calibrate'):
+        if stage in ('gate','diagnose','prepare','develop','freeze','confirm','calibrate','cache-check'):
             from .pipeline import dispatch
+            if stage=='confirm':
+                from .stream_cache import install
+                install()
             dispatch(stage,*sys.argv[2:])
         elif stage in ('terminal','stress'):
             from .terminal import dispatch

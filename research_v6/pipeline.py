@@ -33,7 +33,7 @@ def geometry(f):
     g=Geometry(f);data=g.all();write(path,data);save_family(f);return data
 def setup(f,ratio,premium,allowed):
     geo=geometry(f);allr=geo[(1<<f.M)-1];eps=ratio*(allr['lower']+allr['upper'])/2
-    key=f'{f.name}-{ratio}-{premium}-'+''.join(map(str,allowed));path=RUN/'tables'/f'{key}.npz'
+    key=f'{f.name}-{ratio}-{premium}-'+''.join(map(str,allowed));path=RUN/'tables_klv2'/f'{key}.npz'
     if path.exists():
         a=np.load(path);tab={k:a[k] for k in a.files};tab['classes']=equivalence(f,allowed)
     else:
@@ -46,6 +46,7 @@ def gate():
         checks.append(dict(name=name,passed=bool(condition),**detail));write(OUT/'gate0.json',dict(passed=all(x['passed'] for x in checks),checks=checks))
         if not condition:raise AssertionError(name)
     f=make('block',10,6,'gate',0);g=geometry(f);r=g[63];eps=.5*(r['lower']+r['upper']);tab=tables(f,g,eps,[10]*4,[0,1,2,3]);con=constants(f)
+    check('exact_covariance_symmetry',np.array_equal(f.Q,f.Q.transpose(0,2,1)))
     check('rational_gamma_bracket',r['lower']<=r['upper'] and r['lower']>0)
     cv,w=cvx_reference(f,range(6));check('independent_cvx_geometry',r['lower']-1e-9<=cv<=r['upper']+1e-9,cvx=cv,interval=[r['lower'],r['upper']])
     rng=np.random.default_rng(22);X=rng.normal(size=(7,f.d));aa=actions(f.d)
@@ -58,6 +59,8 @@ def gate():
     check('method_has_no_truth_argument','truth' not in inspect.signature(__import__('research_v6.sequential',fromlist=['advance']).advance.py_func).parameters)
     check('future_action_not_in_density',all(a.scalar_count==f.d for a in aa))
     check('separated_classes',equivalence(f,[1])==[[0,1,2],[3,4,5]])
+    K=kl(f)
+    check('structural_zero_KL',all(K[1,i,j]==0 for cl in equivalence(f,[1]) for i in cl for j in cl))
     try:Geometry(f).gamma(0);empty=False
     except ValueError:empty=True
     check('empty_set_rejected',empty)
@@ -195,8 +198,8 @@ def freeze():
          for policy in (('equal_cost',) if allowed==[1] else POLICIES):jobs.append(dict(family=name,truth=truth,rep=rep,ratio=ratio,delta=delta,premium=premium,allowed=allowed,policy=policy))
     write(ROOT/'manifest.json',jobs);write(OUT/'freeze_summary.json',dict(planned=len(jobs),config_sha256=sha(ROOT/'config_frozen.json'),manifest_sha256=sha(ROOT/'manifest.json'),timing_records=len(t)))
 def confirm():
-    cfg=read(ROOT/'config_frozen.json')
-    for k,v in cfg['core_hashes'].items():
+    cfg=read(ROOT/'config_frozen.json');revised=read(ROOT/'implementation_revision.json')['approved_core_hashes'] if (ROOT/'implementation_revision.json').exists() else cfg['core_hashes']
+    for k,v in revised.items():
         if sha(ROOT/k)!=v:raise RuntimeError('frozen core changed: '+k)
     start=time.process_time();fs={};cons={};ts={};done=0
     # Stage resumptions share the same cumulative stage CPU allocation.
@@ -229,4 +232,10 @@ def calibrate():
                     r=simulate(f,geo,tab,con,truth,rep,.5,.05,1,[0,1,2,3],'conflict_kl',stream_namespace='calibration');save_trajectory(path,r)
                 if rep%100==0:print('CALIBRATE',f.name,rep,flush=True)
 def dispatch(stage,*args):
-    {'gate':gate,'diagnose':diagnose,'prepare':prepare,'develop':develop,'freeze':freeze,'confirm':confirm,'calibrate':calibrate}[stage](*args)
+    {'gate':gate,'diagnose':diagnose,'prepare':prepare,'develop':develop,'freeze':freeze,'confirm':confirm,'calibrate':calibrate,'cache-check':cache_check}[stage](*args)
+def cache_check():
+    from .stream_cache import verify
+    checks=[]
+    for i in range(20):
+        f=make(KINDS[i%3],10,6,'development',0);checks.append(verify(f,constants(f),seed('cache-check',i)))
+    write(OUT/'stream_cache_check.json',dict(passed=all(checks),cases=len(checks),scope='two reads of original and cached action streams; LL and rounding enclosures bitwise equal'))

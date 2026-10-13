@@ -48,7 +48,7 @@ class GaussianStream:
         X=self.rng[a].standard_normal((n,self.f.d))@self.chols[a].T
         return increments(X,self.parts[a])
 def verified_exclusions(ll,err,C,delta):
-    low=[iv.mpf([float(x-e),float(x+e)]) for x,e in zip(ll,err)]
+    low=[iv.mpf([float(np.nextafter(x-e,-np.inf)),float(np.nextafter(x+e,np.inf))]) for x,e in zip(ll,err)]
     excluded=[];M=len(ll)
     for j in range(M):
         if C>>j&1:

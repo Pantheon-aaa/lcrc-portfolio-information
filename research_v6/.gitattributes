@@ -1,0 +1,7 @@
+*.py -text
+*.md -text
+*.json -text
+*.jsonl -text
+*.gz binary
+*.png binary
+* whitespace=cr-at-eol

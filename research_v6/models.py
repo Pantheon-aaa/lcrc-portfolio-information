@@ -19,6 +19,8 @@ def actions(d):
 def make(kind,d=12,M=6,split='development',index=0):
     # Reuse the exact public generator, with a new deterministic seed namespace.
     f=old_make(kind,d,M,f'v6-20261013-{split}',index)
+    if not np.array_equal(f.Q,f.Q.transpose(0,2,1)):
+        f=Family((f.Q+f.Q.transpose(0,2,1))/2,f.upper,f.name,dict(f.metadata))
     f.name=f'{kind}-{d}-{M}-{split}-{index}';f.metadata.update(split=split,index=index,kind=kind)
     return f
 def specs(split):
@@ -36,5 +38,6 @@ def kl(f):
         for s in act.masks:
             qs=f.Q[:,s][:,:,s];inv=np.linalg.inv(qs);ld=np.linalg.slogdet(qs)[1]
             for i in range(f.M):
-                for j in range(f.M):out[a,i,j]+=.5*(np.trace(inv[j]@qs[i])-len(s)+ld[j]-ld[i])
+                for j in range(f.M):
+                    if not np.array_equal(qs[i],qs[j]):out[a,i,j]+=.5*(np.trace(inv[j]@qs[i])-len(s)+ld[j]-ld[i])
     return np.maximum(out,0)
