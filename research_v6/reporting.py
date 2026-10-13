@@ -8,7 +8,7 @@ from .pipeline import readtraj
 def binomial(k,n):
     return [0 if not k else float(beta_dist.ppf(.025,k,n-k+1)),1 if k==n else float(beta_dist.ppf(.975,k+1,n-k))] if n else [None,None]
 def aggregate():
-    records=[];counts={};failures=[]
+    records=[];counts={};failures=[];allocation_tables={};geometries={}
     for split in ('development','confirmation','calibration'):
         count=0
         for path in (RUN/split).glob('*.json.gz'):
@@ -18,6 +18,20 @@ def aggregate():
             d=int(round(r['censor_cost']/100000))
             actions=int(sum(r['counts']));times=int(sum(n*k for n,k in zip(r['counts'],(d,2,(d+1)//2,1))))
             rec.update(split=split,design='Separated' if r['allowed']==[1] else 'All',actions=actions,scalars=d*actions,independent_times=times,joint_fraction=r['counts'][3]/max(1,actions),T_candidate=T,normalized_stop_cost=(r['stop_cost']/(T*np.log(1/r['delta']))) if stop and np.isfinite(T) and T>0 else None)
+            C=r['confidence_mask'];rec.update(confidence_mask=C,confidence_size=int(C).bit_count())
+            if split!='development':
+                if r['family'] not in geometries:geometries[r['family']]=read(RUN/'geometry'/f"{r['family']}.json")
+                g=geometries[r['family']].get(str(C),{})
+                rec.update(gamma_lower=g.get('lower'),gamma_upper=g.get('upper'))
+            if stop:rec.update(actual_regret_lower=stop['certificate']['regret_lower'][r['truth']],actual_regret_upper=stop['certificate']['regret_upper'][r['truth']])
+            key=f"{r['family']}-{r['ratio']}-{r['premium']}-"+''.join(map(str,r['allowed']))
+            path_table=RUN/'tables_klv2'/f'{key}.npz'
+            if split=='confirmation' and actions and path_table.exists():
+                if key not in allocation_tables:
+                    with np.load(path_table) as z:allocation_tables[key]=(z['rates'],z['full'])
+                rates,full=allocation_tables[key];target=full[r['truth'],np.argmax(rates[r['truth']])]
+                rec['allocation_distance_oracle_L1']=float(np.abs(np.array(r['counts'])/actions-target).sum())
+            else:rec['allocation_distance_oracle_L1']=None
             records.append(rec);count+=1
             if r['false_certification'] or r['certification_truth_indeterminate'] or r['status']=='empty_confidence_set':failures.append(dict(path=str(path.relative_to(RUN)),**rec))
         counts[split]=count
@@ -26,7 +40,7 @@ def aggregate():
     keys=['split','kind','ratio','delta','premium','design','policy']
     for key,g in frame.groupby(keys,dropna=False):
         k=int(g.false_certification.sum());n=len(g);st=g.loc[g.certified,'stop_cost']
-        summary.append(dict(zip(keys,key),n=n,certification_rate=float(g.certified.mean()),false_certification=k,error_interval=binomial(k,n),numerical_indeterminate=int(g.certification_truth_indeterminate.sum()),restricted_mean_cost=float(g.restricted_cost.mean()),stop_median_conditional=float(st.median()) if len(st) else None,stop_p95_conditional=float(st.quantile(.95)) if len(st) else None,joint_fraction=float(g.joint_fraction.mean()),normalized_stop_mean_conditional=float(g.normalized_stop_cost.mean()) if g.normalized_stop_cost.notna().any() else None))
+        summary.append(dict(zip(keys,key),n=n,certification_rate=float(g.certified.mean()),false_certification=k,error_interval=binomial(k,n),numerical_indeterminate=int(g.certification_truth_indeterminate.sum()),restricted_mean_cost=float(g.restricted_cost.mean()),stop_median_conditional=float(st.median()) if len(st) else None,stop_p95_conditional=float(st.quantile(.95)) if len(st) else None,joint_fraction=float(g.joint_fraction.mean()),mean_scalars=float(g.scalars.mean()),mean_independent_times=float(g.independent_times.mean()),allocation_distance_oracle_L1=float(g.allocation_distance_oracle_L1.mean()) if g.allocation_distance_oracle_L1.notna().any() else None,normalized_stop_mean_conditional=float(g.normalized_stop_cost.mean()) if g.normalized_stop_cost.notna().any() else None))
     write(OUT/'sequential_summary.json',summary)
     calibration=[]
     for (family,truth),g in frame[frame.split=='calibration'].groupby(['family','truth']):
@@ -59,16 +73,23 @@ def tests(df):
     for r in out:r['qualification']='family-level paired available records; incomplete frozen coverage remains explicit' if read(OUT/'completion.json')['unrun_confirmation'] else 'frozen full confirmation'
     write(OUT/'four_tests.json',out);return out
 def terminal_summary():
-    result=[];errors=[]
+    result=[];errors=[];stream_costs={}
     for path in (RUN/'terminal').glob('*.json.gz'):
         r=readtraj(path);j=r['job'];p=np.array(r['posterior']);
+        ds=(j['family'],j['truth'],j['rep'],j['premium'],tuple(j['allowed']))
+        if j['n']:
+            if ds not in stream_costs:
+                stream=readtraj(RUN/'terminal_streams'/f'{seed(*ds)}.json.gz')
+                stream_costs[ds]={int(k):v['cost'] for k,v in stream['snapshots'].items()}
+            observation_cost=stream_costs[ds][j['n']]
+        else:observation_cost=0
         for a in r['answers']:
             if 'error' in a:errors.append(dict(job=j,**a));continue
             truths=r['zero_prior_truths'] if j['n']==0 else [j['truth']]
             for truth in truths:
                 lo=a['regret_lower'][truth];hi=a['regret_upper'][truth]
                 certified=a['beta']=='inf' or a['mean_increment_upper']<=a['budget_lower']
-                result.append(dict(**{k:v for k,v in j.items() if k not in ('allowed','truth')},truth=truth,design='Separated' if j['allowed']==[1] else 'All',method=a['method'],beta=str(a['beta']),success_low=hi<=r['epsilon'],success_high=lo<=r['epsilon'],regret=(lo+hi)/2,posterior_mass=a['success_mass_lower'],posterior_mass_upper=a['success_mass_upper'],budget_certified=certified,primary_gap=a['primary_mass_gap'],status=a['status'],cpu=a['cpu']))
+                result.append(dict(**{k:v for k,v in j.items() if k not in ('allowed','truth')},truth=truth,observation_cost=observation_cost,design='Separated' if j['allowed']==[1] else 'All',method=a['method'],beta=str(a['beta']),success_low=hi<=r['epsilon'],success_high=lo<=r['epsilon'],regret=(lo+hi)/2,posterior_mass=a['success_mass_lower'],posterior_mass_upper=a['success_mass_upper'],optimal_mass_lower=a['optimal_mass_lower'],optimal_mass_upper=a['optimal_mass_upper'],budget_certified=certified,primary_gap=a['primary_mass_gap'],status=a['status'],cpu=a['cpu']))
     df=pd.DataFrame(result);summary=[]
     if len(df):
       for key,g in df.groupby(['n','ratio','design','method','beta']):
@@ -82,7 +103,7 @@ def terminal_summary():
       for method in ('Greedy','Hinge','CVaR'):
        pp=aa.merge(df[df.method==method],on=keys,suffixes=('_a','_b'))
        for key,g in pp.groupby(['n','ratio','design','beta']):
-        paired.append(dict(zip(['n','ratio','design','beta'],key),comparator=method,pairs=len(g),success_difference_lower=float((g.success_low_a.astype(float)-g.success_high_b.astype(float)).mean()),success_difference_upper=float((g.success_high_a.astype(float)-g.success_low_b.astype(float)).mean()),mean_regret_difference=float((g.regret_a-g.regret_b).mean()),mass_gap_lower=float((g.posterior_mass_a-g.posterior_mass_upper_b).mean()),mass_gap_upper=float((g.posterior_mass_upper_a-g.posterior_mass_b).mean()),both_budget_certified=float((g.budget_certified_a&g.budget_certified_b).mean())))
+        paired.append(dict(zip(['n','ratio','design','beta'],key),comparator=method,pairs=len(g),success_difference_lower=float((g.success_low_a.astype(float)-g.success_high_b.astype(float)).mean()),success_difference_upper=float((g.success_high_a.astype(float)-g.success_low_b.astype(float)).mean()),mean_regret_difference=float((g.regret_a-g.regret_b).mean()),attained_mass_difference_lower=float((g.posterior_mass_a-g.posterior_mass_upper_b).mean()),attained_mass_difference_upper=float((g.posterior_mass_upper_a-g.posterior_mass_b).mean()),optimality_gap_lower=float(np.maximum(0,g.optimal_mass_lower_a-g.posterior_mass_upper_b).mean()),optimality_gap_upper=float(np.maximum(0,g.optimal_mass_upper_a-g.posterior_mass_b).mean()),both_budget_certified=float((g.budget_certified_a&g.budget_certified_b).mean())))
       for key,g in df.groupby(['family','n','ratio','design','method','beta']):
        rates=g.groupby('truth')[['success_low','success_high']].mean()
        worst.append(dict(zip(['family','n','ratio','design','method','beta'],key),truths_evaluated=len(rates),worst_failure_lower=float(1-rates.success_high.min()),worst_failure_upper=float(1-rates.success_low.min()),qualification='complete truth coverage' if len(rates)==6 else 'partial truth coverage; not full worst-model estimate'))
@@ -100,7 +121,8 @@ def geometry_summary():
         gamma=(geo[63]['lower']+geo[63]['upper'])/2
         for ratio in (.5,.75,1.25):
           eps=ratio*gamma;ok=[True]+[geo[s]['upper']<=eps for s in range(1,64)]
-          for design,allowed in [('Singleton',[0]),('Separated',[1]),('All',[0,1,2,3])]:
+          # Bridge/WithoutJoint are structural diagnostics only, not added trajectory comparisons.
+          for design,allowed in [('Singleton',[0]),('Separated',[1]),('Bridge',[2]),('WithoutJoint',[0,1,2]),('All',[0,1,2,3])]:
             for group in equivalence(f,allowed):
               g=geo[sum(1<<j for j in group)]
               out.append(dict(family=name,kind=sp[0],ratio=ratio,epsilon=eps,design=design,group=group,gamma_all_lower=geo[63]['lower'],gamma_all_upper=geo[63]['upper'],gamma_class_lower=g['lower'],gamma_class_upper=g['upper'],uniformly_coverable=g['upper']<=eps,uniformly_impossible=g['lower']>eps,randomized_platform=randomized_platform(6,ok,group)))
@@ -143,10 +165,11 @@ def plots(df):
         z=[r for r in h if r['family']==name];ax.plot([r['strength'] for r in z],[r['gamma']['upper'] for r in z],'o-',label=name)
     ax.set_xlabel('Common diagonal perturbation');ax.set_ylabel('Certified upper bound on Gamma');ax.legend(fontsize=7);fig.tight_layout();fig.savefig(OUT/'hidden_curvature.png',dpi=160);plt.close(fig)
     ge=read(OUT/'confirmation_geometry.json');names=list(dict.fromkeys(x['family'] for x in ge))
-    vals=np.array([[max(x['gamma_class_upper']/x['gamma_all_upper'] for x in ge if x['family']==name and x['design']==des and x['ratio']==.5) for des in ('Singleton','Separated','All')] for name in names])
-    fig,ax=plt.subplots(figsize=(8,6));im=ax.imshow(vals,vmin=0,vmax=1,cmap='viridis');ax.set_xticks(range(3),['Singleton','Separated','All']);ax.set_yticks(range(len(names)),names,fontsize=7)
+    designs=['Singleton','Separated','Bridge','WithoutJoint','All']
+    vals=np.array([[max(x['gamma_class_upper']/x['gamma_all_upper'] for x in ge if x['family']==name and x['design']==des and x['ratio']==.5) for des in designs] for name in names])
+    fig,ax=plt.subplots(figsize=(9,6));im=ax.imshow(vals,vmin=0,vmax=1,cmap='viridis');ax.set_xticks(range(len(designs)),designs,fontsize=8);ax.set_yticks(range(len(names)),names,fontsize=7)
     for i in range(len(names)):
-        for j in range(3):ax.text(j,i,f'{vals[i,j]:.3g}',ha='center',va='center',color='white' if vals[i,j]<.5 else 'black',fontsize=8)
+        for j in range(len(designs)):ax.text(j,i,f'{vals[i,j]:.3g}',ha='center',va='center',color='white' if vals[i,j]<.5 else 'black',fontsize=8)
     fig.colorbar(im,ax=ax,label='Worst equivalence-class Gamma / whole-family Gamma');fig.tight_layout();fig.savefig(OUT/'equivalence_geometry.png',dpi=160);plt.close(fig)
 def report():
     df,summary=aggregate();tt=tests(df);term=terminal_summary();geometry_summary();inventory();plots(df);comp=read(OUT/'completion.json');c=df[df.split=='confirmation'];main=c[(c.design=='All')&(c.delta==.05)&(c.ratio==.5)]
