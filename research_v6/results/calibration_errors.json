@@ -1,0 +1,167 @@
+[
+  {
+    "family": "block-10-6-development-0",
+    "truth": 0,
+    "n": 1000,
+    "errors": 10,
+    "interval": [
+      0.004805510691049308,
+      0.018313243055112515
+    ],
+    "certified": 1000
+  },
+  {
+    "family": "block-10-6-development-0",
+    "truth": 1,
+    "n": 1000,
+    "errors": 12,
+    "interval": [
+      0.006215525559595244,
+      0.020867679591036435
+    ],
+    "certified": 1000
+  },
+  {
+    "family": "block-10-6-development-0",
+    "truth": 2,
+    "n": 1000,
+    "errors": 14,
+    "interval": [
+      0.007674501565020781,
+      0.023378156010314545
+    ],
+    "certified": 1000
+  },
+  {
+    "family": "block-10-6-development-0",
+    "truth": 3,
+    "n": 1000,
+    "errors": 5,
+    "interval": [
+      0.00162541951756276,
+      0.01162947055981214
+    ],
+    "certified": 1000
+  },
+  {
+    "family": "block-10-6-development-0",
+    "truth": 4,
+    "n": 1000,
+    "errors": 13,
+    "interval": [
+      0.006939617502851475,
+      0.022127803636778482
+    ],
+    "certified": 1000
+  },
+  {
+    "family": "block-10-6-development-0",
+    "truth": 5,
+    "n": 1000,
+    "errors": 9,
+    "interval": [
+      0.004123395660342473,
+      0.017015783069894617
+    ],
+    "certified": 1000
+  },
+  {
+    "family": "common-exact",
+    "truth": 0,
+    "n": 1000,
+    "errors": 0,
+    "interval": [
+      0,
+      0.003682083896865671
+    ],
+    "certified": 1000
+  },
+  {
+    "family": "common-exact",
+    "truth": 1,
+    "n": 1000,
+    "errors": 0,
+    "interval": [
+      0,
+      0.003682083896865671
+    ],
+    "certified": 1000
+  },
+  {
+    "family": "common-exact",
+    "truth": 2,
+    "n": 1000,
+    "errors": 0,
+    "interval": [
+      0,
+      0.003682083896865671
+    ],
+    "certified": 1000
+  },
+  {
+    "family": "common-exact",
+    "truth": 3,
+    "n": 1000,
+    "errors": 0,
+    "interval": [
+      0,
+      0.003682083896865671
+    ],
+    "certified": 1000
+  },
+  {
+    "family": "common-exact",
+    "truth": 4,
+    "n": 1000,
+    "errors": 0,
+    "interval": [
+      0,
+      0.003682083896865671
+    ],
+    "certified": 1000
+  },
+  {
+    "family": "common-exact",
+    "truth": 5,
+    "n": 1000,
+    "errors": 0,
+    "interval": [
+      0,
+      0.003682083896865671
+    ],
+    "certified": 1000
+  },
+  {
+    "family": "e1-calibration",
+    "truth": 0,
+    "n": 1000,
+    "errors": 25,
+    "interval": [
+      0.01624253569688223,
+      0.036684823051923054
+    ],
+    "certified": 1000
+  },
+  {
+    "family": "e1-calibration",
+    "truth": 1,
+    "n": 1000,
+    "errors": 28,
+    "interval": [
+      0.018684686195537568,
+      0.04021488737384334
+    ],
+    "certified": 1000
+  },
+  {
+    "family": "e1-calibration",
+    "truth": 2,
+    "n": 1000,
+    "errors": 32,
+    "interval": [
+      0.02198884960564242,
+      0.04487590283500927
+    ],
+    "certified": 1000
+  }
+]

@@ -1,0 +1,446 @@
+[
+  {
+    "premium": 1,
+    "comparator": "equal_cost",
+    "families": [
+      {
+        "family": "asymmetric-10-6-confirmation-0",
+        "kind": "asymmetric",
+        "cost_reduction": 1353.2,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "asymmetric-10-6-confirmation-2",
+        "kind": "asymmetric",
+        "cost_reduction": 1170.5,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "asymmetric-12-6-confirmation-1",
+        "kind": "asymmetric",
+        "cost_reduction": 1257.66,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "asymmetric-12-6-confirmation-3",
+        "kind": "asymmetric",
+        "cost_reduction": 875.7999999999998,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "block-10-6-confirmation-0",
+        "kind": "block",
+        "cost_reduction": 119.06666666666666,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "block-10-6-confirmation-2",
+        "kind": "block",
+        "cost_reduction": 1709.3833333333334,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0016666666666666668
+      },
+      {
+        "family": "block-12-6-confirmation-1",
+        "kind": "block",
+        "cost_reduction": 2031.0200000000002,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0016666666666666668
+      },
+      {
+        "family": "block-12-6-confirmation-3",
+        "kind": "block",
+        "cost_reduction": 29.26,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "hidden_curvature-10-6-confirmation-0",
+        "kind": "hidden_curvature",
+        "cost_reduction": -1250.1666666666667,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": -0.0016666666666666668
+      },
+      {
+        "family": "hidden_curvature-10-6-confirmation-2",
+        "kind": "hidden_curvature",
+        "cost_reduction": -1273.4333333333332,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": -0.0016666666666666668
+      },
+      {
+        "family": "hidden_curvature-12-6-confirmation-1",
+        "kind": "hidden_curvature",
+        "cost_reduction": 463.72,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "hidden_curvature-12-6-confirmation-3",
+        "kind": "hidden_curvature",
+        "cost_reduction": 537.56,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      }
+    ],
+    "paired_records": 7200,
+    "effect": 585.2975,
+    "interval": [
+      154.0386458333333,
+      1006.8379999999996
+    ],
+    "p": 0.037896210378962104,
+    "holm_p": 0.11368863113688632,
+    "qualification": "frozen full confirmation"
+  },
+  {
+    "premium": 1,
+    "comparator": "joint_only",
+    "families": [
+      {
+        "family": "asymmetric-10-6-confirmation-0",
+        "kind": "asymmetric",
+        "cost_reduction": -63.63333333333333,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "asymmetric-10-6-confirmation-2",
+        "kind": "asymmetric",
+        "cost_reduction": 1600.4666666666665,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0016666666666666668
+      },
+      {
+        "family": "asymmetric-12-6-confirmation-1",
+        "kind": "asymmetric",
+        "cost_reduction": -78.98,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "asymmetric-12-6-confirmation-3",
+        "kind": "asymmetric",
+        "cost_reduction": -58.22,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "block-10-6-confirmation-0",
+        "kind": "block",
+        "cost_reduction": -29.316666666666666,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "block-10-6-confirmation-2",
+        "kind": "block",
+        "cost_reduction": -18.9,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "block-12-6-confirmation-1",
+        "kind": "block",
+        "cost_reduction": -19.8,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "block-12-6-confirmation-3",
+        "kind": "block",
+        "cost_reduction": -20.1,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "hidden_curvature-10-6-confirmation-0",
+        "kind": "hidden_curvature",
+        "cost_reduction": -1711.0166666666667,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": -0.0016666666666666668
+      },
+      {
+        "family": "hidden_curvature-10-6-confirmation-2",
+        "kind": "hidden_curvature",
+        "cost_reduction": -1715.8166666666668,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": -0.0016666666666666668
+      },
+      {
+        "family": "hidden_curvature-12-6-confirmation-1",
+        "kind": "hidden_curvature",
+        "cost_reduction": 1946.4799999999998,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0016666666666666668
+      },
+      {
+        "family": "hidden_curvature-12-6-confirmation-3",
+        "kind": "hidden_curvature",
+        "cost_reduction": -56.06,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      }
+    ],
+    "paired_records": 7200,
+    "effect": -18.741388888888938,
+    "interval": [
+      -464.80600694444445,
+      565.0852708333332
+    ],
+    "p": 0.5733426657334266,
+    "holm_p": 0.5733426657334266,
+    "qualification": "frozen full confirmation"
+  },
+  {
+    "premium": 4,
+    "comparator": "equal_cost",
+    "families": [
+      {
+        "family": "asymmetric-10-6-confirmation-0",
+        "kind": "asymmetric",
+        "cost_reduction": 2117.0666666666666,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "asymmetric-10-6-confirmation-2",
+        "kind": "asymmetric",
+        "cost_reduction": 1809.3833333333334,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "asymmetric-12-6-confirmation-1",
+        "kind": "asymmetric",
+        "cost_reduction": 2269.6,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "asymmetric-12-6-confirmation-3",
+        "kind": "asymmetric",
+        "cost_reduction": 1462.2399999999998,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "block-10-6-confirmation-0",
+        "kind": "block",
+        "cost_reduction": 1895.05,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0016666666666666668
+      },
+      {
+        "family": "block-10-6-confirmation-2",
+        "kind": "block",
+        "cost_reduction": -1610.1166666666668,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": -0.0016666666666666668
+      },
+      {
+        "family": "block-12-6-confirmation-1",
+        "kind": "block",
+        "cost_reduction": 32.24,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "block-12-6-confirmation-3",
+        "kind": "block",
+        "cost_reduction": 37.46,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "hidden_curvature-10-6-confirmation-0",
+        "kind": "hidden_curvature",
+        "cost_reduction": -982.0333333333333,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": -0.0016666666666666668
+      },
+      {
+        "family": "hidden_curvature-10-6-confirmation-2",
+        "kind": "hidden_curvature",
+        "cost_reduction": 680.9499999999999,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "hidden_curvature-12-6-confirmation-1",
+        "kind": "hidden_curvature",
+        "cost_reduction": 717.6999999999999,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "hidden_curvature-12-6-confirmation-3",
+        "kind": "hidden_curvature",
+        "cost_reduction": 993.32,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      }
+    ],
+    "paired_records": 7200,
+    "effect": 785.2383333333332,
+    "interval": [
+      296.5083055555556,
+      1257.7820277777776
+    ],
+    "p": 0.026697330266973303,
+    "holm_p": 0.10678932106789321,
+    "qualification": "frozen full confirmation"
+  },
+  {
+    "premium": 4,
+    "comparator": "joint_only",
+    "families": [
+      {
+        "family": "asymmetric-10-6-confirmation-0",
+        "kind": "asymmetric",
+        "cost_reduction": 1449.95,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "asymmetric-10-6-confirmation-2",
+        "kind": "asymmetric",
+        "cost_reduction": 2531.6166666666663,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0016666666666666668
+      },
+      {
+        "family": "asymmetric-12-6-confirmation-1",
+        "kind": "asymmetric",
+        "cost_reduction": 1194.14,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "asymmetric-12-6-confirmation-3",
+        "kind": "asymmetric",
+        "cost_reduction": 1094.84,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "block-10-6-confirmation-0",
+        "kind": "block",
+        "cost_reduction": -34.93333333333333,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "block-10-6-confirmation-2",
+        "kind": "block",
+        "cost_reduction": -1573.6999999999998,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": -0.0016666666666666668
+      },
+      {
+        "family": "block-12-6-confirmation-1",
+        "kind": "block",
+        "cost_reduction": 94.56,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "block-12-6-confirmation-3",
+        "kind": "block",
+        "cost_reduction": 82.22,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "hidden_curvature-10-6-confirmation-0",
+        "kind": "hidden_curvature",
+        "cost_reduction": -1291.0999999999997,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": -0.0016666666666666668
+      },
+      {
+        "family": "hidden_curvature-10-6-confirmation-2",
+        "kind": "hidden_curvature",
+        "cost_reduction": 369.48333333333335,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      },
+      {
+        "family": "hidden_curvature-12-6-confirmation-1",
+        "kind": "hidden_curvature",
+        "cost_reduction": 2489.4,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0016666666666666668
+      },
+      {
+        "family": "hidden_curvature-12-6-confirmation-3",
+        "kind": "hidden_curvature",
+        "cost_reduction": 412.74,
+        "pairs": 600,
+        "truths": 6,
+        "certification_difference": 0.0
+      }
+    ],
+    "paired_records": 7200,
+    "effect": 568.2680555555556,
+    "interval": [
+      42.48250694444457,
+      1102.9740902777771
+    ],
+    "p": 0.07229277072292771,
+    "holm_p": 0.14458554144585542,
+    "qualification": "frozen full confirmation"
+  }
+]

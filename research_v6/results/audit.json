@@ -12,7 +12,7 @@
     {
       "name": "stop_certificates_action_counts",
       "passed": true,
-      "records": 514728,
+      "records": 777600,
       "failures": []
     },
     {
@@ -143,11 +143,11 @@
     "information.py": "4fff438332040198d23b4cde3e1b8dc9cb763cd30d586f85012569b330f7aa6f",
     "likelihood.py": "b41d19450deac916f6bd80045f2ff8527c7bc1af7bd0cd1dc288e0f21e1f7f1d",
     "models.py": "4b63fb9b5d3a8dd6ba309c7183785e103dbac07c62a7b2149917f481524f2534",
-    "pipeline.py": "916d322444377be851c3c1e5329c71473045e7e0cde1470b83dad05edd953e37",
-    "reporting.py": "4a677412c255b16f3bc1929668103ec8935e0d8dcc93df154e628abab9687970",
+    "pipeline.py": "ff73f43f1407681354a0fc94def0ca4ea6738cbee81dfd202073e2e773584ceb",
+    "reporting.py": "d5ff5e95b0474ad8340c8f82ff62431675f08dccf9e35551adbabf34b2f8cf35",
     "sequential.py": "665bb0548ada5599af36b44349ed293d6f8c9fbd16b9be4a02f52dbf67beeea0",
     "stream_cache.py": "00f1c3ed074be1445e9f325424c68ff96a7c9ff0f48b0b7c9fc1bdb7776d309e",
-    "supervisor.py": "da3f169944b9e9c82e1327807f310ce2d6d0cda46b1d1691463f17259a8a5faf",
+    "supervisor.py": "2c78d434e2325be124f25f242fb141f48a745c9021febf59718bb76d48016432",
     "terminal.py": "1b3efc6729a8e8313dd50021d72fbdfd61179a441b8e7dd434028e2f4824f6ca",
     "__init__.py": "d2a5677b0e1e0caa9b814f2ac3e1198ffe04c1cb605d50ae584e9836b4b3854a"
   }

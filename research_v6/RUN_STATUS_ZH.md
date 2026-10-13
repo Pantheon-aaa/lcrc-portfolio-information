@@ -1,15 +1,42 @@
-# 执行状态与断线恢复
+# 执行状态与重现入口
 
-状态：**执行中，尚未形成最终实验结论**。
+状态：**本轮运行、报告、审计与归档已结束；S3终端按内部额度部分交付**。最终记录为`results/archive_verification.json`和`results/runtime.json`。
 
 - 工作区：`D:\Portfolio_Optimization_paper\worktrees\portfolio-research-v6`。
-- 分支：`research/decision-sufficient-information-v6`。
-- 原冻结提交：`ad03493`；原配置和777,600条确认清单不改。
-- 当前数值修订：`symmetric-covariance-v3`，见`implementation_revision.json`；34项Gate通过，20项数据流缓存比对通过。
-- 私有纯合成运行目录：`D:\Portfolio_Optimization_paper\private_runs\synthetic_v6`。
-- 确认使用固定100次重复档。旧确认/校准/终端保存在修订目录，当前顶层目录只存修复后有效记录。
-- `results/runtime.json`只包含已退出阶段；实时CPU还需计入当前监督器的子进程。总预算12 CPU小时，失败/重算同样计入。
+- 分支：`research/decision-sufficient-information-v6`；基点`d07e06b739ad2fce00aa35e4b233e19fcb352231`。
+- 私有纯合成运行目录：`D:\Portfolio_Optimization_paper\private_runs\synthetic_v6`。未读取真实行情。
+- 最终报告：[实验表与图](REPORT_ZH.md)、[四项问题的综合判断](INTERPRETATION_ZH.md)。
+- 冻结重复数100。配置SHA256：`40adc0267904515fd0174e72ddea624be1fdd8d2d5ce419dc0244c690c684560`。
+- 解压后完整确认清单SHA256：`2f9dee299a531676bc2df2d3498407030066e0b8af0cc4fc199dc39477967810`；Git跟踪`manifest.json.gz`。
+- 当前数值修订为`symmetric-covariance-v3`。原冻结核心哈希与修订核心哈希同时保留；旧记录位于运行目录的`revisions/`，未混入有效确认统计。
 
-恢复时先核查是否已有`research_v6.supervisor`及其`experiments`进程；最多两个计算进程，不要重复启动同阶段。当前阶段采用原子记录，已有记录跳过。不要重新freeze；核对核心文件哈希应使用原配置及实现修订记录。
+## 完成清单
 
-依次完成确认、terminal、stress、report、audit、archive。报告未完成时不能把局部汇总当作完整冻结结果。最终工作只本地提交，不自动推送或合并main。
+|阶段|本轮有效记录|资格|
+|---|---:|---|
+|Gate 0|34项通过|包含独立数值与接口检查|
+|开发|38880|不进入确认推断；原开发计时保留|
+|S1/S2确认|777600/777600|12族、7200组配对动作随机流；非777600个独立族|
+|独立错误率校准|15000|逐真模型精确二项区间|
+|S3终端|13016/34596查询组|部分完成，21580组未运行|
+|S3压力|12实例、144查询|冷启动/同后验缓存/贪心；公共准备另计|
+|报告层数值检查|259项通过|后验事件区间与随机化平台界|
+|最终审计|777600轨迹、15族证书、24条无缓存重放|通过|
+
+确认未运行清单为空；终端未运行清单在`results/unrun_terminal.json.gz`，压力未运行清单在`results/unrun_stress.json`。轨迹内部未认证、空置信集、统计错误、数值开放与未启动的查询是不同状态。
+
+S3内部将4800 CPU秒用于终端、960秒预留压力；此前中断和重算同样收费。终端在下一查询组边界停止，监督器总记账4905.92秒；压力96.92秒，公共准备补测22.05秒，S3合计5024.89秒，小于5760秒。未用压力预留没有转移补跑终端。12小时是总上限，不能将本次部分交付解释为总资源已耗尽。完整确认无需因局部终端未完成而降格，终端有观测子集也不能冒充完整确认。
+
+## 归档与CPU
+
+累计进程CPU为15093.0625秒（4.1925小时），低于43200秒上限。归档共965555个文件、911388842字节，逐文件读回验证通过；压缩包SHA256为`fd8007f90c180edef7eab55d1cd975c693dfc387cde3add518c1271bbd8d5c0a`。
+
+原始逐实例记录、修订前记录及动作路径位于独立运行目录；`archives/synthetic_v6.tar.zst`是无损归档，`archives/manifest.json`保存逐文件SHA256。校验器从归档逐项读回比对，不仅验证压缩文件能打开。归档排除自身及阶段metrics目录，包含归档开始前的运行台账；归档阶段自身和其后图表排版校验的CPU在公开`results/runtime.json`中另有最终记录。
+
+累计进程CPU、每阶段经过时间及峰值内存均见`results/runtime.json`；并行阶段的wall之和不称总CPU或项目自然经过时间。BLAS单线程，最多两个数值进程。失败和重算未从CPU中扣除。
+
+## 重现与继续
+
+运行命令、依赖版本见[README](README.md)及`requirements-lock.txt`。从已冻结配置重现时使用新的`V6_RUN_ROOT`，不要重新freeze。需要复核本次结果时使用本次完成清单；硬件不同的CPU截断位置可能不同，新增记录不能静默混入已交付统计。
+
+本轮默认本地提交，未合并main、未推送GitHub。当前研究代码无后台自动续跑安排；再次启动实验前先检查是否存在相关监督器，避免重复阶段。

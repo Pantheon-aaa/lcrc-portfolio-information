@@ -1,0 +1,15 @@
+{
+  "planned_confirmation": 777600,
+  "processed_confirmation": 777600,
+  "unrun_confirmation": 0,
+  "counts": {
+    "development": 38880,
+    "confirmation": 777600,
+    "calibration": 15000
+  },
+  "terminal": {
+    "planned": 34596,
+    "processed": 13016,
+    "new": 13016
+  }
+}

@@ -248,6 +248,22 @@ def inventory():
          for method in ('cold','cached','greedy'):
           if (kind,d,M,str(beta),method) not in done:missing.append(dict(kind=kind,d=d,M=M,beta=beta,method=method))
     write(OUT/'unrun_stress.json',missing)
+def plot_geometry():
+    import matplotlib;matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    ge=read(OUT/'confirmation_geometry.json');names=list(dict.fromkeys(x['family'] for x in ge));designs=['Singleton','Separated','Bridge','WithoutJoint','All']
+    vals=np.array([[max(x['gamma_class_upper']/x['gamma_all_upper'] for x in ge if x['family']==name and x['design']==des and x['ratio']==.5) for des in designs] for name in names])
+    labels=[]
+    for name in names:
+        kind,d,_,_,idx=name.split('-');labels.append(f'{kind.replace("hidden_curvature","hidden").replace("asymmetric","asym")} d{d} / family {idx}')
+    fig,ax=plt.subplots(figsize=(11,6.5));im=ax.imshow(vals,vmin=0,vmax=1,cmap='viridis',aspect='auto');ax.set_xticks(range(5),['Singleton','Separated','Bridge','Without Joint','All'],fontsize=9);ax.set_yticks(range(len(names)),labels,fontsize=9)
+    for i in range(len(names)):
+        for j in range(5):
+            label='<1e-12' if vals[i,j]<1e-12 else f'{vals[i,j]:.3f}'
+            ax.text(j,i,label,ha='center',va='center',color='white' if vals[i,j]<.5 else 'black',fontsize=9)
+    ax.set_title('Worst equivalence-class Gamma upper / whole-family Gamma upper\nTiny positive bounds are not structural zeros',fontsize=10)
+    fig.colorbar(im,ax=ax,label='Gamma ratio');fig.tight_layout();fig.savefig(OUT/'equivalence_geometry.png',dpi=160);plt.close(fig)
+
 def plots(df):
     import matplotlib;matplotlib.use('Agg')
     import matplotlib.pyplot as plt
@@ -266,13 +282,7 @@ def plots(df):
     for name in sorted({r['family'] for r in h}):
         z=[r for r in h if r['family']==name];ax.plot([r['strength'] for r in z],[r['gamma']['upper'] for r in z],'o-',label=name)
     ax.set_xlabel('Common diagonal perturbation');ax.set_ylabel('Certified upper bound on Gamma');ax.legend(fontsize=7);fig.tight_layout();fig.savefig(OUT/'hidden_curvature.png',dpi=160);plt.close(fig)
-    ge=read(OUT/'confirmation_geometry.json');names=list(dict.fromkeys(x['family'] for x in ge))
-    designs=['Singleton','Separated','Bridge','WithoutJoint','All']
-    vals=np.array([[max(x['gamma_class_upper']/x['gamma_all_upper'] for x in ge if x['family']==name and x['design']==des and x['ratio']==.5) for des in designs] for name in names])
-    fig,ax=plt.subplots(figsize=(9,6));im=ax.imshow(vals,vmin=0,vmax=1,cmap='viridis');ax.set_xticks(range(len(designs)),designs,fontsize=8);ax.set_yticks(range(len(names)),names,fontsize=7)
-    for i in range(len(names)):
-        for j in range(len(designs)):ax.text(j,i,f'{vals[i,j]:.3g}',ha='center',va='center',color='white' if vals[i,j]<.5 else 'black',fontsize=8)
-    fig.colorbar(im,ax=ax,label='Worst equivalence-class Gamma / whole-family Gamma');fig.tight_layout();fig.savefig(OUT/'equivalence_geometry.png',dpi=160);plt.close(fig)
+    plot_geometry()
     tr=read(OUT/'terminal_summary.json')
     for filename,lowkey,highkey,ylabel in [('terminal_success','success_low','success_high','Actual success interval'),('terminal_mass','mass','mass_upper','Posterior success mass interval')]:
       fig,axes=plt.subplots(2,2,figsize=(10,7))
@@ -306,16 +316,16 @@ def report():
       '![采样成本](results/allocation_cost.png)','![停止分布](results/certification_cdf.png)','',
       '## 四项主要比较','', '|Joint倍数|冲突方法相对基线|成本减少|族级95%区间|Holm p|配对记录|','|---|---|---:|---|---:|---:|']
     for r in tt:text.append(f"|{r['premium']}|{r['comparator']}|{r['effect']}|{r['interval']}|{r.get('holm_p')}|{r['paired_records']}|")
-    text+=['','正的成本减少表示冲突方法成本较低，但必须结合认证率与错误核验。每类仅四个独立确认族；重复采样不能冒充新风险族。若清单未完成，这些是公共已完成配对的探索性统计，不称完整冻结确认。','',
+    text+=['','正的成本减少表示冲突方法成本较低，但必须结合认证率与错误核验。95%区间未作多重校正，统计显著性以Holm列为准。每类仅四个独立确认族；重复采样不能冒充新风险族。若清单未完成，只能称公共已完成配对的探索性统计。','',
       '## 理论诊断','',
       '旧隐藏曲率族包含非均匀对角扰动，H1≈0并不推出最终模型具有共同最优组合。消融的Γ、最优持仓差异及一阶响应误差在`S0_hidden_ablation.json`；移除扰动后数值近零与精确共同最优控制分开。','',
       '![隐藏曲率消融](results/hidden_curvature.png)','',
       '![等价类几何](results/equivalence_geometry.png)','',
       '热图为最坏观测等价类Γ与全族Γ之比；共同组合的可认证性由阈值与类内Γ比较，不能仅由模型是否可辨识判断。新确认族的随机化平台及上下界见`results/confirmation_geometry.json`。','',
       '三模型两两兼容而整体冲突，随机选择pair center的最坏失败率1/3。它否定“Γ类>ε意味着任意固定δ随机化任务均不可能”的过强解释。有限答案的约简及Helly见证是经典工具；有限高斯族渐近成本下界已补成独立核查草稿，尚未经外部审阅，本轮启发式最优性仍未证明。T候选归一化结果不作有限样本下界检验。见[下界草稿](FINITE_GAUSSIAN_LOWER_BOUND_ZH.md)。','',
-      '## 错误控制与数值','',f"确认中观察到错误认证{int(c.false_certification.sum())}次、真模型评价区间未决{int(c.certification_truth_indeterminate.sum())}次。额外独立校准逐真模型二项区间见`calibration_errors.json`；零错误不能当作零风险。",'',
+      '## 错误控制与数值','',f"全部δ/ε/动作设置合计观察到错误认证{int(c.false_certification.sum())}次、真模型评价区间未决{int(c.certification_truth_indeterminate.sum())}次；共享数据且混合不同δ，不能合并为独立试验错误率。额外独立校准逐真模型二项区间见`results/calibration_errors.json`；零错误不能当作零风险。",'',
       '理论错误控制依赖自适应动作的可预测性、正确有限候选族以及有效数值界。停止输出由有理持仓/弱对偶证书定义；浮点展示权重不是额外的精确保证。似然包络依赖IEEE误差模型，未做全软件形式化验证。','',
-      '## 终端规则与求解','',f"终端完成情况：{comp.get('terminal')}。模型内成功、实际成功和预算资格见`terminal_summary.json`；冷启动/缓存/贪心结果见`S3_stress.json`。",'',
+      '## 终端规则与求解','',f"终端完成情况：{comp.get('terminal')}。该阶段内部额度停止不代表12小时总预算耗尽。模型内成功、实际成功和预算资格见`results/terminal_summary.json`；冷启动/缓存/贪心结果见`results/S3_stress.json`。",'',
       'A1-B作为信息耗尽的终端规则，不继承δ认证。旧平均代价证书开放状态保留。M=6枚举价格并保留跳点区间；M=12只报告查询结果和开放界，不声称枚举了所有跳点或证明了多项式加速。','',
       '实际持仓后验成功质量由共同regret区间及保存的似然误差包络重算，使用区间指数避免把下溢当作结构性零；原生API的质量下界另存。原生最优性间隙仍针对方法所接收的浮点后验，并保留后验精度开放状态，不与重算的质量混作一种证书。','',
       'β=0各方法均为MA端点；零观测只计算一次先验持仓。逐数据集的配对效应区间在`results/terminal_paired.json`，逐族最坏模型结果与真模型覆盖数在`results/terminal_worst_model.json`。未覆盖全部真模型的行不冒称完整最坏情形估计。未运行清单为`results/unrun_terminal.json.gz`和`results/unrun_confirmation.json.gz`。','',
@@ -392,4 +402,4 @@ def archive():
 def terminal_report():
     terminal_summary();geometry_summary();print('TERMINAL_REPORT complete',flush=True)
 
-def dispatch(stage,*args):{'report':report,'report-terminal':terminal_report,'report-check':report_check,'audit':audit,'archive':archive}[stage](*args)
+def dispatch(stage,*args):{'report':report,'report-terminal':terminal_report,'report-check':report_check,'report-geometry-plot':plot_geometry,'audit':audit,'archive':archive}[stage](*args)

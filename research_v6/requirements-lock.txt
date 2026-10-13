@@ -1,0 +1,12 @@
+# Observed experiment environment: Python 3.12.5, Windows 11.
+numpy==2.5.3
+scipy==1.17.1
+clarabel==0.11.1
+cvxpy==1.9.3
+highspy==1.15.1
+mpmath==1.3.0
+numba==0.67.0
+psutil==7.2.2
+zstandard==0.25.0
+matplotlib==3.10.8
+pandas==2.3.3

@@ -1,0 +1,7 @@
+{
+  "files": 965555,
+  "sha256": "fd8007f90c180edef7eab55d1cd975c693dfc387cde3add518c1271bbd8d5c0a",
+  "bytes": 911388842,
+  "verified": true,
+  "excluded": "archives itself and final supervisor metrics"
+}

@@ -2,7 +2,7 @@
 
 独立纯合成探索，基于`d07e06b739ad2fce00aa35e4b233e19fcb352231`。不读取行情，不使用历史校准族，不更新旧冻结结果。
 
-阅读`THEORY_STATUS_ZH.md`与`DEVELOPMENT_LOG_ZH.md`，完成后结果位于`REPORT_ZH.md`。终端A1-B不继承序贯认证保证，oracle采样只作参照。
+先读[综合判断](INTERPRETATION_ZH.md)和[完整报告](REPORT_ZH.md)，再查[理论状态](THEORY_STATUS_ZH.md)、[执行状态](RUN_STATUS_ZH.md)及[开发日志](DEVELOPMENT_LOG_ZH.md)。终端A1-B不继承序贯认证保证，oracle采样只作参照。
 
 ## 运行
 
