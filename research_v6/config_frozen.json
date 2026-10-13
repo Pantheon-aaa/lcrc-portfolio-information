@@ -1,0 +1,44 @@
+{
+  "base": "d07e06b739ad2fce00aa35e4b233e19fcb352231",
+  "seed_namespace": "v6-20261013",
+  "confirmation_repetitions": 100,
+  "development_repetitions": 10,
+  "delta": [
+    0.1,
+    0.05,
+    0.01
+  ],
+  "ratios": [
+    0.5,
+    0.75,
+    1.25
+  ],
+  "premiums": [
+    1,
+    4
+  ],
+  "horizon_actions": 100000,
+  "horizon_cost_units": 100000,
+  "cost_unit": "d scalars",
+  "policies": [
+    "equal_cost",
+    "joint_only",
+    "full_kl",
+    "conflict_kl",
+    "oracle_allocation"
+  ],
+  "separated_equivalent_policies": "one equal_cost representative; all policies have the sole available action",
+  "timing_p90": 0.015625,
+  "estimated_confirmation_cpu": 15187.5,
+  "confirmation_allocation_seconds": 18000,
+  "terminal_allocation_seconds": 5760,
+  "core_hashes": {
+    "certificates.py": "7de972ee7320c80dcaaf4959686414e0a768acc11aad2151d0ab58df2a714c9f",
+    "information.py": "4fff438332040198d23b4cde3e1b8dc9cb763cd30d586f85012569b330f7aa6f",
+    "likelihood.py": "51559b4407e00a3b07ea9fbdaf656d338fb65862065fcb88ded7811db85ae0dc",
+    "models.py": "655d44b4c25e0118d431909d8105065369f34c92614e2da3e3ba02f8b64e48d1",
+    "sequential.py": "665bb0548ada5599af36b44349ed293d6f8c9fbd16b9be4a02f52dbf67beeea0"
+  },
+  "bootstrap_seed": 20261013,
+  "bootstrap_repetitions": 10000
+}

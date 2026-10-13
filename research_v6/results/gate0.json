@@ -1,0 +1,280 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "rational_gamma_bracket",
+      "passed": true
+    },
+    {
+      "name": "independent_cvx_geometry",
+      "passed": true,
+      "cvx": 0.010734138277969419,
+      "interval": [
+        0.010734138277960666,
+        0.01073413827797268
+      ]
+    },
+    {
+      "name": "complete_mask_likelihood_0",
+      "passed": true
+    },
+    {
+      "name": "complete_mask_likelihood_1",
+      "passed": true
+    },
+    {
+      "name": "complete_mask_likelihood_2",
+      "passed": true
+    },
+    {
+      "name": "complete_mask_likelihood_3",
+      "passed": true
+    },
+    {
+      "name": "class_odds_invariance",
+      "passed": true
+    },
+    {
+      "name": "method_has_no_truth_argument",
+      "passed": true
+    },
+    {
+      "name": "future_action_not_in_density",
+      "passed": true
+    },
+    {
+      "name": "separated_classes",
+      "passed": true
+    },
+    {
+      "name": "empty_set_rejected",
+      "passed": true
+    },
+    {
+      "name": "exact_common_optimizer",
+      "passed": true
+    },
+    {
+      "name": "pairwise_not_joint",
+      "passed": true
+    },
+    {
+      "name": "randomized_one_third",
+      "passed": true
+    },
+    {
+      "name": "boundary_not_relaxed",
+      "passed": true
+    },
+    {
+      "name": "cross_posterior_cache_rejected",
+      "passed": true
+    },
+    {
+      "name": "oracle_interval_0",
+      "passed": true
+    },
+    {
+      "name": "oracle_interval_1",
+      "passed": true
+    },
+    {
+      "name": "oracle_interval_2",
+      "passed": true
+    },
+    {
+      "name": "oracle_interval_3",
+      "passed": true
+    },
+    {
+      "name": "oracle_interval_4",
+      "passed": true
+    },
+    {
+      "name": "oracle_interval_5",
+      "passed": true
+    },
+    {
+      "name": "interval_evidence_threshold",
+      "passed": true
+    },
+    {
+      "name": "sequential_smoke",
+      "passed": true
+    },
+    {
+      "name": "persistent_exclusions",
+      "passed": true
+    },
+    {
+      "name": "mixture_copy_invariance",
+      "passed": true
+    },
+    {
+      "name": "mixture_permutation",
+      "passed": true
+    },
+    {
+      "name": "geometric_copy_invariance",
+      "passed": true
+    },
+    {
+      "name": "geometric_permutation",
+      "passed": true
+    },
+    {
+      "name": "beta_zero_MA",
+      "passed": true
+    },
+    {
+      "name": "singleton_hidden_signs",
+      "passed": true
+    },
+    {
+      "name": "separated_hidden_cross_signs",
+      "passed": true
+    }
+  ],
+  "smoke": {
+    "family": "block-10-6-gate-0",
+    "kind": "block",
+    "truth": 0,
+    "rep": 0,
+    "ratio": 0.5,
+    "delta": 0.05,
+    "premium": 1,
+    "allowed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "policy": "equal_cost",
+    "epsilon": 0.0053670691389833365,
+    "seed": 1990954092029567616,
+    "status": "certified",
+    "certified": true,
+    "false_certification": false,
+    "certification_truth_indeterminate": false,
+    "stop_t": 6,
+    "stop_cost": 60.0,
+    "restricted_cost": 60.0,
+    "censor_cost": 10000,
+    "counts": [
+      2.0,
+      2.0,
+      1.0,
+      1.0
+    ],
+    "log_likelihood": [
+      -44.4487387412197,
+      -45.24449207584769,
+      -44.34007833330054,
+      -50.373891147048425,
+      -48.95688693847312,
+      -48.06144394677952
+    ],
+    "error": [
+      2.6956312020421493e-11,
+      2.8790212201203714e-11,
+      2.914474451930426e-11,
+      2.8159603449240395e-11,
+      2.8593183922950004e-11,
+      3.033403315232601e-11
+    ],
+    "confidence_mask": 39,
+    "events": [
+      {
+        "t": 6,
+        "excluded": [
+          3,
+          4
+        ],
+        "log_likelihood": [
+          -44.4487387412197,
+          -45.24449207584769,
+          -44.34007833330054,
+          -50.373891147048425,
+          -48.95688693847312,
+          -48.06144394677952
+        ],
+        "error": [
+          2.6956312020421493e-11,
+          2.8790212201203714e-11,
+          2.914474451930426e-11,
+          2.8159603449240395e-11,
+          2.8593183922950004e-11,
+          3.033403315232601e-11
+        ],
+        "confidence_mask": 39
+      }
+    ],
+    "stop": {
+      "t": 6,
+      "confidence_mask": 39,
+      "weights": [
+        0.06927199830585096,
+        0.10148129160040753,
+        0.10275048443412516,
+        0.06252943439221781,
+        0.04307589028974235,
+        0.09028518162551791,
+        0.11474599317335787,
+        0.17725072444835632,
+        0.18622064060684806,
+        0.05238836112357603
+      ],
+      "certificate": {
+        "lower": 0.010458813140417658,
+        "upper": 0.010458813140773224,
+        "weights": [
+          0.06927199830585096,
+          0.10148129160040753,
+          0.10275048443412516,
+          0.06252943439221781,
+          0.04307589028974235,
+          0.09028518162551791,
+          0.11474599317335787,
+          0.17725072444835632,
+          0.18622064060684806,
+          0.05238836112357603
+        ],
+        "rational_weights": [
+          "1218645881865/17592186044416",
+          "892638880931/8796093022208",
+          "1807605638319/17592186044416",
+          "137503680385/2199023255552",
+          "378899538003/8796093022208",
+          "794156856105/8796093022208",
+          "2018632859757/17592186044416",
+          "3118227721003/17592186044416",
+          "1638014077433/8796093022208",
+          "115203224431/2199023255552"
+        ],
+        "regret_lower": [
+          0.0029704655170526687,
+          0.009846339367578411,
+          0.010458813140703712,
+          0.009717450954264933,
+          0.013401533012845432,
+          0.01045881314077322
+        ],
+        "regret_upper": [
+          0.0029704655170526696,
+          0.009846339367578415,
+          0.010458813140703767,
+          0.009717450954264937,
+          0.013401533012845728,
+          0.010458813140773224
+        ],
+        "status": "exact_rational_weak_duality",
+        "solver_status": "AlmostSolved",
+        "primal_residual": 0
+      },
+      "cost": 60.0
+    },
+    "snapshots": {},
+    "T_candidate": 5.21575748118938,
+    "cpu_seconds": 0.21875
+  }
+}

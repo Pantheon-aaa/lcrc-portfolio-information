@@ -1,0 +1,249 @@
+{
+  "records": [
+    {
+      "stage": "gate",
+      "args": [],
+      "cpu_seconds": 5.625,
+      "child_cpu": 4.1875,
+      "wall_seconds": 16.974990400000024,
+      "unix_end": 1791865156.2877133,
+      "peak_rss": 162721792,
+      "exit_code": 1,
+      "reason": null,
+      "sources": {
+        "certificates.py": "006e8fe8192e860022d400e9c2e760e06101370e76a9442a39b40dc2c864c44b",
+        "common.py": "8c3853aed6dfdd409841a83e30b85d7f67e2454d314876c74741ca7324c50d0f",
+        "experiments.py": "ec848b03e7e50ec33c5bedad620a0786a4c147624b7d4009a0efe62767c17b24",
+        "information.py": "4fff438332040198d23b4cde3e1b8dc9cb763cd30d586f85012569b330f7aa6f",
+        "likelihood.py": "51559b4407e00a3b07ea9fbdaf656d338fb65862065fcb88ded7811db85ae0dc",
+        "models.py": "655d44b4c25e0118d431909d8105065369f34c92614e2da3e3ba02f8b64e48d1",
+        "pipeline.py": "1342ca2f8c5fd57301752df1069f36a1cc4b0eaf3d2ade8056434cc7ed1deb34",
+        "sequential.py": "ecd494e7409fff5a0d4ef4698c15bb5e8313629f838fc0f953c8657d32622aa8",
+        "supervisor.py": "da3f169944b9e9c82e1327807f310ce2d6d0cda46b1d1691463f17259a8a5faf",
+        "__init__.py": "d2a5677b0e1e0caa9b814f2ac3e1198ffe04c1cb605d50ae584e9836b4b3854a"
+      }
+    },
+    {
+      "stage": "gate",
+      "args": [],
+      "cpu_seconds": 6.859375,
+      "child_cpu": 5.671875,
+      "wall_seconds": 7.182842500000106,
+      "unix_end": 1791865204.5818388,
+      "peak_rss": 232923136,
+      "exit_code": 0,
+      "reason": null,
+      "sources": {
+        "certificates.py": "7de972ee7320c80dcaaf4959686414e0a768acc11aad2151d0ab58df2a714c9f",
+        "common.py": "8c3853aed6dfdd409841a83e30b85d7f67e2454d314876c74741ca7324c50d0f",
+        "experiments.py": "ec848b03e7e50ec33c5bedad620a0786a4c147624b7d4009a0efe62767c17b24",
+        "information.py": "4fff438332040198d23b4cde3e1b8dc9cb763cd30d586f85012569b330f7aa6f",
+        "likelihood.py": "51559b4407e00a3b07ea9fbdaf656d338fb65862065fcb88ded7811db85ae0dc",
+        "models.py": "655d44b4c25e0118d431909d8105065369f34c92614e2da3e3ba02f8b64e48d1",
+        "pipeline.py": "1342ca2f8c5fd57301752df1069f36a1cc4b0eaf3d2ade8056434cc7ed1deb34",
+        "sequential.py": "ecd494e7409fff5a0d4ef4698c15bb5e8313629f838fc0f953c8657d32622aa8",
+        "supervisor.py": "da3f169944b9e9c82e1327807f310ce2d6d0cda46b1d1691463f17259a8a5faf",
+        "__init__.py": "d2a5677b0e1e0caa9b814f2ac3e1198ffe04c1cb605d50ae584e9836b4b3854a"
+      }
+    },
+    {
+      "stage": "prepare",
+      "args": [
+        "development"
+      ],
+      "cpu_seconds": 15.09375,
+      "child_cpu": 13.671875,
+      "wall_seconds": 14.957843599999933,
+      "unix_end": 1791865232.478232,
+      "peak_rss": 163274752,
+      "exit_code": 0,
+      "reason": null,
+      "sources": {
+        "certificates.py": "7de972ee7320c80dcaaf4959686414e0a768acc11aad2151d0ab58df2a714c9f",
+        "common.py": "8c3853aed6dfdd409841a83e30b85d7f67e2454d314876c74741ca7324c50d0f",
+        "experiments.py": "ec848b03e7e50ec33c5bedad620a0786a4c147624b7d4009a0efe62767c17b24",
+        "information.py": "4fff438332040198d23b4cde3e1b8dc9cb763cd30d586f85012569b330f7aa6f",
+        "likelihood.py": "51559b4407e00a3b07ea9fbdaf656d338fb65862065fcb88ded7811db85ae0dc",
+        "models.py": "655d44b4c25e0118d431909d8105065369f34c92614e2da3e3ba02f8b64e48d1",
+        "pipeline.py": "1342ca2f8c5fd57301752df1069f36a1cc4b0eaf3d2ade8056434cc7ed1deb34",
+        "sequential.py": "ecd494e7409fff5a0d4ef4698c15bb5e8313629f838fc0f953c8657d32622aa8",
+        "supervisor.py": "da3f169944b9e9c82e1327807f310ce2d6d0cda46b1d1691463f17259a8a5faf",
+        "__init__.py": "d2a5677b0e1e0caa9b814f2ac3e1198ffe04c1cb605d50ae584e9836b4b3854a"
+      }
+    },
+    {
+      "stage": "diagnose",
+      "args": [],
+      "cpu_seconds": 28.90625,
+      "child_cpu": 27.140625,
+      "wall_seconds": 28.351399899999933,
+      "unix_end": 1791865245.875719,
+      "peak_rss": 168550400,
+      "exit_code": 0,
+      "reason": null,
+      "sources": {
+        "certificates.py": "7de972ee7320c80dcaaf4959686414e0a768acc11aad2151d0ab58df2a714c9f",
+        "common.py": "8c3853aed6dfdd409841a83e30b85d7f67e2454d314876c74741ca7324c50d0f",
+        "experiments.py": "ec848b03e7e50ec33c5bedad620a0786a4c147624b7d4009a0efe62767c17b24",
+        "information.py": "4fff438332040198d23b4cde3e1b8dc9cb763cd30d586f85012569b330f7aa6f",
+        "likelihood.py": "51559b4407e00a3b07ea9fbdaf656d338fb65862065fcb88ded7811db85ae0dc",
+        "models.py": "655d44b4c25e0118d431909d8105065369f34c92614e2da3e3ba02f8b64e48d1",
+        "pipeline.py": "1342ca2f8c5fd57301752df1069f36a1cc4b0eaf3d2ade8056434cc7ed1deb34",
+        "sequential.py": "ecd494e7409fff5a0d4ef4698c15bb5e8313629f838fc0f953c8657d32622aa8",
+        "supervisor.py": "da3f169944b9e9c82e1327807f310ce2d6d0cda46b1d1691463f17259a8a5faf",
+        "__init__.py": "d2a5677b0e1e0caa9b814f2ac3e1198ffe04c1cb605d50ae584e9836b4b3854a"
+      }
+    },
+    {
+      "stage": "prepare",
+      "args": [
+        "confirmation"
+      ],
+      "cpu_seconds": 26.25,
+      "child_cpu": 24.59375,
+      "wall_seconds": 26.219185500000094,
+      "unix_end": 1791865297.9064546,
+      "peak_rss": 163409920,
+      "exit_code": 0,
+      "reason": null,
+      "sources": {
+        "certificates.py": "7de972ee7320c80dcaaf4959686414e0a768acc11aad2151d0ab58df2a714c9f",
+        "common.py": "8c3853aed6dfdd409841a83e30b85d7f67e2454d314876c74741ca7324c50d0f",
+        "experiments.py": "ec848b03e7e50ec33c5bedad620a0786a4c147624b7d4009a0efe62767c17b24",
+        "information.py": "4fff438332040198d23b4cde3e1b8dc9cb763cd30d586f85012569b330f7aa6f",
+        "likelihood.py": "51559b4407e00a3b07ea9fbdaf656d338fb65862065fcb88ded7811db85ae0dc",
+        "models.py": "655d44b4c25e0118d431909d8105065369f34c92614e2da3e3ba02f8b64e48d1",
+        "pipeline.py": "3cde224037e81f42b0f32a437370f93669bec68bfef3f8b3995cab5b75ade4de",
+        "sequential.py": "ecd494e7409fff5a0d4ef4698c15bb5e8313629f838fc0f953c8657d32622aa8",
+        "supervisor.py": "da3f169944b9e9c82e1327807f310ce2d6d0cda46b1d1691463f17259a8a5faf",
+        "__init__.py": "d2a5677b0e1e0caa9b814f2ac3e1198ffe04c1cb605d50ae584e9836b4b3854a"
+      }
+    },
+    {
+      "stage": "develop",
+      "args": [],
+      "cpu_seconds": 291.375,
+      "child_cpu": 281.28125,
+      "wall_seconds": 320.7226617000001,
+      "unix_end": 1791865597.536396,
+      "peak_rss": 268718080,
+      "exit_code": 0,
+      "reason": null,
+      "sources": {
+        "certificates.py": "7de972ee7320c80dcaaf4959686414e0a768acc11aad2151d0ab58df2a714c9f",
+        "common.py": "8c3853aed6dfdd409841a83e30b85d7f67e2454d314876c74741ca7324c50d0f",
+        "experiments.py": "ec848b03e7e50ec33c5bedad620a0786a4c147624b7d4009a0efe62767c17b24",
+        "information.py": "4fff438332040198d23b4cde3e1b8dc9cb763cd30d586f85012569b330f7aa6f",
+        "likelihood.py": "51559b4407e00a3b07ea9fbdaf656d338fb65862065fcb88ded7811db85ae0dc",
+        "models.py": "655d44b4c25e0118d431909d8105065369f34c92614e2da3e3ba02f8b64e48d1",
+        "pipeline.py": "3cde224037e81f42b0f32a437370f93669bec68bfef3f8b3995cab5b75ade4de",
+        "sequential.py": "665bb0548ada5599af36b44349ed293d6f8c9fbd16b9be4a02f52dbf67beeea0",
+        "supervisor.py": "da3f169944b9e9c82e1327807f310ce2d6d0cda46b1d1691463f17259a8a5faf",
+        "terminal.py": "30ee0fdef66ff5d75cae9b75d6c94ade6ef52da9f1ddf4e60cf886349a6e0b90",
+        "__init__.py": "d2a5677b0e1e0caa9b814f2ac3e1198ffe04c1cb605d50ae584e9836b4b3854a"
+      }
+    },
+    {
+      "stage": "calibrate",
+      "args": [],
+      "cpu_seconds": 108.296875,
+      "child_cpu": 104.3125,
+      "wall_seconds": 118.16978229999995,
+      "unix_end": 1791865653.3907797,
+      "peak_rss": 235958272,
+      "exit_code": 0,
+      "reason": null,
+      "sources": {
+        "certificates.py": "7de972ee7320c80dcaaf4959686414e0a768acc11aad2151d0ab58df2a714c9f",
+        "common.py": "8c3853aed6dfdd409841a83e30b85d7f67e2454d314876c74741ca7324c50d0f",
+        "experiments.py": "ec848b03e7e50ec33c5bedad620a0786a4c147624b7d4009a0efe62767c17b24",
+        "information.py": "4fff438332040198d23b4cde3e1b8dc9cb763cd30d586f85012569b330f7aa6f",
+        "likelihood.py": "51559b4407e00a3b07ea9fbdaf656d338fb65862065fcb88ded7811db85ae0dc",
+        "models.py": "655d44b4c25e0118d431909d8105065369f34c92614e2da3e3ba02f8b64e48d1",
+        "pipeline.py": "3cde224037e81f42b0f32a437370f93669bec68bfef3f8b3995cab5b75ade4de",
+        "sequential.py": "665bb0548ada5599af36b44349ed293d6f8c9fbd16b9be4a02f52dbf67beeea0",
+        "supervisor.py": "da3f169944b9e9c82e1327807f310ce2d6d0cda46b1d1691463f17259a8a5faf",
+        "terminal.py": "30ee0fdef66ff5d75cae9b75d6c94ade6ef52da9f1ddf4e60cf886349a6e0b90",
+        "__init__.py": "d2a5677b0e1e0caa9b814f2ac3e1198ffe04c1cb605d50ae584e9836b4b3854a"
+      }
+    },
+    {
+      "stage": "gate",
+      "args": [],
+      "cpu_seconds": 3.25,
+      "child_cpu": 2.171875,
+      "wall_seconds": 3.063253100000111,
+      "unix_end": 1791865776.673502,
+      "peak_rss": 198471680,
+      "exit_code": 0,
+      "reason": null,
+      "sources": {
+        "certificates.py": "7de972ee7320c80dcaaf4959686414e0a768acc11aad2151d0ab58df2a714c9f",
+        "common.py": "8c3853aed6dfdd409841a83e30b85d7f67e2454d314876c74741ca7324c50d0f",
+        "experiments.py": "ec848b03e7e50ec33c5bedad620a0786a4c147624b7d4009a0efe62767c17b24",
+        "information.py": "4fff438332040198d23b4cde3e1b8dc9cb763cd30d586f85012569b330f7aa6f",
+        "likelihood.py": "51559b4407e00a3b07ea9fbdaf656d338fb65862065fcb88ded7811db85ae0dc",
+        "models.py": "655d44b4c25e0118d431909d8105065369f34c92614e2da3e3ba02f8b64e48d1",
+        "pipeline.py": "9af6a1f2af20fc3510b2f08ecaa39d19df5f61c3eb0dcd7ad27cd2886a5f0124",
+        "reporting.py": "8f811b2b6509f85e4cc5894c744eaf511dccd178befae272db34878cba697ebc",
+        "sequential.py": "665bb0548ada5599af36b44349ed293d6f8c9fbd16b9be4a02f52dbf67beeea0",
+        "supervisor.py": "da3f169944b9e9c82e1327807f310ce2d6d0cda46b1d1691463f17259a8a5faf",
+        "terminal.py": "30ee0fdef66ff5d75cae9b75d6c94ade6ef52da9f1ddf4e60cf886349a6e0b90",
+        "__init__.py": "d2a5677b0e1e0caa9b814f2ac3e1198ffe04c1cb605d50ae584e9836b4b3854a"
+      }
+    },
+    {
+      "stage": "diagnose",
+      "args": [],
+      "cpu_seconds": 10.1875,
+      "child_cpu": 8.921875,
+      "wall_seconds": 9.76907170000004,
+      "unix_end": 1791865786.7732017,
+      "peak_rss": 167604224,
+      "exit_code": 0,
+      "reason": null,
+      "sources": {
+        "certificates.py": "7de972ee7320c80dcaaf4959686414e0a768acc11aad2151d0ab58df2a714c9f",
+        "common.py": "8c3853aed6dfdd409841a83e30b85d7f67e2454d314876c74741ca7324c50d0f",
+        "experiments.py": "ec848b03e7e50ec33c5bedad620a0786a4c147624b7d4009a0efe62767c17b24",
+        "information.py": "4fff438332040198d23b4cde3e1b8dc9cb763cd30d586f85012569b330f7aa6f",
+        "likelihood.py": "51559b4407e00a3b07ea9fbdaf656d338fb65862065fcb88ded7811db85ae0dc",
+        "models.py": "655d44b4c25e0118d431909d8105065369f34c92614e2da3e3ba02f8b64e48d1",
+        "pipeline.py": "9af6a1f2af20fc3510b2f08ecaa39d19df5f61c3eb0dcd7ad27cd2886a5f0124",
+        "reporting.py": "8f811b2b6509f85e4cc5894c744eaf511dccd178befae272db34878cba697ebc",
+        "sequential.py": "665bb0548ada5599af36b44349ed293d6f8c9fbd16b9be4a02f52dbf67beeea0",
+        "supervisor.py": "da3f169944b9e9c82e1327807f310ce2d6d0cda46b1d1691463f17259a8a5faf",
+        "terminal.py": "30ee0fdef66ff5d75cae9b75d6c94ade6ef52da9f1ddf4e60cf886349a6e0b90",
+        "__init__.py": "d2a5677b0e1e0caa9b814f2ac3e1198ffe04c1cb605d50ae584e9836b4b3854a"
+      }
+    },
+    {
+      "stage": "freeze",
+      "args": [],
+      "cpu_seconds": 19.171875,
+      "child_cpu": 17.6875,
+      "wall_seconds": 19.02723560000004,
+      "unix_end": 1791865806.0746236,
+      "peak_rss": 2066595840,
+      "exit_code": 0,
+      "reason": null,
+      "sources": {
+        "certificates.py": "7de972ee7320c80dcaaf4959686414e0a768acc11aad2151d0ab58df2a714c9f",
+        "common.py": "8c3853aed6dfdd409841a83e30b85d7f67e2454d314876c74741ca7324c50d0f",
+        "experiments.py": "ec848b03e7e50ec33c5bedad620a0786a4c147624b7d4009a0efe62767c17b24",
+        "information.py": "4fff438332040198d23b4cde3e1b8dc9cb763cd30d586f85012569b330f7aa6f",
+        "likelihood.py": "51559b4407e00a3b07ea9fbdaf656d338fb65862065fcb88ded7811db85ae0dc",
+        "models.py": "655d44b4c25e0118d431909d8105065369f34c92614e2da3e3ba02f8b64e48d1",
+        "pipeline.py": "9af6a1f2af20fc3510b2f08ecaa39d19df5f61c3eb0dcd7ad27cd2886a5f0124",
+        "reporting.py": "8f811b2b6509f85e4cc5894c744eaf511dccd178befae272db34878cba697ebc",
+        "sequential.py": "665bb0548ada5599af36b44349ed293d6f8c9fbd16b9be4a02f52dbf67beeea0",
+        "supervisor.py": "da3f169944b9e9c82e1327807f310ce2d6d0cda46b1d1691463f17259a8a5faf",
+        "terminal.py": "30ee0fdef66ff5d75cae9b75d6c94ade6ef52da9f1ddf4e60cf886349a6e0b90",
+        "__init__.py": "d2a5677b0e1e0caa9b814f2ac3e1198ffe04c1cb605d50ae584e9836b4b3854a"
+      }
+    }
+  ],
+  "cpu_seconds": 515.015625,
+  "limit": 43200,
+  "optimization_limit": 34560
+}
