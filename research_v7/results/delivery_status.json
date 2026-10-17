@@ -1,0 +1,29 @@
+{
+  "status": "E1_E2_complete_E3_not_started_by_prespecified_gate",
+  "branch": "research/library-validity-v7",
+  "base": "7a2039ea57347e05aa4cbb2a442d0d9cfb19e914",
+  "development_datasets": 1760,
+  "confirmation_datasets": 7040,
+  "confirmation_failed": 0,
+  "confirmation_unrun": 0,
+  "independent_confirmation_families": 8,
+  "gate_checks": 45,
+  "independent_numerical_checks": 93,
+  "e3_started": false,
+  "e3_conditional_slots": 324,
+  "cpu_seconds": 6538.1875,
+  "cpu_cap_seconds": 43200,
+  "recorded_stage_span_seconds": 4536.725587844849,
+  "archive": {
+    "filename": "v7_records_final.tar.zst",
+    "files": 9644,
+    "bytes": 119805103,
+    "sha256": "f4c078f200e0260f662dbd02296ead62f313420f0b697de33c6413a4b08464e9",
+    "verified": true,
+    "excludes": "archive itself and stage metrics; final CPU tail is public"
+  },
+  "old_results_unchanged": true,
+  "publication": "local commit only; no push",
+  "final_source_syntax_check": true,
+  "frozen_core_hashes_match": true
+}
