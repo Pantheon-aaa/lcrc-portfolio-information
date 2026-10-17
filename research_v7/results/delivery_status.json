@@ -23,7 +23,7 @@
     "excludes": "archive itself and stage metrics; final CPU tail is public"
   },
   "old_results_unchanged": true,
-  "publication": "local commit only; no push",
+  "publication": "user-authorized direct branch publication: research/library-validity-v7; no PR or main merge; private raw records excluded",
   "final_source_syntax_check": true,
   "frozen_core_hashes_match": true
 }

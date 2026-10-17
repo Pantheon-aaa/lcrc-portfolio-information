@@ -1,6 +1,6 @@
 # research_v7 — library validity and decision sufficiency
 
-本轮为算法收敛与机制核验，独立于 v4a/v5b/v6 冻结结果。主线是：先判断旧风险库是否已饱和，再区分库内充分性与库外有效性。默认本地分支交付。
+本轮为算法收敛与机制核验，独立于 v4a/v5b/v6 冻结结果。主线是：先判断旧风险库是否已饱和，再区分库内充分性与库外有效性。本轮结果经用户授权发布至 `research/library-validity-v7` 分支，不创建 PR，不合并 main。
 
 ```mermaid
 flowchart LR
